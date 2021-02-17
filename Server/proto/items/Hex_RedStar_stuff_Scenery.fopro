@@ -1,0 +1,953 @@
+# 3.1.8
+
+[Proto]
+ProtoId=6806
+Type=11
+PicMap=art/New Art/Scenery/Buhanka.png
+PicInv=art/New Art/Scenery/Buhanka.png
+Flags=33554432
+Material=1
+
+[Proto]
+ProtoId=6807
+Type=11
+PicMap=art/New Art/Scenery/Buhanka_Med.png
+PicInv=art/New Art/Scenery/Buhanka_Med.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6809
+Type=11
+PicMap=art/New Art/Scenery/Buhanka_Snow.png
+PicInv=art/New Art/Scenery/Buhanka_Snow.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6810
+Type=11
+PicMap=art/New Art/Scenery/Buhanka_Med_Snow.png
+PicInv=art/New Art/Scenery/Buhanka_Med_Snow.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6811
+Type=11
+PicMap=art/New Art/Scenery/Niva_Left.png
+PicInv=art/New Art/Scenery/Niva_Left.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6812
+Type=11
+PicMap=art/New Art/Scenery/Niva_Right.png
+PicInv=art/New Art/Scenery/Niva_Right.png
+Corner=4
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6813
+Type=11
+PicMap=art/New Art/Scenery/Niva_SnowLeft.png
+PicInv=art/New Art/Scenery/Niva_SnowLeft.png
+Corner=2
+Flags=33554944
+
+[Proto]
+ProtoId=6814
+Type=11
+PicMap=art/New Art/Scenery/Niva_SnowRight.png
+PicInv=art/New Art/Scenery/Niva_SnowRight.png
+Corner=4
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6815
+Type=11
+PicMap=art/New Art/Scenery/UAZ_Musorskoy_Snow.png
+PicInv=art/New Art/Scenery/UAZ_Musorskoy_Snow.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6816
+Type=11
+PicMap=art/New Art/Scenery/UAZ_Musorskoy1.png
+PicInv=art/New Art/Scenery/UAZ_Musorskoy1.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6817
+Type=11
+PicMap=art/New Art/Scenery/ChaiCar.png
+PicInv=art/New Art/Scenery/ChaiCar.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6818
+Type=11
+PicMap=art/New Art/Scenery/PAZ_Snow1.png
+PicInv=art/New Art/Scenery/PAZ_snow1.png
+Corner=4
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6819
+Type=11
+PicMap=art/New Art/Scenery/PAZ_Snow2.png
+PicInv=art/New Art/Scenery/PAZ_Snow2.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6820
+Type=11
+PicMap=art/New Art/Scenery/PAZ1.png
+PicInv=art/New Art/Scenery/PAZ1.png
+Corner=1
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6821
+Type=11
+PicMap=art/New Art/Scenery/PAZ2.png
+PicInv=art/New Art/Scenery/PAZ2.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6822
+Type=11
+PicMap=art/New Art/Scenery/CAR1_Snow.png
+PicInv=art/New Art/Scenery/CAR1_Snow.png
+Corner=4
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6823
+Type=11
+PicMap=art/New Art/Scenery/CAR2_Snow.png
+PicInv=art/New Art/Scenery/CAR2_Snow.png
+Corner=4
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6824
+Type=11
+PicMap=art/New Art/Scenery/Kopeika_Snow1.png
+PicInv=Art/Scenery/Kopeika_Snow1.png
+Corner=5
+Flags=33554944
+
+[Proto]
+ProtoId=6825
+Type=11
+PicMap=art/New Art/Scenery/Kopeika_Snow2.png
+PicInv=art/New Art/Scenery/Kopeika_Snow2.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6826
+Type=11
+PicMap=art/New Art/Scenery/Kopeika1.png
+PicInv=art/New Art/Scenery/Kopeika1.png
+Corner=5
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6827
+Type=11
+PicMap=art/New Art/Scenery/Kopeika2.png
+PicInv=art/New Art/Scenery/Kopeika2.png
+Corner=2
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6828
+Type=11
+PicMap=art/New Art/Scenery/USSRSTATUE.png
+PicInv=art/New Art/Scenery/USSRSTATUE.png
+
+[Proto]
+ProtoId=6829
+Type=11
+PicMap=art/New Art/Scenery/USSRSTATUE_UnderSnow.png
+PicInv=art/New Art/Scenery/USSRSTATUE_UnderSnow.png
+Corner=4
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6830
+Type=11
+PicMap=art/New Art/Scenery/USSR50.png
+PicInv=art/New Art/Scenery/USSR50.png
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6831
+Type=11
+PicMap=art/New Art/Scenery/USSR50_Snow.png
+PicInv=art/New Art/Scenery/USSR50_Snow.png
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6832
+Type=11
+PicMap=art/New Art/Scenery/Ikarus.png
+PicInv=art/New Art/Scenery/Ikarus.png
+Corner=4
+Flags=33554944
+Material=1
+
+[Proto]
+ProtoId=6833
+Type=11
+PicMap=art/New Art/Scenery/Sugrob3.png
+PicInv=art/New Art/Scenery/Sugrob3.png
+Flags=24
+
+[Proto]
+ProtoId=6834
+Type=11
+PicMap=art/New Art/Scenery/Sugrob1.png
+PicInv=art/New Art/Scenery/Sugrob1.png
+Flags=24
+
+[Proto]
+ProtoId=6835
+Type=11
+PicMap=art/New Art/Scenery/Sugrob2.png
+PicInv=art/New Art/Scenery/Sugrob2.png
+Flags=24
+
+[Proto]
+ProtoId=6836
+Type=11
+PicMap=art/New Art/Scenery/Sugrob4.png
+PicInv=art/New Art/Scenery/Sugrob4.png
+Flags=24
+
+[Proto]
+ProtoId=6837
+Type=11
+PicMap=art/New Art/Scenery/Sugrob5.png
+PicInv=art/New Art/Scenery/Sugrob5.png
+Flags=24
+
+[Proto]
+ProtoId=6838
+Type=11
+PicMap=art/New Art/Scenery/Sugrob6.png
+PicInv=art/New Art/Scenery/Sugrob6.png
+Flags=24
+
+[Proto]
+ProtoId=6839
+Type=11
+PicMap=art/New Art/Scenery/Sugrob7.png
+PicInv=art/New Art/Scenery/Sugrob7.png
+Flags=24
+
+[Proto]
+ProtoId=6840
+Type=11
+PicMap=art/New Art/Scenery/Sugrob8.png
+PicInv=art/New Art/Scenery/Sugrob8.png
+Flags=24
+
+[Proto]
+ProtoId=6841
+Type=11
+PicMap=art/New Art/Scenery/Sugrob9.png
+PicInv=art/New Art/Scenery/Sugrob9.png
+Flags=24
+
+[Proto]
+ProtoId=6842
+Type=11
+PicMap=art/New Art/Scenery/Sugrob10.png
+PicInv=art/New Art/Scenery/Sugrob10.png
+Flags=24
+
+[Proto]
+ProtoId=6843
+Type=11
+PicMap=art/New Art/Scenery/MountainSnow1.png
+PicInv=art/New Art/Scenery/MountainSnow1.png
+Flags=33554974
+
+[Proto]
+ProtoId=6844
+Type=11
+PicMap=art/New Art/Scenery/MountainSnow2.png
+PicInv=art/New Art/Scenery/MountainSnow2.png
+Flags=33554974
+
+[Proto]
+ProtoId=6845
+Type=11
+PicMap=art/New Art/Scenery/MountainSnow3.png
+PicInv=art/New Art/Scenery/MountainSnow3.png
+Flags=33554974
+
+[Proto]
+ProtoId=6846
+Type=11
+PicMap=art/New Art/Scenery/MountainSnow4.png
+PicInv=art/New Art/Scenery/MountainSnow4.png
+Flags=33554974
+
+[Proto]
+ProtoId=6847
+Type=11
+PicMap=art/New Art/Scenery/MountainSnow5.png
+PicInv=art/New Art/Scenery/MountainSnow5.png
+Flags=33554974
+
+[Proto]
+ProtoId=6848
+Type=11
+PicMap=art/New Art/Scenery/MountainSnow12.png
+PicInv=art/New Art/Scenery/MountainSnow12.png
+Flags=33554974
+
+[Proto]
+ProtoId=6849
+Type=11
+PicMap=art/New Art/Scenery/ELKA1.png
+PicInv=art/New Art/Scenery/ELKA1.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=6850
+Type=11
+PicMap=art/New Art/Scenery/ELKA2.png
+PicInv=art/New Art/Scenery/ELKA2.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=6851
+Type=11
+PicMap=art/New Art/Scenery/ELKA3.png
+PicInv=art/New Art/Scenery/ELKA3.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=6852
+Type=11
+PicMap=art/New Art/Scenery/ELKA4.png
+PicInv=art/New Art/Scenery/ELKA4.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=6853
+Type=11
+PicMap=art/New Art/Scenery/Oplot_OuterDoor.png
+PicInv=art/New Art/Scenery/Oplot_OuterDoor.png
+Flags=33554446
+Material=5
+
+[Proto]
+ProtoId=6854
+Type=9
+PicMap=art/New Art/Scenery/USSR_BlastDoor.FRM
+PicInv=art/New Art/Scenery/USSR_BlastDoor.FRM
+Flags=268435456
+Material=1
+
+[Proto]
+ProtoId=6855
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall1.FRM
+PicInv=art/New Art/Scenery/SnowSmall1.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6856
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall2.FRM
+PicInv=art/New Art/Scenery/SnowSmall2.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6857
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall3.FRM
+PicInv=art/New Art/Scenery/SnowSmall3.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6858
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall4.FRM
+PicInv=art/New Art/Scenery/SnowSmall4.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6859
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall5.FRM
+PicInv=art/New Art/Scenery/SnowSmall5.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6860
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall6.FRM
+PicInv=art/New Art/Scenery/SnowSmall6.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6861
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall7.FRM
+PicInv=art/New Art/Scenery/SnowSmall7.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6862
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall8.FRM
+PicInv=art/New Art/Scenery/SnowSmall8.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6863
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall9.FRM
+PicInv=art/New Art/Scenery/SnowSmall9.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6864
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall10.FRM
+PicInv=art/New Art/Scenery/SnowSmall10.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6865
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall11.FRM
+PicInv=art/New Art/Scenery/SnowSmall11.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6866
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall12.FRM
+PicInv=art/New Art/Scenery/SnowSmall12.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6867
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall13.FRM
+PicInv=art/New Art/Scenery/SnowSmall13.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6868
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall14.FRM
+PicInv=art/New Art/Scenery/SnowSmall14.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6869
+Type=11
+PicMap=art/New Art/Scenery/SnowSmall15.FRM
+PicInv=art/New Art/Scenery/SnowSmall15.FRM
+Flags=540
+Material=4
+
+[Proto]
+ProtoId=6970
+Type=11
+PicMap=art/New Art/Scenery/VWIN01.png
+PicInv=art/New Art/Scenery/VWIN01.png
+Flags=33554968
+
+[Proto]
+ProtoId=6971
+Type=11
+PicMap=art/New Art/Scenery/VWIN02.png
+PicInv=art/New Art/Scenery/VWIN02.png
+Flags=33554968
+
+[Proto]
+ProtoId=6972
+Type=11
+PicMap=art/New Art/Scenery/VWIN03.png
+PicInv=art/New Art/Scenery/VWIN03.png
+Flags=33554968
+
+[Proto]
+ProtoId=6973
+Type=11
+PicMap=art/New Art/Scenery/VWIN04.png
+PicInv=art/New Art/Scenery/VWIN04.png
+Flags=33554968
+
+[Proto]
+ProtoId=6974
+Type=11
+PicMap=art/New Art/Scenery/VWIN05.png
+PicInv=art/New Art/Scenery/VWIN05.png
+Flags=33554968
+
+[Proto]
+ProtoId=6975
+Type=11
+PicMap=art/New Art/Scenery/VWIN06.png
+PicInv=art/New Art/Scenery/VWIN06.png
+Flags=33554968
+
+[Proto]
+ProtoId=6976
+Type=11
+PicMap=art/New Art/Scenery/V_WIN07.png
+PicInv=art/New Art/Scenery/V_WIN07.png
+Flags=33554968
+
+[Proto]
+ProtoId=6977
+Type=11
+PicMap=art/New Art/Scenery/EVM_Offline.frm
+PicInv=art/New Art/Scenery/EVM_Offline.frm
+Flags=301990424
+Material=1
+
+[Proto]
+ProtoId=6978
+Type=11
+PicMap=art/New Art/Scenery/EVM_Online.frm
+PicInv=art/New Art/Scenery/EVM_Online.frm
+Flags=33563160
+
+[Proto]
+ProtoId=6979
+Type=8
+PicMap=art/New Art/Scenery/Shava.png
+PicInv=art/New Art/Scenery/Shava.png
+Flags=33554968
+Material=3
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6980
+Type=11
+PicMap=art/New Art/Scenery/KolovratSign.frm
+PicInv=art/New Art/Scenery/KolovratSign.frm
+Flags=33595928
+Material=3
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6981
+Type=11
+PicMap=art/New Art/Scenery/Strip1.frm
+PicInv=art/New Art/Scenery/Strip1.frm
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6982
+Type=11
+PicMap=art/New Art/Scenery/plant01.png
+PicInv=art/New Art/Scenery/plant01.png
+Flags=33563160
+Material=3
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6983
+Type=11
+PicMap=art/New Art/Scenery/plant02.png
+PicInv=art/New Art/Scenery/plant02.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6984
+Type=11
+PicMap=art/New Art/Scenery/plant03.png
+PicInv=art/New Art/Scenery/plant03.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6985
+Type=11
+PicMap=art/New Art/Scenery/plant04.png
+PicInv=art/New Art/Scenery/plant04.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6986
+Type=11
+PicMap=art/New Art/Scenery/plant05.png
+PicInv=art/New Art/Scenery/plant05.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6987
+Type=11
+PicMap=art/New Art/Scenery/plant06.png
+PicInv=art/New Art/Scenery/plant06.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6988
+Type=11
+PicMap=art/New Art/Scenery/plant07.png
+PicInv=art/New Art/Scenery/plant07.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6989
+Type=11
+PicMap=art/New Art/Scenery/plant08.png
+PicInv=art/New Art/Scenery/plant08.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6990
+Type=11
+PicMap=art/New Art/Scenery/plant09.png
+PicInv=art/New Art/Scenery/plant09.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6991
+Type=11
+PicMap=art/New Art/Scenery/plant10.png
+PicInv=art/New Art/Scenery/plant10.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6992
+Type=11
+PicMap=art/New Art/Scenery/plant11.png
+PicInv=art/New Art/Scenery/plant11.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6993
+Type=11
+PicMap=art/New Art/Scenery/plant12.png
+PicInv=art/New Art/Scenery/plant12.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6994
+Type=11
+PicMap=art/New Art/Scenery/plant13.png
+PicInv=art/New Art/Scenery/plant13.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6995
+Type=11
+PicMap=art/New Art/Scenery/plant13.png
+PicInv=art/New Art/Scenery/plant13.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6996
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel01.png
+PicInv=art/New Art/Scenery/BarelFuel01.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6997
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel02.png
+PicInv=art/New Art/Scenery/BarelFuel02.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6998
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel03.png
+PicInv=art/New Art/Scenery/BarelFuel03.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=6999
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel04.png
+PicInv=art/New Art/Scenery/BarelFuel04.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7000
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel05.png
+PicInv=art/New Art/Scenery/BarelFuel05.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7001
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel06.png
+PicInv=art/New Art/Scenery/BarelFuel06.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7002
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel07.png
+PicInv=art/New Art/Scenery/BarelFuel07.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7003
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel08.png
+PicInv=art/New Art/Scenery/BarelFuel08.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7004
+Type=11
+PicMap=art/New Art/Scenery/BarelFuel09.png
+PicInv=art/New Art/Scenery/BarelFuel09.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7005
+Type=11
+PicMap=art/New Art/Scenery/bazaar01.png
+PicInv=art/New Art/Scenery/bazaar01.png
+Flags=33563144
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7006
+Type=11
+PicMap=art/New Art/Scenery/bazaar02.png
+PicInv=art/New Art/Scenery/bazaar02.png
+Flags=33563144
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7007
+Type=11
+PicMap=art/New Art/Scenery/BMAP.png
+PicInv=art/New Art/Scenery/BMAP.png
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7008
+Type=11
+PicMap=art/New Art/Scenery/tgames1.png
+PicInv=art/New Art/Scenery/tgames1.png
+Flags=33563144
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7009
+Type=11
+PicMap=art/New Art/Scenery/tgames2.png
+PicInv=art/New Art/Scenery/tgames2.png
+Flags=33563144
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7010
+Type=11
+PicMap=art/New Art/Scenery/tgames3.png
+PicInv=art/New Art/Scenery/tgames3.png
+Flags=33563144
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7011
+Type=11
+PicMap=art/New Art/Scenery/Shed1.png
+PicInv=art/New Art/Scenery/Shed1.png
+Flags=33563144
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7012
+Type=11
+PicMap=art/New Art/Scenery/Shed2.png
+PicInv=art/New Art/Scenery/Shed2.png
+Flags=33563144
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7013
+Type=11
+PicMap=art/New Art/Scenery/sf_monum.png
+PicInv=art/New Art/Scenery/sf_monum.png
+Flags=33563136
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7014
+Type=11
+PicMap=art/New Art/Scenery/br.frm
+PicInv=art/New Art/Scenery/br.frm
+Flags=33563136
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7015
+Type=11
+PicMap=art/New Art/Scenery/ARCANM01.FRM
+PicInv=art/New Art/Scenery/ARCANM01.FRM
+Flags=33563166
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7016
+Type=11
+PicMap=art/New Art/Scenery/ARCANM02.FRM
+PicInv=art/New Art/Scenery/ARCANM02.FRM
+Flags=33563166
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7017
+Type=11
+PicMap=art/New Art/Scenery/ARCANM07.FRM
+PicInv=art/New Art/Scenery/ARCANM07.FRM
+Flags=33563166
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7018
+Type=11
+PicMap=art/New Art/Scenery/ARCANM08.FRM
+PicInv=art/New Art/Scenery/ARCANM08.FRM
+Flags=33563166
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7019
+Type=8
+PicMap=art/New Art/Scenery/Trup1.png
+PicInv=art/New Art/Scenery/Trup1.png
+Flags=30
+Material=4
+Container_CannotPickUp=1
+

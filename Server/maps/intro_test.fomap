@@ -1,0 +1,139 @@
+[Header]
+Version              5
+MaxHexX              125
+MaxHexY              135
+WorkHexX             68
+WorkHexY             64
+ScriptModule         -
+ScriptFunc           -
+NoLogOut             0
+Time                 720
+DayTime              300  600  1140 1380
+DayColor0            18  18  53 
+DayColor1            128 128 128
+DayColor2            103 95  86 
+DayColor3            51  40  29 
+
+[Tiles]
+tile       0    0              art\tiles\bld2043.frm
+tile       22   0              art\tiles\bld2043.frm
+tile       50   0              art\tiles\bld2043.frm
+tile       78   0              art\tiles\bld2043.frm
+tile       104  0              art\tiles\bld2043.frm
+tile       124  2              art\tiles\bld2043.frm
+tile       0    12             art\tiles\bld2043.frm
+tile       124  18             art\tiles\bld2043.frm
+tile       0    28             art\tiles\bld2043.frm
+tile       124  38             art\tiles\bld2043.frm
+tile       0    52             art\tiles\bld2043.frm
+tile       124  60             art\tiles\bld2043.frm
+tile       0    74             art\tiles\bld2043.frm
+tile       124  78             art\tiles\bld2043.frm
+tile       124  100            art\tiles\bld2043.frm
+tile       0    102            art\tiles\bld2043.frm
+tile       124  120            art\tiles\bld2043.frm
+tile       0    134            art\tiles\bld2043.frm
+tile       26   134            art\tiles\bld2043.frm
+tile       54   134            art\tiles\bld2043.frm
+tile       80   134            art\tiles\bld2043.frm
+tile       106  134            art\tiles\bld2043.frm
+tile       124  134            art\tiles\bld2043.frm
+
+[Objects]
+MapObjType           2
+ProtoId              3853
+MapX                 61
+MapY                 63
+
+MapObjType           2
+ProtoId              3853
+MapX                 63
+MapY                 63
+Scenery_ToEntire     240
+
+MapObjType           2
+ProtoId              2375
+MapX                 62
+MapY                 60
+
+MapObjType           2
+ProtoId              2375
+MapX                 65
+MapY                 61
+
+MapObjType           2
+ProtoId              2375
+MapX                 66
+MapY                 64
+
+MapObjType           2
+ProtoId              2375
+MapX                 63
+MapY                 66
+
+MapObjType           2
+ProtoId              2375
+MapX                 60
+MapY                 65
+
+MapObjType           2
+ProtoId              2375
+MapX                 59
+MapY                 63
+
+MapObjType           2
+ProtoId              2375
+MapX                 60
+MapY                 60
+
+MapObjType           2
+ProtoId              2375
+MapX                 67
+MapY                 62
+
+MapObjType           2
+ProtoId              2063
+MapX                 66
+MapY                 55
+
+MapObjType           2
+ProtoId              2063
+MapX                 51
+MapY                 60
+
+MapObjType           2
+ProtoId              2063
+MapX                 75
+MapY                 75
+
+MapObjType           2
+ProtoId              2084
+MapX                 64
+MapY                 63
+
+MapObjType           2
+ProtoId              2084
+MapX                 61
+MapY                 63
+
+MapObjType           2
+ProtoId              2082
+MapX                 62
+MapY                 63
+
+MapObjType           2
+ProtoId              2083
+MapX                 61
+MapY                 62
+
+MapObjType           2
+ProtoId              2084
+MapX                 62
+MapY                 64
+
+MapObjType           2
+ProtoId              2085
+MapX                 63
+MapY                 64
+
+
