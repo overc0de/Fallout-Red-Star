@@ -1,3 +1,4 @@
+![Logo](https://github.com/overc0de/Fallout-Red-Star/blob/main/logo.png?raw=true)
 # Fallout: Red Star (Hex edition)
 
 Лёгкая казуальная новелла с лёгким ПвЕ и ограниченным ПвП. Присутствует несложный крафт, торговля, гринд.
