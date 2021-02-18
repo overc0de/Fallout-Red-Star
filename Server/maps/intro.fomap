@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              125
 MaxHexY              135
-WorkHexX             72
-WorkHexY             70
+WorkHexX             64
+WorkHexY             67
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -42,7 +42,7 @@ tile       124  134            art\tiles\BLD2043.FRM
 [Objects]
 MapObjType           2
 ProtoId              3853
-MapX                 61
+MapX                 62
 MapY                 63
 
 MapObjType           2
