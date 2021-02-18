@@ -12,9 +12,7 @@ import bool OnUseExplode( Critter& cr, Item& explode, Critter@ targetCr, Item@ t
 import bool UseItemOnCar( Critter& cr, Item& car, Item& item ) from "car";
 import bool UseSkillOnCar( Critter& cr, Item& car, int skill ) from "car";
 import void WorldmapInit() from "worldmap";
-import void SetStartLocation( Critter& cr ) from "replication";
-import void SetReplicationTime( Critter& cr ) from "replication";
-import void ReplicateCritter( Critter& cr ) from "replication";
+import bool SetStartLocation( Critter& cr ) from "new_gameplay";
 import void CombatAttack( Critter& cr, Critter& target, ProtoItem& weapon, uint8 weaponMode, ProtoItem@ ammo ) from "combat";
 import bool TryRepairItem( Critter& cr, Item& item ) from "repair";
 import bool WantedSignSet( Item& wantedSign, string& name, uint cost ) from "wanted";
@@ -35,8 +33,7 @@ import void CaravansInit() from "caravan";
 import int  GetDeteriorationProcent( Item& item ) from "repair";
 import void SetDeterioration( Item& item, int deteriorationProcent ) from "repair";
 import void NpcProcessLevel( Critter& npc ) from "parameters";
-import bool IsPermanentDeath( uint id ) from "replication";
-import bool SetPlayerStoryLineLocation( Critter& player )  from "q_main_intro";
+import bool IsPermanentDeath( uint id ) from "new_gameplay";
 import void EditRadioSettings( Critter& player, Item& radio ) from "radio";
 import void SetNoPvp() from "nopvp_maps";
 import void OnCritterMapOut( Critter& cr, Map& map ) from "nopvp_maps";
@@ -959,10 +956,6 @@ void critter_init( Critter& cr, bool firstTime )
             cr.StatBase[ ST_DAMAGE_TYPE ] = DAMAGE_NORMAL;
 
             SetStartLocation( cr );
-
-            // Main quest
-            if( __MainStoryLineActive )
-                SetPlayerStoryLineLocation( cr );
         }
         else
         {
@@ -973,10 +966,6 @@ void critter_init( Critter& cr, bool firstTime )
     }
     else
     {
-        // Main quest
-        if( cr.IsPlayer() && __MainStoryLineActive )
-            SetPlayerStoryLineLocation( cr );
-
         // Current skin validation
         Item@ armor = cr.GetItem( 0, SLOT_ARMOR );
         if( not valid( armor ) )
@@ -1028,6 +1017,8 @@ void critter_init( Critter& cr, bool firstTime )
         // TRAIT_FAST_SHOT migration, delete in future
         if( cr.Trait[ TRAIT_FAST_SHOT ] != 0 )
             cr.ModeBase[ MODE_NO_AIM ] = 1;
+			
+		SetStartLocation( cr );
     }
 }
 
@@ -1048,9 +1039,6 @@ void critter_finish( Critter& cr, bool toDelete )
 // Call every __CritterIdleTick time.
 void critter_idle( Critter& cr )
 {
-    if( cr.IsDead() && cr.Stat[ ST_REPLICATION_TIME ] >= 0 && cr.Timeout[ TO_REPLICATION ] == 0 )
-        ReplicateCritter( cr );
-
     // Healing
     if( cr.Timeout[ TO_HEALING ] == 0 )
     {
@@ -1180,9 +1168,9 @@ void critter_dead( Critter& cr, Critter@ killer )
         CallTownSupply( cr, killer );      // Town supply call
     }
 
-    SetReplicationTime( cr );
     if( cr.IsNpc() )
         cr.DropPlanes();                // Delete all planes
+		
     if( valid( map ) && cr.Mode[ MODE_NO_FLATTEN ] != 0 )
     {
         Item@ blocker = map.AddItem( cr.HexX, cr.HexY, PID_UNVISIBLE_BLOCK, 1 );

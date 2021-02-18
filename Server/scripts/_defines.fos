@@ -1348,7 +1348,6 @@
 // To set start value use '=' after var name.
 // This vars works like engine global vars.
 // Also recommended use "__" prefix in var name.
-# pragma globalvar "bool __MainStoryLineActive = true"
 # pragma globalvar "uint __PermanentDeath = 0" // Number of deaths to account blocking, zero to disable
 # pragma globalvar "int  __GeometryType = 0"   // See GEOMETRY_* constants, assigned in config.fos InitializeGeometry()
 # pragma globalvar "uint __HitAimEyes  = 60"
