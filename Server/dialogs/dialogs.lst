@@ -753,22 +753,6 @@ $	3325	zerg_brahmin_all
 $	3326	zerg_brahmin_terminal1
 $	3327	zerg_ra
 $	3328	zerg_cocaine
-$	4000	repl_hubb
-$	4001	repl_hubb_oper
-$	4050	repl_bank_banker
-$	4051	repl_bank_guard
-$	4052	repl_bank_keeper
-$	4053	repl_terminal
-$	4054	repl_trader
-$	4055	repl_taxi1
-$	4056	repl_taxi2
-$	4057	repl_taxi3
-$	4058	repl_taxi4
-$   4059    repl_smallet
-$   4060    repl_ewarrior
-$   4061    repl_ehub
-$   4062    repl_escientist
-$   4063    repl_ghoul
 $	4197	crvg_gekkon
 $	4198	crvg_common_female
 $	4199	crvg_common_male
@@ -851,16 +835,6 @@ $	10136   se_android_deadman
 $	10150	se_woodsman 
 $	10151	se_mengele
 $	10152	se_tim
-$	11003	intro_martin
-$	11004	intro_hub_init
 $	21000	q_arroyo_rayders
-$	21100	purg_executor
-$	21101   purg_gate_keeper
-$   21102   purg_replicant
-$   21103   purg_comp
-$   21104   purg_guard
-$   21105   purg_trader
-$   21106   purg_guard2
-$   21107   purg_hub1
 
 ************************************************************
