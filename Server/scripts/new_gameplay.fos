@@ -1,55 +1,57 @@
 #include "_macros.fos"
 #include "_msgstr.fos"
 
-#define INTRO_WORLD_X              ( 5 )    // координаты расположения стартовой локации на глобале, ось Х
-#define INTRO_WORLD_Y              ( 5 )    // координаты расположения стартовой локации на глобале, ось У
-#define ENTIRE_ENTRANCE1           ( 0 )    // номер Entire-гекса, на котором начинает игрок
-#define ENTIRE_ENTRANCE2           ( 240 )  // номер Entire-гекса, на котором начинает игрок
-#define TRIBAL_INT                 ( 3 )    // максимальный интелект, при котором вместо кожаной куртки у игрока будет скин дикаря
-// Создание локации начала игры для персонажа, который только что был зарегистрирован
-// Возвращает истину если локация нужна, создалась и игрок телепортирован на карту
-//import bool SetPlayerStartLocation( Critter& player ) from "new_gameplay";
-bool SetPlayerStartLocation( Critter& cr )
-{
-	if( !SetStartLocation( cr ) ) return false;
-	
-    // Изменение типа криттера, чтобы не было пижамы с рождения
-    #ifndef PLAYERS_3D
-    int crType = ( cr.Stat[ ST_GENDER ] == GENDER_MALE ? CRTYPE_DW_LEATHER_JACKET_M : CRTYPE_DW_LEATHER_JACKET_F );
-    if( cr.Stat[ ST_INTELLECT ] <= TRIBAL_INT )
-        crType = ( cr.Stat[ ST_GENDER ] == GENDER_MALE ? CRTYPE_DW_TRIBAL_M : CRTYPE_DW_TRIBAL_F );
-    cr.ChangeCrType( crType );
-    cr.StatBase[ ST_BASE_CRTYPE ] = crType;
-    #endif
-    #ifdef PLAYERS_3D
-    if( cr.Stat[ ST_INTELLECT ] > TRIBAL_INT )
-    {
-        // Leather jacket set
-        cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_BODY ] = ATTRIBUTE_Body_LeatherOutfit;
-        cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_HANDS ] = ATTRIBUTE_Hands_LeatherOutfit;
-        cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_FEET ] = ATTRIBUTE_Feet_LeatherOutfit;
-    }
-    else
-    {
-        // Naked
-        cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_BODY ] = 1000;        // Some unaviable value
-    }
-    #endif
+#ifndef START_LOCATION_MODULE
+	#define INTRO_WORLD_X              ( 5 )    // координаты расположения стартовой локации на глобале, ось Х
+	#define INTRO_WORLD_Y              ( 5 )    // координаты расположения стартовой локации на глобале, ось У
+	#define ENTIRE_ENTRANCE1           ( 0 )    // номер Entire-гекса, на котором начинает игрок
+	#define ENTIRE_ENTRANCE2           ( 240 )  // номер Entire-гекса, на котором начинает игрок
+	#define TRIBAL_INT                 ( 3 )    // максимальный интелект, при котором вместо кожаной куртки у игрока будет скин дикаря
+	// Создание локации начала игры для персонажа, который только что был зарегистрирован
+	// Возвращает истину если локация нужна, создалась и игрок телепортирован на карту
+	//import bool SetPlayerStartLocation( Critter& player ) from "new_gameplay";
+	bool SetPlayerStartLocation( Critter& cr )
+	{
+		if( !SetStartLocation( cr ) ) return false;
+		
+		// Изменение типа криттера, чтобы не было пижамы с рождения
+		#ifndef PLAYERS_3D
+		int crType = ( cr.Stat[ ST_GENDER ] == GENDER_MALE ? CRTYPE_DW_LEATHER_JACKET_M : CRTYPE_DW_LEATHER_JACKET_F );
+		if( cr.Stat[ ST_INTELLECT ] <= TRIBAL_INT )
+			crType = ( cr.Stat[ ST_GENDER ] == GENDER_MALE ? CRTYPE_DW_TRIBAL_M : CRTYPE_DW_TRIBAL_F );
+		cr.ChangeCrType( crType );
+		cr.StatBase[ ST_BASE_CRTYPE ] = crType;
+		#endif
+		#ifdef PLAYERS_3D
+		if( cr.Stat[ ST_INTELLECT ] > TRIBAL_INT )
+		{
+			// Leather jacket set
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_BODY ] = ATTRIBUTE_Body_LeatherOutfit;
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_HANDS ] = ATTRIBUTE_Hands_LeatherOutfit;
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_FEET ] = ATTRIBUTE_Feet_LeatherOutfit;
+		}
+		else
+		{
+			// Naked
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_BODY ] = 1000;        // Some unaviable value
+		}
+		#endif
 
-    return true;
-}
+		return true;
+	}
 
-//import bool SetStartLocation( Critter& cr ) from "new_gameplay";
-bool SetStartLocation( Critter& cr ) // Export
-{
-	Location @ loc = GetLocationByPid( LOCATION_Intro, 0 );
-    if( !valid( loc ) ) return false;
+	//import bool SetStartLocation( Critter& cr ) from "new_gameplay";
+	bool SetStartLocation( Critter& cr ) // Export
+	{
+		Location @ loc = GetLocationByPid( LOCATION_Intro, 0 );
+		if( !valid( loc ) ) return false;
 
-    Map @ map = loc.GetMapByIndex( 0 );
-    if( !valid( map ) ) return false;
+		Map @ map = loc.GetMapByIndex( 0 );
+		if( !valid( map ) ) return false;
 
-    return cr.TransitToMap( map.Id, ENTIRE_ENTRANCE1 );
-}
+		return cr.TransitToMap( map.Id, ENTIRE_ENTRANCE1 );
+	}
+#endif
 
 #ifndef WORLDMAP_MODULE
 	//import void ShowWholeWorldMap( Critter& cr ) from "new_gameplay";
@@ -164,5 +166,4 @@ bool SetStartLocation( Critter& cr ) // Export
 		}
 	}
 #endif
-
 
