@@ -80,7 +80,17 @@ uint e_OffJukeBox( uint[] @ values )
 }
 
 // Покупка автоматов в Нью-Рено
-import uint GetLocId( Critter& player ) from "quest_warehouse";
+uint GetLocId( Critter& player )
+{
+    GameVar@ questDataId = GetLocalVar( LVAR_warehouse_data_id, player.Id );
+    if( not valid( questDataId ) || questDataId == 0 )
+        return 0;
+    uint[] questData;
+    if( not GetAnyData( "Warehouse_" + questDataId.GetValue(), questData ) )
+        return 0;
+    return questData[ 0 ];
+}
+
 
 #define ENTIRE_JB         ( 142 )
 

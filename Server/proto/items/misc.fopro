@@ -1779,22 +1779,6 @@ Cost=1
 Material=7
 
 [Proto]
-ProtoId=328
-Type=5
-ScriptModule=magic_ball
-ScriptFunc=_BallInit
-PicMap=art\items\smalbox2.frm
-PicInv=art\inven\mag8ball.frm
-Flags=402653214
-DisableEgg=1
-Stackable=1
-Weight=453
-Volume=1
-SoundId=48
-Cost=50
-Material=1
-
-[Proto]
 ProtoId=329
 Type=5
 PicMap=art\items\bpack2.frm

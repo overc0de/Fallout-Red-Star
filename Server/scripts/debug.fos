@@ -630,10 +630,3 @@ void patchSalv( Critter& cr, int, int, int )
         Critter@npc = map.AddNpc( 212, 63, 71, 2, null, null, "trader@_CashTraderInit" );
     }
 }
-
-import uint ProcessSubQuest1( Critter& player, int newVal ) from "quest_warehouse";
-
-void QWHS1( Critter& player, int val, int, int )
-{
-    ProcessSubQuest1( player, val );
-}

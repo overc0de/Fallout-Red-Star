@@ -1,0 +1,169 @@
+#include "_macros.fos"
+#include "_msgstr.fos"
+
+#ifndef START_LOCATION_MODULE
+	#define INTRO_WORLD_X              ( 5 )    // координаты расположения стартовой локации на глобале, ось Х
+	#define INTRO_WORLD_Y              ( 5 )    // координаты расположения стартовой локации на глобале, ось У
+	#define ENTIRE_ENTRANCE1           ( 0 )    // номер Entire-гекса, на котором начинает игрок
+	#define ENTIRE_ENTRANCE2           ( 240 )  // номер Entire-гекса, на котором начинает игрок
+	#define TRIBAL_INT                 ( 3 )    // максимальный интелект, при котором вместо кожаной куртки у игрока будет скин дикаря
+	// Создание локации начала игры для персонажа, который только что был зарегистрирован
+	// Возвращает истину если локация нужна, создалась и игрок телепортирован на карту
+	//import bool SetPlayerStartLocation( Critter& player ) from "new_gameplay";
+	bool SetPlayerStartLocation( Critter& cr )
+	{
+		if( !SetStartLocation( cr ) ) return false;
+		
+		// Изменение типа криттера, чтобы не было пижамы с рождения
+		#ifndef PLAYERS_3D
+		int crType = ( cr.Stat[ ST_GENDER ] == GENDER_MALE ? CRTYPE_DW_LEATHER_JACKET_M : CRTYPE_DW_LEATHER_JACKET_F );
+		if( cr.Stat[ ST_INTELLECT ] <= TRIBAL_INT )
+			crType = ( cr.Stat[ ST_GENDER ] == GENDER_MALE ? CRTYPE_DW_TRIBAL_M : CRTYPE_DW_TRIBAL_F );
+		cr.ChangeCrType( crType );
+		cr.StatBase[ ST_BASE_CRTYPE ] = crType;
+		#endif
+		#ifdef PLAYERS_3D
+		if( cr.Stat[ ST_INTELLECT ] > TRIBAL_INT )
+		{
+			// Leather jacket set
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_BODY ] = ATTRIBUTE_Body_LeatherOutfit;
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_HANDS ] = ATTRIBUTE_Hands_LeatherOutfit;
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_FEET ] = ATTRIBUTE_Feet_LeatherOutfit;
+		}
+		else
+		{
+			// Naked
+			cr.StatBase[ ST_ANIM3D_LAYERS + ANIM3D_LAYER_BODY ] = 1000;        // Some unaviable value
+		}
+		#endif
+
+		return true;
+	}
+
+	//import bool SetStartLocation( Critter& cr ) from "new_gameplay";
+	bool SetStartLocation( Critter& cr ) // Export
+	{
+		Location @ loc = GetLocationByPid( LOCATION_Intro, 0 );
+		if( !valid( loc ) ) return false;
+
+		Map @ map = loc.GetMapByIndex( 0 );
+		if( !valid( map ) ) return false;
+
+		return cr.TransitToMap( map.Id, ENTIRE_ENTRANCE1 );
+	}
+#endif
+
+#ifndef WORLDMAP_MODULE
+	//import void ShowWholeWorldMap( Critter& cr ) from "new_gameplay";
+	void ShowWholeWorldMap( Critter& cr ) // Export
+	{
+		ClearAllFog( cr );
+		ShowAllLocations( cr );
+	}
+
+	//import void ClearAllFog( Critter& cr ) from "new_gameplay";
+	void ClearAllFog( Critter& cr ) // Export
+	{
+		for( uint x = 0; x < __GlobalMapWidth; x++ )
+			for( uint y = 0; y < __GlobalMapHeight; y++ )
+				cr.SetFog( x, y, FOG_NONE );
+	}
+
+	#define MAX_LOCATION_N	100
+	//import void ShowAllLocations( Critter& cr ) from "new_gameplay";
+	void ShowAllLocations( Critter& cr ) // Export
+	{
+		for( uint n = 1; n < MAX_LOCATION_N; n++ )
+			if( valid( GetLocationByPid( n, 0 ) ) )
+				cr.SetKnownLoc( false, n );
+	}
+
+
+	//import void ShowWholeWorldMap( Critter& cr ) from "new_gameplay";
+	void HideWholeWorldMap( Critter& cr ) // Export
+	{
+		SetAllFog( cr );
+		HideAllLocations( cr );
+	}
+
+	//import void SetAllFog( Critter& cr ) from "new_gameplay";
+	void SetAllFog( Critter& cr ) // Export
+	{
+		for( uint x = 0; x < __GlobalMapWidth; x++ )
+			for( uint y = 0; y < __GlobalMapHeight; y++ )
+				cr.SetFog( x, y, FOG_FULL );
+	}
+
+	#define MAX_LOCATION_N	100
+	//import void HideAllLocations( Critter& cr ) from "new_gameplay";
+	void HideAllLocations( Critter& cr ) // Export
+	{
+		for( uint n = 1; n < MAX_LOCATION_N; n++ )
+			if( valid( GetLocationByPid( n, 0 ) ) )
+				cr.UnsetKnownLoc( false, n );
+	}
+#endif
+
+#ifndef DEATH_MODULE
+
+	// Permanent death
+	bool IsPermanentDeathInit = false;
+	uint[] PermanentDeath;
+
+	//import bool IsPermanentDeath( uint id ) from "new_gameplay";
+	bool IsPermanentDeath( uint id ) // Export
+	{
+		if( not IsPermanentDeathInit )
+		{
+			GetAnyData( "PermanentDeath", PermanentDeath );
+			IsPermanentDeathInit = true;
+		}
+
+		for( uint i = 0, j = PermanentDeath.length(); i < j; i++ )
+			if( PermanentDeath[ i ] == id )
+				return true;
+		return false;
+	}
+
+	void ClearPermanentDeath( Critter& cr, int, int, int )
+	{
+		ClearPermanentDeath();
+	}
+
+	//import void ClearPermanentDeath() from "new_gameplay";
+	void ClearPermanentDeath() // Export
+	{
+		PermanentDeath.resize( 0 );
+		SetAnyData( "PermanentDeath", PermanentDeath );
+	}
+
+	//import void DieAtLast( Critter& cr ) from "new_gameplay";
+	void DieAtLast( Critter& cr ) // Export
+	{
+		// Permanent death
+		GameVar@ hellVisits = GetLocalVar( LVAR_hell_visits, cr.Id );
+		if( __PermanentDeath > 0 && hellVisits > __PermanentDeath )
+		{
+			AddPermanentDeath( cr.Id );
+			cr.SayMsg( SAY_NETMSG, TEXTMSG_GAME, STR_NET_PERMANENT_DEATH );
+			cr.Disconnect();
+		}
+	}
+
+	//import void AddPermanentDeath( uint id ) from "new_gameplay";
+	void AddPermanentDeath( uint id ) // Export
+	{
+		if( not IsPermanentDeathInit )
+		{
+			GetAnyData( "PermanentDeath", PermanentDeath );
+			IsPermanentDeathInit = true;
+		}
+
+		if( not IsPermanentDeath( id ) )
+		{
+			PermanentDeath.insertLast( id );
+			SetAnyData( "PermanentDeath", PermanentDeath );
+		}
+	}
+#endif
+

@@ -1351,12 +1351,6 @@ void patchBunker( Critter& cr, int, int, int )
     loc.Radius = 6;
 }
 
-import void ClearPermanentDeath() from "replication";
-void        ClearPermanentDeath( Critter& cr, int, int, int )
-{
-    ClearPermanentDeath();
-}
-
 void TestBlockItem( Critter& cr, int, int, int )
 {
     Item@ item = cr.GetMap().AddItem( cr.HexX, cr.HexY, PID_RADIO, 1 );
