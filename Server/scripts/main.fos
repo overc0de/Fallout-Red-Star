@@ -44,7 +44,6 @@ import void PlaceLoot2Container( Map& map, Critter& cr ) from "game_event_caches
 import void StartMessenger() from "bulletin_board";
 import void SaveMessengerData() from "bulletin_board";
 import void CountEmpRocketTests( Critter& player, Critter& target ) from "navarro";
-import void OnCritterKilled( Critter& cr, Critter@ killer ) from "q_hunter";
 import bool BarterAllowed( int crId, Item@[]& buyItems,  Item@[]& saleItems ) from "limited_barter";
 import uint CheckPlayerName( const string& name ) from "parameters";
 import bool ProtoItem_Weapon_IsHtHAttack( ProtoItem& proto, uint8 mode ) from "parameters";
@@ -1177,7 +1176,6 @@ void critter_dead( Critter& cr, Critter@ killer )
         if( valid( blocker ) )
             cr.StatBase[ ST_DEAD_BLOCKER_ID ] = blocker.Id;
     }
-    OnCritterKilled( cr, killer );
 }
 
 // //////////////////////////////////////////////////////////////////////////////////////////////////

@@ -77,7 +77,6 @@ import bool GetNearEntire( Map& map, int number, uint16& hx, uint16& hy ) from "
 import bool AddWalkPlane( Critter& npc, uint priority, int identifier, uint identifierExt, uint16 hexX, uint16 hexY, uint8 dir, bool run, uint cut ) from "npc_planes";
 import bool AddMiscPlane( Critter& npc, uint priority, uint waitSecond, string@ funcName ) from "npc_planes";
 import uint GetNearFullSecond( uint16 year, uint16 month, uint16 day, uint16 hour, uint16 minute, uint16 second ) from "time";
-import bool BeginSpyControl( Critter& catcher, uint catchRadius, uint minSneak, uint checkTime, uint varStatNum, uint varQuest, uint strAlarm ) from "q_spy_mission";
 import bool AddAttackPlane( Critter& npc, uint priority, Critter& target ) from "npc_planes";
 /* ************************** Основной скрипт Смита ****************************************** */
 
@@ -495,10 +494,6 @@ void OnMove2RadioPlaneEnd( Critter& smit )
     if( valid( status ) )
     {
         status = 1;
-    }
-    if( !BeginSpyControl( smit, 12, 30, 2, LVAR_spy_cath_active, LVAR_q_ncr_santiaga_find_spy_status, STR_PLAYER_SEEN_ALARM ) )
-    {
-        DL( "Cannot begin spy control" );
     }
     DL( "begin radio event" );
     smit.StatBase[ ST_VAR2 ] = STR_FIRST_SMIT_RADIO;
