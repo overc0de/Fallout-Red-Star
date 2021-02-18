@@ -23,7 +23,6 @@ import void UseDrugOn( Critter& cr, Critter& onCr, Item& drug ) from "drugs";
 import bool UseGeiger( Critter& cr, Item& geiger ) from "geiger";
 import bool UseItemOnGeiger( Critter& cr, Item& geiger, Item& item ) from "geiger";
 import bool UseSkillOnGeiger( Critter& cr, Item& geiger, int skill ) from "geiger";
-import void CallTownSupply( Critter& victim, Critter& hostile ) from "town_supply";
 import bool AddAttackPlane( Critter& npc, uint priority, Critter& target ) from "npc_planes";
 import bool AddAttackPlane( Critter& npc, uint priority, Critter& target, int minHp ) from "npc_planes";
 import bool UseSkillOnLocker( Critter& cr, Item& locker, int skill ) from "lockers";
@@ -40,10 +39,9 @@ import void OnCritterMapOut( Critter& cr, Map& map ) from "nopvp_maps";
 import void OnCitterMapIn( Critter& cr, Map& map ) from "nopvp_maps";
 import void DeclareEvents() from "game_event";
 import void CheckAllGameEvents() from "game_event";
-import void PlaceLoot2Container( Map& map, Critter& cr ) from "game_event_caches";
+import void PlaceLoot2Container( Map& map, Critter& cr ) from "game_event_cashes";
 import void StartMessenger() from "bulletin_board";
 import void SaveMessengerData() from "bulletin_board";
-import void CountEmpRocketTests( Critter& player, Critter& target ) from "navarro";
 import bool BarterAllowed( int crId, Item@[]& buyItems,  Item@[]& saleItems ) from "limited_barter";
 import uint CheckPlayerName( const string& name ) from "parameters";
 import bool ProtoItem_Weapon_IsHtHAttack( ProtoItem& proto, uint8 mode ) from "parameters";
@@ -1164,7 +1162,6 @@ void critter_dead( Critter& cr, Critter@ killer )
         if( cr.Stat[ ST_BODY_TYPE ] == BT_CHILDREN )
             killer.KarmaBase[ KARMA_CHILDKILLER ]++;
 
-        CallTownSupply( cr, killer );      // Town supply call
     }
 
     if( cr.IsNpc() )
@@ -1656,4 +1653,15 @@ bool player_allowcommand( Critter@ player, string@ adminPanel, uint8 command )
 
     player.Say( SAY_NETMSG, "Access denied." );
     return false;
+}
+
+void CountEmpRocketTests( Critter& player, Critter& target )
+{
+    GameVar@ status = GetLocalVar( LVAR_q_nav_henry_emp_test, player.Id );
+    GameVar@ tested = GetUnicumVar( UVAR_nav_emp_tested_critter, player.Id, target.Id );
+    if( valid( status ) && status > 0 and status < 7 && valid( tested ) && tested == 0 )
+    {
+        status = status.GetValue() + 1;
+        tested = 1;
+    }
 }

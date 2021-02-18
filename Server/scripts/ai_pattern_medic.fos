@@ -1,4 +1,4 @@
-#include "pattern_common.fos"
+#include "ai_pattern_common.fos"
 #include "teams_table.fos"
 /*
    Боевой Медик

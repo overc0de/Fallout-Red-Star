@@ -212,7 +212,7 @@ bool _GetRandomMaxIndex( uint[] arr, uint& maxIndex )
 
 void _CritterInit( Critter& cr, bool firstTime )
 {
-    pattern.SetEvents( cr );
+    //pattern.SetEvents( cr );
 }
 // Debug log
 void DL( string s )

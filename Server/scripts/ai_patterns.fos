@@ -6,10 +6,10 @@
    Шаблоны поведения НПЦ: снайпер, терминатор, медик, слеер
  */
 
-import void SetSniperStats( Critter& cr, uint8 lvl ) from "pattern_sniper";
-import void SetSlayerStats( Critter& cr, uint8 lvl ) from "pattern_slayer";
-import void SetMedicStats( Critter& cr, uint8 lvl )  from "pattern_medic";
-import void SetTermStats( Critter& cr, uint8 lvl )   from "pattern_term";
+import void SetSniperStats( Critter& cr, uint8 lvl ) from "ai_pattern_sniper";
+import void SetSlayerStats( Critter& cr, uint8 lvl ) from "ai_pattern_slayer";
+import void SetMedicStats( Critter& cr, uint8 lvl )  from "ai_pattern_medic";
+import void SetTermStats( Critter& cr, uint8 lvl )   from "ai_pattern_term";
 
 #define NPCROLE_SNIPER1    ( 21 )
 #define NPCROLE_SNIPER2    ( 22 )
