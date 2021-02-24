@@ -951,3 +951,412 @@ Flags=30
 Material=4
 Container_CannotPickUp=1
 
+[Proto]
+ProtoId=7020
+Type=11
+PicMap=art/New Art/Scenery/Stairs1b.png
+PicInv=art/New Art/Scenery/Stairs1b.png
+
+[Proto]
+ProtoId=7021
+Type=10
+PicMap=art/New Art/Scenery/Stairs1a.png
+PicInv=art/New Art/Scenery/Stairs1a.png
+Flags=268435456
+Grid_Type=2
+
+[Proto]
+ProtoId=7022
+Type=10
+PicMap=art/New Art/Scenery/Stairs2a.png
+PicInv=art/New Art/Scenery/Stairs2a.png
+Grid_Type=2
+
+[Proto]
+ProtoId=7023
+Type=11
+PicMap=art/New Art/Scenery/Stairs2b.png
+PicInv=art/New Art/Scenery/Stairs2b.png
+
+[Proto]
+ProtoId=7024
+Type=10
+PicMap=art/New Art/Scenery/Stairs3.png
+PicInv=art/New Art/Scenery/Stairs3.png
+Grid_Type=2
+
+[Proto]
+ProtoId=7025
+Type=10
+PicMap=art/New Art/Scenery/Stairs3.png
+PicInv=art/New Art/Scenery/Stairs3.png
+Grid_Type=2
+
+[Proto]
+ProtoId=7026
+Type=11
+PicMap=art/New Art/Scenery/CCAB.FRM
+PicInv=art/New Art/Scenery/CCAB.FRM
+Flags=14
+
+[Proto]
+ProtoId=7027
+Type=11
+PicMap=art/New Art/Scenery/CCAB1.FRM
+PicInv=art/New Art/Scenery/CCAB1.FRM
+Flags=14
+
+[Proto]
+ProtoId=7028
+Type=11
+PicMap=art/New Art/Scenery/CCAB2.FRM
+PicInv=art/New Art/Scenery/CCAB2.FRM
+Flags=14
+
+[Proto]
+ProtoId=7029
+Type=11
+PicMap=art/New Art/Scenery/CCAB3.FRM
+PicInv=art/New Art/Scenery/CCAB3.FRM
+Flags=14
+
+[Proto]
+ProtoId=7030
+Type=11
+PicMap=art/New Art/Scenery/crafter1.frm
+PicInv=art/New Art/Scenery/crafter1.frm
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7031
+Type=11
+PicMap=art/New Art/Scenery/crafter2.frm
+PicInv=art/New Art/Scenery/crafter2.frm
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7032
+Type=11
+PicMap=art/New Art/Scenery/ekran.frm
+PicInv=art/New Art/Scenery/ekran.frm
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7033
+Type=11
+PicMap=art/New Art/Scenery/GREDSGN01.FRM
+PicInv=art/New Art/Scenery/GREDSGN01.FRM
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7034
+Type=11
+PicMap=art/New Art/Scenery/GREDSGN03.FRM
+PicInv=art/New Art/Scenery/GREDSGN03.FRM
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7035
+Type=11
+PicMap=art/New Art/Scenery/GREDSGN05.FRM
+PicInv=art/New Art/Scenery/GREDSGN05.FRM
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7036
+Type=11
+PicMap=art/New Art/Scenery/GREDSGN06.FRM
+PicInv=art/New Art/Scenery/GREDSGN06.FRM
+Flags=33563160
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7037
+Type=11
+PicMap=art/New Art/Scenery/GTANK003.FRM
+PicInv=art/New Art/Scenery/GTANK003.FRM
+
+[Proto]
+ProtoId=7038
+Type=11
+PicMap=art/New Art/Scenery/GTANK004.FRM
+PicInv=art/New Art/Scenery/GTANK004.FRM
+
+[Proto]
+ProtoId=7039
+Type=11
+PicMap=art/New Art/Scenery/ProdPlant1.frm
+PicInv=art/New Art/Scenery/ProdPlant1.frm
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7040
+Type=11
+PicMap=art/New Art/Scenery/ProdPlant2.frm
+PicInv=art/New Art/Scenery/ProdPlant2.frm
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7041
+Type=11
+PicMap=art/New Art/Scenery/ProdPlant3.frm
+PicInv=art/New Art/Scenery/ProdPlant3.frm
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7042
+Type=11
+PicMap=art/New Art/Scenery/REZERV211.frm
+PicInv=art/New Art/Scenery/REZERV211.frm
+
+[Proto]
+ProtoId=7043
+Type=11
+PicMap=art/New Art/Scenery/REZERV210.frm
+PicInv=art/New Art/Scenery/REZERV210.frm
+
+[Proto]
+ProtoId=7044
+Type=8
+PicMap=art/New Art/Scenery/yashik1.frm
+PicInv=art/New Art/Scenery/yashik1.frm
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7045
+Type=11
+PicMap=art/New Art/Scenery/labtbl11.FRM
+PicInv=art/New Art/Scenery/labtbl11.FRM
+Corner=4
+Flags=8
+
+[Proto]
+ProtoId=7046
+Type=11
+PicMap=art/New Art/Scenery/labtbl21.FRM
+PicInv=art/New Art/Scenery/labtbl21.FRM
+Corner=4
+Flags=8
+
+[Proto]
+ProtoId=7047
+Type=11
+PicMap=art/New Art/Scenery/labtbl31.FRM
+PicInv=art/New Art/Scenery/labtbl31.FRM
+Corner=4
+Flags=8
+
+[Proto]
+ProtoId=7048
+Type=11
+PicMap=art/New Art/Scenery/komp.FRM
+PicInv=art/New Art/Scenery/komp.FRM
+Corner=4
+Flags=8
+Material=1
+
+[Proto]
+ProtoId=7049
+Type=11
+PicMap=art/New Art/Scenery/komp1.FRM
+PicInv=art/New Art/Scenery/komp1.FRM
+Corner=4
+Flags=8
+Material=1
+
+[Proto]
+ProtoId=7050
+Type=11
+PicMap=art/New Art/Scenery/RADTOWER.frm
+PicInv=art/New Art/Scenery/RADTOWER.frm
+Material=1
+
+[Proto]
+ProtoId=7051
+Type=11
+PicMap=art/New Art/Scenery/Teleport.frm
+PicInv=art/New Art/Scenery/Teleport.frm
+Corner=1
+Flags=8216
+Material=2
+
+[Proto]
+ProtoId=7052
+Type=11
+PicMap=art/New Art/Scenery/stol.FRM
+PicInv=art/New Art/Scenery/stol.FRM
+Corner=5
+Flags=8
+Material=1
+
+[Proto]
+ProtoId=7053
+Type=11
+PicMap=art/New Art/Scenery/Forge1.FRM
+PicInv=art/New Art/Scenery/Forge1.FRM
+Material=1
+
+[Proto]
+ProtoId=7054
+Type=11
+PicMap=art/New Art/Scenery/PresTableKPSS.FRM
+PicInv=art/New Art/Scenery/PresTableKPSS.FRM
+Corner=5
+Flags=8
+Material=3
+
+[Proto]
+ProtoId=7055
+Type=11
+PicMap=art/New Art/Scenery/TableKPSS1.FRM
+PicInv=art/New Art/Scenery/TableKPSS1.FRM
+Corner=5
+Flags=8
+Material=3
+
+[Proto]
+ProtoId=7056
+Type=11
+PicMap=art/New Art/Scenery/TableKPSS2.FRM
+PicInv=art/New Art/Scenery/TableKPSS2.FRM
+Corner=5
+Flags=8
+Material=3
+
+[Proto]
+ProtoId=7057
+Type=11
+PicMap=art/New Art/Scenery/Zhiga.frm
+PicInv=art/New Art/Scenery/Zhiga.frm
+Corner=4
+Flags=8192
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7058
+Type=11
+PicMap=art/New Art/Scenery/WARSIGN1.frm
+PicInv=art/New Art/Scenery/WARSIGN1.frm
+Corner=4
+Flags=8192
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7059
+Type=11
+PicMap=art/New Art/Scenery/poster1.frm
+PicInv=art/New Art/Scenery/poster1.frm
+Flags=8192
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7060
+Type=11
+PicMap=art/New Art/Scenery/poster2.frm
+PicInv=art/New Art/Scenery/poster2.frm
+Flags=8192
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7061
+Type=11
+PicMap=art/New Art/Scenery/poster3.frm
+PicInv=art/New Art/Scenery/poster3.frm
+Flags=8192
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7062
+Type=11
+PicMap=art/New Art/Scenery/poster4-1.frm
+PicInv=art/New Art/Scenery/poster4-1.frm
+Corner=5
+Flags=8192
+Material=5
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7063
+Type=11
+PicMap=art/New Art/Scenery/poster5.frm
+PicInv=art/New Art/Scenery/poster5.frm
+Corner=5
+Flags=8192
+Material=5
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7064
+Type=11
+PicMap=art/New Art/Scenery/poster6.frm
+PicInv=art/New Art/Scenery/poster6.frm
+Corner=5
+Flags=8192
+Material=5
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7065
+Type=11
+PicMap=art/New Art/Scenery/poster6-1.frm
+PicInv=art/New Art/Scenery/poster6-1.frm
+Corner=5
+Flags=8192
+Material=5
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7066
+Type=11
+PicMap=art/New Art/Scenery/poster4-2.frm
+PicInv=art/New Art/Scenery/poster4-2.frm
+Corner=5
+Flags=8192
+Material=5
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7067
+Type=11
+PicMap=art/New Art/Scenery/Rozis.frm
+PicInv=art/New Art/Scenery/Rozis.frm
+Corner=4
+Flags=8192
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
