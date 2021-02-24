@@ -48,6 +48,8 @@
 
 		Map @ map = loc.GetMapByIndex( 0 );
 		if( !valid( map ) ) return false;
+		
+		ShowWholeWorldMap( cr );
 
 		return cr.TransitToMap( map.Id, ENTIRE_ENTRANCE1 );
 	}
