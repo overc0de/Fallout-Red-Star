@@ -2001,19 +2001,19 @@
 # Reputation groups
 #105700
 # REPUTATION_DEN
-{105701}{}{Яма}
+{105701}{}{Полигон}
 # REPUTATION_KLAMATH
-{105711}{}{Кламат}
+{105711}{}{Оплот}
 # REPUTATION_MODOC
-{105721}{}{Модок}
+{105721}{}{Анклав}
 # REPUTATION_VAULT_CITY
-{105731}{}{Город Убежище}
+{105731}{}{Сити 2}
 # REPUTATION_GECKO
-{105741}{}{Гекко}
+{105741}{}{Сити 3}
 # REPUTATION_BROKEN_HILLS
-{105751}{}{Брокен Хиллс}
+{105751}{}{Сити 4}
 # REPUTATION_NEW_RENO
-{105761}{}{Нью Рено}
+{105761}{}{Сити 5}
 # REPUTATION_SIERRA
 {105771}{}{Cьерра}
 # REPUTATION_VAULT15
