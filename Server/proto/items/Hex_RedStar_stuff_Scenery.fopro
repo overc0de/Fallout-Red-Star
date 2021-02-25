@@ -1360,3 +1360,15 @@ AnimWaitBase=10
 AnimWaitRndMin=2
 AnimWaitRndMax=10
 
+[Proto]
+ProtoId=7068
+Type=11
+PicMap=art/New Art/Scenery/Crow.frm
+PicInv=art/New Art/Scenery/Crow.frm
+Corner=4
+Flags=8732
+Material=7
+AnimWaitBase=1500
+AnimWaitRndMin=400
+AnimWaitRndMax=1000
+

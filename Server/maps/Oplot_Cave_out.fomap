@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             139
-WorkHexY             105
+WorkHexX             197
+WorkHexY             118
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -2235,14 +2235,14 @@ tile       172  108            art\tiles\Snow_Tile (112).FRM
 tile       174  108            art\tiles\Snow_Tile (113).FRM
 tile       176  108            art\tiles\Snow_Tile (114).FRM
 tile       178  108            art\tiles\Snow_Tile (123).FRM
-tile       180  108            art\tiles\CURB52.FRM
-tile       182  108            art\tiles\CURB55.FRM
+tile       180  108            art\tiles\curb52.frm
+tile       182  108            art\tiles\curb55.frm
 tile       184  108            art\tiles\Snow_Tile (133).FRM
 tile       186  108            art\tiles\Snow_Tile (138).FRM
 tile       188  108            art\tiles\Snow_Tile (132).FRM
 tile       190  108            art\tiles\Snow_Tile (138).FRM
-tile       192  108            art\tiles\CURB52.FRM
-tile       194  108            art\tiles\CURB55.FRM
+tile       192  108            art\tiles\curb52.frm
+tile       194  108            art\tiles\curb55.frm
 tile       196  108            art\tiles\Snow_Tile (114).FRM
 tile       198  108            art\tiles\Snow_Tile (123).FRM
 tile       200  108            art\tiles\Snow_Tile (132).FRM
@@ -2319,14 +2319,14 @@ tile       172  110            art\tiles\Snow_Tile (119).FRM
 tile       174  110            art\tiles\Snow_Tile (120).FRM
 tile       176  110            art\tiles\Snow_Tile (121).FRM
 tile       178  110            art\tiles\Snow_Tile (122).FRM
-tile       180  110            art\tiles\CURB53.FRM
-tile       182  110            art\tiles\CURB54.FRM
+tile       180  110            art\tiles\curb53.frm
+tile       182  110            art\tiles\curb54.frm
 tile       184  110            art\tiles\Snow_Tile (131).FRM
 tile       186  110            art\tiles\Snow_Tile (136).FRM
 tile       188  110            art\tiles\Snow_Tile (134).FRM
 tile       190  110            art\tiles\Snow_Tile (136).FRM
-tile       192  110            art\tiles\CURB53.FRM
-tile       194  110            art\tiles\CURB54.FRM
+tile       192  110            art\tiles\curb53.frm
+tile       194  110            art\tiles\curb54.frm
 tile       196  110            art\tiles\Snow_Tile (121).FRM
 tile       198  110            art\tiles\Snow_Tile (122).FRM
 tile       200  110            art\tiles\Snow_Tile (139).FRM
@@ -2413,28 +2413,28 @@ tile       192  112            art\tiles\Snow_Tile (132).FRM
 tile       194  112            art\tiles\Snow_Tile (131).FRM
 tile       196  112            art\tiles\Snow_Tile (118).FRM
 tile       198  112            art\tiles\Snow_Tile (117).FRM
-tile       200  112            art\tiles\CURB14.FRM
-roof       200  112            art\tiles\STLFLR01.FRM
-tile       202  112            art\tiles\CURB13.FRM
-roof       202  112            art\tiles\STLFLR01.FRM
-tile       204  112            art\tiles\CURB13.FRM
-roof       204  112            art\tiles\STLFLR01.FRM
-tile       206  112            art\tiles\CURB13.FRM
-roof       206  112            art\tiles\STLFLR06.FRM
-tile       208  112            art\tiles\CURB15.FRM
-roof       208  112            art\tiles\STLFLR01.FRM
-tile       210  112            art\tiles\CABRIK01.FRM
-roof       210  112            art\tiles\STLFLR01.FRM
-tile       212  112            art\tiles\CABRIK01.FRM
-roof       212  112            art\tiles\STLFLR01.FRM
-tile       214  112            art\tiles\CABRIK01.FRM
-roof       214  112            art\tiles\STLFLR01.FRM
-tile       216  112            art\tiles\CABRIK01.FRM
-roof       216  112            art\tiles\STLFLR01.FRM
-tile       218  112            art\tiles\CABRIK01.FRM
-roof       218  112            art\tiles\STLFLR01.FRM
-tile       220  112            art\tiles\CABRIK01.FRM
-roof       220  112            art\tiles\STLFLR05.FRM
+tile       200  112            art\tiles\curb14.frm
+roof       200  112            art\tiles\stlflr01.frm
+tile       202  112            art\tiles\curb13.frm
+roof       202  112            art\tiles\stlflr01.frm
+tile       204  112            art\tiles\curb13.frm
+roof       204  112            art\tiles\stlflr01.frm
+tile       206  112            art\tiles\curb13.frm
+roof       206  112            art\tiles\stlflr06.frm
+tile       208  112            art\tiles\curb15.frm
+roof       208  112            art\tiles\stlflr01.frm
+tile       210  112            art\tiles\cabrik01.frm
+roof       210  112            art\tiles\stlflr01.frm
+tile       212  112            art\tiles\cabrik01.frm
+roof       212  112            art\tiles\stlflr01.frm
+tile       214  112            art\tiles\cabrik01.frm
+roof       214  112            art\tiles\stlflr01.frm
+tile       216  112            art\tiles\cabrik01.frm
+roof       216  112            art\tiles\stlflr01.frm
+tile       218  112            art\tiles\cabrik01.frm
+roof       218  112            art\tiles\stlflr01.frm
+tile       220  112            art\tiles\cabrik01.frm
+roof       220  112            art\tiles\stlflr05.frm
 tile       222  112            art\tiles\Snow_Tile (124).FRM
 tile       224  112            art\tiles\Snow_Tile (132).FRM
 tile       226  112            art\tiles\Snow_Tile (132).FRM
@@ -2508,28 +2508,28 @@ tile       192  114            art\tiles\Snow_Tile (135).FRM
 tile       194  114            art\tiles\Snow_Tile (133).FRM
 tile       196  114            art\tiles\Snow_Tile (112).FRM
 tile       198  114            art\tiles\Snow_Tile (113).FRM
-tile       200  114            art\tiles\CURB11.FRM
-roof       200  114            art\tiles\STLFLR01.FRM
-tile       202  114            art\tiles\CURB16.FRM
-roof       202  114            art\tiles\STLFLR01.FRM
-tile       204  114            art\tiles\CURB16.FRM
-roof       204  114            art\tiles\STLFLR01.FRM
-tile       206  114            art\tiles\CURB16.FRM
-roof       206  114            art\tiles\STLFLR01.FRM
-tile       208  114            art\tiles\CURB17.FRM
-roof       208  114            art\tiles\STLFLR01.FRM
-tile       210  114            art\tiles\CABRIK01.FRM
-roof       210  114            art\tiles\STLFLR01.FRM
-tile       212  114            art\tiles\CABRIK01.FRM
-roof       212  114            art\tiles\STLFLR01.FRM
-tile       214  114            art\tiles\CABRIK01.FRM
-roof       214  114            art\tiles\STLFLR01.FRM
-tile       216  114            art\tiles\CABRIK01.FRM
-roof       216  114            art\tiles\STLFLR01.FRM
-tile       218  114            art\tiles\CABRIK01.FRM
-roof       218  114            art\tiles\STLFLR01.FRM
-tile       220  114            art\tiles\CABRIK01.FRM
-roof       220  114            art\tiles\STLFLR01.FRM
+tile       200  114            art\tiles\curb11.frm
+roof       200  114            art\tiles\stlflr01.frm
+tile       202  114            art\tiles\curb16.frm
+roof       202  114            art\tiles\stlflr01.frm
+tile       204  114            art\tiles\curb16.frm
+roof       204  114            art\tiles\stlflr01.frm
+tile       206  114            art\tiles\curb16.frm
+roof       206  114            art\tiles\stlflr01.frm
+tile       208  114            art\tiles\curb17.frm
+roof       208  114            art\tiles\stlflr01.frm
+tile       210  114            art\tiles\cabrik01.frm
+roof       210  114            art\tiles\stlflr01.frm
+tile       212  114            art\tiles\cabrik01.frm
+roof       212  114            art\tiles\stlflr01.frm
+tile       214  114            art\tiles\cabrik01.frm
+roof       214  114            art\tiles\stlflr01.frm
+tile       216  114            art\tiles\cabrik01.frm
+roof       216  114            art\tiles\stlflr01.frm
+tile       218  114            art\tiles\cabrik01.frm
+roof       218  114            art\tiles\stlflr01.frm
+tile       220  114            art\tiles\cabrik01.frm
+roof       220  114            art\tiles\stlflr01.frm
 tile       222  114            art\tiles\Snow_Tile (123).FRM
 tile       224  114            art\tiles\Snow_Tile (133).FRM
 tile       226  114            art\tiles\Snow_Tile (134).FRM
@@ -2603,28 +2603,28 @@ tile       192  116            art\tiles\Snow_Tile (136).FRM
 tile       194  116            art\tiles\Snow_Tile (134).FRM
 tile       196  116            art\tiles\Snow_Tile (119).FRM
 tile       198  116            art\tiles\Snow_Tile (120).FRM
-tile       200  116            art\tiles\CURB11.FRM
-roof       200  116            art\tiles\STLFLR01.FRM
-tile       202  116            art\tiles\CURB16.FRM
-roof       202  116            art\tiles\STLFLR01.FRM
-tile       204  116            art\tiles\CURB16.FRM
-roof       204  116            art\tiles\STLFLR01.FRM
-tile       206  116            art\tiles\CURB16.FRM
-roof       206  116            art\tiles\STLFLR04.FRM
-tile       208  116            art\tiles\CURB08.FRM
-roof       208  116            art\tiles\STLFLR01.FRM
-tile       210  116            art\tiles\CABRIK01.FRM
-roof       210  116            art\tiles\STLFLR01.FRM
-tile       212  116            art\tiles\CABRIK01.FRM
-roof       212  116            art\tiles\STLFLR01.FRM
-tile       214  116            art\tiles\CABRIK01.FRM
-roof       214  116            art\tiles\STLFLR01.FRM
-tile       216  116            art\tiles\CABRIK01.FRM
-roof       216  116            art\tiles\STLFLR01.FRM
-tile       218  116            art\tiles\CABRIK01.FRM
-roof       218  116            art\tiles\STLFLR01.FRM
-tile       220  116            art\tiles\CABRIK01.FRM
-roof       220  116            art\tiles\STLFLR01.FRM
+tile       200  116            art\tiles\curb11.frm
+roof       200  116            art\tiles\stlflr01.frm
+tile       202  116            art\tiles\curb16.frm
+roof       202  116            art\tiles\stlflr01.frm
+tile       204  116            art\tiles\curb16.frm
+roof       204  116            art\tiles\stlflr01.frm
+tile       206  116            art\tiles\curb16.frm
+roof       206  116            art\tiles\stlflr04.frm
+tile       208  116            art\tiles\curb08.frm
+roof       208  116            art\tiles\stlflr01.frm
+tile       210  116            art\tiles\cabrik01.frm
+roof       210  116            art\tiles\stlflr01.frm
+tile       212  116            art\tiles\cabrik01.frm
+roof       212  116            art\tiles\stlflr01.frm
+tile       214  116            art\tiles\cabrik01.frm
+roof       214  116            art\tiles\stlflr01.frm
+tile       216  116            art\tiles\cabrik01.frm
+roof       216  116            art\tiles\stlflr01.frm
+tile       218  116            art\tiles\cabrik01.frm
+roof       218  116            art\tiles\stlflr01.frm
+tile       220  116            art\tiles\cabrik01.frm
+roof       220  116            art\tiles\stlflr01.frm
 tile       222  116            art\tiles\Snow_Tile (122).FRM
 tile       224  116            art\tiles\Snow_Tile (118).FRM
 tile       226  116            art\tiles\Snow_Tile (117).FRM
@@ -2698,28 +2698,28 @@ tile       192  118            art\tiles\Snow_Tile (138).FRM
 tile       194  118            art\tiles\Snow_Tile (137).FRM
 tile       196  118            art\tiles\Snow_Tile (118).FRM
 tile       198  118            art\tiles\Snow_Tile (117).FRM
-tile       200  118            art\tiles\CURB11.FRM
-roof       200  118            art\tiles\STLFLR01.FRM
-tile       202  118            art\tiles\CURB16.FRM
-roof       202  118            art\tiles\STLFLR01.FRM
-tile       204  118            art\tiles\CURB16.FRM
-roof       204  118            art\tiles\STLFLR01.FRM
-tile       206  118            art\tiles\CURB16.FRM
-roof       206  118            art\tiles\STLFLR01.FRM
-tile       208  118            art\tiles\CURB53.FRM
-roof       208  118            art\tiles\STLFLR01.FRM
-tile       210  118            art\tiles\CURB13.FRM
-roof       210  118            art\tiles\STLFLR01.FRM
-tile       212  118            art\tiles\CURB13.FRM
-roof       212  118            art\tiles\STLFLR01.FRM
-tile       214  118            art\tiles\CURB13.FRM
-roof       214  118            art\tiles\STLFLR01.FRM
-tile       216  118            art\tiles\CURB13.FRM
-roof       216  118            art\tiles\STLFLR06.FRM
-tile       218  118            art\tiles\CURB13.FRM
-roof       218  118            art\tiles\STLFLR03.FRM
-tile       220  118            art\tiles\CURB15.FRM
-roof       220  118            art\tiles\STLFLR01.FRM
+tile       200  118            art\tiles\curb11.frm
+roof       200  118            art\tiles\stlflr01.frm
+tile       202  118            art\tiles\curb16.frm
+roof       202  118            art\tiles\stlflr01.frm
+tile       204  118            art\tiles\curb16.frm
+roof       204  118            art\tiles\stlflr01.frm
+tile       206  118            art\tiles\curb16.frm
+roof       206  118            art\tiles\stlflr01.frm
+tile       208  118            art\tiles\curb53.frm
+roof       208  118            art\tiles\stlflr01.frm
+tile       210  118            art\tiles\curb13.frm
+roof       210  118            art\tiles\stlflr01.frm
+tile       212  118            art\tiles\curb13.frm
+roof       212  118            art\tiles\stlflr01.frm
+tile       214  118            art\tiles\curb13.frm
+roof       214  118            art\tiles\stlflr01.frm
+tile       216  118            art\tiles\curb13.frm
+roof       216  118            art\tiles\stlflr06.frm
+tile       218  118            art\tiles\curb13.frm
+roof       218  118            art\tiles\stlflr03.frm
+tile       220  118            art\tiles\curb15.frm
+roof       220  118            art\tiles\stlflr01.frm
 tile       222  118            art\tiles\Snow_Tile (124).FRM
 tile       224  118            art\tiles\Snow_Tile (112).FRM
 tile       226  118            art\tiles\Snow_Tile (113).FRM
@@ -2793,28 +2793,28 @@ tile       192  120            art\tiles\Snow_Tile (135).FRM
 tile       194  120            art\tiles\Snow_Tile (138).FRM
 tile       196  120            art\tiles\Snow_Tile (112).FRM
 tile       198  120            art\tiles\Snow_Tile (113).FRM
-tile       200  120            art\tiles\CURB11.FRM
-roof       200  120            art\tiles\STLFLR01.FRM
-tile       202  120            art\tiles\CURB16.FRM
-roof       202  120            art\tiles\STLFLR01.FRM
-tile       204  120            art\tiles\CURB17.FRM
-roof       204  120            art\tiles\STLFLR01.FRM
-tile       206  120            art\tiles\CURB16.FRM
-roof       206  120            art\tiles\STLFLR01.FRM
-tile       208  120            art\tiles\CURB16.FRM
-roof       208  120            art\tiles\STLFLR01.FRM
-tile       210  120            art\tiles\CURB18.FRM
-roof       210  120            art\tiles\STLFLR01.FRM
-tile       212  120            art\tiles\CURB16.FRM
-roof       212  120            art\tiles\STLFLR05.FRM
-tile       214  120            art\tiles\CURB16.FRM
-roof       214  120            art\tiles\STLFLR01.FRM
-tile       216  120            art\tiles\CURB16.FRM
-roof       216  120            art\tiles\STLFLR01.FRM
-tile       218  120            art\tiles\CURB16.FRM
-roof       218  120            art\tiles\STLFLR01.FRM
-tile       220  120            art\tiles\CURB44.FRM
-roof       220  120            art\tiles\STLFLR01.FRM
+tile       200  120            art\tiles\curb11.frm
+roof       200  120            art\tiles\stlflr01.frm
+tile       202  120            art\tiles\curb16.frm
+roof       202  120            art\tiles\stlflr01.frm
+tile       204  120            art\tiles\curb17.frm
+roof       204  120            art\tiles\stlflr01.frm
+tile       206  120            art\tiles\curb16.frm
+roof       206  120            art\tiles\stlflr01.frm
+tile       208  120            art\tiles\curb16.frm
+roof       208  120            art\tiles\stlflr01.frm
+tile       210  120            art\tiles\curb18.frm
+roof       210  120            art\tiles\stlflr01.frm
+tile       212  120            art\tiles\curb16.frm
+roof       212  120            art\tiles\stlflr05.frm
+tile       214  120            art\tiles\curb16.frm
+roof       214  120            art\tiles\stlflr01.frm
+tile       216  120            art\tiles\curb16.frm
+roof       216  120            art\tiles\stlflr01.frm
+tile       218  120            art\tiles\curb16.frm
+roof       218  120            art\tiles\stlflr01.frm
+tile       220  120            art\tiles\curb44.frm
+roof       220  120            art\tiles\stlflr01.frm
 tile       222  120            art\tiles\Snow_Tile (123).FRM
 tile       224  120            art\tiles\Snow_Tile (119).FRM
 tile       226  120            art\tiles\Snow_Tile (120).FRM
@@ -2888,28 +2888,28 @@ tile       192  122            art\tiles\Snow_Tile (133).FRM
 tile       194  122            art\tiles\Snow_Tile (139).FRM
 tile       196  122            art\tiles\Snow_Tile (119).FRM
 tile       198  122            art\tiles\Snow_Tile (120).FRM
-tile       200  122            art\tiles\CURB11.FRM
-roof       200  122            art\tiles\STLFLR01.FRM
+tile       200  122            art\tiles\curb11.frm
+roof       200  122            art\tiles\stlflr01.frm
 tile       202  122            art\tiles\Snow_Tile (89).FRM
-roof       202  122            art\tiles\STLFLR01.FRM
+roof       202  122            art\tiles\stlflr01.frm
 tile       204  122            art\tiles\Snow_Tile (99).FRM
-roof       204  122            art\tiles\STLFLR01.FRM
+roof       204  122            art\tiles\stlflr01.frm
 tile       206  122            art\tiles\Snow_Tile (98).FRM
-roof       206  122            art\tiles\STLFLR01.FRM
+roof       206  122            art\tiles\stlflr01.frm
 tile       208  122            art\tiles\Snow_Tile (88).FRM
-roof       208  122            art\tiles\STLFLR01.FRM
-tile       210  122            art\tiles\CURB16.FRM
-roof       210  122            art\tiles\STLFLR01.FRM
-tile       212  122            art\tiles\CURB16.FRM
-roof       212  122            art\tiles\STLFLR01.FRM
-tile       214  122            art\tiles\CURB16.FRM
-roof       214  122            art\tiles\STLFLR01.FRM
-tile       216  122            art\tiles\CURB16.FRM
-roof       216  122            art\tiles\STLFLR01.FRM
-tile       218  122            art\tiles\CURB16.FRM
-roof       218  122            art\tiles\STLFLR01.FRM
-tile       220  122            art\tiles\CURB19.FRM
-roof       220  122            art\tiles\STLFLR01.FRM
+roof       208  122            art\tiles\stlflr01.frm
+tile       210  122            art\tiles\curb16.frm
+roof       210  122            art\tiles\stlflr01.frm
+tile       212  122            art\tiles\curb16.frm
+roof       212  122            art\tiles\stlflr01.frm
+tile       214  122            art\tiles\curb16.frm
+roof       214  122            art\tiles\stlflr01.frm
+tile       216  122            art\tiles\curb16.frm
+roof       216  122            art\tiles\stlflr01.frm
+tile       218  122            art\tiles\curb16.frm
+roof       218  122            art\tiles\stlflr01.frm
+tile       220  122            art\tiles\curb19.frm
+roof       220  122            art\tiles\stlflr01.frm
 tile       222  122            art\tiles\Snow_Tile (122).FRM
 tile       224  122            art\tiles\Snow_Tile (132).FRM
 tile       226  122            art\tiles\Snow_Tile (132).FRM
@@ -2983,28 +2983,28 @@ tile       192  124            art\tiles\Snow_Tile (118).FRM
 tile       194  124            art\tiles\Snow_Tile (117).FRM
 tile       196  124            art\tiles\Snow_Tile (116).FRM
 tile       198  124            art\tiles\Snow_Tile (124).FRM
-tile       200  124            art\tiles\CURB10.FRM
-roof       200  124            art\tiles\STLFLR01.FRM
+tile       200  124            art\tiles\curb10.frm
+roof       200  124            art\tiles\stlflr01.frm
 tile       202  124            art\tiles\Snow_Tile (90).FRM
-roof       202  124            art\tiles\STLFLR01.FRM
+roof       202  124            art\tiles\stlflr01.frm
 tile       204  124            art\tiles\Snow_Tile (132).FRM
-roof       204  124            art\tiles\STLFLR01.FRM
+roof       204  124            art\tiles\stlflr01.frm
 tile       206  124            art\tiles\Snow_Tile (138).FRM
-roof       206  124            art\tiles\STLFLR04.FRM
+roof       206  124            art\tiles\stlflr04.frm
 tile       208  124            art\tiles\Snow_Tile (91).FRM
-roof       208  124            art\tiles\STLFLR01.FRM
-tile       210  124            art\tiles\CURB02.FRM
-roof       210  124            art\tiles\STLFLR03.FRM
-tile       212  124            art\tiles\CURB02.FRM
-roof       212  124            art\tiles\STLFLR01.FRM
-tile       214  124            art\tiles\CURB02.FRM
-roof       214  124            art\tiles\STLFLR01.FRM
-tile       216  124            art\tiles\CURB02.FRM
-roof       216  124            art\tiles\STLFLR01.FRM
-tile       218  124            art\tiles\CURB02.FRM
-roof       218  124            art\tiles\STLFLR01.FRM
-tile       220  124            art\tiles\CURB01.FRM
-roof       220  124            art\tiles\STLFLR04.FRM
+roof       208  124            art\tiles\stlflr01.frm
+tile       210  124            art\tiles\curb02.frm
+roof       210  124            art\tiles\stlflr03.frm
+tile       212  124            art\tiles\curb02.frm
+roof       212  124            art\tiles\stlflr01.frm
+tile       214  124            art\tiles\curb02.frm
+roof       214  124            art\tiles\stlflr01.frm
+tile       216  124            art\tiles\curb02.frm
+roof       216  124            art\tiles\stlflr01.frm
+tile       218  124            art\tiles\curb02.frm
+roof       218  124            art\tiles\stlflr01.frm
+tile       220  124            art\tiles\curb01.frm
+roof       220  124            art\tiles\stlflr04.frm
 tile       222  124            art\tiles\Snow_Tile (131).FRM
 tile       224  124            art\tiles\Snow_Tile (135).FRM
 tile       226  124            art\tiles\Snow_Tile (139).FRM
@@ -16562,24 +16562,6 @@ ProtoId              6652
 MapX                 184
 MapY                 107
 
-MapObjType           0
-ProtoId              480
-MapX                 182
-MapY                 109
-Critter_Dir          2
-Critter_Cond         1
-Critter_Anim1        0
-Critter_Anim2        0
-
-MapObjType           0
-ProtoId              480
-MapX                 194
-MapY                 109
-Critter_Dir          2
-Critter_Cond         1
-Critter_Anim1        0
-Critter_Anim2        0
-
 MapObjType           2
 ProtoId              5621
 MapX                 185
@@ -16693,26 +16675,6 @@ MapObjType           2
 ProtoId              6868
 MapX                 203
 MapY                 126
-
-MapObjType           2
-ProtoId              6869
-MapX                 209
-MapY                 135
-
-MapObjType           2
-ProtoId              6866
-MapX                 210
-MapY                 134
-
-MapObjType           2
-ProtoId              6867
-MapX                 208
-MapY                 134
-
-MapObjType           2
-ProtoId              6869
-MapX                 208
-MapY                 133
 
 MapObjType           2
 ProtoId              6869
@@ -19407,5 +19369,40 @@ MapX                 142
 MapY                 120
 LightDistance        3
 LightIntensity       5
+
+MapObjType           2
+ProtoId              6867
+MapX                 208
+MapY                 134
+
+MapObjType           2
+ProtoId              6869
+MapX                 208
+MapY                 133
+
+MapObjType           2
+ProtoId              6869
+MapX                 209
+MapY                 135
+
+MapObjType           2
+ProtoId              6866
+MapX                 210
+MapY                 134
+
+MapObjType           2
+ProtoId              7068
+MapX                 188
+MapY                 124
+
+MapObjType           2
+ProtoId              7068
+MapX                 156
+MapY                 120
+
+MapObjType           2
+ProtoId              7068
+MapX                 191
+MapY                 97
 
 

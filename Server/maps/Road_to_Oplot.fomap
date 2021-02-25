@@ -2,7 +2,7 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             253
+WorkHexX             202
 WorkHexY             140
 ScriptModule         -
 ScriptFunc           -
@@ -17086,5 +17086,40 @@ MapX                 259
 MapY                 130
 OffsetX              -5
 OffsetY              32
+
+MapObjType           2
+ProtoId              7068
+MapX                 204
+MapY                 111
+
+MapObjType           2
+ProtoId              7068
+MapX                 195
+MapY                 115
+
+MapObjType           2
+ProtoId              7068
+MapX                 198
+MapY                 121
+
+MapObjType           2
+ProtoId              7068
+MapX                 166
+MapY                 94
+
+MapObjType           2
+ProtoId              7068
+MapX                 165
+MapY                 116
+
+MapObjType           2
+ProtoId              7068
+MapX                 200
+MapY                 165
+
+MapObjType           2
+ProtoId              7068
+MapX                 235
+MapY                 160
 
 
