@@ -4086,6 +4086,12 @@ namespace Inventory
         _SlotArmor.Init( _Inventory );
         SlotItem _SlotItem();
         _SlotItem.Init( _Inventory );
+		SlotHead _SlotHead();
+		_SlotHead.Init( _Inventory );
+		SlotBoots _SlotBoots();
+		_SlotBoots.Init( _Inventory );
+		SlotSpecial _SlotSpecial();
+		_SlotSpecial.Init( _Inventory );
         Chosen _Chosen();
         _Chosen.Init( _Inventory );
         Description _Description();
