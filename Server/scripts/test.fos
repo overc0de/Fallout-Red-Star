@@ -4,6 +4,21 @@
 #include "_macros.fos"
 #include "_colors.fos"
 
+void cleanExt( Critter& cr, int id, int p1, int p2 )
+{
+	Critter@ target = id == 0 ? @cr : GetCritter( id );
+	if( !valid( target ) ) return;
+	
+	for( uint i = ST_STRENGTH_EXT; i <= ST_POISON_RESISTANCE_EXT; i++ )
+	{
+		string result = "Ext #" + i + " was " + target.ParamBase[i] + " of " + target.Param[i];
+		target.ParamBase[i] = 0;
+		result += ", now " + target.Param[i];
+		
+		cr.Say( SAY_NETMSG, result );
+	}
+}
+
 void test( Critter& cr, int p0, int p1, int p2 )
 {
     Map@ map = cr.GetMap();
