@@ -1387,6 +1387,7 @@ Material=7
 AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
+Perk=7069
 
 [Proto]
 ProtoId=7070
@@ -1403,6 +1404,7 @@ Material=7
 AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
+Perk=7070
 
 [Proto]
 ProtoId=7071
@@ -1419,4 +1421,4 @@ Material=7
 AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
-
+Perk=7071

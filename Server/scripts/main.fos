@@ -975,9 +975,9 @@ void critter_init( Critter& cr, bool firstTime )
         }
 
         // Armor perk validation
-        if( not valid( armor ) && cr.Stat[ ST_CURRENT_ARMOR_PERK ] != 0 )
+        if( not valid( armor ) && cr.Param[ CR_SLOT_ARMOR_PERK ] != 0 )
         {
-            switch( cr.Stat[ ST_CURRENT_ARMOR_PERK ] )
+            switch( cr.Param[ CR_SLOT_ARMOR_PERK ] )
             {
             case ARMOR_PERK_POWERED:
                 cr.StatBase[ ST_STRENGTH_EXT ] -= 3;
@@ -1000,9 +1000,13 @@ void critter_init( Critter& cr, bool firstTime )
             default:
                 break;
             }
-            cr.StatBase[ ST_CURRENT_ARMOR_PERK ] = 0;
+            cr.ParamBase[ CR_SLOT_ARMOR_PERK ] = 0;
         }
 
+        slot_item_perk_check( cr, SLOT_HEAD );
+        slot_item_perk_check( cr, SLOT_SPECIAL );
+        slot_item_perk_check( cr, SLOT_BOOTS );
+		
         // Clear timeouts if too long (happens when saves got removed)
         for( uint i = TIMEOUT_BEGIN; i <= TIMEOUT_END; i++ )
             if( i != TO_BATTLE && cr.Timeout[ i ] > int(MAXIMUM_TIMEOUT) )
@@ -1017,6 +1021,30 @@ void critter_init( Critter& cr, bool firstTime )
 			
 		SetStartLocation( cr );
     }
+}
+
+void slot_item_perk_check( Critter& cr, int slot )
+{
+	Item@ item = cr.GetItem( 0, slot );
+	if( valid( item ) ) return;
+
+	uint cr_slot_perk = 0;
+	switch( slot )
+	{
+		case( SLOT_HEAD ): 		cr_slot_perk = CR_SLOT_HEAD_PERK; 		break;
+		case( SLOT_SPECIAL ): 	cr_slot_perk = CR_SLOT_SPECIAL_PERK; 	break;
+		case( SLOT_BOOTS ): 	cr_slot_perk = CR_SLOT_BOOTS_PERK;		break;
+	}
+	
+	if( cr_slot_perk == 0 ) return;
+	switch( cr.Param[ cr_slot_perk ] )
+	{
+		case( PID_HELMET ): 	cr.StatBase[ ST_ENDURANCE_EXT ] -= 1; break;
+		case( PID_GASMASK ): 	cr.StatBase[ ST_CHARISMA_EXT ] -= 1; break;
+		case( PID_BOOTS ): 		cr.StatBase[ ST_AGILITY_EXT ] -= 1; break;
+	}
+	
+	cr.ParamBase[ cr_slot_perk ] = 0;
 }
 
 // //////////////////////////////////////////////////////////////////////////////////////////////////

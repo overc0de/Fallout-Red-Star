@@ -118,9 +118,53 @@ void critter_move_item( Critter& cr, Item& item, uint8 fromSlot )
         default:
             break;
         }
-        cr.StatBase[ ST_CURRENT_ARMOR_PERK ] = ( toSlot == SLOT_ARMOR ? item.Proto.Armor_Perk : 0 );
+        cr.ParamBase[ CR_SLOT_ARMOR_PERK ] = ( toSlot == SLOT_ARMOR ? item.Proto.Armor_Perk : 0 );
     }
 
+	//Слот головы:
+    if( fromSlot == SLOT_HEAD || toSlot == SLOT_HEAD )
+	{
+        int sign = ( toSlot == SLOT_HEAD ? int(1) : -1 );
+        switch( item.Proto.Perk )
+        {
+			case PID_HELMET:
+				cr.StatBase[ ST_ENDURANCE_EXT ] += 1 * sign;
+				break;
+        }
+		
+        cr.ParamBase[ CR_SLOT_HEAD_PERK ] = ( toSlot == SLOT_HEAD ? item.Proto.Perk : 0 );
+    }
+
+	//Слот ног:
+    if( fromSlot == SLOT_BOOTS || toSlot == SLOT_BOOTS )
+	{
+        int sign = ( toSlot == SLOT_BOOTS ? int(1) : -1 );
+        switch( item.Proto.Perk )
+        {
+			case PID_BOOTS:
+				cr.StatBase[ ST_AGILITY_EXT ] += 1 * sign;
+				break;
+        }
+		
+        cr.ParamBase[ CR_SLOT_BOOTS_PERK ] = ( toSlot == SLOT_BOOTS ? item.Proto.Perk : 0 );
+    }
+
+	//Слот для спецвещей:
+    if( fromSlot == SLOT_SPECIAL || toSlot == SLOT_SPECIAL )
+	{
+        int sign = ( toSlot == SLOT_SPECIAL ? int(1) : -1 );
+        switch( item.Proto.Perk )
+        {
+			case PID_GASMASK:
+				cr.StatBase[ ST_CHARISMA_EXT ] += 1 * sign;
+				break;
+        }
+		
+        cr.ParamBase[ CR_SLOT_SPECIAL_PERK ] = ( toSlot == SLOT_SPECIAL ? item.Proto.Perk : 0 );
+    }
+
+	
+	
     // Slot modifiers
     // SLOT_PERK_MIRROR_SHADES // +1 charisma
     // SLOT_PERK_COSMETIC_CASE // +1 charisma to female
