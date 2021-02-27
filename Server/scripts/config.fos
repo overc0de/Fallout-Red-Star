@@ -271,10 +271,8 @@ void InitializeGame()                    // Export
     // / New slots allow here
 	
     AllowSlot( SLOT_HEAD, "InvHead" );
-	
-	AllowSlot ( SLOT_BOOTS, "InvBoots" );
-	
-	AllowSlot ( SLOT_SPECIAL, "InvSpecial" );
+	AllowSlot( SLOT_BOOTS, "InvBoots" );
+	AllowSlot( SLOT_SPECIAL, "InvSpecial" );
 
     // Valid name letters
     __ValidNameLettersCommon = "_ .-1234567890";
@@ -314,11 +312,9 @@ void InitializeGame() // Export
     #  endif
 
     // / New slots allow here
-    #  ifdef PLAYERS_3D
-    #   ifndef PLAYERS_3D_NO_HEAD
-    AllowSlot( SLOT_HEAD, "Head" );
-    #   endif
-    #  endif
+    AllowSlot( SLOT_HEAD, "InvHead" );
+	AllowSlot( SLOT_BOOTS, "InvBoots" );
+	AllowSlot( SLOT_SPECIAL, "InvSpecial" );
 
     InitializeGeometry();
 }
