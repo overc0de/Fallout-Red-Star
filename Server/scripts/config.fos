@@ -69,7 +69,7 @@ void InitializeGame()                    // Export
     __HitAimTorso               = 0;
     __HitAimArms                = 30;
     __HitAimLegs                = 20;
-    __RunOnCombat               = false;
+    __RunOnCombat               = true;
     __RunOnTransfer             = true;
     __RunOnTurnBased            = false;
     __GlobalMapWidth            = 28;     // Maximum 100
@@ -92,9 +92,9 @@ void InitializeGame()                    // Export
     __PermanentDeath            = 0;       // Disable
     __DlgTalkMinTime            = 100000;
     __DlgBarterMinTime          = 50000;
-    __MinimumOfflineTime        = 180000;  // 3 minutes
+    __MinimumOfflineTime        = 0;  // 3 minutes
     __NoPvpMaps                 = true;
-    __MaxLifeLevelSoftCap       = 36;
+    __MaxLifeLevelSoftCap       = 16;
     // Look modifiers
     __LookChecks = 0;                        // See Look checks in _defines.fos
     // __LookChecks |= LOOK_CHECK_DIR; // Nerfe look by directions of look
