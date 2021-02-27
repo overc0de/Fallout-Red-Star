@@ -3720,7 +3720,7 @@ namespace Inventory
             SetModal( true );
             SetAvailableCursors( array< int > = { CURSOR_HAND, CURSOR_DEFAULT } );
             SetCanMove( true, false );
-            SetSize( 499, 377 );
+            SetSize( 514, 498 );
             SetBackgroundImage( "art/intrface/inventory.png" );
         }
     }
@@ -3729,9 +3729,9 @@ namespace Inventory
     {
         void OnConstruct() override
         {
-            SetPosition( 43, 40 );
+            SetPosition( 57, 45 );
             SetCellPrototype( "InvItem" );
-            SetGridSize( 10 );
+            SetGridSize( 13 );
             SetColumns( 1 );
             SetUserData( SLOT_INV );
             SetUseSorting( true );
@@ -3790,7 +3790,7 @@ namespace Inventory
     {
         void OnConstruct() override
         {
-            SetPosition( 155, 287 );
+            SetPosition( 172, 406 );
             SetCellPrototype( ".SlotItem" );
             SetGridSize( 1 );
             SetUserData( SLOT_HAND1 );
@@ -3806,7 +3806,7 @@ namespace Inventory
     {
         void OnConstruct() override
         {
-            SetPosition( 246, 287 );
+            SetPosition( 266, 406 );
             SetCellPrototype( ".SlotItem" );
             SetGridSize( 1 );
             SetUserData( SLOT_HAND2 );
@@ -3822,7 +3822,7 @@ namespace Inventory
     {
         void OnConstruct() override
         {
-            SetPosition( 155, 184 );
+            SetPosition( 172, 305 );
             SetCellPrototype( ".SlotItem" );
             SetGridSize( 1 );
             SetUserData( SLOT_ARMOR );
@@ -3834,6 +3834,54 @@ namespace Inventory
         }
     }
 
+	class SlotHead : GUIItemView
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 266, 305 );
+            SetCellPrototype( ".SlotItem" );
+            SetGridSize( 1 );
+            SetUserData( SLOT_HEAD );
+        }
+
+        int OnCheckItem( ItemCl@ item ) override
+        {
+            return item.CritSlot == SLOT_HEAD ? 0 : -1;
+        }
+    }
+	
+	class SlotBoots : GUIItemView
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 359, 305 );
+            SetCellPrototype( ".SlotItem" );
+            SetGridSize( 1 );
+            SetUserData( SLOT_BOOTS );
+        }
+
+        int OnCheckItem( ItemCl@ item ) override
+        {
+            return item.CritSlot == SLOT_BOOTS ? 0 : -1;
+        }
+    }
+	
+	class SlotSpecial : GUIItemView
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 172, 198 );
+            SetCellPrototype( ".SlotItem" );
+            SetGridSize( 1 );
+            SetUserData( SLOT_SPECIAL );
+        }
+
+        int OnCheckItem( ItemCl@ item ) override
+        {
+            return item.CritSlot == SLOT_SPECIAL ? 0 : -1;
+        }
+    }
+	
     class SlotItem : GUIPanel
     {
         void OnConstruct() override
@@ -3863,7 +3911,7 @@ namespace Inventory
 
         void OnConstruct() override
         {
-            SetPosition( 176, 35 );
+            SetPosition( 194, 35 );
             SetSize( 61, 98 );
         }
 
@@ -3927,7 +3975,7 @@ namespace Inventory
     {
         void OnConstruct() override
         {
-            SetPosition( 299, 48 );
+            SetPosition( 321, 51 );
             SetSize( 145, 182 );
         }
 

@@ -1372,3 +1372,51 @@ AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
 
+[Proto]
+ProtoId=7069
+Type=5
+PicMap=art/New Art/Items/Helmet.png
+PicInv=art/New Art/Items/Helmet.png
+Corner=4
+Flags=167772700
+DisableEgg=1
+Slot=4
+Weight=2500
+Cost=500
+Material=7
+AnimWaitBase=1500
+AnimWaitRndMin=400
+AnimWaitRndMax=1000
+
+[Proto]
+ProtoId=7070
+Type=5
+PicMap=art/New Art/Items/Gasmask.png
+PicInv=art/New Art/Items/Gasmask.png
+Corner=4
+Flags=150994974
+DisableEgg=1
+Slot=6
+Weight=500
+Cost=250
+Material=7
+AnimWaitBase=1500
+AnimWaitRndMin=400
+AnimWaitRndMax=1000
+
+[Proto]
+ProtoId=7071
+Type=5
+PicMap=art/New Art/Items/Boots.png
+PicInv=art/New Art/Items/Boots.png
+Corner=4
+Flags=436207646
+DisableEgg=1
+Slot=5
+Weight=500
+Cost=250
+Material=7
+AnimWaitBase=1500
+AnimWaitRndMin=400
+AnimWaitRndMax=1000
+

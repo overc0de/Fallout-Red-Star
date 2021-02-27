@@ -269,11 +269,12 @@ void InitializeGame()                    // Export
     #  endif
 
     // / New slots allow here
-    #  ifdef PLAYERS_3D
-    #   ifndef PLAYERS_3D_NO_HEAD
+	
     AllowSlot( SLOT_HEAD, "InvHead" );
-    #   endif
-    #  endif
+	
+	AllowSlot ( SLOT_BOOTS, "InvBoots" );
+	
+	AllowSlot ( SLOT_SPECIAL, "InvSpecial" );
 
     // Valid name letters
     __ValidNameLettersCommon = "_ .-1234567890";
