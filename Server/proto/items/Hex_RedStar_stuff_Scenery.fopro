@@ -395,7 +395,7 @@ ProtoId=6854
 Type=9
 PicMap=art/New Art/Scenery/USSR_BlastDoor.FRM
 PicInv=art/New Art/Scenery/USSR_BlastDoor.FRM
-Flags=268435456
+Flags=268439552
 Material=1
 
 [Proto]
@@ -947,7 +947,7 @@ ProtoId=7019
 Type=8
 PicMap=art/New Art/Scenery/Trup1.png
 PicInv=art/New Art/Scenery/Trup1.png
-Flags=30
+Flags=268435486
 Material=4
 Container_CannotPickUp=1
 
@@ -1141,6 +1141,7 @@ ProtoId=7044
 Type=8
 PicMap=art/New Art/Scenery/yashik1.frm
 PicInv=art/New Art/Scenery/yashik1.frm
+Flags=268439552
 Container_CannotPickUp=1
 
 [Proto]
@@ -1182,7 +1183,7 @@ Type=11
 PicMap=art/New Art/Scenery/komp1.FRM
 PicInv=art/New Art/Scenery/komp1.FRM
 Corner=4
-Flags=8
+Flags=8200
 Material=1
 
 [Proto]
@@ -1649,4 +1650,31 @@ PicInv=art/New Art/Scenery/Automat.FRM
 Corner=5
 Flags=268447744
 Material=1
+
+[Proto]
+ProtoId=7096
+Type=1
+PicMap=art/New Art/Items/OplotEkzoGr.png
+PicInv=art/New Art/Items/OplotEkzoInv.png
+Corner=5
+Flags=167784456
+Weight=25000
+Cost=5000
+Material=1
+SpriteCut=2
+Armor_CrTypeMale=792
+Armor_CrTypeFemale=792
+Armor_AC=15
+Armor_DRNormal=50
+Armor_DRLaser=15
+Armor_DRFire=25
+Armor_DRPlasma=25
+Armor_DRElectro=40
+Armor_DRExplode=45
+Armor_DTNormal=10
+Armor_DTLaser=3
+Armor_DTFire=5
+Armor_DTPlasma=5
+Armor_DTElectro=8
+Armor_DTExplode=9
 
