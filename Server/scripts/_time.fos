@@ -9,4 +9,6 @@
 #define REAL_MONTH     # (x) ( ( x ) * __TimeMultiplier * 2592000 )
 #define REAL_YEAR      # (x) ( ( x ) * __TimeMultiplier * 31536000 )
 
+#define MIN_DELAY		REAL_MS( 250 )
+
 #endif // __TIME__
