@@ -963,6 +963,8 @@ void critter_init( Critter& cr, bool firstTime )
     }
     else
     {
+		if( !cr.IsPlayer() ) return;
+		
         // Current skin validation
         Item@ armor = cr.GetItem( 0, SLOT_ARMOR );
         if( not valid( armor ) )
