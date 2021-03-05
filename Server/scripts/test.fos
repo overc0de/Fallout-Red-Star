@@ -4,14 +4,62 @@
 #include "_macros.fos"
 #include "_colors.fos"
 
-//~run test showCoords id 0 0
-void showCoords( Critter& cr, int id, int, int )
+//~run test arachnophobic start end chance
+void arachnophobic( Critter& cr, int start, int end, int chance )
 {
-	Critter@ target = id == 0 ? @cr : GetCritter( id );
-	if( !valid( target ) ) return;
-
-	target.Say( SAY_NORM, target.HexX + " " + target.HexY );
+    uint[] values = { cr.Id, start, end, chance, start, start };
+    CreateTimeEvent( __FullSecond + REAL_SECOND( 1 ), "e_arachnophobic", values, true );
+	// Созданный таймивент - распределённый, т.е. выполняет лишь часть работы за одну итерацию.
+	// Это сделано для защиты от "перегрева" или зависания сервера.
+	// В будущем подобный подход можно будет развить до чего-то более серьёзного, а-ля "LTP Кутри".
 }
+
+uint e_arachnophobic( uint[] @ values )
+{
+	uint id 	= values[0];
+	uint start 	= values[1];
+	uint end 	= values[2];
+	uint chance = values[3];
+	uint x 		= values[4];
+	uint y 		= values[5];
+
+    Critter@ cr = GetCritter( id );
+	if( !valid( cr ) ) return 0;
+	
+	Map@ map = cr.GetMap();
+	if( !valid( map ) ) return 0;
+
+	int k = 100;
+
+	for( ; x < end; x++ )
+	{
+		for( y; y < end; y++ )
+		{
+			if( chance > Random( 0, 100 ) )
+				map.AddNpc( 10, x, y, Random( 0, 5 ), null, null, null );
+
+			k--;
+			if( k <= 0 )
+			{
+				values[4] = x;
+				values[5] = y;
+				
+				//Определяем размер обрабатываемой области, что бы грамотно отрапортовать о прогрессе.
+				uint n = end - start;
+				uint max = n * n; 
+				uint index = ( x - start ) * n + ( y - start );
+				
+				Log( "Итерация: " + index + " / " + max );
+				return MIN_DELAY; 
+			}
+		}
+		y = start;
+	}
+    
+    Log( "Дел-сделано!" );
+	return 0;
+}
+
 
 //~run test spawn pid 0 0
 void spawn( Critter& cr, int pid, int, int )
@@ -22,7 +70,12 @@ void spawn( Critter& cr, int pid, int, int )
 	//int[] params = { ST_DIALOG_ID, 2200, ST_TEAM_ID, 5 };
 	int[] params = { ST_DIALOG_ID, 0, ST_TEAM_ID, 0 }; //Его статы, в формате: имя стата, значение
     int[] items = { 0, 0, SLOT_INV }; //Лут в его карманах
-    Critter@ npc = map.AddNpc( pid, cr.HexX, cr.HexY - 1, cr.Dir, params, items, "" );
+
+    //Спауним в кордах прямо перед собой.
+	uint16   hx = cr.HexX, hy = cr.HexY;
+    map.MoveHexByDir( hx, hy, cr.Dir, 1 );
+	
+    Critter@ npc = map.AddNpc( pid, hx, hy, cr.Dir, params, items, "" );
 }
 
 void cleanExt( Critter& cr, int id, int p1, int p2 )
