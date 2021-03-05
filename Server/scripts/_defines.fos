@@ -218,15 +218,13 @@
 #define WEAPON_PERK_NIGHT_SIGHT                  ( 7 )
 #define WEAPON_PERK_FLAMEBOY                     ( 8 )
 #define WEAPON_PERK_ENHANCED_KNOCKOUT            ( 9 )
+
+//Перки брони:
 #define ARMOR_PERK_POWERED                       ( 1 )    // +3 strength, +30 radiation resist
 #define ARMOR_PERK_COMBAT                        ( 2 )    // +20 radiation resist
 #define ARMOR_PERK_ADVANCED_I                    ( 3 )    // +4 strength, +60 radiation resist
 #define ARMOR_PERK_ADVANCED_II                   ( 4 )    // +4 strength, +75 radiation resist
 #define ARMOR_PERK_CHARISMA                      ( 5 )    // 1+ charisma
-#define SLOT_PERK_MIRROR_SHADES                  ( 0x01 ) // +1 charisma
-#define SLOT_PERK_COSMETIC_CASE                  ( 0x02 ) // +1 charisma to female
-#define SLOT_PERK_MOTION_SENSOR                  ( 0x04 ) // +20 outdoorsman
-#define SLOT_PERK_STEALTH_BOY                    ( 0x08 ) // +20 sneak
 
 // In SendMessage
 #define MESSAGE_TO_WHO_SEES_ME                   ( 0 )    // Отослать сообщения всем кто видет криттера.
@@ -272,7 +270,7 @@
 #define SLOT_HEAD                                ( 4 )   // Head slot
 #define SLOT_BOOTS                               ( 5 )   // Boots slot
 #define SLOT_SPECIAL                             ( 6 )   // Overall items
-# endif 
+#endif 
 #endif
 #define SLOT_GROUND                              ( 255 ) // Ground slot, used when critter drop/pick item
 
@@ -405,7 +403,7 @@
 #define ST_LAST_WEAPON_USE                       ( 111 )
 #define ST_BASE_CRTYPE                           ( 112 ) // Hardcoded
 #define ST_DEAD_BLOCKER_ID                       ( 113 )
-#define ST_CURRENT_ARMOR_PERK                    ( 114 )
+#define ST_CURRENT_ARMOR_PERK_DEPRECATED         ( 114 ) // Отключен, т.к. функционал перенесён на другой номер параметра.
 #define ST_TALK_DISTANCE                         ( 115 ) // Hardcoded, if zero than taked __TalkDistance
 #define ST_SCALE_FACTOR                          ( 116 ) // Hardcoded
 #define ST_WALK_TIME                             ( 117 ) // Hardcoded
@@ -763,6 +761,11 @@
 //
 // 830..999
 //
+
+#define CR_SLOT_ARMOR_PERK					 	 ( 830 ) // Номер перка брони.
+#define CR_SLOT_HEAD_PERK					 	 ( 831 ) // Номер перка наголовника.
+#define CR_SLOT_BOOTS_PERK					 	 ( 832 ) // Номер перка тапочек.
+#define CR_SLOT_SPECIAL_PERK					 ( 833 ) // Номер перка спецпредмета.
 
 #define PARAMS_COUNT                             ( 1000 )
 
@@ -1448,6 +1451,8 @@
 # pragma bindfield "const int    ProtoItem::Ammo_DRMod   -> 304"
 # pragma bindfield "const uint   ProtoItem::Ammo_DmgMult -> 308"
 # pragma bindfield "const uint   ProtoItem::Ammo_DmgDiv  -> 312"
+// Misc
+# pragma bindfield "const uint   ProtoItem::Perk  -> 316"
 
 // Test function
 # ifdef __SERVER

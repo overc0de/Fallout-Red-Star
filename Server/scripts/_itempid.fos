@@ -457,6 +457,12 @@
 ***************       Misc.                         ***************
 ******************************************************************/
 
+// Red Star:
+
+#define PID_HELMET							( 7069 ) // Обычный шлем.
+#define PID_GASMASK							( 7070 ) // Противогаз.
+#define PID_BOOTS							( 7071 ) // Кеды.
+
 // Money
 #define PID_BOTTLE_CAPS                      ( 41 )
 #define PID_MORNING_STAR_MINE                ( 420 )
