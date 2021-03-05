@@ -395,7 +395,7 @@ ProtoId=6854
 Type=9
 PicMap=art/New Art/Scenery/USSR_BlastDoor.FRM
 PicInv=art/New Art/Scenery/USSR_BlastDoor.FRM
-Flags=268435456
+Flags=268439552
 Material=1
 
 [Proto]
@@ -947,7 +947,7 @@ ProtoId=7019
 Type=8
 PicMap=art/New Art/Scenery/Trup1.png
 PicInv=art/New Art/Scenery/Trup1.png
-Flags=30
+Flags=268435486
 Material=4
 Container_CannotPickUp=1
 
@@ -1086,12 +1086,14 @@ ProtoId=7037
 Type=11
 PicMap=art/New Art/Scenery/GTANK003.FRM
 PicInv=art/New Art/Scenery/GTANK003.FRM
+Flags=8192
 
 [Proto]
 ProtoId=7038
 Type=11
 PicMap=art/New Art/Scenery/GTANK004.FRM
 PicInv=art/New Art/Scenery/GTANK004.FRM
+Flags=8192
 
 [Proto]
 ProtoId=7039
@@ -1099,6 +1101,7 @@ Type=11
 PicMap=art/New Art/Scenery/ProdPlant1.frm
 PicInv=art/New Art/Scenery/ProdPlant1.frm
 Corner=5
+Flags=8192
 Material=1
 
 [Proto]
@@ -1107,6 +1110,7 @@ Type=11
 PicMap=art/New Art/Scenery/ProdPlant2.frm
 PicInv=art/New Art/Scenery/ProdPlant2.frm
 Corner=5
+Flags=8192
 Material=1
 
 [Proto]
@@ -1115,6 +1119,7 @@ Type=11
 PicMap=art/New Art/Scenery/ProdPlant3.frm
 PicInv=art/New Art/Scenery/ProdPlant3.frm
 Corner=5
+Flags=8192
 Material=1
 
 [Proto]
@@ -1122,18 +1127,21 @@ ProtoId=7042
 Type=11
 PicMap=art/New Art/Scenery/REZERV211.frm
 PicInv=art/New Art/Scenery/REZERV211.frm
+Flags=8192
 
 [Proto]
 ProtoId=7043
 Type=11
 PicMap=art/New Art/Scenery/REZERV210.frm
 PicInv=art/New Art/Scenery/REZERV210.frm
+Flags=8192
 
 [Proto]
 ProtoId=7044
 Type=8
 PicMap=art/New Art/Scenery/yashik1.frm
 PicInv=art/New Art/Scenery/yashik1.frm
+Flags=268439552
 Container_CannotPickUp=1
 
 [Proto]
@@ -1175,7 +1183,7 @@ Type=11
 PicMap=art/New Art/Scenery/komp1.FRM
 PicInv=art/New Art/Scenery/komp1.FRM
 Corner=4
-Flags=8
+Flags=8200
 Material=1
 
 [Proto]
@@ -1387,7 +1395,6 @@ Material=7
 AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
-Perk=7069
 
 [Proto]
 ProtoId=7070
@@ -1404,7 +1411,6 @@ Material=7
 AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
-Perk=7070
 
 [Proto]
 ProtoId=7071
@@ -1422,3 +1428,254 @@ AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
 Perk=7071
+
+[Proto]
+ProtoId=7072
+Type=11
+PicMap=art/New Art/Scenery/BOXES1_snow.png
+PicInv=art/New Art/Scenery/BOXES1_snow.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7073
+Type=11
+PicMap=art/New Art/Scenery/NJUNK5_snow.png
+PicInv=art/New Art/Scenery/NJUNK5_snow.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7074
+Type=11
+PicMap=art/New Art/Scenery/JUNK1_snow.png
+PicInv=art/New Art/Scenery/JUNK1_snow.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7075
+Type=11
+PicMap=art/New Art/Scenery/JUNK2_snow.png
+PicInv=art/New Art/Scenery/JUNK2_snow.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7076
+Type=11
+PicMap=art/New Art/Scenery/JUNK3_snow.png
+PicInv=art/New Art/Scenery/JUNK3_snow.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7077
+Type=11
+PicMap=art/New Art/Scenery/JUNK4_snow.png
+PicInv=art/New Art/Scenery/JUNK4_snow.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7078
+Type=11
+PicMap=art/New Art/Scenery/Barrel_snow1.png
+PicInv=art/New Art/Scenery/Barrel_snow1.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7079
+Type=11
+PicMap=art/New Art/Scenery/Barrel_snow2.png
+PicInv=art/New Art/Scenery/Barrel_snow2.png
+Corner=5
+Flags=4104
+Material=1
+
+[Proto]
+ProtoId=7080
+Type=11
+PicMap=art/New Art/Scenery/Red_Star_Flag.png
+PicInv=art/New Art/Scenery/Red_Star_Flag.png
+Corner=4
+Flags=8
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7081
+Type=11
+PicMap=art/New Art/Scenery/SHACK_Snow.png
+PicInv=art/New Art/Scenery/SHACK_Snow.png
+Flags=4096
+Material=5
+
+[Proto]
+ProtoId=7082
+Type=11
+PicMap=art/New Art/Scenery/Broken_Car1.png
+PicInv=art/New Art/Scenery/Broken_Car1.png
+Flags=33554952
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7083
+Type=8
+PicMap=art/New Art/Scenery/adv_workbench.png
+PicInv=art/New Art/Scenery/adv_workbench.png
+Corner=4
+Flags=8
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7084
+Type=11
+PicMap=art/New Art/Scenery/stol_s_apa.png
+PicInv=art/New Art/Scenery/stol_s_apa.png
+Corner=4
+Flags=8
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7085
+Type=11
+PicMap=art/New Art/Scenery/plan2.png
+PicInv=art/New Art/Scenery/plan2.png
+Corner=4
+Flags=8200
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7086
+Type=11
+PicMap=art/New Art/Scenery/plan3.png
+PicInv=art/New Art/Scenery/plan3.png
+Corner=4
+Flags=8200
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7087
+Type=11
+PicMap=art/New Art/Scenery/Stanok2.png
+PicInv=art/New Art/Scenery/Stanok2.png
+Corner=4
+Flags=8192
+Material=1
+
+[Proto]
+ProtoId=7088
+Type=11
+PicMap=art/New Art/Scenery/MultiCraft.FRM
+PicInv=art/New Art/Scenery/MultiCraft.FRM
+Corner=4
+Flags=8192
+Material=1
+
+[Proto]
+ProtoId=7089
+Type=11
+PicMap=art/New Art/Scenery/ProdPlant1.frm
+PicInv=art/New Art/Scenery/ProdPlant1.frm
+Corner=5
+Flags=8192
+Material=1
+
+[Proto]
+ProtoId=7090
+Type=11
+PicMap=art/New Art/Scenery/RE0NOS18.FRM
+PicInv=art/New Art/Scenery/RE0NOS18.FRM
+Corner=4
+Flags=8
+Material=1
+
+[Proto]
+ProtoId=7091
+Type=11
+PicMap=art/New Art/Scenery/RE0DSGN10.FRM
+PicInv=art/New Art/Scenery/RE0DSGN10.FRM
+Corner=5
+Flags=268439560
+Material=1
+
+[Proto]
+ProtoId=7092
+Type=11
+PicMap=art/New Art/Scenery/T1ANKER14.FRM
+PicInv=art/New Art/Scenery/T1ANKER14.FRM
+Corner=5
+Flags=268439552
+Material=1
+
+[Proto]
+ProtoId=7093
+Type=11
+PicMap=art/New Art/Scenery/T1ANKER15.FRM
+PicInv=art/New Art/Scenery/T1ANKER15.FRM
+Corner=5
+Flags=268439552
+Material=1
+
+[Proto]
+ProtoId=7094
+Type=11
+PicMap=art/New Art/Scenery/W0PAP22.FRM
+PicInv=art/New Art/Scenery/W0PAP22.FRM
+Corner=4
+Flags=8192
+AnimWaitBase=10
+AnimWaitRndMin=2
+AnimWaitRndMax=10
+
+[Proto]
+ProtoId=7095
+Type=11
+PicMap=art/New Art/Scenery/Automat.FRM
+PicInv=art/New Art/Scenery/Automat.FRM
+Corner=5
+Flags=268447744
+Material=1
+
+[Proto]
+ProtoId=7096
+Type=1
+PicMap=art/New Art/Items/OplotEkzoGr.png
+PicInv=art/New Art/Items/OplotEkzoInv.png
+Corner=5
+Flags=167784456
+Weight=25000
+Cost=5000
+Material=1
+SpriteCut=2
+Armor_CrTypeMale=792
+Armor_CrTypeFemale=792
+Armor_AC=15
+Armor_DRNormal=50
+Armor_DRLaser=15
+Armor_DRFire=25
+Armor_DRPlasma=25
+Armor_DRElectro=40
+Armor_DRExplode=45
+Armor_DTNormal=10
+Armor_DTLaser=3
+Armor_DTFire=5
+Armor_DTPlasma=5
+Armor_DTElectro=8
+Armor_DTExplode=9
+
