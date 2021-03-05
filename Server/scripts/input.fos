@@ -116,12 +116,6 @@ void input_lost() // Engine callback
 // Hotkeys handler
 bool HandleHotkeys( uint8 key )
 {
-    // Effect example, temporary
-    if( IsAltDown() && key == DIK_Q )
-        SetEffect( EFFECT_FLUSH_MAP, 0, null );
-    if( IsAltDown() && key == DIK_W )
-        SetEffect( EFFECT_FLUSH_MAP, 0, "Flush_Map_BlackWhite.glsl" );
-
     // Hotkeys
     bool isHotkey = true;
     bool inputFocused = ( cast< GUITextInput >( GUI_GetFocusedObject() ) !is null || __ConsoleActive || GUI_IsConsoleActive() );
