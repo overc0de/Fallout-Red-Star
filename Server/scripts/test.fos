@@ -4,6 +4,27 @@
 #include "_macros.fos"
 #include "_colors.fos"
 
+//~run test showCoords id 0 0
+void showCoords( Critter& cr, int id, int, int )
+{
+	Critter@ target = id == 0 ? @cr : GetCritter( id );
+	if( !valid( target ) ) return;
+
+	target.Say( SAY_NORM, target.HexX + " " + target.HexY );
+}
+
+//~run test spawn pid 0 0
+void spawn( Critter& cr, int pid, int, int )
+{
+    Map@ map = cr.GetMap();
+	if( !valid( map ) ) return;
+	
+	//int[] params = { ST_DIALOG_ID, 2200, ST_TEAM_ID, 5 };
+	int[] params = { ST_DIALOG_ID, 0, ST_TEAM_ID, 0 }; //Его статы, в формате: имя стата, значение
+    int[] items = { 0, 0, SLOT_INV }; //Лут в его карманах
+    Critter@ npc = map.AddNpc( pid, cr.HexX, cr.HexY - 1, cr.Dir, params, items, "" );
+}
+
 void cleanExt( Critter& cr, int id, int p1, int p2 )
 {
 	Critter@ target = id == 0 ? @cr : GetCritter( id );
