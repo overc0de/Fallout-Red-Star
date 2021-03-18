@@ -519,6 +519,28 @@ Flags=540
 Material=4
 
 [Proto]
+ProtoId=6870
+Type=11
+PicMap=art/New Art/Scenery/GIGAELKA1.png
+PicInv=art/New Art/Scenery/GIGAELKA1.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=6871
+Type=11
+PicMap=art/New Art/Scenery/GIGAELKA2.png
+PicInv=art/New Art/Scenery/GIGAELKA2.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
 ProtoId=6970
 Type=11
 PicMap=art/New Art/Scenery/VWIN01.png
@@ -1427,7 +1449,6 @@ Material=7
 AnimWaitBase=1500
 AnimWaitRndMin=400
 AnimWaitRndMax=1000
-Perk=7071
 
 [Proto]
 ProtoId=7072
@@ -2381,4 +2402,351 @@ Flags=301994504
 Material=1
 Container_Changeble=1
 Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7187
+Type=11
+PicMap=art/New Art/Scenery/powerlines1.png
+PicInv=art/New Art/Scenery/powerlines1.png
+Material=1
+
+[Proto]
+ProtoId=7188
+Type=11
+PicMap=art/New Art/Scenery/powerlines9.png
+PicInv=art/New Art/Scenery/powerlines9.png
+Material=1
+
+[Proto]
+ProtoId=7189
+Type=11
+PicMap=art/New Art/Scenery/powerlines12.png
+PicInv=art/New Art/Scenery/powerlines12.png
+Material=1
+
+[Proto]
+ProtoId=7190
+Type=11
+PicMap=art/New Art/Scenery/powerlines2.png
+PicInv=art/New Art/Scenery/powerlines2.png
+Material=1
+
+[Proto]
+ProtoId=7191
+Type=11
+PicMap=art/New Art/Scenery/powerlines1.png
+PicInv=art/New Art/Scenery/powerlines1.png
+Material=1
+
+[Proto]
+ProtoId=7192
+Type=11
+PicMap=art/New Art/Scenery/powerlines17.png
+PicInv=art/New Art/Scenery/powerlines17.png
+Material=1
+
+[Proto]
+ProtoId=7193
+Type=11
+PicMap=art/New Art/Scenery/powerlines10.png
+PicInv=art/New Art/Scenery/powerlines10.png
+Material=1
+
+[Proto]
+ProtoId=7194
+Type=11
+PicMap=art/New Art/Scenery/powerlines18.png
+PicInv=art/New Art/Scenery/powerlines18.png
+Material=1
+
+[Proto]
+ProtoId=7195
+Type=11
+PicMap=art/New Art/Scenery/powerlines3.png
+PicInv=art/New Art/Scenery/powerlines3.png
+Flags=540
+
+[Proto]
+ProtoId=7196
+Type=11
+PicMap=art/New Art/Scenery/powerlines4.png
+PicInv=art/New Art/Scenery/powerlines4.png
+Flags=540
+
+[Proto]
+ProtoId=7197
+Type=11
+PicMap=art/New Art/Scenery/powerlines15.png
+PicInv=art/New Art/Scenery/powerlines15.png
+Flags=540
+
+[Proto]
+ProtoId=7198
+Type=11
+PicMap=art/New Art/Scenery/powerlines5.png
+PicInv=art/New Art/Scenery/powerlines5.png
+Flags=540
+
+[Proto]
+ProtoId=7199
+Type=11
+PicMap=art/New Art/Scenery/powerlines16.png
+PicInv=art/New Art/Scenery/powerlines16.png
+Flags=540
+
+[Proto]
+ProtoId=7200
+Type=11
+PicMap=art/New Art/Scenery/powerlines6.png
+PicInv=art/New Art/Scenery/powerlines6.png
+Flags=540
+
+[Proto]
+ProtoId=7201
+Type=11
+PicMap=art/New Art/Scenery/powerlines7.png
+PicInv=art/New Art/Scenery/powerlines7.png
+Flags=540
+
+[Proto]
+ProtoId=7202
+Type=11
+PicMap=art/New Art/Scenery/powerlines8.png
+PicInv=art/New Art/Scenery/powerlines8.png
+Flags=540
+
+[Proto]
+ProtoId=7203
+Type=11
+PicMap=art/New Art/Scenery/Voltbox1.png
+PicInv=art/New Art/Scenery/Voltbox1.png
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7204
+Type=11
+PicMap=art/New Art/Scenery/Voltbox2.png
+PicInv=art/New Art/Scenery/Voltbox2.png
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7205
+Type=11
+PicMap=art/New Art/Scenery/Voltbox3.png
+PicInv=art/New Art/Scenery/Voltbox3.png
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7206
+Type=11
+PicMap=art/New Art/Scenery/Voltbox4.png
+PicInv=art/New Art/Scenery/Voltbox4.png
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7207
+Type=11
+PicMap=art/New Art/Scenery/kozirek1.png
+PicInv=art/New Art/Scenery/kozirek1.png
+Flags=540
+
+[Proto]
+ProtoId=7208
+Type=11
+PicMap=art/New Art/Scenery/kachel1.frm
+PicInv=art/New Art/Scenery/kachel1.frm
+Corner=5
+Flags=8
+Material=1
+
+[Proto]
+ProtoId=7209
+Type=11
+PicMap=art/New Art/Scenery/kachel2.frm
+PicInv=art/New Art/Scenery/kachel2.frm
+Corner=5
+Flags=8
+Material=1
+
+[Proto]
+ProtoId=7210
+Type=11
+PicMap=art/New Art/Scenery/kachel3.frm
+PicInv=art/New Art/Scenery/kachel3.frm
+Corner=5
+Flags=8
+Material=1
+
+[Proto]
+ProtoId=7211
+Type=8
+PicMap=art/New Art/Scenery/pesochnc.frm
+PicInv=art/New Art/Scenery/pesochnc.frm
+Corner=5
+Flags=30
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7212
+Type=11
+PicMap=art/New Art/Scenery/musor1.frm
+PicInv=art/New Art/Scenery/musor1.frm
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7213
+Type=11
+PicMap=art/New Art/Scenery/musor2.frm
+PicInv=art/New Art/Scenery/musor2.frm
+Corner=5
+Material=1
+
+[Proto]
+ProtoId=7214
+Type=11
+PicMap=art/New Art/Scenery/Playgr01.FRM
+PicInv=art/New Art/Scenery/Playgr01.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7215
+Type=11
+PicMap=art/New Art/Scenery/Playgr02.FRM
+PicInv=art/New Art/Scenery/Playgr02.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7216
+Type=11
+PicMap=art/New Art/Scenery/Playgr03.FRM
+PicInv=art/New Art/Scenery/Playgr03.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7217
+Type=11
+PicMap=art/New Art/Scenery/Playgr04.FRM
+PicInv=art/New Art/Scenery/Playgr04.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7218
+Type=11
+PicMap=art/New Art/Scenery/Playgr05.FRM
+PicInv=art/New Art/Scenery/Playgr05.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7219
+Type=11
+PicMap=art/New Art/Scenery/Playgr06.FRM
+PicInv=art/New Art/Scenery/Playgr06.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7220
+Type=11
+PicMap=art/New Art/Scenery/Playgr07.FRM
+PicInv=art/New Art/Scenery/Playgr07.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7221
+Type=11
+PicMap=art/New Art/Scenery/Playgr08.FRM
+PicInv=art/New Art/Scenery/Playgr08.FRM
+Corner=5
+Flags=24
+Material=1
+Container_CannotPickUp=1
+
+[Proto]
+ProtoId=7222
+Type=11
+PicMap=art/New Art/Scenery/TANK1.png
+PicInv=art/New Art/Scenery/TANK1.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7223
+Type=11
+PicMap=art/New Art/Scenery/TANK2.png
+PicInv=art/New Art/Scenery/TANK2.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7224
+Type=11
+PicMap=art/New Art/Scenery/Ural1.png
+PicInv=art/New Art/Scenery/Ural1.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7225
+Type=11
+PicMap=art/New Art/Scenery/Ural2.png
+PicInv=art/New Art/Scenery/Ural2.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7226
+Type=11
+PicMap=art/New Art/Scenery/Ural3.png
+PicInv=art/New Art/Scenery/Ural3.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7227
+Type=11
+PicMap=art/New Art/Scenery/Ural4.png
+PicInv=art/New Art/Scenery/Ural4.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7228
+Type=10
+PicMap=art/New Art/Scenery/Stairs6.png
+PicInv=art/New Art/Scenery/Stairs6.png
+Corner=5
+Flags=268435456
+Grid_Type=2
+
+[Proto]
+ProtoId=7229
+Type=11
+PicMap=art/New Art/Scenery/Stairs6b.png
+PicInv=art/New Art/Scenery/Stairs6b.png
 
