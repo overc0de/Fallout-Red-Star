@@ -115,7 +115,13 @@ string@ ProcessTactics( uint crType, uint anim1, uint anim2, uint& pass, uint& f
     // Vehicle
     if( isVehicle )
     {
-        // Todo:
+	    if( isDead )
+		    animName += "Death.spr";
+	    else if( anim2 >= ANIM2_WALK )
+		    animName += "Driving.spr";
+		else if( anim2 >= ANIM2_RUN )
+		    animName += "Driving.spr";
+		else
         animName += "Idle.spr";
         return animName;
     }
