@@ -184,7 +184,7 @@ void InitializeGame()                    // Export
     __ChosenLightFlags      = 0; // LIGHT_* in _defines.fos
 
     // 3d rendering
-    __Enable3dRendering     = false;
+    __Enable3dRendering     = true;
     #   ifdef PLAYERS_3D
     __Enable3dRendering     = true;
     __Animation3dSmoothTime = 150;

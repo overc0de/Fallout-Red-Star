@@ -2750,3 +2750,59 @@ Type=11
 PicMap=art/New Art/Scenery/Stairs6b.png
 PicInv=art/New Art/Scenery/Stairs6b.png
 
+[Proto]
+ProtoId=7230
+Type=11
+PicMap=art/New Art/Scenery/Gruz1.png
+PicInv=art/New Art/Scenery/Gruz1.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7231
+Type=11
+PicMap=art/New Art/Scenery/Gruz2.png
+PicInv=art/New Art/Scenery/Gruz2.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7232
+Type=11
+PicMap=art/New Art/Scenery/Gruz3.png
+PicInv=art/New Art/Scenery/Gruz3.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7233
+Type=11
+PicMap=art/New Art/Scenery/Gruz4.png
+PicInv=art/New Art/Scenery/Gruz4.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7234
+Type=11
+PicMap=art/New Art/Scenery/WarJeep1.png
+PicInv=art/New Art/Scenery/WarJeep1.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7235
+Type=11
+PicMap=art/New Art/Scenery/WarJeep2.png
+PicInv=art/New Art/Scenery/WarJeep2.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7236
+Type=11
+PicMap=art/New Art/Scenery/WarJeep3.png
+PicInv=art/New Art/Scenery/WarJeep3.png
+Corner=4
+Material=1
+
