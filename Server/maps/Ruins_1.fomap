@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             277
-WorkHexY             91
+WorkHexX             402
+WorkHexY             147
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -29754,38 +29754,38 @@ Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              3853
-MapX                 411
-MapY                 148
+MapX                 410
+MapY                 144
 Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              3853
-MapX                 409
-MapY                 150
-Scenery_ToEntire     1
-
-MapObjType           2
-ProtoId              3853
-MapX                 411
-MapY                 152
-Scenery_ToEntire     1
-
-MapObjType           2
-ProtoId              3853
-MapX                 409
+MapX                 408
 MapY                 146
 Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              3853
-MapX                 409
-MapY                 154
+MapX                 410
+MapY                 148
 Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              3853
-MapX                 406
-MapY                 149
+MapX                 408
+MapY                 142
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              3853
+MapX                 408
+MapY                 150
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              3853
+MapX                 405
+MapY                 146
 
 MapObjType           2
 ProtoId              7097
@@ -91819,16 +91819,6 @@ LightDistance        8
 LightIntensity       50
 
 MapObjType           1
-ProtoId              812
-MapX                 291
-MapY                 149
-
-MapObjType           1
-ProtoId              814
-MapX                 291
-MapY                 147
-
-MapObjType           1
 ProtoId              42
 MapX                 293
 MapY                 147
@@ -91917,11 +91907,6 @@ MapObjType           2
 ProtoId              2067
 MapX                 292
 MapY                 146
-
-MapObjType           2
-ProtoId              2067
-MapX                 291
-MapY                 148
 
 MapObjType           2
 ProtoId              2067

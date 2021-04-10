@@ -2806,3 +2806,474 @@ PicInv=art/New Art/Scenery/WarJeep3.png
 Corner=4
 Material=1
 
+[Proto]
+ProtoId=7237
+Type=11
+PicMap=art/New Art/Scenery/pine-full01.png
+PicInv=art/New Art/Scenery/pine-full01.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7238
+Type=11
+PicMap=art/New Art/Scenery/pine-full02.png
+PicInv=art/New Art/Scenery/pine-full02.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7239
+Type=11
+PicMap=art/New Art/Scenery/pine-full03.png
+PicInv=art/New Art/Scenery/pine-full03.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7240
+Type=11
+PicMap=art/New Art/Scenery/pine-full04.png
+PicInv=art/New Art/Scenery/pine-full04.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7241
+Type=11
+PicMap=art/New Art/Scenery/pine-full05.png
+PicInv=art/New Art/Scenery/pine-full05.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7242
+Type=11
+PicMap=art/New Art/Scenery/pine-full06.png
+PicInv=art/New Art/Scenery/pine-full06.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7243
+Type=11
+PicMap=art/New Art/Scenery/pine-full07.png
+PicInv=art/New Art/Scenery/pine-full07.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7244
+Type=11
+PicMap=art/New Art/Scenery/pine-full08.png
+PicInv=art/New Art/Scenery/pine-full08.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7245
+Type=11
+PicMap=art/New Art/Scenery/BTR2.png
+PicInv=art/New Art/Scenery/BTR2.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7246
+Type=11
+PicMap=art/New Art/Scenery/BTR3.png
+PicInv=art/New Art/Scenery/BTR3.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7247
+Type=11
+PicMap=art/New Art/Scenery/BTR4.png
+PicInv=art/New Art/Scenery/BTR4.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7248
+Type=11
+PicMap=art/New Art/Scenery/BTR5.png
+PicInv=art/New Art/Scenery/BTR5.png
+Corner=4
+Material=1
+
+[Proto]
+ProtoId=7249
+Type=11
+PicMap=art/New Art/Scenery/Aurora/Aurora.fofrm
+PicInv=art/New Art/Scenery/Aurora/Aurora.fofrm
+Flags=33599512
+
+[Proto]
+ProtoId=7250
+Type=11
+PicMap=art/New Art/Scenery/Aurora/Aurora2.fofrm
+PicInv=art/New Art/Scenery/Aurora/Aurora2.fofrm
+Flags=33599512
+
+[Proto]
+ProtoId=7251
+Type=11
+PicMap=art/New Art/Scenery/newtree3fruit.png
+PicInv=art/New Art/Scenery/newtree3fruit.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7252
+Type=11
+PicMap=art/New Art/Scenery/newtree4.png
+PicInv=art/New Art/Scenery/newtree4.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7253
+Type=11
+PicMap=art/New Art/Scenery/newtree4fruit.png
+PicInv=art/New Art/Scenery/newtree4fruit.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7254
+Type=11
+PicMap=art/New Art/Scenery/NewTree9.png
+PicInv=art/New Art/Scenery/NewTree9.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7255
+Type=11
+PicMap=art/New Art/Scenery/NewTree14.png
+PicInv=art/New Art/Scenery/NewTree14.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7256
+Type=11
+PicMap=art/New Art/Scenery/newtree21.png
+PicInv=art/New Art/Scenery/newtree21.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7257
+Type=11
+PicMap=art/New Art/Scenery/newtree25.png
+PicInv=art/New Art/Scenery/newtree25.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7258
+Type=11
+PicMap=art/New Art/Scenery/newtree30.png
+PicInv=art/New Art/Scenery/newtree30.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7259
+Type=11
+PicMap=art/New Art/Scenery/NewTree32.png
+PicInv=art/New Art/Scenery/NewTree32.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7260
+Type=11
+PicMap=art/New Art/Scenery/NewTree41.png
+PicInv=art/New Art/Scenery/NewTree41.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7261
+Type=11
+PicMap=art/New Art/Scenery/Hangar.png
+PicInv=art/New Art/Scenery/Hangar.png
+Flags=33587712
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7262
+Type=11
+PicMap=art/New Art/Scenery/Fog/Fog.fofrm
+PicInv=art/New Art/Scenery/Fog/Fog.fofrm
+Flags=33599512
+
+[Proto]
+ProtoId=7263
+Type=11
+PicMap=art/New Art/Scenery/grass1.png
+PicInv=art/New Art/Scenery/grass1.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7264
+Type=11
+PicMap=art/New Art/Scenery/grass2.png
+PicInv=art/New Art/Scenery/grass2.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7265
+Type=11
+PicMap=art/New Art/Scenery/grass3.png
+PicInv=art/New Art/Scenery/grass3.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7266
+Type=11
+PicMap=art/New Art/Scenery/grass4.png
+PicInv=art/New Art/Scenery/grass4.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7267
+Type=11
+PicMap=art/New Art/Scenery/grass5.png
+PicInv=art/New Art/Scenery/grass5.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7268
+Type=11
+PicMap=art/New Art/Scenery/grass6.png
+PicInv=art/New Art/Scenery/grass6.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7269
+Type=11
+PicMap=art/New Art/Scenery/grass7.png
+PicInv=art/New Art/Scenery/grass7 .png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7270
+Type=11
+PicMap=art/New Art/Scenery/grass10.png
+PicInv=art/New Art/Scenery/grass10.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7271
+Type=11
+PicMap=art/New Art/Scenery/grass16.png
+PicInv=art/New Art/Scenery/grass16.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7272
+Type=11
+PicMap=art/New Art/Scenery/grass17.png
+PicInv=art/New Art/Scenery/grass17.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7273
+Type=11
+PicMap=art/New Art/Scenery/grass24.png
+PicInv=art/New Art/Scenery/grass24.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7274
+Type=11
+PicMap=art/New Art/Scenery/grass25.png
+PicInv=art/New Art/Scenery/grass25.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7275
+Type=11
+PicMap=art/New Art/Scenery/grass26.png
+PicInv=art/New Art/Scenery/grass26.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7276
+Type=11
+PicMap=art/New Art/Scenery/grass27.png
+PicInv=art/New Art/Scenery/grass27.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7277
+Type=11
+PicMap=art/New Art/Scenery/grass28.png
+PicInv=art/New Art/Scenery/grass28.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7278
+Type=11
+PicMap=art/New Art/Scenery/grass29.png
+PicInv=art/New Art/Scenery/grass29.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7279
+Type=11
+PicMap=art/New Art/Scenery/grass30.png
+PicInv=art/New Art/Scenery/grass30.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7280
+Type=11
+PicMap=art/New Art/Scenery/grass31.png
+PicInv=art/New Art/Scenery/grass31.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7281
+Type=11
+PicMap=art/New Art/Scenery/grass32.png
+PicInv=art/New Art/Scenery/grass32.png
+Flags=33587720
+Material=3
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
