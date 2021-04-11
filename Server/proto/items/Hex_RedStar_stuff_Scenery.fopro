@@ -3277,3 +3277,270 @@ LightDistance=3
 LightIntensity=5
 LightColor=335553280
 
+[Proto]
+ProtoId=7282
+Type=12
+PicMap=art/New Art/Walls/srb0100.frm
+PicInv=art/New Art/Walls/srb0100.frm
+Material=5
+
+[Proto]
+ProtoId=7283
+Type=12
+PicMap=art/New Art/Walls/srb0101.frm
+PicInv=art/New Art/Walls/srb0101.frm
+Material=5
+
+[Proto]
+ProtoId=7284
+Type=12
+PicMap=art/New Art/Walls/srb0110.frm
+PicInv=art/New Art/Walls/srb0110.frm
+Material=5
+
+[Proto]
+ProtoId=7285
+Type=12
+PicMap=art/New Art/Walls/srb0111.frm
+PicInv=art/New Art/Walls/srb0111.frm
+Flags=28
+Material=5
+
+[Proto]
+ProtoId=7286
+Type=12
+PicMap=art/New Art/Walls/srb0112.frm
+PicInv=art/New Art/Walls/srb0112.frm
+Material=5
+
+[Proto]
+ProtoId=7287
+Type=12
+PicMap=art/New Art/Walls/srb0120.frm
+PicInv=art/New Art/Walls/srb0120.frm
+Material=5
+
+[Proto]
+ProtoId=7288
+Type=12
+PicMap=art/New Art/Walls/srb0121.frm
+PicInv=art/New Art/Walls/srb0121.frm
+Material=5
+
+[Proto]
+ProtoId=7289
+Type=12
+PicMap=art/New Art/Walls/srb0130.frm
+PicInv=art/New Art/Walls/srb0130.frm
+Flags=24
+Material=5
+
+[Proto]
+ProtoId=7290
+Type=12
+PicMap=art/New Art/Walls/srb0140.frm
+PicInv=art/New Art/Walls/srb0140.frm
+Flags=24
+Material=5
+
+[Proto]
+ProtoId=7291
+Type=12
+PicMap=art/New Art/Walls/srb0150.frm
+PicInv=art/New Art/Walls/srb0150.frm
+Material=5
+
+[Proto]
+ProtoId=7292
+Type=12
+PicMap=art/New Art/Walls/srb0151.frm
+PicInv=art/New Art/Walls/srb0151.frm
+Flags=28
+Material=5
+
+[Proto]
+ProtoId=7293
+Type=12
+PicMap=art/New Art/Walls/srb0152.frm
+PicInv=art/New Art/Walls/srb0152.frm
+Material=5
+
+[Proto]
+ProtoId=7294
+Type=12
+PicMap=art/New Art/Walls/srb0160.frm
+PicInv=art/New Art/Walls/srb0160.frm
+Material=5
+
+[Proto]
+ProtoId=7295
+Type=12
+PicMap=art/New Art/Walls/srb0161.frm
+PicInv=art/New Art/Walls/srb0161.frm
+Material=5
+
+[Proto]
+ProtoId=7296
+Type=12
+PicMap=art/New Art/Walls/srb0200.frm
+PicInv=art/New Art/Walls/srb0200.frm
+Material=5
+
+[Proto]
+ProtoId=7297
+Type=12
+PicMap=art/New Art/Walls/srb0210.frm
+PicInv=art/New Art/Walls/srb0210.frm
+Material=5
+
+[Proto]
+ProtoId=7298
+Type=12
+PicMap=art/New Art/Walls/srb0211.frm
+PicInv=art/New Art/Walls/srb0211.frm
+Flags=28
+Material=5
+
+[Proto]
+ProtoId=7299
+Type=12
+PicMap=art/New Art/Walls/srb0220.frm
+PicInv=art/New Art/Walls/srb0220.frm
+Material=5
+
+[Proto]
+ProtoId=7300
+Type=12
+PicMap=art/New Art/Walls/srb0221.frm
+PicInv=art/New Art/Walls/srb0221.frm
+Flags=24
+Material=5
+
+[Proto]
+ProtoId=7301
+Type=12
+PicMap=art/New Art/Walls/srb0230.frm
+PicInv=art/New Art/Walls/srb0230.frm
+Material=5
+
+[Proto]
+ProtoId=7302
+Type=12
+PicMap=art/New Art/Walls/srb0231.frm
+PicInv=art/New Art/Walls/srb0231.frm
+Flags=28
+Material=5
+
+[Proto]
+ProtoId=7303
+Type=12
+PicMap=art/New Art/Walls/srb0240.frm
+PicInv=art/New Art/Walls/srb0240.frm
+Material=5
+
+[Proto]
+ProtoId=7304
+Type=12
+PicMap=art/New Art/Walls/srb0250.frm
+PicInv=art/New Art/Walls/srb0250.frm
+Material=5
+
+[Proto]
+ProtoId=7305
+Type=12
+PicMap=art/New Art/Walls/srb0910.frm
+PicInv=art/New Art/Walls/srb0910.frm
+Material=5
+
+[Proto]
+ProtoId=7306
+Type=12
+PicMap=art/New Art/Walls/srb0911.frm
+PicInv=art/New Art/Walls/srb0911.frm
+Flags=24
+Material=5
+
+[Proto]
+ProtoId=7307
+Type=12
+PicMap=art/New Art/Walls/srb0912.frm
+PicInv=art/New Art/Walls/srb0912.frm
+Material=5
+
+[Proto]
+ProtoId=7308
+Type=12
+PicMap=art/New Art/Walls/srb0920.frm
+PicInv=art/New Art/Walls/srb0920.frm
+Material=5
+
+[Proto]
+ProtoId=7309
+Type=12
+PicMap=art/New Art/Walls/srb0921.frm
+PicInv=art/New Art/Walls/srb0921.frm
+Material=5
+
+[Proto]
+ProtoId=7310
+Type=12
+PicMap=art/New Art/Walls/srb0930.frm
+PicInv=art/New Art/Walls/srb0930.frm
+Material=5
+
+[Proto]
+ProtoId=7311
+Type=12
+PicMap=art/New Art/Walls/srb0931.frm
+PicInv=art/New Art/Walls/srb0931.frm
+Material=5
+
+[Proto]
+ProtoId=7312
+Type=12
+PicMap=art/New Art/Walls/srb0940.frm
+PicInv=art/New Art/Walls/srb0940.frm
+Material=5
+
+[Proto]
+ProtoId=7313
+Type=12
+PicMap=art/New Art/Walls/srb0941.frm
+PicInv=art/New Art/Walls/srb0941.frm
+Material=5
+
+[Proto]
+ProtoId=7314
+Type=12
+PicMap=art/New Art/Walls/srb1000.frm
+PicInv=art/New Art/Walls/srb1000.frm
+Material=5
+
+[Proto]
+ProtoId=7315
+Type=12
+PicMap=art/New Art/Walls/srb1001.frm
+PicInv=art/New Art/Walls/srb1001.frm
+Material=5
+
+[Proto]
+ProtoId=7316
+Type=12
+PicMap=art/New Art/Walls/srb2000.frm
+PicInv=art/New Art/Walls/srb2000.frm
+Material=5
+
+[Proto]
+ProtoId=7317
+Type=12
+PicMap=art/New Art/Walls/srb3000.frm
+PicInv=art/New Art/Walls/srb3000.frm
+Material=5
+
+[Proto]
+ProtoId=7318
+Type=12
+PicMap=art/New Art/Walls/srb4000.frm
+PicInv=art/New Art/Walls/srb4000.frm
+Material=5
+
