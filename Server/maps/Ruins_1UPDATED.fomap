@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             183
-WorkHexY             114
+WorkHexX             321
+WorkHexY             228
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -40280,6 +40280,8 @@ MapX                 323
 MapY                 231
 OffsetX              68
 OffsetY              15
+Scenery_ToMapPid     23
+Scenery_ToEntire     2
 
 MapObjType           2
 ProtoId              7020
@@ -41682,6 +41684,8 @@ MapX                 323
 MapY                 184
 OffsetX              68
 OffsetY              15
+Scenery_ToMapPid     23
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              5616
@@ -55516,21 +55520,6 @@ MapObjType           2
 ProtoId              2067
 MapX                 388
 MapY                 179
-
-MapObjType           2
-ProtoId              2049
-MapX                 390
-MapY                 210
-
-MapObjType           2
-ProtoId              2049
-MapX                 391
-MapY                 211
-
-MapObjType           2
-ProtoId              4020
-MapX                 390
-MapY                 211
 
 MapObjType           2
 ProtoId              6833
@@ -90552,11 +90541,15 @@ MapObjType           2
 ProtoId              4020
 MapX                 275
 MapY                 152
+Scenery_ToMapPid     23
+Scenery_ToEntire     3
 
 MapObjType           2
 ProtoId              2049
 MapX                 276
 MapY                 150
+Scenery_ToMapPid     23
+Scenery_ToEntire     3
 
 MapObjType           2
 ProtoId              7229
@@ -90576,6 +90569,8 @@ MapObjType           2
 ProtoId              2049
 MapX                 228
 MapY                 150
+Scenery_ToMapPid     23
+Scenery_ToEntire     4
 
 MapObjType           2
 ProtoId              5621
@@ -90586,6 +90581,8 @@ MapObjType           2
 ProtoId              4020
 MapX                 227
 MapY                 152
+Scenery_ToMapPid     23
+Scenery_ToEntire     4
 
 MapObjType           2
 ProtoId              5621
@@ -94799,5 +94796,92 @@ ProtoId              3853
 MapX                 190
 MapY                 122
 Scenery_ToEntire     3
+
+MapObjType           2
+ProtoId              2067
+MapX                 324
+MapY                 230
+
+MapObjType           2
+ProtoId              2253
+MapX                 324
+MapY                 229
+
+MapObjType           2
+ProtoId              2067
+MapX                 325
+MapY                 230
+
+MapObjType           2
+ProtoId              3853
+MapX                 324
+MapY                 179
+Scenery_ToEntire     4
+
+MapObjType           2
+ProtoId              3853
+MapX                 326
+MapY                 179
+Scenery_ToEntire     4
+
+MapObjType           2
+ProtoId              3853
+MapX                 325
+MapY                 178
+Scenery_ToEntire     4
+
+MapObjType           2
+ProtoId              3853
+MapX                 326
+MapY                 227
+Scenery_ToEntire     5
+
+MapObjType           2
+ProtoId              3853
+MapX                 324
+MapY                 227
+Scenery_ToEntire     5
+
+MapObjType           2
+ProtoId              3853
+MapX                 325
+MapY                 226
+Scenery_ToEntire     5
+
+MapObjType           2
+ProtoId              3853
+MapX                 276
+MapY                 147
+Scenery_ToEntire     6
+
+MapObjType           2
+ProtoId              3853
+MapX                 275
+MapY                 148
+Scenery_ToEntire     6
+
+MapObjType           2
+ProtoId              3853
+MapX                 276
+MapY                 148
+Scenery_ToEntire     6
+
+MapObjType           2
+ProtoId              3853
+MapX                 227
+MapY                 149
+Scenery_ToEntire     7
+
+MapObjType           2
+ProtoId              3853
+MapX                 228
+MapY                 148
+Scenery_ToEntire     7
+
+MapObjType           2
+ProtoId              3853
+MapX                 227
+MapY                 148
+Scenery_ToEntire     7
 
 

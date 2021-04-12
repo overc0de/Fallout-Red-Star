@@ -3391,6 +3391,7 @@ ProtoId=7297
 Type=12
 PicMap=art/New Art/Walls/srb0210.frm
 PicInv=art/New Art/Walls/srb0210.frm
+Flags=28
 Material=5
 
 [Proto]
@@ -3398,7 +3399,6 @@ ProtoId=7298
 Type=12
 PicMap=art/New Art/Walls/srb0211.frm
 PicInv=art/New Art/Walls/srb0211.frm
-Flags=28
 Material=5
 
 [Proto]
@@ -3543,4 +3543,18 @@ Type=12
 PicMap=art/New Art/Walls/srb4000.frm
 PicInv=art/New Art/Walls/srb4000.frm
 Material=5
+
+[Proto]
+ProtoId=7319
+Type=10
+PicMap=art/New Art/Scenery/Stairs7b.png
+PicInv=art/New Art/Scenery/Stairs7b.png
+Grid_Type=2
+
+[Proto]
+ProtoId=7320
+Type=10
+PicMap=art/New Art/Scenery/Stairs7a.png
+PicInv=art/New Art/Scenery/Stairs7a.png
+Grid_Type=2
 
