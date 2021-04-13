@@ -3558,3 +3558,36 @@ PicMap=art/New Art/Scenery/Stairs7a.png
 PicInv=art/New Art/Scenery/Stairs7a.png
 Grid_Type=2
 
+[Proto]
+ProtoId=7321
+Type=5
+PicMap=art/New Art/Items/Toy11.png
+PicInv=art/New Art/Items/Toy1.png
+Flags=167809038
+Material=7
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7322
+Type=5
+PicMap=art/New Art/Items/Toy22.png
+PicInv=art/New Art/Items/Toy2.png
+Flags=167809038
+Material=7
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7323
+Type=5
+PicMap=art/New Art/Items/Toy33.png
+PicInv=art/New Art/Items/Toy3.png
+Flags=167809038
+Material=7
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
