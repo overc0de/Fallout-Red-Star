@@ -3591,3 +3591,685 @@ LightDistance=3
 LightIntensity=5
 LightColor=335553280
 
+[Proto]
+ProtoId=7324
+Type=8
+PicMap=art/New Art/Scenery/ammobox5.fofrm
+PicInv=art/New Art/Scenery/ammobox5.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7325
+Type=8
+PicMap=art/New Art/Scenery/ammobox6.fofrm
+PicInv=art/New Art/Scenery/ammobox6.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7326
+Type=8
+PicMap=art/New Art/Scenery/bokcas8.fofrm
+PicInv=art/New Art/Scenery/bokcas8.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7327
+Type=8
+PicMap=art/New Art/Scenery/bokcas9.fofrm
+PicInv=art/New Art/Scenery/bokcas9.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7328
+Type=8
+PicMap=art/New Art/Scenery/bokcas10.fofrm
+PicInv=art/New Art/Scenery/bokcas10.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7329
+Type=8
+PicMap=art/New Art/Scenery/bokcas11.fofrm
+PicInv=art/New Art/Scenery/bokcas11.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7330
+Type=8
+PicMap=art/New Art/Scenery/bokcas12.fofrm
+PicInv=art/New Art/Scenery/bokcas12.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7331
+Type=8
+PicMap=art/New Art/Scenery/bokcas13.fofrm
+PicInv=art/New Art/Scenery/bokcas13.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7332
+Type=8
+PicMap=art/New Art/Scenery/bokcas14.fofrm
+PicInv=art/New Art/Scenery/bokcas14.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7333
+Type=8
+PicMap=art/New Art/Scenery/FALOCK.fofrm
+PicInv=art/New Art/Scenery/FALOCK.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7334
+Type=8
+PicMap=art/New Art/Scenery/FALOCK2.fofrm
+PicInv=art/New Art/Scenery/FALOCK2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7335
+Type=8
+PicMap=art/New Art/Scenery/Fridge1.fofrm
+PicInv=art/New Art/Scenery/Fridge1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7336
+Type=8
+PicMap=art/New Art/Scenery/Fridge2.fofrm
+PicInv=art/New Art/Scenery/Fridge2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7337
+Type=8
+PicMap=art/New Art/Scenery/Fridge3.fofrm
+PicInv=art/New Art/Scenery/Fridge3.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7338
+Type=8
+PicMap=art/New Art/Scenery/Fridge4.fofrm
+PicInv=art/New Art/Scenery/Fridge4.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7339
+Type=8
+PicMap=art/New Art/Scenery/locker7.fofrm
+PicInv=art/New Art/Scenery/locker7.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7340
+Type=8
+PicMap=art/New Art/Scenery/locker8.fofrm
+PicInv=art/New Art/Scenery/locker8.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7341
+Type=8
+PicMap=art/New Art/Scenery/mailbox1.fofrm
+PicInv=art/New Art/Scenery/mailbox1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7342
+Type=8
+PicMap=art/New Art/Scenery/mailbox2.fofrm
+PicInv=art/New Art/Scenery/mailbox2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7343
+Type=8
+PicMap=art/New Art/Scenery/walllkr3.fofrm
+PicInv=art/New Art/Scenery/walllkr3.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7344
+Type=8
+PicMap=art/New Art/Scenery/walllkr4.fofrm
+PicInv=art/New Art/Scenery/walllkr4.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7345
+Type=8
+PicMap=art/New Art/Scenery/WALLOCK1.fofrm
+PicInv=art/New Art/Scenery/WALLOCK1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7346
+Type=8
+PicMap=art/New Art/Scenery/WALLOCK2.fofrm
+PicInv=art/New Art/Scenery/WALLOCK2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7347
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Fist.fofrm
+PicInv=art/New Art/Moscow/Moscou_Fist.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7348
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Fist1.fofrm
+PicInv=art/New Art/Moscow/Moscou_Fist1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7349
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Fist2.fofrm
+PicInv=art/New Art/Moscow/Moscou_Fist2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7350
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Kremtower.fofrm
+PicInv=art/New Art/Moscow/Moscou_Kremtower.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7351
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Kremtower_low.fofrm
+PicInv=art/New Art/Moscow/Moscou_Kremtower_low.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7352
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Kremtower_low1.fofrm
+PicInv=art/New Art/Moscow/Moscou_Kremtower_low1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7353
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Kremtower_low2.fofrm
+PicInv=art/New Art/Moscow/Moscou_Kremtower_low2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7354
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Kremtower1.fofrm
+PicInv=art/New Art/Moscow/Moscou_Kremtower1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7355
+Type=11
+PicMap=art/New Art/Moscow/Moscou_left.fofrm
+PicInv=art/New Art/Moscow/Moscou_left.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7356
+Type=11
+PicMap=art/New Art/Moscow/Moscou_left1.fofrm
+PicInv=art/New Art/Moscow/Moscou_left1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7357
+Type=11
+PicMap=art/New Art/Moscow/Moscou_right_down.fofrm
+PicInv=art/New Art/Moscow/Moscou_right_down.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7358
+Type=11
+PicMap=art/New Art/Moscow/Moscou_right_down1.fofrm
+PicInv=art/New Art/Moscow/Moscou_right_down1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7359
+Type=11
+PicMap=art/New Art/Moscow/Moscou_right_down2.fofrm
+PicInv=art/New Art/Moscow/Moscou_right_down2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7360
+Type=11
+PicMap=art/New Art/Moscow/Moscou_StBasil.fofrm
+PicInv=art/New Art/Moscow/Moscou_StBasil.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7361
+Type=11
+PicMap=art/New Art/Moscow/Moscou_StBasil1.fofrm
+PicInv=art/New Art/Moscow/Moscou_StBasil1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7362
+Type=11
+PicMap=art/New Art/Moscow/Moscou_StBasil2.fofrm
+PicInv=art/New Art/Moscow/Moscou_StBasil2.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7363
+Type=11
+PicMap=art/New Art/Moscow/Moscou_StBasil3.fofrm
+PicInv=art/New Art/Moscow/Moscou_StBasil3.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7364
+Type=11
+PicMap=art/New Art/Moscow/Moscou_StBasil4.fofrm
+PicInv=art/New Art/Moscow/Moscou_StBasil4.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7365
+Type=11
+PicMap=art/New Art/Moscow/Moscou_up.fofrm
+PicInv=art/New Art/Moscow/Moscou_up.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7366
+Type=11
+PicMap=art/New Art/Moscow/Moscou_wall_up.fofrm
+PicInv=art/New Art/Moscow/Moscou_wall_up.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7367
+Type=11
+PicMap=art/New Art/Moscow/Moscou_wall_up1.fofrm
+PicInv=art/New Art/Moscow/Moscou_wall_up1.fofrm
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7368
+Type=9
+PicMap=art/New Art/Moscow/Moscou_door.FRM
+PicInv=art/New Art/Moscow/Moscou_door.FRM
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7369
+Type=11
+PicMap=art/New Art/Moscow/Moscou_craterL.png
+PicInv=art/New Art/Moscow/Moscou_craterL.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7370
+Type=11
+PicMap=art/New Art/Moscow/Moscou_craterS.png
+PicInv=art/New Art/Moscow/Moscou_craterS.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7371
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_centerA.png
+PicInv=art/New Art/Moscow/Moscou_Ground_centerA.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7372
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_centerB.png
+PicInv=art/New Art/Moscow/Moscou_Ground_centerB.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7373
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_leftA.png
+PicInv=art/New Art/Moscow/Moscou_Ground_leftA.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7374
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_leftB.png
+PicInv=art/New Art/Moscow/Moscou_Ground_leftB.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7375
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_right_fist.png
+PicInv=art/New Art/Moscow/Moscou_Ground_right_fist.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7376
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_rightA.png
+PicInv=art/New Art/Moscow/Moscou_Ground_rightA.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7377
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_rightB.png
+PicInv=art/New Art/Moscow/Moscou_Ground_rightB.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7378
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_StBasil.png
+PicInv=art/New Art/Moscow/Moscou_Ground_StBasil.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7379
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_upA.png
+PicInv=art/New Art/Moscow/Moscou_Ground_upA.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7380
+Type=11
+PicMap=art/New Art/Moscow/Moscou_Ground_upB.png
+PicInv=art/New Art/Moscow/Moscou_Ground_upB.png
+Flags=167809030
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7381
+Type=11
+PicMap=art/New Art/Scenery/krovat1.FRM
+PicInv=art/New Art/Scenery/krovat1.FRM
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7382
+Type=11
+PicMap=art/New Art/Scenery/krovat2.FRM
+PicInv=art/New Art/Scenery/krovat2.FRM
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7383
+Type=11
+PicMap=art/New Art/Scenery/krovat3.FRM
+PicInv=art/New Art/Scenery/krovat3.FRM
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7384
+Type=11
+PicMap=art/New Art/Scenery/krovat4.FRM
+PicInv=art/New Art/Scenery/krovat4.FRM
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7385
+Type=11
+PicMap=art/New Art/Scenery/cigsvending.png
+PicInv=art/New Art/Scenery/cigsvending.png
+Flags=167809032
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+

@@ -1,0 +1,11 @@
+fps=0
+count=4
+
+offs_x=-7
+offs_y=7
+
+[dir_0]
+frm_0=LOCKER\locker8_1.png
+frm_1=LOCKER\locker8_2.png
+frm_2=LOCKER\locker8_3.png
+frm_3=LOCKER\locker8_4.png

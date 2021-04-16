@@ -1,0 +1,10 @@
+fps=0
+count=3
+
+offs_x=-24
+offs_y=15
+
+[dir_0]
+frm_0=LOCKER\walllkr4_1.png
+frm_1=LOCKER\walllkr4_2.png
+frm_2=LOCKER\walllkr4_3.png

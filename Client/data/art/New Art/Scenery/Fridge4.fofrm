@@ -1,0 +1,10 @@
+fps=0
+count=3
+
+offs_x=7
+offs_y=10
+
+[dir_0]
+frm_0=LOCKER\fridge4_1.png
+frm_1=LOCKER\fridge4_2.png
+frm_2=LOCKER\fridge4_3.png

@@ -1,0 +1,13 @@
+fps=0
+count=6
+
+offs_x=-1
+offs_y=12
+
+[dir_0]
+frm_0=LOCKER\ammobox5_1.png
+frm_1=LOCKER\ammobox5_2.png
+frm_2=LOCKER\ammobox5_3.png
+frm_3=LOCKER\ammobox5_4.png
+frm_4=LOCKER\ammobox5_5.png
+frm_5=LOCKER\ammobox5_6.png

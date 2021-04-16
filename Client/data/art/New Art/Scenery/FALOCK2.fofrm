@@ -1,0 +1,10 @@
+fps=0
+count=3
+
+offs_x=-16
+offs_y=-27
+
+[dir_0]
+frm_0=LOCKER\FALOCK2_1.png
+frm_1=LOCKER\FALOCK2_2.png
+frm_2=LOCKER\FALOCK2_3.png
