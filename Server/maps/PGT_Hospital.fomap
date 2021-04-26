@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             325
-WorkHexY             155
+WorkHexX             226
+WorkHexY             111
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -968,43 +968,24 @@ tile       300  70             art\tiles\DifSnow (58).FRM
 tile       302  70             art\tiles\DifSnow (54).FRM
 tile       304  70             art\tiles\DifSnow (57).FRM
 tile       306  70             art\tiles\DifSnow (50).FRM
-roof       306  70             art\tiles\WROOF15.FRM
 tile       308  70             art\tiles\DifSnow (49).FRM
-roof       308  70             art\tiles\WROOF03.FRM
 tile       310  70             art\tiles\DifSnow (88).FRM
-roof       310  70             art\tiles\WROOF03.FRM
 tile       312  70             art\tiles\DifSnow (81).FRM
-roof       312  70             art\tiles\WROOF03.FRM
 tile       314  70             art\tiles\DifSnow (65).FRM
-roof       314  70             art\tiles\WROOF03.FRM
 tile       316  70             art\tiles\DifSnow (57).FRM
-roof       316  70             art\tiles\WROOF03.FRM
 tile       318  70             art\tiles\DifSnow (51).FRM
-roof       318  70             art\tiles\WROOF03.FRM
 tile       320  70             art\tiles\DifSnow (65).FRM
-roof       320  70             art\tiles\WROOF02.FRM
 tile       322  70             art\tiles\DifSnow (90).FRM
-roof       322  70             art\tiles\WROOF02.FRM
 tile       324  70             art\tiles\DifSnow (67).FRM
-roof       324  70             art\tiles\WROOF03.FRM
 tile       326  70             art\tiles\DifSnow (62).FRM
-roof       326  70             art\tiles\WROOF02.FRM
 tile       328  70             art\tiles\DifSnow (61).FRM
-roof       328  70             art\tiles\WROOF03.FRM
 tile       330  70             art\tiles\DifSnow (83).FRM
-roof       330  70             art\tiles\WROOF03.FRM
 tile       332  70             art\tiles\DifSnow (53).FRM
-roof       332  70             art\tiles\WROOF03.FRM
 tile       334  70             art\tiles\DifSnow (66).FRM
-roof       334  70             art\tiles\WROOF03.FRM
 tile       336  70             art\tiles\DifSnow (79).FRM
-roof       336  70             art\tiles\WROOF02.FRM
 tile       338  70             art\tiles\DifSnow (85).FRM
-roof       338  70             art\tiles\WROOF02.FRM
 tile       340  70             art\tiles\DifSnow (78).FRM
-roof       340  70             art\tiles\WROOF02.FRM
 tile       342  70             art\tiles\DifSnow (77).FRM
-roof       342  70             art\tiles\WROOF02.FRM
 tile       344  70             art\tiles\DifSnow (76).FRM
 tile       346  70             art\tiles\DifSnow (56).FRM
 tile       348  70             art\tiles\DifSnow (46).FRM
@@ -1061,45 +1042,25 @@ tile       300  72             art\tiles\DifSnow (62).FRM
 tile       302  72             art\tiles\DifSnow (61).FRM
 tile       304  72             art\tiles\DifSnow (58).FRM
 tile       306  72             art\tiles\DifSnow (53).FRM
-roof       306  72             art\tiles\WROOF05.FRM
 tile       308  72             art\tiles\DifSnow (52).FRM
-roof       308  72             art\tiles\WROOF08.FRM
 tile       310  72             art\tiles\DifSnow (89).FRM
-roof       310  72             art\tiles\WROOF08.FRM
 tile       312  72             art\tiles\DifSnow (82).FRM
-roof       312  72             art\tiles\WROOF08.FRM
 tile       314  72             art\tiles\DifSnow (66).FRM
-roof       314  72             art\tiles\WROOF08.FRM
 tile       316  72             art\tiles\DifSnow (58).FRM
-roof       316  72             art\tiles\WROOF08.FRM
 tile       318  72             art\tiles\DifSnow (54).FRM
-roof       318  72             art\tiles\WROOF08.FRM
 tile       320  72             art\tiles\DifSnow (66).FRM
-roof       320  72             art\tiles\WROOF08.FRM
 tile       322  72             art\tiles\DifSnow (77).FRM
-roof       322  72             art\tiles\WROOF08.FRM
 tile       324  72             art\tiles\DifSnow (73).FRM
-roof       324  72             art\tiles\WROOF08.FRM
 tile       326  72             art\tiles\DifSnow (72).FRM
-roof       326  72             art\tiles\WROOF08.FRM
 tile       328  72             art\tiles\DifSnow (71).FRM
-roof       328  72             art\tiles\WROOF08.FRM
 tile       330  72             art\tiles\DifSnow (84).FRM
-roof       330  72             art\tiles\WROOF08.FRM
 tile       332  72             art\tiles\DifSnow (60).FRM
-roof       332  72             art\tiles\WROOF08.FRM
 tile       334  72             art\tiles\DifSnow (67).FRM
-roof       334  72             art\tiles\WROOF08.FRM
 tile       336  72             art\tiles\DifSnow (86).FRM
-roof       336  72             art\tiles\WROOF08.FRM
 tile       338  72             art\tiles\DifSnow (79).FRM
-roof       338  72             art\tiles\WROOF08.FRM
 tile       340  72             art\tiles\DifSnow (63).FRM
-roof       340  72             art\tiles\WROOF08.FRM
 tile       342  72             art\tiles\DifSnow (55).FRM
-roof       342  72             art\tiles\WROOF08.FRM
 tile       344  72             art\tiles\DifSnow (47).FRM
-roof       344  72             art\tiles\Chruschovka 79.png
 tile       346  72             art\tiles\DifSnow (57).FRM
 tile       348  72             art\tiles\DifSnow (50).FRM
 tile       350  72             art\tiles\DifSnow (49).FRM
@@ -1157,47 +1118,26 @@ tile       300  74             art\tiles\DifSnow (72).FRM
 tile       302  74             art\tiles\DifSnow (71).FRM
 tile       304  74             art\tiles\DifSnow (62).FRM
 tile       306  74             art\tiles\DifSnow (60).FRM
-roof       306  74             art\tiles\WROOF05.FRM
 tile       308  74             art\tiles\DifSnow (59).FRM
-roof       308  74             art\tiles\WROOF08.FRM
 tile       310  74             art\tiles\DifSnow (90).FRM
-roof       310  74             art\tiles\WROOF08.FRM
 tile       312  74             art\tiles\DifSnow (83).FRM
-roof       312  74             art\tiles\WROOF08.FRM
 tile       314  74             art\tiles\DifSnow (67).FRM
-roof       314  74             art\tiles\WROOF08.FRM
 tile       316  74             art\tiles\DifSnow (62).FRM
-roof       316  74             art\tiles\WROOF08.FRM
 tile       318  74             art\tiles\DifSnow (61).FRM
-roof       318  74             art\tiles\WROOF08.FRM
 tile       320  74             art\tiles\DifSnow (67).FRM
-roof       320  74             art\tiles\WROOF08.FRM
 tile       322  74             art\tiles\DifSnow (79).FRM
-roof       322  74             art\tiles\WROOF08.FRM
 tile       324  74             art\tiles\DifSnow (78).FRM
-roof       324  74             art\tiles\WROOF08.FRM
 tile       326  74             art\tiles\DifSnow (77).FRM
-roof       326  74             art\tiles\WROOF08.FRM
 tile       328  74             art\tiles\DifSnow (76).FRM
-roof       328  74             art\tiles\WROOF08.FRM
 tile       330  74             art\tiles\DifSnow (85).FRM
-roof       330  74             art\tiles\WROOF08.FRM
 tile       332  74             art\tiles\DifSnow (75).FRM
-roof       332  74             art\tiles\WROOF08.FRM
 tile       334  74             art\tiles\DifSnow (73).FRM
-roof       334  74             art\tiles\WROOF08.FRM
 tile       336  74             art\tiles\DifSnow (87).FRM
-roof       336  74             art\tiles\WROOF08.FRM
 tile       338  74             art\tiles\DifSnow (88).FRM
-roof       338  74             art\tiles\WROOF08.FRM
 tile       340  74             art\tiles\DifSnow (65).FRM
-roof       340  74             art\tiles\WROOF08.FRM
 tile       342  74             art\tiles\DifSnow (57).FRM
-roof       342  74             art\tiles\WROOF08.FRM
 tile       344  74             art\tiles\DifSnow (51).FRM
-roof       344  74             art\tiles\Chruschovka78.png
 tile       346  74             art\tiles\DifSnow (58).FRM
-roof       346  74             art\tiles\Chruschovka77.png
 tile       348  74             art\tiles\DifSnow (53).FRM
 tile       350  74             art\tiles\DifSnow (52).FRM
 tile       352  74             art\tiles\DifSnow (89).FRM
@@ -1257,47 +1197,45 @@ tile       300  76             art\tiles\DifSnow (77).FRM
 tile       302  76             art\tiles\DifSnow (76).FRM
 tile       304  76             art\tiles\DifSnow (72).FRM
 tile       306  76             art\tiles\DifSnow (70).FRM
-roof       306  76             art\tiles\WROOF05.FRM
 tile       308  76             art\tiles\DifSnow (68).FRM
-roof       308  76             art\tiles\WROOF08.FRM
 tile       310  76             art\tiles\DifSnow (77).FRM
-roof       310  76             art\tiles\WROOF08.FRM
+roof       310  76             art\tiles\WROOF15.FRM
 tile       312  76             art\tiles\DifSnow (84).FRM
-roof       312  76             art\tiles\WROOF08.FRM
+roof       312  76             art\tiles\WROOF03.FRM
 tile       314  76             art\tiles\DifSnow (73).FRM
-roof       314  76             art\tiles\WROOF08.FRM
+roof       314  76             art\tiles\WROOF03.FRM
 tile       316  76             art\tiles\DifSnow (72).FRM
-roof       316  76             art\tiles\WROOF08.FRM
+roof       316  76             art\tiles\WROOF03.FRM
 tile       318  76             art\tiles\DifSnow (71).FRM
-roof       318  76             art\tiles\WROOF08.FRM
+roof       318  76             art\tiles\WROOF03.FRM
 tile       320  76             art\tiles\DifSnow (73).FRM
-roof       320  76             art\tiles\WROOF08.FRM
+roof       320  76             art\tiles\WROOF03.FRM
 tile       322  76             art\tiles\DifSnow (43).FRM
-roof       322  76             art\tiles\WROOF08.FRM
+roof       322  76             art\tiles\WROOF03.FRM
 tile       324  76             art\tiles\DifSnow (86).FRM
-roof       324  76             art\tiles\WROOF08.FRM
+roof       324  76             art\tiles\WROOF02.FRM
 tile       326  76             art\tiles\DifSnow (79).FRM
-roof       326  76             art\tiles\WROOF08.FRM
+roof       326  76             art\tiles\WROOF02.FRM
 tile       328  76             art\tiles\DifSnow (63).FRM
-roof       328  76             art\tiles\WROOF08.FRM
+roof       328  76             art\tiles\WROOF03.FRM
 tile       330  76             art\tiles\DifSnow (55).FRM
-roof       330  76             art\tiles\WROOF08.FRM
+roof       330  76             art\tiles\WROOF02.FRM
 tile       332  76             art\tiles\DifSnow (44).FRM
-roof       332  76             art\tiles\WROOF08.FRM
+roof       332  76             art\tiles\WROOF03.FRM
 tile       334  76             art\tiles\DifSnow (78).FRM
-roof       334  76             art\tiles\WROOF08.FRM
+roof       334  76             art\tiles\WROOF03.FRM
 tile       336  76             art\tiles\DifSnow (88).FRM
-roof       336  76             art\tiles\WROOF08.FRM
+roof       336  76             art\tiles\WROOF03.FRM
 tile       338  76             art\tiles\DifSnow (89).FRM
-roof       338  76             art\tiles\WROOF08.FRM
+roof       338  76             art\tiles\WROOF03.FRM
 tile       340  76             art\tiles\DifSnow (66).FRM
-roof       340  76             art\tiles\WROOF08.FRM
+roof       340  76             art\tiles\WROOF02.FRM
 tile       342  76             art\tiles\DifSnow (58).FRM
-roof       342  76             art\tiles\WROOF08.FRM
+roof       342  76             art\tiles\WROOF02.FRM
 tile       344  76             art\tiles\DifSnow (54).FRM
-roof       344  76             art\tiles\Chruschovka68.png
+roof       344  76             art\tiles\WROOF02.FRM
 tile       346  76             art\tiles\DifSnow (57).FRM
-roof       346  76             art\tiles\Chruschovka75.png
+roof       346  76             art\tiles\WROOF02.FRM
 tile       348  76             art\tiles\DifSnow (50).FRM
 tile       350  76             art\tiles\DifSnow (49).FRM
 tile       352  76             art\tiles\DifSnow (88).FRM
@@ -1360,11 +1298,9 @@ tile       300  78             art\tiles\DifSnow (64).FRM
 tile       302  78             art\tiles\DifSnow (56).FRM
 tile       304  78             art\tiles\DifSnow (77).FRM
 tile       306  78             art\tiles\DifSnow (75).FRM
-roof       306  78             art\tiles\WROOF05.FRM
 tile       308  78             art\tiles\DifSnow (74).FRM
-roof       308  78             art\tiles\WROOF08.FRM
 tile       310  78             art\tiles\DifSnow (79).FRM
-roof       310  78             art\tiles\WROOF08.FRM
+roof       310  78             art\tiles\WROOF05.FRM
 tile       312  78             art\tiles\DifSnow (85).FRM
 roof       312  78             art\tiles\WROOF08.FRM
 tile       314  78             art\tiles\DifSnow (78).FRM
@@ -1398,9 +1334,9 @@ roof       340  78             art\tiles\WROOF08.FRM
 tile       342  78             art\tiles\DifSnow (62).FRM
 roof       342  78             art\tiles\WROOF08.FRM
 tile       344  78             art\tiles\DifSnow (61).FRM
-roof       344  78             art\tiles\Chruschovka66.png
+roof       344  78             art\tiles\WROOF08.FRM
 tile       346  78             art\tiles\DifSnow (58).FRM
-roof       346  78             art\tiles\Chruschovka65.png
+roof       346  78             art\tiles\WROOF08.FRM
 tile       348  78             art\tiles\DifSnow (53).FRM
 roof       348  78             art\tiles\Chruschovka 79.png
 tile       350  78             art\tiles\DifSnow (52).FRM
@@ -1466,11 +1402,9 @@ tile       300  80             art\tiles\DifSnow (65).FRM
 tile       302  80             art\tiles\DifSnow (57).FRM
 tile       304  80             art\tiles\DifSnow (55).FRM
 tile       306  80             art\tiles\DifSnow (44).FRM
-roof       306  80             art\tiles\WROOF05.FRM
 tile       308  80             art\tiles\DifSnow (43).FRM
-roof       308  80             art\tiles\WROOF08.FRM
 tile       310  80             art\tiles\DifSnow (86).FRM
-roof       310  80             art\tiles\WROOF08.FRM
+roof       310  80             art\tiles\WROOF05.FRM
 tile       312  80             art\tiles\DifSnow (79).FRM
 roof       312  80             art\tiles\WROOF08.FRM
 tile       314  80             art\tiles\DifSnow (63).FRM
@@ -1504,9 +1438,9 @@ roof       340  80             art\tiles\WROOF08.FRM
 tile       342  80             art\tiles\DifSnow (72).FRM
 roof       342  80             art\tiles\WROOF08.FRM
 tile       344  80             art\tiles\DifSnow (71).FRM
-roof       344  80             art\tiles\Chruschovka64.png
+roof       344  80             art\tiles\WROOF08.FRM
 tile       346  80             art\tiles\DifSnow (62).FRM
-roof       346  80             art\tiles\Chruschovka63.png
+roof       346  80             art\tiles\WROOF08.FRM
 tile       348  80             art\tiles\DifSnow (60).FRM
 roof       348  80             art\tiles\Chruschovka78.png
 tile       350  80             art\tiles\DifSnow (59).FRM
@@ -1549,66 +1483,36 @@ tile       246  82             art\tiles\DifSnow (82).FRM
 tile       248  82             art\tiles\DifSnow (66).FRM
 tile       250  82             art\tiles\DifSnow (58).FRM
 tile       252  82             art\tiles\DifSnow (56).FRM
-roof       252  82             art\tiles\WROOF15.FRM
 tile       254  82             art\tiles\DifSnow (46).FRM
-roof       254  82             art\tiles\WROOF03.FRM
 tile       256  82             art\tiles\DifSnow (45).FRM
-roof       256  82             art\tiles\WROOF03.FRM
 tile       258  82             art\tiles\DifSnow (87).FRM
-roof       258  82             art\tiles\WROOF03.FRM
 tile       260  82             art\tiles\DifSnow (80).FRM
-roof       260  82             art\tiles\WROOF03.FRM
 tile       262  82             art\tiles\DifSnow (64).FRM
-roof       262  82             art\tiles\WROOF03.FRM
 tile       264  82             art\tiles\DifSnow (56).FRM
-roof       264  82             art\tiles\WROOF02.FRM
 tile       266  82             art\tiles\DifSnow (48).FRM
-roof       266  82             art\tiles\WROOF02.FRM
 tile       268  82             art\tiles\DifSnow (64).FRM
-roof       268  82             art\tiles\WROOF03.FRM
 tile       270  82             art\tiles\DifSnow (90).FRM
-roof       270  82             art\tiles\WROOF02.FRM
 tile       272  82             art\tiles\DifSnow (83).FRM
-roof       272  82             art\tiles\WROOF03.FRM
 tile       274  82             art\tiles\DifSnow (67).FRM
-roof       274  82             art\tiles\WROOF03.FRM
 tile       276  82             art\tiles\DifSnow (62).FRM
-roof       276  82             art\tiles\WROOF03.FRM
 tile       278  82             art\tiles\DifSnow (61).FRM
-roof       278  82             art\tiles\WROOF03.FRM
 tile       280  82             art\tiles\DifSnow (53).FRM
-roof       280  82             art\tiles\WROOF03.FRM
 tile       282  82             art\tiles\DifSnow (52).FRM
-roof       282  82             art\tiles\WROOF02.FRM
 tile       284  82             art\tiles\DifSnow (89).FRM
-roof       284  82             art\tiles\WROOF02.FRM
 tile       286  82             art\tiles\DifSnow (82).FRM
-roof       286  82             art\tiles\WROOF03.FRM
 tile       288  82             art\tiles\DifSnow (66).FRM
-roof       288  82             art\tiles\WROOF02.FRM
 tile       290  82             art\tiles\DifSnow (58).FRM
-roof       290  82             art\tiles\WROOF03.FRM
 tile       292  82             art\tiles\DifSnow (66).FRM
-roof       292  82             art\tiles\WROOF03.FRM
 tile       294  82             art\tiles\DifSnow (58).FRM
-roof       294  82             art\tiles\WROOF03.FRM
 tile       296  82             art\tiles\DifSnow (54).FRM
-roof       296  82             art\tiles\WROOF03.FRM
 tile       298  82             art\tiles\DifSnow (82).FRM
-roof       298  82             art\tiles\WROOF03.FRM
 tile       300  82             art\tiles\DifSnow (66).FRM
-roof       300  82             art\tiles\WROOF02.FRM
 tile       302  82             art\tiles\DifSnow (58).FRM
-roof       302  82             art\tiles\WROOF02.FRM
 tile       304  82             art\tiles\DifSnow (56).FRM
-roof       304  82             art\tiles\WROOF03.FRM
 tile       306  82             art\tiles\DifSnow (46).FRM
-roof_l     306  82           1 art\tiles\WROOF05.FRM
-roof       306  82             art\tiles\ROOFCNR.FRM
 tile       308  82             art\tiles\DifSnow (45).FRM
-roof       308  82             art\tiles\WROOF08.FRM
 tile       310  82             art\tiles\DifSnow (87).FRM
-roof       310  82             art\tiles\WROOF08.FRM
+roof       310  82             art\tiles\WROOF05.FRM
 tile       312  82             art\tiles\DifSnow (80).FRM
 roof       312  82             art\tiles\WROOF08.FRM
 tile       314  82             art\tiles\DifSnow (64).FRM
@@ -1642,60 +1546,36 @@ roof       340  82             art\tiles\WROOF08.FRM
 tile       342  82             art\tiles\DifSnow (77).FRM
 roof       342  82             art\tiles\WROOF08.FRM
 tile       344  82             art\tiles\DifSnow (76).FRM
-roof       344  82             art\tiles\Chruschovka70.png
+roof       344  82             art\tiles\WROOF08.FRM
 tile       346  82             art\tiles\DifSnow (72).FRM
-roof       346  82             art\tiles\Chruschovka69.png
+roof       346  82             art\tiles\WROOF08.FRM
 tile       348  82             art\tiles\DifSnow (70).FRM
 roof       348  82             art\tiles\Chruschovka68.png
 tile       350  82             art\tiles\DifSnow (68).FRM
-roof       350  82             art\tiles\WROOF02.FRM
-roof_l     350  82           1 art\tiles\Chruschovka75.png
+roof       350  82             art\tiles\Chruschovka75.png
 tile       352  82             art\tiles\DifSnow (77).FRM
-roof       352  82             art\tiles\WROOF02.FRM
 tile       354  82             art\tiles\DifSnow (84).FRM
-roof       354  82             art\tiles\WROOF03.FRM
 tile       356  82             art\tiles\DifSnow (73).FRM
-roof       356  82             art\tiles\WROOF02.FRM
 tile       358  82             art\tiles\DifSnow (72).FRM
-roof       358  82             art\tiles\WROOF03.FRM
 tile       360  82             art\tiles\DifSnow (71).FRM
-roof       360  82             art\tiles\WROOF03.FRM
 tile       362  82             art\tiles\DifSnow (73).FRM
-roof       362  82             art\tiles\WROOF03.FRM
 tile       364  82             art\tiles\DifSnow (43).FRM
-roof       364  82             art\tiles\WROOF03.FRM
 tile       366  82             art\tiles\DifSnow (86).FRM
-roof       366  82             art\tiles\WROOF03.FRM
 tile       368  82             art\tiles\DifSnow (79).FRM
-roof       368  82             art\tiles\WROOF02.FRM
 tile       370  82             art\tiles\DifSnow (63).FRM
-roof       370  82             art\tiles\WROOF02.FRM
 tile       372  82             art\tiles\DifSnow (55).FRM
-roof       372  82             art\tiles\WROOF03.FRM
 tile       374  82             art\tiles\DifSnow (44).FRM
-roof       374  82             art\tiles\WROOF02.FRM
 tile       376  82             art\tiles\DifSnow (43).FRM
-roof       376  82             art\tiles\WROOF03.FRM
 tile       378  82             art\tiles\DifSnow (86).FRM
-roof       378  82             art\tiles\WROOF03.FRM
 tile       380  82             art\tiles\DifSnow (79).FRM
-roof       380  82             art\tiles\WROOF03.FRM
 tile       382  82             art\tiles\DifSnow (63).FRM
-roof       382  82             art\tiles\WROOF03.FRM
 tile       384  82             art\tiles\DifSnow (55).FRM
-roof       384  82             art\tiles\WROOF03.FRM
 tile       386  82             art\tiles\DifSnow (79).FRM
-roof       386  82             art\tiles\WROOF02.FRM
 tile       388  82             art\tiles\DifSnow (63).FRM
-roof       388  82             art\tiles\WROOF02.FRM
 tile       390  82             art\tiles\DifSnow (55).FRM
-roof       390  82             art\tiles\WROOF03.FRM
 tile       392  82             art\tiles\DifSnow (47).FRM
-roof       392  82             art\tiles\WROOF02.FRM
 tile       394  82             art\tiles\DifSnow (57).FRM
-roof       394  82             art\tiles\WROOF02.FRM
 tile       396  82             art\tiles\DifSnow (50).FRM
-roof       396  82             art\tiles\WROOF02.FRM
 tile       398  82             art\tiles\DifSnow (49).FRM
 roof       398  82             art\tiles\WROOF01.FRM
 tile       400  82             art\tiles\DifSnow (88).FRM
@@ -1715,66 +1595,36 @@ tile       246  84             art\tiles\DifSnow (83).FRM
 tile       248  84             art\tiles\DifSnow (67).FRM
 tile       250  84             art\tiles\DifSnow (88).FRM
 tile       252  84             art\tiles\DifSnow (57).FRM
-roof       252  84             art\tiles\WROOF05.FRM
 tile       254  84             art\tiles\DifSnow (50).FRM
-roof       254  84             art\tiles\WROOF08.FRM
 tile       256  84             art\tiles\DifSnow (49).FRM
-roof       256  84             art\tiles\WROOF08.FRM
 tile       258  84             art\tiles\DifSnow (88).FRM
-roof       258  84             art\tiles\WROOF08.FRM
 tile       260  84             art\tiles\DifSnow (81).FRM
-roof       260  84             art\tiles\WROOF08.FRM
 tile       262  84             art\tiles\DifSnow (65).FRM
-roof       262  84             art\tiles\WROOF08.FRM
 tile       264  84             art\tiles\DifSnow (57).FRM
-roof       264  84             art\tiles\WROOF08.FRM
 tile       266  84             art\tiles\DifSnow (51).FRM
-roof       266  84             art\tiles\WROOF08.FRM
 tile       268  84             art\tiles\DifSnow (65).FRM
-roof       268  84             art\tiles\WROOF08.FRM
 tile       270  84             art\tiles\DifSnow (77).FRM
-roof       270  84             art\tiles\WROOF08.FRM
 tile       272  84             art\tiles\DifSnow (84).FRM
-roof       272  84             art\tiles\WROOF08.FRM
 tile       274  84             art\tiles\DifSnow (73).FRM
-roof       274  84             art\tiles\WROOF08.FRM
 tile       276  84             art\tiles\DifSnow (72).FRM
-roof       276  84             art\tiles\WROOF08.FRM
 tile       278  84             art\tiles\DifSnow (71).FRM
-roof       278  84             art\tiles\WROOF08.FRM
 tile       280  84             art\tiles\DifSnow (50).FRM
-roof       280  84             art\tiles\WROOF08.FRM
 tile       282  84             art\tiles\DifSnow (49).FRM
-roof       282  84             art\tiles\WROOF08.FRM
 tile       284  84             art\tiles\DifSnow (88).FRM
-roof       284  84             art\tiles\WROOF08.FRM
 tile       286  84             art\tiles\DifSnow (81).FRM
-roof       286  84             art\tiles\WROOF08.FRM
 tile       288  84             art\tiles\DifSnow (65).FRM
-roof       288  84             art\tiles\WROOF08.FRM
 tile       290  84             art\tiles\DifSnow (57).FRM
-roof       290  84             art\tiles\WROOF08.FRM
 tile       292  84             art\tiles\DifSnow (67).FRM
-roof       292  84             art\tiles\WROOF08.FRM
 tile       294  84             art\tiles\DifSnow (62).FRM
-roof       294  84             art\tiles\WROOF08.FRM
 tile       296  84             art\tiles\DifSnow (61).FRM
-roof       296  84             art\tiles\WROOF08.FRM
 tile       298  84             art\tiles\DifSnow (83).FRM
-roof       298  84             art\tiles\WROOF08.FRM
 tile       300  84             art\tiles\DifSnow (67).FRM
-roof       300  84             art\tiles\WROOF08.FRM
 tile       302  84             art\tiles\DifSnow (88).FRM
-roof       302  84             art\tiles\WROOF08.FRM
 tile       304  84             art\tiles\DifSnow (57).FRM
-roof       304  84             art\tiles\WROOF08.FRM
 tile       306  84             art\tiles\DifSnow (50).FRM
-roof       306  84             art\tiles\WROOF08.FRM
-roof_l     306  84           1 art\tiles\WROOF05.FRM
 tile       308  84             art\tiles\DifSnow (49).FRM
-roof       308  84             art\tiles\WROOF08.FRM
 tile       310  84             art\tiles\DifSnow (88).FRM
-roof       310  84             art\tiles\WROOF08.FRM
+roof       310  84             art\tiles\WROOF05.FRM
 tile       312  84             art\tiles\DifSnow (81).FRM
 roof       312  84             art\tiles\WROOF08.FRM
 tile       314  84             art\tiles\DifSnow (65).FRM
@@ -1808,63 +1658,39 @@ roof       340  84             art\tiles\WROOF08.FRM
 tile       342  84             art\tiles\DifSnow (64).FRM
 roof       342  84             art\tiles\WROOF08.FRM
 tile       344  84             art\tiles\DifSnow (56).FRM
-roof       344  84             art\tiles\Chruschovka66.png
+roof       344  84             art\tiles\WROOF08.FRM
 tile       346  84             art\tiles\DifSnow (77).FRM
-roof       346  84             art\tiles\Chruschovka65.png
+roof       346  84             art\tiles\WROOF08.FRM
 tile       348  84             art\tiles\DifSnow (75).FRM
 roof       348  84             art\tiles\Chruschovka66.png
 tile       350  84             art\tiles\DifSnow (74).FRM
 roof       350  84             art\tiles\Chruschovka65.png
 tile       352  84             art\tiles\DifSnow (79).FRM
-roof       352  84             art\tiles\WROOF08.FRM
+roof       352  84             art\tiles\Chruschovka 79.png
 tile       354  84             art\tiles\DifSnow (85).FRM
-roof       354  84             art\tiles\WROOF08.FRM
 tile       356  84             art\tiles\DifSnow (78).FRM
-roof       356  84             art\tiles\WROOF08.FRM
 tile       358  84             art\tiles\DifSnow (77).FRM
-roof       358  84             art\tiles\WROOF08.FRM
 tile       360  84             art\tiles\DifSnow (76).FRM
-roof       360  84             art\tiles\WROOF08.FRM
 tile       362  84             art\tiles\DifSnow (78).FRM
-roof       362  84             art\tiles\WROOF08.FRM
 tile       364  84             art\tiles\DifSnow (88).FRM
-roof       364  84             art\tiles\WROOF08.FRM
 tile       366  84             art\tiles\DifSnow (81).FRM
-roof       366  84             art\tiles\WROOF08.FRM
 tile       368  84             art\tiles\DifSnow (65).FRM
-roof       368  84             art\tiles\WROOF08.FRM
 tile       370  84             art\tiles\DifSnow (57).FRM
-roof       370  84             art\tiles\WROOF08.FRM
 tile       372  84             art\tiles\DifSnow (51).FRM
-roof       372  84             art\tiles\WROOF08.FRM
 tile       374  84             art\tiles\DifSnow (46).FRM
-roof       374  84             art\tiles\WROOF08.FRM
 tile       376  84             art\tiles\DifSnow (45).FRM
-roof       376  84             art\tiles\WROOF08.FRM
 tile       378  84             art\tiles\DifSnow (87).FRM
-roof       378  84             art\tiles\WROOF08.FRM
 tile       380  84             art\tiles\DifSnow (80).FRM
-roof       380  84             art\tiles\WROOF08.FRM
 tile       382  84             art\tiles\DifSnow (64).FRM
-roof       382  84             art\tiles\WROOF08.FRM
 tile       384  84             art\tiles\DifSnow (56).FRM
-roof       384  84             art\tiles\WROOF08.FRM
 tile       386  84             art\tiles\DifSnow (88).FRM
-roof       386  84             art\tiles\WROOF08.FRM
 tile       388  84             art\tiles\DifSnow (65).FRM
-roof       388  84             art\tiles\WROOF08.FRM
 tile       390  84             art\tiles\DifSnow (57).FRM
-roof       390  84             art\tiles\WROOF08.FRM
 tile       392  84             art\tiles\DifSnow (51).FRM
-roof       392  84             art\tiles\WROOF08.FRM
 tile       394  84             art\tiles\DifSnow (58).FRM
-roof       394  84             art\tiles\WROOF08.FRM
 tile       396  84             art\tiles\DifSnow (53).FRM
-roof       396  84             art\tiles\WROOF08.FRM
 tile       398  84             art\tiles\DifSnow (52).FRM
-roof       398  84             art\tiles\WROOF08.FRM
 tile       400  84             art\tiles\DifSnow (89).FRM
-roof       400  84             art\tiles\Chruschovka 79.png
 tile       402  84             art\tiles\DifSnow (82).FRM
 tile       404  84             art\tiles\DifSnow (66).FRM
 tile       406  84             art\tiles\DifSnow (58).FRM
@@ -1883,66 +1709,36 @@ tile       246  86             art\tiles\DifSnow (84).FRM
 tile       248  86             art\tiles\DifSnow (73).FRM
 tile       250  86             art\tiles\DifSnow (89).FRM
 tile       252  86             art\tiles\DifSnow (58).FRM
-roof       252  86             art\tiles\WROOF05.FRM
 tile       254  86             art\tiles\DifSnow (53).FRM
-roof       254  86             art\tiles\WROOF08.FRM
 tile       256  86             art\tiles\DifSnow (52).FRM
-roof       256  86             art\tiles\WROOF08.FRM
 tile       258  86             art\tiles\DifSnow (89).FRM
-roof       258  86             art\tiles\WROOF08.FRM
 tile       260  86             art\tiles\DifSnow (82).FRM
-roof       260  86             art\tiles\WROOF08.FRM
 tile       262  86             art\tiles\DifSnow (66).FRM
-roof       262  86             art\tiles\WROOF08.FRM
 tile       264  86             art\tiles\DifSnow (58).FRM
-roof       264  86             art\tiles\WROOF08.FRM
 tile       266  86             art\tiles\DifSnow (54).FRM
-roof       266  86             art\tiles\WROOF08.FRM
 tile       268  86             art\tiles\DifSnow (66).FRM
-roof       268  86             art\tiles\WROOF08.FRM
 tile       270  86             art\tiles\DifSnow (79).FRM
-roof       270  86             art\tiles\WROOF08.FRM
 tile       272  86             art\tiles\DifSnow (85).FRM
-roof       272  86             art\tiles\WROOF08.FRM
 tile       274  86             art\tiles\DifSnow (78).FRM
-roof       274  86             art\tiles\WROOF08.FRM
 tile       276  86             art\tiles\DifSnow (77).FRM
-roof       276  86             art\tiles\WROOF08.FRM
 tile       278  86             art\tiles\DifSnow (76).FRM
-roof       278  86             art\tiles\WROOF08.FRM
 tile       280  86             art\tiles\DifSnow (53).FRM
-roof       280  86             art\tiles\WROOF08.FRM
 tile       282  86             art\tiles\DifSnow (52).FRM
-roof       282  86             art\tiles\WROOF08.FRM
 tile       284  86             art\tiles\DifSnow (89).FRM
-roof       284  86             art\tiles\WROOF08.FRM
 tile       286  86             art\tiles\DifSnow (82).FRM
-roof       286  86             art\tiles\WROOF08.FRM
 tile       288  86             art\tiles\DifSnow (66).FRM
-roof       288  86             art\tiles\WROOF08.FRM
 tile       290  86             art\tiles\DifSnow (58).FRM
-roof       290  86             art\tiles\WROOF08.FRM
 tile       292  86             art\tiles\DifSnow (73).FRM
-roof       292  86             art\tiles\WROOF08.FRM
 tile       294  86             art\tiles\DifSnow (72).FRM
-roof       294  86             art\tiles\WROOF08.FRM
 tile       296  86             art\tiles\DifSnow (71).FRM
-roof       296  86             art\tiles\WROOF08.FRM
 tile       298  86             art\tiles\DifSnow (84).FRM
-roof       298  86             art\tiles\WROOF08.FRM
 tile       300  86             art\tiles\DifSnow (73).FRM
-roof       300  86             art\tiles\WROOF08.FRM
 tile       302  86             art\tiles\DifSnow (89).FRM
-roof       302  86             art\tiles\WROOF08.FRM
 tile       304  86             art\tiles\DifSnow (58).FRM
-roof       304  86             art\tiles\WROOF08.FRM
 tile       306  86             art\tiles\DifSnow (53).FRM
-roof       306  86             art\tiles\WROOF08.FRM
-roof_l     306  86           1 art\tiles\WROOF05.FRM
 tile       308  86             art\tiles\DifSnow (52).FRM
-roof       308  86             art\tiles\WROOF08.FRM
 tile       310  86             art\tiles\DifSnow (89).FRM
-roof       310  86             art\tiles\WROOF08.FRM
+roof       310  86             art\tiles\WROOF05.FRM
 tile       312  86             art\tiles\DifSnow (82).FRM
 roof       312  86             art\tiles\WROOF08.FRM
 tile       314  86             art\tiles\DifSnow (66).FRM
@@ -1976,65 +1772,41 @@ roof       340  86             art\tiles\WROOF08.FRM
 tile       342  86             art\tiles\DifSnow (65).FRM
 roof       342  86             art\tiles\WROOF08.FRM
 tile       344  86             art\tiles\DifSnow (57).FRM
-roof       344  86             art\tiles\Chruschovka64.png
+roof       344  86             art\tiles\WROOF08.FRM
 tile       346  86             art\tiles\DifSnow (55).FRM
-roof       346  86             art\tiles\Chruschovka63.png
+roof       346  86             art\tiles\WROOF08.FRM
 tile       348  86             art\tiles\DifSnow (44).FRM
 roof       348  86             art\tiles\Chruschovka64.png
 tile       350  86             art\tiles\DifSnow (43).FRM
 roof       350  86             art\tiles\Chruschovka63.png
 tile       352  86             art\tiles\DifSnow (86).FRM
-roof       352  86             art\tiles\WROOF08.FRM
+roof       352  86             art\tiles\Chruschovka78.png
 tile       354  86             art\tiles\DifSnow (79).FRM
-roof       354  86             art\tiles\WROOF08.FRM
+roof       354  86             art\tiles\Chruschovka77.png
 tile       356  86             art\tiles\DifSnow (63).FRM
-roof       356  86             art\tiles\WROOF08.FRM
 tile       358  86             art\tiles\DifSnow (55).FRM
-roof       358  86             art\tiles\WROOF08.FRM
 tile       360  86             art\tiles\DifSnow (47).FRM
-roof       360  86             art\tiles\WROOF08.FRM
 tile       362  86             art\tiles\DifSnow (63).FRM
-roof       362  86             art\tiles\WROOF08.FRM
 tile       364  86             art\tiles\DifSnow (89).FRM
-roof       364  86             art\tiles\WROOF08.FRM
 tile       366  86             art\tiles\DifSnow (82).FRM
-roof       366  86             art\tiles\WROOF08.FRM
 tile       368  86             art\tiles\DifSnow (66).FRM
-roof       368  86             art\tiles\WROOF08.FRM
 tile       370  86             art\tiles\DifSnow (58).FRM
-roof       370  86             art\tiles\WROOF08.FRM
 tile       372  86             art\tiles\DifSnow (54).FRM
-roof       372  86             art\tiles\WROOF08.FRM
 tile       374  86             art\tiles\DifSnow (50).FRM
-roof       374  86             art\tiles\WROOF08.FRM
 tile       376  86             art\tiles\DifSnow (49).FRM
-roof       376  86             art\tiles\WROOF08.FRM
 tile       378  86             art\tiles\DifSnow (88).FRM
-roof       378  86             art\tiles\WROOF08.FRM
 tile       380  86             art\tiles\DifSnow (81).FRM
-roof       380  86             art\tiles\WROOF08.FRM
 tile       382  86             art\tiles\DifSnow (65).FRM
-roof       382  86             art\tiles\WROOF08.FRM
 tile       384  86             art\tiles\DifSnow (57).FRM
-roof       384  86             art\tiles\WROOF08.FRM
 tile       386  86             art\tiles\DifSnow (89).FRM
-roof       386  86             art\tiles\WROOF08.FRM
 tile       388  86             art\tiles\DifSnow (66).FRM
-roof       388  86             art\tiles\WROOF08.FRM
 tile       390  86             art\tiles\DifSnow (58).FRM
-roof       390  86             art\tiles\WROOF08.FRM
 tile       392  86             art\tiles\DifSnow (54).FRM
-roof       392  86             art\tiles\WROOF08.FRM
 tile       394  86             art\tiles\DifSnow (57).FRM
-roof       394  86             art\tiles\WROOF08.FRM
 tile       396  86             art\tiles\DifSnow (50).FRM
-roof       396  86             art\tiles\WROOF08.FRM
 tile       398  86             art\tiles\DifSnow (49).FRM
-roof       398  86             art\tiles\WROOF08.FRM
 tile       400  86             art\tiles\DifSnow (88).FRM
-roof       400  86             art\tiles\Chruschovka78.png
 tile       402  86             art\tiles\DifSnow (81).FRM
-roof       402  86             art\tiles\Chruschovka77.png
 tile       404  86             art\tiles\DifSnow (65).FRM
 tile       406  86             art\tiles\DifSnow (57).FRM
 tile       408  86             art\tiles\DifSnow (51).FRM
@@ -2055,66 +1827,64 @@ tile       246  88             art\tiles\DifSnow (133).FRM
 tile       248  88             art\tiles\DifSnow (133).FRM
 tile       250  88             art\tiles\DifSnow (133).FRM
 tile       252  88             art\tiles\DifSnow (133).FRM
-roof       252  88             art\tiles\WROOF05.FRM
 tile       254  88             art\tiles\DifSnow (133).FRM
-roof       254  88             art\tiles\WROOF08.FRM
 tile       256  88             art\tiles\DifSnow (133).FRM
-roof       256  88             art\tiles\WROOF08.FRM
+roof       256  88             art\tiles\WROOF15.FRM
 tile       258  88             art\tiles\DifSnow (133).FRM
-roof       258  88             art\tiles\WROOF08.FRM
+roof       258  88             art\tiles\WROOF03.FRM
 tile       260  88             art\tiles\DifSnow (133).FRM
-roof       260  88             art\tiles\WROOF08.FRM
+roof       260  88             art\tiles\WROOF03.FRM
 tile       262  88             art\tiles\DifSnow (133).FRM
-roof       262  88             art\tiles\WROOF08.FRM
+roof       262  88             art\tiles\WROOF03.FRM
 tile       264  88             art\tiles\DifSnow (133).FRM
-roof       264  88             art\tiles\WROOF08.FRM
+roof       264  88             art\tiles\WROOF03.FRM
 tile       266  88             art\tiles\DifSnow (133).FRM
-roof       266  88             art\tiles\WROOF08.FRM
+roof       266  88             art\tiles\WROOF03.FRM
 tile       268  88             art\tiles\DifSnow (133).FRM
-roof       268  88             art\tiles\WROOF08.FRM
+roof       268  88             art\tiles\WROOF02.FRM
 tile       270  88             art\tiles\DifSnow (133).FRM
-roof       270  88             art\tiles\WROOF08.FRM
+roof       270  88             art\tiles\WROOF02.FRM
 tile       272  88             art\tiles\DifSnow (133).FRM
-roof       272  88             art\tiles\WROOF08.FRM
+roof       272  88             art\tiles\WROOF03.FRM
 tile       274  88             art\tiles\DifSnow (133).FRM
-roof       274  88             art\tiles\WROOF08.FRM
+roof       274  88             art\tiles\WROOF02.FRM
 tile       276  88             art\tiles\DifSnow (133).FRM
-roof       276  88             art\tiles\WROOF08.FRM
+roof       276  88             art\tiles\WROOF03.FRM
 tile       278  88             art\tiles\DifSnow (133).FRM
-roof       278  88             art\tiles\WROOF08.FRM
+roof       278  88             art\tiles\WROOF03.FRM
 tile       280  88             art\tiles\DifSnow (133).FRM
-roof       280  88             art\tiles\WROOF08.FRM
+roof       280  88             art\tiles\WROOF03.FRM
 tile       282  88             art\tiles\DifSnow (133).FRM
-roof       282  88             art\tiles\WROOF08.FRM
+roof       282  88             art\tiles\WROOF03.FRM
 tile       284  88             art\tiles\DifSnow (133).FRM
-roof       284  88             art\tiles\WROOF08.FRM
+roof       284  88             art\tiles\WROOF03.FRM
 tile       286  88             art\tiles\DifSnow (133).FRM
-roof       286  88             art\tiles\WROOF08.FRM
+roof       286  88             art\tiles\WROOF02.FRM
 tile       288  88             art\tiles\DifSnow (133).FRM
-roof       288  88             art\tiles\WROOF08.FRM
+roof       288  88             art\tiles\WROOF02.FRM
 tile       290  88             art\tiles\DifSnow (133).FRM
-roof       290  88             art\tiles\WROOF08.FRM
+roof       290  88             art\tiles\WROOF03.FRM
 tile       292  88             art\tiles\DifSnow (133).FRM
-roof       292  88             art\tiles\WROOF08.FRM
+roof       292  88             art\tiles\WROOF02.FRM
 tile       294  88             art\tiles\DifSnow (133).FRM
-roof       294  88             art\tiles\WROOF08.FRM
+roof       294  88             art\tiles\WROOF03.FRM
 tile       296  88             art\tiles\DifSnow (133).FRM
-roof       296  88             art\tiles\WROOF08.FRM
+roof       296  88             art\tiles\WROOF03.FRM
 tile       298  88             art\tiles\DifSnow (133).FRM
-roof       298  88             art\tiles\WROOF08.FRM
+roof       298  88             art\tiles\WROOF03.FRM
 tile       300  88             art\tiles\DifSnow (133).FRM
-roof       300  88             art\tiles\WROOF08.FRM
+roof       300  88             art\tiles\WROOF03.FRM
 tile       302  88             art\tiles\DifSnow (133).FRM
-roof       302  88             art\tiles\WROOF08.FRM
+roof       302  88             art\tiles\WROOF03.FRM
 tile       304  88             art\tiles\DifSnow (133).FRM
-roof       304  88             art\tiles\WROOF08.FRM
+roof       304  88             art\tiles\WROOF02.FRM
 tile       306  88             art\tiles\DifSnow (133).FRM
-roof       306  88             art\tiles\WROOF08.FRM
-roof_l     306  88           1 art\tiles\WROOF05.FRM
+roof       306  88             art\tiles\WROOF02.FRM
 tile       308  88             art\tiles\DifSnow (133).FRM
-roof       308  88             art\tiles\WROOF08.FRM
+roof       308  88             art\tiles\WROOF03.FRM
 tile       310  88             art\tiles\DifSnow (133).FRM
-roof       310  88             art\tiles\WROOF08.FRM
+roof_l     310  88           1 art\tiles\WROOF05.FRM
+roof       310  88             art\tiles\ROOFCNR.FRM
 tile       312  88             art\tiles\DifSnow (133).FRM
 roof       312  88             art\tiles\WROOF08.FRM
 tile       314  88             art\tiles\DifSnow (133).FRM
@@ -2148,65 +1918,65 @@ roof       340  88             art\tiles\WROOF08.FRM
 tile       342  88             art\tiles\DifSnow (133).FRM
 roof       342  88             art\tiles\WROOF08.FRM
 tile       344  88             art\tiles\DifSnow (133).FRM
-roof       344  88             art\tiles\Chruschovka70.png
+roof       344  88             art\tiles\WROOF08.FRM
 tile       346  88             art\tiles\DifSnow (133).FRM
-roof       346  88             art\tiles\Chruschovka69.png
+roof       346  88             art\tiles\WROOF08.FRM
 tile       348  88             art\tiles\DifSnow (133).FRM
 roof       348  88             art\tiles\Chruschovka70.png
 tile       350  88             art\tiles\DifSnow (133).FRM
 roof       350  88             art\tiles\Chruschovka69.png
 tile       352  88             art\tiles\DifSnow (133).FRM
-roof       352  88             art\tiles\WROOF08.FRM
+roof       352  88             art\tiles\Chruschovka68.png
 tile       354  88             art\tiles\DifSnow (133).FRM
-roof       354  88             art\tiles\WROOF08.FRM
+roof       354  88             art\tiles\WROOF02.FRM
+roof_l     354  88           1 art\tiles\Chruschovka75.png
 tile       356  88             art\tiles\DifSnow (133).FRM
-roof       356  88             art\tiles\WROOF08.FRM
+roof       356  88             art\tiles\WROOF02.FRM
 tile       358  88             art\tiles\DifSnow (133).FRM
-roof       358  88             art\tiles\WROOF08.FRM
+roof       358  88             art\tiles\WROOF03.FRM
 tile       360  88             art\tiles\DifSnow (133).FRM
-roof       360  88             art\tiles\WROOF08.FRM
+roof       360  88             art\tiles\WROOF02.FRM
 tile       362  88             art\tiles\DifSnow (133).FRM
-roof       362  88             art\tiles\WROOF08.FRM
+roof       362  88             art\tiles\WROOF03.FRM
 tile       364  88             art\tiles\DifSnow (133).FRM
-roof       364  88             art\tiles\WROOF08.FRM
+roof       364  88             art\tiles\WROOF03.FRM
 tile       366  88             art\tiles\DifSnow (133).FRM
-roof       366  88             art\tiles\WROOF08.FRM
+roof       366  88             art\tiles\WROOF03.FRM
 tile       368  88             art\tiles\DifSnow (133).FRM
-roof       368  88             art\tiles\WROOF08.FRM
+roof       368  88             art\tiles\WROOF03.FRM
 tile       370  88             art\tiles\DifSnow (133).FRM
-roof       370  88             art\tiles\WROOF08.FRM
+roof       370  88             art\tiles\WROOF03.FRM
 tile       372  88             art\tiles\DifSnow (133).FRM
-roof       372  88             art\tiles\WROOF08.FRM
+roof       372  88             art\tiles\WROOF02.FRM
 tile       374  88             art\tiles\DifSnow (133).FRM
-roof       374  88             art\tiles\WROOF08.FRM
+roof       374  88             art\tiles\WROOF02.FRM
 tile       376  88             art\tiles\DifSnow (133).FRM
-roof       376  88             art\tiles\WROOF08.FRM
+roof       376  88             art\tiles\WROOF03.FRM
 tile       378  88             art\tiles\DifSnow (133).FRM
-roof       378  88             art\tiles\WROOF08.FRM
+roof       378  88             art\tiles\WROOF02.FRM
 tile       380  88             art\tiles\DifSnow (133).FRM
-roof       380  88             art\tiles\WROOF08.FRM
+roof       380  88             art\tiles\WROOF03.FRM
 tile       382  88             art\tiles\DifSnow (133).FRM
-roof       382  88             art\tiles\WROOF08.FRM
+roof       382  88             art\tiles\WROOF03.FRM
 tile       384  88             art\tiles\DifSnow (133).FRM
-roof       384  88             art\tiles\WROOF08.FRM
+roof       384  88             art\tiles\WROOF03.FRM
 tile       386  88             art\tiles\DifSnow (133).FRM
-roof       386  88             art\tiles\WROOF08.FRM
+roof       386  88             art\tiles\WROOF03.FRM
 tile       388  88             art\tiles\DifSnow (133).FRM
-roof       388  88             art\tiles\WROOF08.FRM
+roof       388  88             art\tiles\WROOF03.FRM
 tile       390  88             art\tiles\DifSnow (133).FRM
-roof       390  88             art\tiles\WROOF08.FRM
+roof       390  88             art\tiles\WROOF02.FRM
 tile       392  88             art\tiles\DifSnow (133).FRM
-roof       392  88             art\tiles\WROOF08.FRM
+roof       392  88             art\tiles\WROOF02.FRM
 tile       394  88             art\tiles\DifSnow (133).FRM
-roof       394  88             art\tiles\WROOF08.FRM
+roof       394  88             art\tiles\WROOF03.FRM
 tile       396  88             art\tiles\DifSnow (133).FRM
-roof       396  88             art\tiles\WROOF08.FRM
+roof       396  88             art\tiles\WROOF02.FRM
 tile       398  88             art\tiles\DifSnow (133).FRM
-roof       398  88             art\tiles\WROOF08.FRM
+roof       398  88             art\tiles\WROOF02.FRM
 tile       400  88             art\tiles\DifSnow (133).FRM
-roof       400  88             art\tiles\Chruschovka68.png
+roof       400  88             art\tiles\WROOF02.FRM
 tile       402  88             art\tiles\DifSnow (133).FRM
-roof       402  88             art\tiles\Chruschovka75.png
 tile       404  88             art\tiles\DifSnow (133).FRM
 tile       406  88             art\tiles\DifSnow (133).FRM
 tile       408  88             art\tiles\DifSnow (133).FRM
@@ -2230,11 +2000,9 @@ tile       246  90             art\tiles\DifSnow (2).FRM
 tile       248  90             art\tiles\DifSnow (2).FRM
 tile       250  90             art\tiles\DifSnow (2).FRM
 tile       252  90             art\tiles\DifSnow (2).FRM
-roof       252  90             art\tiles\WROOF05.FRM
 tile       254  90             art\tiles\DifSnow (2).FRM
-roof       254  90             art\tiles\WROOF08.FRM
 tile       256  90             art\tiles\DifSnow (2).FRM
-roof       256  90             art\tiles\WROOF08.FRM
+roof       256  90             art\tiles\WROOF05.FRM
 tile       258  90             art\tiles\DifSnow (2).FRM
 roof       258  90             art\tiles\WROOF08.FRM
 tile       260  90             art\tiles\DifSnow (2).FRM
@@ -2285,11 +2053,11 @@ tile       304  90             art\tiles\DifSnow (2).FRM
 roof       304  90             art\tiles\WROOF08.FRM
 tile       306  90             art\tiles\DifSnow (2).FRM
 roof       306  90             art\tiles\WROOF08.FRM
-roof_l     306  90           1 art\tiles\WROOF05.FRM
 tile       308  90             art\tiles\DifSnow (2).FRM
 roof       308  90             art\tiles\WROOF08.FRM
 tile       310  90             art\tiles\DifSnow (2).FRM
 roof       310  90             art\tiles\WROOF08.FRM
+roof_l     310  90           1 art\tiles\WROOF05.FRM
 tile       312  90             art\tiles\DifSnow (2).FRM
 roof       312  90             art\tiles\WROOF08.FRM
 tile       314  90             art\tiles\DifSnow (2).FRM
@@ -2323,17 +2091,17 @@ roof       340  90             art\tiles\WROOF08.FRM
 tile       342  90             art\tiles\DifSnow (2).FRM
 roof       342  90             art\tiles\WROOF08.FRM
 tile       344  90             art\tiles\DifSnow (2).FRM
-roof       344  90             art\tiles\Chruschovka74.png
+roof       344  90             art\tiles\WROOF08.FRM
 tile       346  90             art\tiles\DifSnow (2).FRM
-roof       346  90             art\tiles\Chruschovka59.png
+roof       346  90             art\tiles\WROOF08.FRM
 tile       348  90             art\tiles\DifSnow (2).FRM
 roof       348  90             art\tiles\Chruschovka66.png
 tile       350  90             art\tiles\DifSnow (2).FRM
 roof       350  90             art\tiles\Chruschovka65.png
 tile       352  90             art\tiles\DifSnow (2).FRM
-roof       352  90             art\tiles\WROOF08.FRM
+roof       352  90             art\tiles\Chruschovka66.png
 tile       354  90             art\tiles\DifSnow (2).FRM
-roof       354  90             art\tiles\WROOF08.FRM
+roof       354  90             art\tiles\Chruschovka65.png
 tile       356  90             art\tiles\DifSnow (2).FRM
 roof       356  90             art\tiles\WROOF08.FRM
 tile       358  90             art\tiles\DifSnow (2).FRM
@@ -2379,9 +2147,9 @@ roof       396  90             art\tiles\WROOF08.FRM
 tile       398  90             art\tiles\DifSnow (2).FRM
 roof       398  90             art\tiles\WROOF08.FRM
 tile       400  90             art\tiles\DifSnow (2).FRM
-roof       400  90             art\tiles\Chruschovka66.png
+roof       400  90             art\tiles\WROOF08.FRM
 tile       402  90             art\tiles\DifSnow (2).FRM
-roof       402  90             art\tiles\Chruschovka65.png
+roof       402  90             art\tiles\WROOF08.FRM
 tile       404  90             art\tiles\DifSnow (2).FRM
 roof       404  90             art\tiles\Chruschovka 79.png
 tile       406  90             art\tiles\DifSnow (2).FRM
@@ -2408,11 +2176,9 @@ tile       246  92             art\tiles\DifSnow (51).FRM
 tile       248  92             art\tiles\DifSnow (65).FRM
 tile       250  92             art\tiles\DifSnow (79).FRM
 tile       252  92             art\tiles\DifSnow (77).FRM
-roof       252  92             art\tiles\WROOF05.FRM
 tile       254  92             art\tiles\DifSnow (75).FRM
-roof       254  92             art\tiles\WROOF08.FRM
 tile       256  92             art\tiles\DifSnow (74).FRM
-roof       256  92             art\tiles\WROOF08.FRM
+roof       256  92             art\tiles\WROOF05.FRM
 tile       258  92             art\tiles\DifSnow (79).FRM
 roof       258  92             art\tiles\WROOF08.FRM
 tile       260  92             art\tiles\DifSnow (85).FRM
@@ -2463,11 +2229,11 @@ tile       304  92             art\tiles\DifSnow (77).FRM
 roof       304  92             art\tiles\WROOF08.FRM
 tile       306  92             art\tiles\DifSnow (75).FRM
 roof       306  92             art\tiles\WROOF08.FRM
-roof_l     306  92           1 art\tiles\WROOF05.FRM
 tile       308  92             art\tiles\DifSnow (74).FRM
 roof       308  92             art\tiles\WROOF08.FRM
 tile       310  92             art\tiles\DifSnow (79).FRM
 roof       310  92             art\tiles\WROOF08.FRM
+roof_l     310  92           1 art\tiles\WROOF05.FRM
 tile       312  92             art\tiles\DifSnow (85).FRM
 roof       312  92             art\tiles\WROOF08.FRM
 tile       314  92             art\tiles\DifSnow (78).FRM
@@ -2501,17 +2267,17 @@ roof       340  92             art\tiles\WROOF08.FRM
 tile       342  92             art\tiles\DifSnow (73).FRM
 roof       342  92             art\tiles\WROOF08.FRM
 tile       344  92             art\tiles\DifSnow (89).FRM
-roof       344  92             art\tiles\Chruschovka72.png
+roof       344  92             art\tiles\WROOF08.FRM
 tile       346  92             art\tiles\DifSnow (58).FRM
-roof       346  92             art\tiles\Chruschovka71.png
+roof       346  92             art\tiles\WROOF08.FRM
 tile       348  92             art\tiles\DifSnow (53).FRM
 roof       348  92             art\tiles\Chruschovka64.png
 tile       350  92             art\tiles\DifSnow (52).FRM
 roof       350  92             art\tiles\Chruschovka63.png
 tile       352  92             art\tiles\DifSnow (89).FRM
-roof       352  92             art\tiles\WROOF08.FRM
+roof       352  92             art\tiles\Chruschovka64.png
 tile       354  92             art\tiles\DifSnow (82).FRM
-roof       354  92             art\tiles\WROOF08.FRM
+roof       354  92             art\tiles\Chruschovka63.png
 tile       356  92             art\tiles\DifSnow (66).FRM
 roof       356  92             art\tiles\WROOF08.FRM
 tile       358  92             art\tiles\DifSnow (58).FRM
@@ -2557,9 +2323,9 @@ roof       396  92             art\tiles\WROOF08.FRM
 tile       398  92             art\tiles\DifSnow (68).FRM
 roof       398  92             art\tiles\WROOF08.FRM
 tile       400  92             art\tiles\DifSnow (77).FRM
-roof       400  92             art\tiles\Chruschovka64.png
+roof       400  92             art\tiles\WROOF08.FRM
 tile       402  92             art\tiles\DifSnow (84).FRM
-roof       402  92             art\tiles\Chruschovka63.png
+roof       402  92             art\tiles\WROOF08.FRM
 tile       404  92             art\tiles\DifSnow (73).FRM
 roof       404  92             art\tiles\Chruschovka78.png
 tile       406  92             art\tiles\DifSnow (72).FRM
@@ -2590,11 +2356,9 @@ tile       246  94             art\tiles\DifSnow (54).FRM
 tile       248  94             art\tiles\DifSnow (66).FRM
 tile       250  94             art\tiles\DifSnow (86).FRM
 tile       252  94             art\tiles\DifSnow (44).FRM
-roof       252  94             art\tiles\WROOF05.FRM
 tile       254  94             art\tiles\DifSnow (43).FRM
-roof       254  94             art\tiles\WROOF08.FRM
 tile       256  94             art\tiles\DifSnow (86).FRM
-roof       256  94             art\tiles\WROOF08.FRM
+roof       256  94             art\tiles\WROOF05.FRM
 tile       258  94             art\tiles\DifSnow (79).FRM
 roof       258  94             art\tiles\WROOF08.FRM
 tile       260  94             art\tiles\DifSnow (63).FRM
@@ -2645,11 +2409,11 @@ tile       304  94             art\tiles\DifSnow (44).FRM
 roof       304  94             art\tiles\WROOF08.FRM
 tile       306  94             art\tiles\DifSnow (43).FRM
 roof       306  94             art\tiles\WROOF08.FRM
-roof_l     306  94           1 art\tiles\WROOF05.FRM
 tile       308  94             art\tiles\DifSnow (86).FRM
 roof       308  94             art\tiles\WROOF08.FRM
 tile       310  94             art\tiles\DifSnow (79).FRM
 roof       310  94             art\tiles\WROOF08.FRM
+roof_l     310  94           1 art\tiles\WROOF05.FRM
 tile       312  94             art\tiles\DifSnow (63).FRM
 roof       312  94             art\tiles\WROOF08.FRM
 tile       314  94             art\tiles\DifSnow (55).FRM
@@ -2683,17 +2447,17 @@ roof       340  94             art\tiles\WROOF08.FRM
 tile       342  94             art\tiles\DifSnow (78).FRM
 roof       342  94             art\tiles\WROOF08.FRM
 tile       344  94             art\tiles\DifSnow (90).FRM
-roof       344  94             art\tiles\Chruschovka70.png
+roof       344  94             art\tiles\WROOF08.FRM
 tile       346  94             art\tiles\DifSnow (62).FRM
-roof       346  94             art\tiles\Chruschovka69.png
+roof       346  94             art\tiles\WROOF08.FRM
 tile       348  94             art\tiles\DifSnow (60).FRM
 roof       348  94             art\tiles\Chruschovka70.png
 tile       350  94             art\tiles\DifSnow (59).FRM
 roof       350  94             art\tiles\Chruschovka69.png
 tile       352  94             art\tiles\DifSnow (90).FRM
-roof       352  94             art\tiles\WROOF08.FRM
+roof       352  94             art\tiles\Chruschovka70.png
 tile       354  94             art\tiles\DifSnow (83).FRM
-roof       354  94             art\tiles\WROOF08.FRM
+roof       354  94             art\tiles\Chruschovka69.png
 tile       356  94             art\tiles\DifSnow (67).FRM
 roof       356  94             art\tiles\WROOF08.FRM
 tile       358  94             art\tiles\DifSnow (62).FRM
@@ -2739,9 +2503,9 @@ roof       396  94             art\tiles\WROOF08.FRM
 tile       398  94             art\tiles\DifSnow (74).FRM
 roof       398  94             art\tiles\WROOF08.FRM
 tile       400  94             art\tiles\DifSnow (79).FRM
-roof       400  94             art\tiles\Chruschovka70.png
+roof       400  94             art\tiles\WROOF08.FRM
 tile       402  94             art\tiles\DifSnow (85).FRM
-roof       402  94             art\tiles\Chruschovka69.png
+roof       402  94             art\tiles\WROOF08.FRM
 tile       404  94             art\tiles\DifSnow (78).FRM
 roof       404  94             art\tiles\Chruschovka68.png
 tile       406  94             art\tiles\DifSnow (77).FRM
@@ -2775,11 +2539,9 @@ tile       246  96             art\tiles\DifSnow (61).FRM
 tile       248  96             art\tiles\DifSnow (67).FRM
 tile       250  96             art\tiles\DifSnow (87).FRM
 tile       252  96             art\tiles\DifSnow (66).FRM
-roof       252  96             art\tiles\WROOF05.FRM
 tile       254  96             art\tiles\DifSnow (58).FRM
-roof       254  96             art\tiles\WROOF08.FRM
 tile       256  96             art\tiles\DifSnow (53).FRM
-roof       256  96             art\tiles\WROOF08.FRM
+roof       256  96             art\tiles\WROOF05.FRM
 tile       258  96             art\tiles\DifSnow (52).FRM
 roof       258  96             art\tiles\WROOF08.FRM
 tile       260  96             art\tiles\DifSnow (89).FRM
@@ -2830,11 +2592,11 @@ tile       304  96             art\tiles\CMT2000.FRM
 roof       304  96             art\tiles\WROOF08.FRM
 tile       306  96             art\tiles\TP161.FRM
 roof       306  96             art\tiles\WROOF08.FRM
-roof_l     306  96           1 art\tiles\WROOF05.FRM
 tile       308  96             art\tiles\TP157.FRM
 roof       308  96             art\tiles\WROOF08.FRM
 tile       310  96             art\tiles\TP157.FRM
 roof       310  96             art\tiles\WROOF08.FRM
+roof_l     310  96           1 art\tiles\WROOF05.FRM
 tile       312  96             art\tiles\TP157.FRM
 roof       312  96             art\tiles\WROOF08.FRM
 tile       314  96             art\tiles\TP164.FRM
@@ -2868,17 +2630,17 @@ roof       340  96             art\tiles\WROOF08.FRM
 tile       342  96             art\tiles\TP157.FRM
 roof       342  96             art\tiles\WROOF08.FRM
 tile       344  96             art\tiles\TP157.FRM
-roof       344  96             art\tiles\Chruschovka76.png
+roof       344  96             art\tiles\WROOF08.FRM
 tile       346  96             art\tiles\TP157.FRM
-roof       346  96             art\tiles\Chruschovka59.png
+roof       346  96             art\tiles\WROOF08.FRM
 tile       348  96             art\tiles\TP157.FRM
 roof       348  96             art\tiles\Chruschovka74.png
 tile       350  96             art\tiles\TP157.FRM
 roof       350  96             art\tiles\Chruschovka59.png
 tile       352  96             art\tiles\TP157.FRM
-roof       352  96             art\tiles\WROOF08.FRM
+roof       352  96             art\tiles\Chruschovka66.png
 tile       354  96             art\tiles\TP157.FRM
-roof       354  96             art\tiles\WROOF08.FRM
+roof       354  96             art\tiles\Chruschovka65.png
 tile       356  96             art\tiles\TP157.FRM
 roof       356  96             art\tiles\WROOF08.FRM
 tile       358  96             art\tiles\TP157.FRM
@@ -2924,9 +2686,9 @@ roof       396  96             art\tiles\WROOF08.FRM
 tile       398  96             art\tiles\CMT6000.FRM
 roof       398  96             art\tiles\WROOF08.FRM
 tile       400  96             art\tiles\CMT4000.FRM
-roof       400  96             art\tiles\Chruschovka66.png
+roof       400  96             art\tiles\WROOF08.FRM
 tile       402  96             art\tiles\CMT3000.FRM
-roof       402  96             art\tiles\Chruschovka65.png
+roof       402  96             art\tiles\WROOF08.FRM
 tile       404  96             art\tiles\CMT5000.FRM
 roof       404  96             art\tiles\Chruschovka66.png
 tile       406  96             art\tiles\CMT6000.FRM
@@ -2962,11 +2724,9 @@ tile       246  98             art\tiles\DifSnow (71).FRM
 tile       248  98             art\tiles\DifSnow (73).FRM
 tile       250  98             art\tiles\DifSnow (88).FRM
 tile       252  98             art\tiles\DifSnow (67).FRM
-roof       252  98             art\tiles\WROOF05.FRM
 tile       254  98             art\tiles\DifSnow (62).FRM
-roof       254  98             art\tiles\WROOF08.FRM
 tile       256  98             art\tiles\DifSnow (60).FRM
-roof       256  98             art\tiles\WROOF08.FRM
+roof       256  98             art\tiles\WROOF05.FRM
 tile       258  98             art\tiles\DifSnow (59).FRM
 roof       258  98             art\tiles\WROOF08.FRM
 tile       260  98             art\tiles\DifSnow (90).FRM
@@ -3017,11 +2777,11 @@ tile       304  98             art\tiles\CMT1000.FRM
 roof       304  98             art\tiles\WROOF08.FRM
 tile       306  98             art\tiles\TP158.FRM
 roof       306  98             art\tiles\WROOF08.FRM
-roof_l     306  98           1 art\tiles\WROOF05.FRM
 tile       308  98             art\tiles\TP153.FRM
 roof       308  98             art\tiles\WROOF08.FRM
 tile       310  98             art\tiles\TP154.FRM
 roof       310  98             art\tiles\WROOF08.FRM
+roof_l     310  98           1 art\tiles\WROOF05.FRM
 tile       312  98             art\tiles\TP153.FRM
 roof       312  98             art\tiles\WROOF08.FRM
 tile       314  98             art\tiles\TP160.FRM
@@ -3055,17 +2815,17 @@ roof       340  98             art\tiles\WROOF08.FRM
 tile       342  98             art\tiles\TP154.FRM
 roof       342  98             art\tiles\WROOF08.FRM
 tile       344  98             art\tiles\TP153.FRM
-roof       344  98             art\tiles\Chruschovka74.png
+roof       344  98             art\tiles\WROOF08.FRM
 tile       346  98             art\tiles\TP154.FRM
-roof       346  98             art\tiles\Chruschovka57.png
+roof       346  98             art\tiles\WROOF08.FRM
 tile       348  98             art\tiles\TP153.FRM
 roof       348  98             art\tiles\Chruschovka72.png
 tile       350  98             art\tiles\TP154.FRM
 roof       350  98             art\tiles\Chruschovka71.png
 tile       352  98             art\tiles\TP153.FRM
-roof       352  98             art\tiles\WROOF08.FRM
+roof       352  98             art\tiles\Chruschovka64.png
 tile       354  98             art\tiles\TP154.FRM
-roof       354  98             art\tiles\WROOF08.FRM
+roof       354  98             art\tiles\Chruschovka63.png
 tile       356  98             art\tiles\TP153.FRM
 roof       356  98             art\tiles\WROOF08.FRM
 tile       358  98             art\tiles\TP154.FRM
@@ -3111,9 +2871,9 @@ roof       396  98             art\tiles\WROOF08.FRM
 tile       398  98             art\tiles\CMT3000.FRM
 roof       398  98             art\tiles\WROOF08.FRM
 tile       400  98             art\tiles\CMT8000.FRM
-roof       400  98             art\tiles\Chruschovka64.png
+roof       400  98             art\tiles\WROOF08.FRM
 tile       402  98             art\tiles\CMT6000.FRM
-roof       402  98             art\tiles\Chruschovka63.png
+roof       402  98             art\tiles\WROOF08.FRM
 tile       404  98             art\tiles\CMT4000.FRM
 roof       404  98             art\tiles\Chruschovka64.png
 tile       406  98             art\tiles\CMT3000.FRM
@@ -3152,11 +2912,9 @@ tile       246  100            art\tiles\DifSnow (76).FRM
 tile       248  100            art\tiles\DifSnow (78).FRM
 tile       250  100            art\tiles\DifSnow (89).FRM
 tile       252  100            art\tiles\DifSnow (51).FRM
-roof       252  100            art\tiles\WROOF05.FRM
 tile       254  100            art\tiles\DifSnow (65).FRM
-roof       254  100            art\tiles\WROOF08.FRM
 tile       256  100            art\tiles\DifSnow (77).FRM
-roof       256  100            art\tiles\WROOF08.FRM
+roof       256  100            art\tiles\WROOF05.FRM
 tile       258  100            art\tiles\DifSnow (84).FRM
 roof       258  100            art\tiles\WROOF08.FRM
 tile       260  100            art\tiles\DifSnow (73).FRM
@@ -3207,11 +2965,11 @@ tile       304  100            art\tiles\CMT7000.FRM
 roof       304  100            art\tiles\WROOF08.FRM
 tile       306  100            art\tiles\TP158.FRM
 roof       306  100            art\tiles\WROOF08.FRM
-roof_l     306  100          1 art\tiles\WROOF05.FRM
 tile       308  100            art\tiles\TP155.FRM
 roof       308  100            art\tiles\WROOF08.FRM
 tile       310  100            art\tiles\TP156.FRM
 roof       310  100            art\tiles\WROOF08.FRM
+roof_l     310  100          1 art\tiles\WROOF05.FRM
 tile       312  100            art\tiles\TP155.FRM
 roof       312  100            art\tiles\WROOF08.FRM
 tile       314  100            art\tiles\TP160.FRM
@@ -3245,17 +3003,17 @@ roof       340  100            art\tiles\WROOF08.FRM
 tile       342  100            art\tiles\TP156.FRM
 roof       342  100            art\tiles\WROOF08.FRM
 tile       344  100            art\tiles\TP155.FRM
-roof       344  100            art\tiles\Chruschovka72.png
+roof       344  100            art\tiles\WROOF08.FRM
 tile       346  100            art\tiles\TP156.FRM
-roof       346  100            art\tiles\Chruschovka71.png
+roof       346  100            art\tiles\WROOF08.FRM
 tile       348  100            art\tiles\TP155.FRM
 roof       348  100            art\tiles\Chruschovka70.png
 tile       350  100            art\tiles\TP156.FRM
 roof       350  100            art\tiles\Chruschovka69.png
 tile       352  100            art\tiles\TP155.FRM
-roof       352  100            art\tiles\WROOF08.FRM
+roof       352  100            art\tiles\Chruschovka70.png
 tile       354  100            art\tiles\TP156.FRM
-roof       354  100            art\tiles\WROOF08.FRM
+roof       354  100            art\tiles\Chruschovka69.png
 tile       356  100            art\tiles\TP155.FRM
 roof       356  100            art\tiles\WROOF08.FRM
 tile       358  100            art\tiles\TP156.FRM
@@ -3301,9 +3059,9 @@ roof       396  100            art\tiles\WROOF08.FRM
 tile       398  100            art\tiles\CMT1000.FRM
 roof       398  100            art\tiles\WROOF08.FRM
 tile       400  100            art\tiles\CMT7000.FRM
-roof       400  100            art\tiles\Chruschovka70.png
+roof       400  100            art\tiles\WROOF08.FRM
 tile       402  100            art\tiles\CMT4000.FRM
-roof       402  100            art\tiles\Chruschovka69.png
+roof       402  100            art\tiles\WROOF08.FRM
 tile       404  100            art\tiles\CMT2000.FRM
 roof       404  100            art\tiles\Chruschovka70.png
 tile       406  100            art\tiles\CMT1000.FRM
@@ -3345,11 +3103,9 @@ tile       246  102            art\tiles\DifSnow (47).FRM
 tile       248  102            art\tiles\DifSnow (63).FRM
 tile       250  102            art\tiles\DifSnow (90).FRM
 tile       252  102            art\tiles\DifSnow (54).FRM
-roof       252  102            art\tiles\WROOF05.FRM
 tile       254  102            art\tiles\DifSnow (66).FRM
-roof       254  102            art\tiles\WROOF08.FRM
 tile       256  102            art\tiles\DifSnow (79).FRM
-roof       256  102            art\tiles\WROOF08.FRM
+roof       256  102            art\tiles\WROOF05.FRM
 tile       258  102            art\tiles\DifSnow (85).FRM
 roof       258  102            art\tiles\WROOF08.FRM
 tile       260  102            art\tiles\DifSnow (78).FRM
@@ -3400,11 +3156,11 @@ tile       304  102            art\tiles\CMT8000.FRM
 roof       304  102            art\tiles\WROOF08.FRM
 tile       306  102            art\tiles\TP162.FRM
 roof       306  102            art\tiles\WROOF08.FRM
-roof_l     306  102          1 art\tiles\WROOF05.FRM
 tile       308  102            art\tiles\TP159.FRM
 roof       308  102            art\tiles\WROOF08.FRM
 tile       310  102            art\tiles\TP159.FRM
 roof       310  102            art\tiles\WROOF08.FRM
+roof_l     310  102          1 art\tiles\WROOF05.FRM
 tile       312  102            art\tiles\TP159.FRM
 roof       312  102            art\tiles\WROOF08.FRM
 tile       314  102            art\tiles\TP163.FRM
@@ -3438,17 +3194,17 @@ roof       340  102            art\tiles\WROOF08.FRM
 tile       342  102            art\tiles\CMT3000.FRM
 roof       342  102            art\tiles\WROOF08.FRM
 tile       344  102            art\tiles\TP153.FRM
-roof       344  102            art\tiles\Chruschovka70.png
+roof       344  102            art\tiles\WROOF08.FRM
 tile       346  102            art\tiles\TP154.FRM
-roof       346  102            art\tiles\Chruschovka69.png
+roof       346  102            art\tiles\WROOF08.FRM
 tile       348  102            art\tiles\TP153.FRM
 roof       348  102            art\tiles\Chruschovka76.png
 tile       350  102            art\tiles\TP154.FRM
 roof       350  102            art\tiles\Chruschovka59.png
 tile       352  102            art\tiles\TP153.FRM
-roof       352  102            art\tiles\WROOF08.FRM
+roof       352  102            art\tiles\Chruschovka74.png
 tile       354  102            art\tiles\TP154.FRM
-roof       354  102            art\tiles\WROOF08.FRM
+roof       354  102            art\tiles\Chruschovka59.png
 tile       356  102            art\tiles\TP153.FRM
 roof       356  102            art\tiles\WROOF08.FRM
 tile       358  102            art\tiles\TP154.FRM
@@ -3494,9 +3250,9 @@ roof       396  102            art\tiles\WROOF08.FRM
 tile       398  102            art\tiles\CMT6000.FRM
 roof       398  102            art\tiles\WROOF08.FRM
 tile       400  102            art\tiles\CMT4000.FRM
-roof       400  102            art\tiles\Chruschovka74.png
+roof       400  102            art\tiles\WROOF08.FRM
 tile       402  102            art\tiles\CMT3000.FRM
-roof       402  102            art\tiles\Chruschovka59.png
+roof       402  102            art\tiles\WROOF08.FRM
 tile       404  102            art\tiles\CMT5000.FRM
 roof       404  102            art\tiles\Chruschovka66.png
 tile       406  102            art\tiles\CMT6000.FRM
@@ -3540,11 +3296,9 @@ tile       246  104            art\tiles\DifSnow (67).FRM
 tile       248  104            art\tiles\DifSnow (79).FRM
 tile       250  104            art\tiles\DifSnow (78).FRM
 tile       252  104            art\tiles\DifSnow (77).FRM
-roof       252  104            art\tiles\WROOF05.FRM
 tile       254  104            art\tiles\DifSnow (76).FRM
-roof       254  104            art\tiles\WROOF08.FRM
 tile       256  104            art\tiles\DifSnow (85).FRM
-roof       256  104            art\tiles\WROOF08.FRM
+roof       256  104            art\tiles\WROOF05.FRM
 tile       258  104            art\tiles\DifSnow (49).FRM
 roof       258  104            art\tiles\WROOF08.FRM
 tile       260  104            art\tiles\DifSnow (88).FRM
@@ -3595,11 +3349,11 @@ tile       304  104            art\tiles\CMT4000.FRM
 roof       304  104            art\tiles\WROOF08.FRM
 tile       306  104            art\tiles\CMT3000.FRM
 roof       306  104            art\tiles\WROOF08.FRM
-roof_l     306  104          1 art\tiles\WROOF05.FRM
 tile       308  104            art\tiles\CMT5000.FRM
 roof       308  104            art\tiles\WROOF08.FRM
 tile       310  104            art\tiles\CMT6000.FRM
 roof       310  104            art\tiles\WROOF08.FRM
+roof_l     310  104          1 art\tiles\WROOF05.FRM
 tile       312  104            art\tiles\CMT4000.FRM
 roof       312  104            art\tiles\WROOF08.FRM
 tile       314  104            art\tiles\CMT3000.FRM
@@ -3633,17 +3387,17 @@ roof       340  104            art\tiles\WROOF08.FRM
 tile       342  104            art\tiles\CMT6000.FRM
 roof       342  104            art\tiles\WROOF08.FRM
 tile       344  104            art\tiles\CMT4000.FRM
-roof       344  104            art\tiles\Chruschovka68.png
+roof       344  104            art\tiles\WROOF08.FRM
 tile       346  104            art\tiles\CMT3000.FRM
-roof       346  104            art\tiles\Chruschovka59.png
+roof       346  104            art\tiles\WROOF08.FRM
 tile       348  104            art\tiles\CMT5000.FRM
 roof       348  104            art\tiles\Chruschovka74.png
 tile       350  104            art\tiles\CMT4000.FRM
 roof       350  104            art\tiles\Chruschovka57.png
 tile       352  104            art\tiles\CMT3000.FRM
-roof       352  104            art\tiles\WROOF08.FRM
+roof       352  104            art\tiles\Chruschovka72.png
 tile       354  104            art\tiles\CMT5000.FRM
-roof       354  104            art\tiles\WROOF08.FRM
+roof       354  104            art\tiles\Chruschovka71.png
 tile       356  104            art\tiles\CMT6000.FRM
 roof       356  104            art\tiles\WROOF08.FRM
 tile       358  104            art\tiles\CMT4000.FRM
@@ -3689,9 +3443,9 @@ roof       396  104            art\tiles\WROOF08.FRM
 tile       398  104            art\tiles\CMT6000.FRM
 roof       398  104            art\tiles\WROOF08.FRM
 tile       400  104            art\tiles\CMT4000.FRM
-roof       400  104            art\tiles\Chruschovka72.png
+roof       400  104            art\tiles\WROOF08.FRM
 tile       402  104            art\tiles\CMT3000.FRM
-roof       402  104            art\tiles\Chruschovka71.png
+roof       402  104            art\tiles\WROOF08.FRM
 tile       404  104            art\tiles\CMT5000.FRM
 roof       404  104            art\tiles\Chruschovka64.png
 tile       406  104            art\tiles\CMT6000.FRM
@@ -3738,11 +3492,9 @@ tile       246  106            art\tiles\DifSnow (78).FRM
 tile       248  106            art\tiles\DifSnow (79).FRM
 tile       250  106            art\tiles\DifSnow (78).FRM
 tile       252  106            art\tiles\DifSnow (77).FRM
-roof       252  106            art\tiles\WROOF05.FRM
 tile       254  106            art\tiles\DifSnow (76).FRM
-roof       254  106            art\tiles\WROOF08.FRM
 tile       256  106            art\tiles\DifSnow (85).FRM
-roof       256  106            art\tiles\WROOF08.FRM
+roof       256  106            art\tiles\WROOF05.FRM
 tile       258  106            art\tiles\DifSnow (52).FRM
 roof       258  106            art\tiles\WROOF08.FRM
 tile       260  106            art\tiles\DifSnow (89).FRM
@@ -3793,11 +3545,11 @@ tile       304  106            art\tiles\CMT8000.FRM
 roof       304  106            art\tiles\WROOF08.FRM
 tile       306  106            art\tiles\CMT6000.FRM
 roof       306  106            art\tiles\WROOF08.FRM
-roof_l     306  106          1 art\tiles\WROOF05.FRM
 tile       308  106            art\tiles\CMT4000.FRM
 roof       308  106            art\tiles\WROOF08.FRM
 tile       310  106            art\tiles\CMT3000.FRM
 roof       310  106            art\tiles\WROOF08.FRM
+roof_l     310  106          1 art\tiles\WROOF05.FRM
 tile       312  106            art\tiles\CMT8000.FRM
 roof       312  106            art\tiles\WROOF08.FRM
 tile       314  106            art\tiles\CMT6000.FRM
@@ -3831,17 +3583,17 @@ roof       340  106            art\tiles\WROOF08.FRM
 tile       342  106            art\tiles\CMT3000.FRM
 roof       342  106            art\tiles\WROOF08.FRM
 tile       344  106            art\tiles\CMT8000.FRM
-roof       344  106            art\tiles\Chruschovka66.png
+roof       344  106            art\tiles\WROOF08.FRM
 tile       346  106            art\tiles\CMT6000.FRM
-roof       346  106            art\tiles\Chruschovka65.png
+roof       346  106            art\tiles\WROOF08.FRM
 tile       348  106            art\tiles\CMT4000.FRM
 roof       348  106            art\tiles\Chruschovka72.png
 tile       350  106            art\tiles\CMT8000.FRM
 roof       350  106            art\tiles\Chruschovka71.png
 tile       352  106            art\tiles\CMT6000.FRM
-roof       352  106            art\tiles\WROOF08.FRM
+roof       352  106            art\tiles\Chruschovka70.png
 tile       354  106            art\tiles\CMT4000.FRM
-roof       354  106            art\tiles\WROOF08.FRM
+roof       354  106            art\tiles\Chruschovka69.png
 tile       356  106            art\tiles\CMT3000.FRM
 roof       356  106            art\tiles\WROOF08.FRM
 tile       358  106            art\tiles\CMT8000.FRM
@@ -3887,9 +3639,9 @@ roof       396  106            art\tiles\WROOF08.FRM
 tile       398  106            art\tiles\CMT3000.FRM
 roof       398  106            art\tiles\WROOF08.FRM
 tile       400  106            art\tiles\CMT8000.FRM
-roof       400  106            art\tiles\Chruschovka70.png
+roof       400  106            art\tiles\WROOF08.FRM
 tile       402  106            art\tiles\CMT6000.FRM
-roof       402  106            art\tiles\Chruschovka69.png
+roof       402  106            art\tiles\WROOF08.FRM
 tile       404  106            art\tiles\CMT4000.FRM
 roof       404  106            art\tiles\Chruschovka70.png
 tile       406  106            art\tiles\CMT3000.FRM
@@ -3939,11 +3691,9 @@ tile       246  108            art\tiles\DifSnow (63).FRM
 tile       248  108            art\tiles\DifSnow (86).FRM
 tile       250  108            art\tiles\DifSnow (63).FRM
 tile       252  108            art\tiles\DifSnow (55).FRM
-roof       252  108            art\tiles\WROOF05.FRM
 tile       254  108            art\tiles\DifSnow (47).FRM
-roof       254  108            art\tiles\WROOF08.FRM
 tile       256  108            art\tiles\DifSnow (79).FRM
-roof       256  108            art\tiles\WROOF08.FRM
+roof       256  108            art\tiles\WROOF05.FRM
 tile       258  108            art\tiles\DifSnow (59).FRM
 roof       258  108            art\tiles\WROOF08.FRM
 tile       260  108            art\tiles\DifSnow (90).FRM
@@ -3994,11 +3744,11 @@ tile       304  108            art\tiles\CMT7000.FRM
 roof       304  108            art\tiles\WROOF08.FRM
 tile       306  108            art\tiles\CMT4000.FRM
 roof       306  108            art\tiles\WROOF08.FRM
-roof_l     306  108          1 art\tiles\WROOF05.FRM
 tile       308  108            art\tiles\CMT2000.FRM
 roof       308  108            art\tiles\WROOF08.FRM
 tile       310  108            art\tiles\CMT1000.FRM
 roof       310  108            art\tiles\WROOF08.FRM
+roof_l     310  108          1 art\tiles\WROOF05.FRM
 tile       312  108            art\tiles\CMT7000.FRM
 roof       312  108            art\tiles\WROOF08.FRM
 tile       314  108            art\tiles\CMT4000.FRM
@@ -4032,17 +3782,17 @@ roof       340  108            art\tiles\WROOF08.FRM
 tile       342  108            art\tiles\CMT1000.FRM
 roof       342  108            art\tiles\WROOF08.FRM
 tile       344  108            art\tiles\CMT7000.FRM
-roof       344  108            art\tiles\Chruschovka64.png
+roof       344  108            art\tiles\WROOF08.FRM
 tile       346  108            art\tiles\CMT4000.FRM
-roof       346  108            art\tiles\Chruschovka63.png
+roof       346  108            art\tiles\WROOF08.FRM
 tile       348  108            art\tiles\CMT2000.FRM
 roof       348  108            art\tiles\Chruschovka70.png
 tile       350  108            art\tiles\CMT7000.FRM
 roof       350  108            art\tiles\Chruschovka69.png
 tile       352  108            art\tiles\CMT4000.FRM
-roof       352  108            art\tiles\WROOF08.FRM
+roof       352  108            art\tiles\Chruschovka76.png
 tile       354  108            art\tiles\CMT2000.FRM
-roof       354  108            art\tiles\WROOF08.FRM
+roof       354  108            art\tiles\Chruschovka59.png
 tile       356  108            art\tiles\CMT1000.FRM
 roof       356  108            art\tiles\WROOF08.FRM
 tile       358  108            art\tiles\CMT7000.FRM
@@ -4088,9 +3838,9 @@ roof       396  108            art\tiles\WROOF08.FRM
 tile       398  108            art\tiles\CMT1000.FRM
 roof       398  108            art\tiles\WROOF08.FRM
 tile       400  108            art\tiles\CMT7000.FRM
-roof       400  108            art\tiles\Chruschovka76.png
+roof       400  108            art\tiles\WROOF08.FRM
 tile       402  108            art\tiles\CMT4000.FRM
-roof       402  108            art\tiles\Chruschovka59.png
+roof       402  108            art\tiles\WROOF08.FRM
 tile       404  108            art\tiles\CMT2000.FRM
 roof       404  108            art\tiles\Chruschovka74.png
 tile       406  108            art\tiles\CMT1000.FRM
@@ -4142,11 +3892,9 @@ tile       246  110            art\tiles\DifSnow (64).FRM
 tile       248  110            art\tiles\DifSnow (87).FRM
 tile       250  110            art\tiles\DifSnow (64).FRM
 tile       252  110            art\tiles\DifSnow (56).FRM
-roof       252  110            art\tiles\WROOF05.FRM
 tile       254  110            art\tiles\DifSnow (48).FRM
-roof       254  110            art\tiles\WROOF08.FRM
 tile       256  110            art\tiles\DifSnow (80).FRM
-roof       256  110            art\tiles\WROOF08.FRM
+roof       256  110            art\tiles\WROOF05.FRM
 tile       258  110            art\tiles\DifSnow (68).FRM
 roof       258  110            art\tiles\WROOF08.FRM
 tile       260  110            art\tiles\DifSnow (77).FRM
@@ -4197,11 +3945,11 @@ tile       304  110            art\tiles\CMT4000.FRM
 roof       304  110            art\tiles\WROOF08.FRM
 tile       306  110            art\tiles\CMT3000.FRM
 roof       306  110            art\tiles\WROOF08.FRM
-roof_l     306  110          1 art\tiles\WROOF05.FRM
 tile       308  110            art\tiles\CMT5000.FRM
 roof       308  110            art\tiles\WROOF08.FRM
 tile       310  110            art\tiles\CMT6000.FRM
 roof       310  110            art\tiles\WROOF08.FRM
+roof_l     310  110          1 art\tiles\WROOF05.FRM
 tile       312  110            art\tiles\CMT4000.FRM
 roof       312  110            art\tiles\WROOF08.FRM
 tile       314  110            art\tiles\CMT3000.FRM
@@ -4235,17 +3983,17 @@ roof       340  110            art\tiles\WROOF08.FRM
 tile       342  110            art\tiles\CMT6000.FRM
 roof       342  110            art\tiles\WROOF08.FRM
 tile       344  110            art\tiles\CMT4000.FRM
-roof       344  110            art\tiles\Chruschovka70.png
+roof       344  110            art\tiles\WROOF08.FRM
 tile       346  110            art\tiles\CMT3000.FRM
-roof       346  110            art\tiles\Chruschovka69.png
+roof       346  110            art\tiles\WROOF08.FRM
 tile       348  110            art\tiles\CMT5000.FRM
 roof       348  110            art\tiles\Chruschovka68.png
 tile       350  110            art\tiles\CMT4000.FRM
 roof       350  110            art\tiles\Chruschovka59.png
 tile       352  110            art\tiles\CMT3000.FRM
-roof       352  110            art\tiles\WROOF08.FRM
+roof       352  110            art\tiles\Chruschovka74.png
 tile       354  110            art\tiles\CMT5000.FRM
-roof       354  110            art\tiles\WROOF08.FRM
+roof       354  110            art\tiles\Chruschovka57.png
 tile       356  110            art\tiles\CMT6000.FRM
 roof       356  110            art\tiles\WROOF08.FRM
 tile       358  110            art\tiles\CMT4000.FRM
@@ -4291,9 +4039,9 @@ roof       396  110            art\tiles\WROOF08.FRM
 tile       398  110            art\tiles\CMT6000.FRM
 roof       398  110            art\tiles\WROOF08.FRM
 tile       400  110            art\tiles\CMT4000.FRM
-roof       400  110            art\tiles\Chruschovka74.png
+roof       400  110            art\tiles\WROOF08.FRM
 tile       402  110            art\tiles\CMT3000.FRM
-roof       402  110            art\tiles\Chruschovka57.png
+roof       402  110            art\tiles\WROOF08.FRM
 tile       404  110            art\tiles\CMT5000.FRM
 roof       404  110            art\tiles\Chruschovka72.png
 tile       406  110            art\tiles\CMT6000.FRM
@@ -4348,11 +4096,9 @@ tile       246  112            art\tiles\DifSnow (65).FRM
 tile       248  112            art\tiles\DifSnow (88).FRM
 tile       250  112            art\tiles\DifSnow (65).FRM
 tile       252  112            art\tiles\DifSnow (57).FRM
-roof       252  112            art\tiles\WROOF05.FRM
 tile       254  112            art\tiles\DifSnow (51).FRM
-roof       254  112            art\tiles\WROOF08.FRM
 tile       256  112            art\tiles\DifSnow (81).FRM
-roof       256  112            art\tiles\WROOF08.FRM
+roof       256  112            art\tiles\WROOF05.FRM
 tile       258  112            art\tiles\DifSnow (74).FRM
 roof       258  112            art\tiles\WROOF08.FRM
 tile       260  112            art\tiles\DifSnow (79).FRM
@@ -4403,11 +4149,11 @@ tile       304  112            art\tiles\CMT8000.FRM
 roof       304  112            art\tiles\WROOF08.FRM
 tile       306  112            art\tiles\CMT6000.FRM
 roof       306  112            art\tiles\WROOF08.FRM
-roof_l     306  112          1 art\tiles\WROOF05.FRM
 tile       308  112            art\tiles\CMT4000.FRM
 roof       308  112            art\tiles\WROOF08.FRM
 tile       310  112            art\tiles\CMT3000.FRM
 roof       310  112            art\tiles\WROOF08.FRM
+roof_l     310  112          1 art\tiles\WROOF05.FRM
 tile       312  112            art\tiles\CMT8000.FRM
 roof       312  112            art\tiles\WROOF08.FRM
 tile       314  112            art\tiles\CMT6000.FRM
@@ -4441,17 +4187,17 @@ roof       340  112            art\tiles\WROOF08.FRM
 tile       342  112            art\tiles\CMT3000.FRM
 roof       342  112            art\tiles\WROOF08.FRM
 tile       344  112            art\tiles\CMT8000.FRM
-roof       344  112            art\tiles\Chruschovka58.png
+roof       344  112            art\tiles\WROOF08.FRM
 tile       346  112            art\tiles\CMT6000.FRM
-roof       346  112            art\tiles\Chruschovka57.png
+roof       346  112            art\tiles\WROOF08.FRM
 tile       348  112            art\tiles\CMT4000.FRM
 roof       348  112            art\tiles\Chruschovka66.png
 tile       350  112            art\tiles\CMT8000.FRM
 roof       350  112            art\tiles\Chruschovka65.png
 tile       352  112            art\tiles\CMT6000.FRM
-roof       352  112            art\tiles\WROOF08.FRM
+roof       352  112            art\tiles\Chruschovka72.png
 tile       354  112            art\tiles\CMT4000.FRM
-roof       354  112            art\tiles\WROOF08.FRM
+roof       354  112            art\tiles\Chruschovka71.png
 tile       356  112            art\tiles\CMT3000.FRM
 roof       356  112            art\tiles\WROOF08.FRM
 tile       358  112            art\tiles\CMT8000.FRM
@@ -4497,9 +4243,9 @@ roof       396  112            art\tiles\WROOF08.FRM
 tile       398  112            art\tiles\CMT3000.FRM
 roof       398  112            art\tiles\WROOF08.FRM
 tile       400  112            art\tiles\CMT8000.FRM
-roof       400  112            art\tiles\Chruschovka72.png
+roof       400  112            art\tiles\WROOF08.FRM
 tile       402  112            art\tiles\CMT6000.FRM
-roof       402  112            art\tiles\Chruschovka71.png
+roof       402  112            art\tiles\WROOF08.FRM
 tile       404  112            art\tiles\CMT4000.FRM
 roof       404  112            art\tiles\Chruschovka70.png
 tile       406  112            art\tiles\CMT3000.FRM
@@ -4557,11 +4303,9 @@ tile       246  114            art\tiles\DifSnow (66).FRM
 tile       248  114            art\tiles\DifSnow (89).FRM
 tile       250  114            art\tiles\DifSnow (66).FRM
 tile       252  114            art\tiles\DifSnow (58).FRM
-roof       252  114            art\tiles\WROOF05.FRM
 tile       254  114            art\tiles\DifSnow (54).FRM
-roof       254  114            art\tiles\WROOF08.FRM
 tile       256  114            art\tiles\DifSnow (82).FRM
-roof       256  114            art\tiles\WROOF08.FRM
+roof       256  114            art\tiles\WROOF05.FRM
 tile       258  114            art\tiles\DifSnow (86).FRM
 roof       258  114            art\tiles\WROOF08.FRM
 tile       260  114            art\tiles\DifSnow (79).FRM
@@ -4612,11 +4356,11 @@ tile       304  114            art\tiles\TP157.FRM
 roof       304  114            art\tiles\WROOF08.FRM
 tile       306  114            art\tiles\TP164.FRM
 roof       306  114            art\tiles\WROOF08.FRM
-roof_l     306  114          1 art\tiles\WROOF05.FRM
 tile       308  114            art\tiles\TP161.FRM
 roof       308  114            art\tiles\WROOF08.FRM
 tile       310  114            art\tiles\TP157.FRM
 roof       310  114            art\tiles\WROOF08.FRM
+roof_l     310  114          1 art\tiles\WROOF05.FRM
 tile       312  114            art\tiles\TP157.FRM
 roof       312  114            art\tiles\WROOF08.FRM
 tile       314  114            art\tiles\TP157.FRM
@@ -4650,17 +4394,17 @@ roof       340  114            art\tiles\WROOF08.FRM
 tile       342  114            art\tiles\CMT1000.FRM
 roof       342  114            art\tiles\WROOF08.FRM
 tile       344  114            art\tiles\TP161.FRM
-roof       344  114            art\tiles\Chruschovka56.png
+roof       344  114            art\tiles\WROOF08.FRM
 tile       346  114            art\tiles\TP157.FRM
-roof       346  114            art\tiles\Chruschovka55.png
+roof       346  114            art\tiles\WROOF08.FRM
 tile       348  114            art\tiles\TP157.FRM
 roof       348  114            art\tiles\Chruschovka64.png
 tile       350  114            art\tiles\TP157.FRM
 roof       350  114            art\tiles\Chruschovka63.png
 tile       352  114            art\tiles\TP157.FRM
-roof       352  114            art\tiles\WROOF08.FRM
+roof       352  114            art\tiles\Chruschovka70.png
 tile       354  114            art\tiles\TP157.FRM
-roof       354  114            art\tiles\WROOF08.FRM
+roof       354  114            art\tiles\Chruschovka69.png
 tile       356  114            art\tiles\TP164.FRM
 roof       356  114            art\tiles\WROOF08.FRM
 tile       358  114            art\tiles\TP161.FRM
@@ -4706,9 +4450,9 @@ roof       396  114            art\tiles\WROOF08.FRM
 tile       398  114            art\tiles\CURB16.FRM
 roof       398  114            art\tiles\WROOF08.FRM
 tile       400  114            art\tiles\CURB16.FRM
-roof       400  114            art\tiles\Chruschovka70.png
+roof       400  114            art\tiles\WROOF08.FRM
 tile       402  114            art\tiles\CURB16.FRM
-roof       402  114            art\tiles\Chruschovka69.png
+roof       402  114            art\tiles\WROOF08.FRM
 tile       404  114            art\tiles\CURB16.FRM
 roof       404  114            art\tiles\Chruschovka76.png
 tile       406  114            art\tiles\CURB16.FRM
@@ -4767,11 +4511,9 @@ tile       246  116            art\tiles\DifSnow (65).FRM
 tile       248  116            art\tiles\DifSnow (90).FRM
 tile       250  116            art\tiles\DifSnow (67).FRM
 tile       252  116            art\tiles\DifSnow (62).FRM
-roof       252  116            art\tiles\WROOF05.FRM
 tile       254  116            art\tiles\DifSnow (61).FRM
-roof       254  116            art\tiles\WROOF08.FRM
 tile       256  116            art\tiles\DifSnow (83).FRM
-roof       256  116            art\tiles\WROOF08.FRM
+roof       256  116            art\tiles\WROOF05.FRM
 tile       258  116            art\tiles\DifSnow (53).FRM
 roof       258  116            art\tiles\WROOF08.FRM
 tile       260  116            art\tiles\DifSnow (52).FRM
@@ -4822,11 +4564,11 @@ tile       304  116            art\tiles\TP153.FRM
 roof       304  116            art\tiles\WROOF08.FRM
 tile       306  116            art\tiles\TP160.FRM
 roof       306  116            art\tiles\WROOF08.FRM
-roof_l     306  116          1 art\tiles\WROOF05.FRM
 tile       308  116            art\tiles\TP158.FRM
 roof       308  116            art\tiles\WROOF08.FRM
 tile       310  116            art\tiles\TP154.FRM
 roof       310  116            art\tiles\WROOF08.FRM
+roof_l     310  116          1 art\tiles\WROOF05.FRM
 tile       312  116            art\tiles\TP153.FRM
 roof       312  116            art\tiles\WROOF08.FRM
 tile       314  116            art\tiles\TP154.FRM
@@ -4858,19 +4600,19 @@ roof       338  116            art\tiles\WROOF08.FRM
 tile       340  116            art\tiles\CMT5000.FRM
 roof       340  116            art\tiles\WROOF08.FRM
 tile       342  116            art\tiles\CMT6000.FRM
-roof       342  116            art\tiles\Hospital.FRM
+roof       342  116            art\tiles\WROOF08.FRM
 tile       344  116            art\tiles\TP158.FRM
-roof       344  116            art\tiles\Chruschovka53.png
+roof       344  116            art\tiles\WROOF08.FRM
 tile       346  116            art\tiles\TP154.FRM
-roof       346  116            art\tiles\Chruschovka52.png
+roof       346  116            art\tiles\WROOF08.FRM
 tile       348  116            art\tiles\TP153.FRM
 roof       348  116            art\tiles\Chruschovka70.png
 tile       350  116            art\tiles\TP154.FRM
 roof       350  116            art\tiles\Chruschovka69.png
 tile       352  116            art\tiles\TP153.FRM
-roof       352  116            art\tiles\WROOF08.FRM
+roof       352  116            art\tiles\Chruschovka68.png
 tile       354  116            art\tiles\TP154.FRM
-roof       354  116            art\tiles\WROOF08.FRM
+roof       354  116            art\tiles\Chruschovka59.png
 tile       356  116            art\tiles\TP160.FRM
 roof       356  116            art\tiles\WROOF08.FRM
 tile       358  116            art\tiles\TP158.FRM
@@ -4916,9 +4658,9 @@ roof       396  116            art\tiles\WROOF08.FRM
 tile       398  116            art\tiles\CURB16.FRM
 roof       398  116            art\tiles\WROOF08.FRM
 tile       400  116            art\tiles\CURB16.FRM
-roof       400  116            art\tiles\Chruschovka68.png
+roof       400  116            art\tiles\WROOF08.FRM
 tile       402  116            art\tiles\CURB16.FRM
-roof       402  116            art\tiles\Chruschovka59.png
+roof       402  116            art\tiles\WROOF08.FRM
 tile       404  116            art\tiles\CURB16.FRM
 roof       404  116            art\tiles\Chruschovka74.png
 tile       406  116            art\tiles\CURB16.FRM
@@ -4978,11 +4720,9 @@ tile       246  118            art\tiles\DifSnow (66).FRM
 tile       248  118            art\tiles\DifSnow (77).FRM
 tile       250  118            art\tiles\DifSnow (73).FRM
 tile       252  118            art\tiles\DifSnow (72).FRM
-roof       252  118            art\tiles\WROOF05.FRM
 tile       254  118            art\tiles\DifSnow (71).FRM
-roof       254  118            art\tiles\WROOF08.FRM
 tile       256  118            art\tiles\DifSnow (84).FRM
-roof       256  118            art\tiles\WROOF08.FRM
+roof       256  118            art\tiles\WROOF05.FRM
 tile       258  118            art\tiles\DifSnow (60).FRM
 roof       258  118            art\tiles\WROOF08.FRM
 tile       260  118            art\tiles\DifSnow (59).FRM
@@ -5033,56 +4773,55 @@ tile       304  118            art\tiles\TP155.FRM
 roof       304  118            art\tiles\WROOF08.FRM
 tile       306  118            art\tiles\TP160.FRM
 roof       306  118            art\tiles\WROOF08.FRM
-roof_l     306  118          1 art\tiles\Chruschovka51.png
 tile       308  118            art\tiles\TP158.FRM
 roof       308  118            art\tiles\WROOF08.FRM
-roof_l     308  118          1 art\tiles\Chruschovka50.png
 tile       310  118            art\tiles\TP156.FRM
-roof       310  118            art\tiles\Chruschovka40.png
+roof       310  118            art\tiles\WROOF08.FRM
+roof_l     310  118          1 art\tiles\WROOF05.FRM
 tile       312  118            art\tiles\TP155.FRM
-roof       312  118            art\tiles\Chruschovka45.png
+roof       312  118            art\tiles\WROOF08.FRM
 tile       314  118            art\tiles\TP156.FRM
-roof       314  118            art\tiles\Chruschovka41.png
+roof       314  118            art\tiles\WROOF08.FRM
 tile       316  118            art\tiles\TP155.FRM
-roof       316  118            art\tiles\Chruschovka49.png
+roof       316  118            art\tiles\WROOF08.FRM
 tile       318  118            art\tiles\TP156.FRM
-roof       318  118            art\tiles\Chruschovka48.png
+roof       318  118            art\tiles\WROOF08.FRM
 tile       320  118            art\tiles\TP155.FRM
-roof       320  118            art\tiles\Chruschovka41.png
+roof       320  118            art\tiles\WROOF08.FRM
 tile       322  118            art\tiles\TP156.FRM
-roof       322  118            art\tiles\Chruschovka42.png
+roof       322  118            art\tiles\WROOF08.FRM
 tile       324  118            art\tiles\TP155.FRM
-roof       324  118            art\tiles\Chruschovka40.png
+roof       324  118            art\tiles\WROOF08.FRM
 tile       326  118            art\tiles\TP160.FRM
-roof       326  118            art\tiles\Chruschovka45.png
+roof       326  118            art\tiles\WROOF08.FRM
 tile       328  118            art\tiles\CMT8000.FRM
-roof       328  118            art\tiles\Chruschovka45.png
+roof       328  118            art\tiles\WROOF08.FRM
 tile       330  118            art\tiles\CMT6000.FRM
-roof       330  118            art\tiles\Chruschovka41.png
+roof       330  118            art\tiles\WROOF08.FRM
 tile       332  118            art\tiles\CMT4000.FRM
-roof       332  118            art\tiles\Chruschovka49.png
+roof       332  118            art\tiles\WROOF08.FRM
 tile       334  118            art\tiles\CMT3000.FRM
-roof       334  118            art\tiles\Chruschovka48.png
+roof       334  118            art\tiles\WROOF08.FRM
 tile       336  118            art\tiles\CMT8000.FRM
-roof       336  118            art\tiles\Chruschovka41.png
+roof       336  118            art\tiles\WROOF08.FRM
 tile       338  118            art\tiles\CMT6000.FRM
-roof       338  118            art\tiles\Chruschovka42.png
+roof       338  118            art\tiles\WROOF08.FRM
 tile       340  118            art\tiles\CMT4000.FRM
-roof       340  118            art\tiles\Chruschovka40.png
+roof       340  118            art\tiles\WROOF08.FRM
 tile       342  118            art\tiles\CMT3000.FRM
-roof       342  118            art\tiles\Chruschovka45.png
+roof       342  118            art\tiles\WROOF08.FRM
 tile       344  118            art\tiles\TP158.FRM
-roof       344  118            art\tiles\Chruschovka35.png
+roof       344  118            art\tiles\WROOF08.FRM
 tile       346  118            art\tiles\TP156.FRM
-roof       346  118            art\tiles\Chruschovka34.png
+roof       346  118            art\tiles\WROOF08.FRM
 tile       348  118            art\tiles\TP155.FRM
 roof       348  118            art\tiles\Chruschovka58.png
 tile       350  118            art\tiles\TP156.FRM
 roof       350  118            art\tiles\Chruschovka57.png
 tile       352  118            art\tiles\TP155.FRM
-roof       352  118            art\tiles\WROOF08.FRM
+roof       352  118            art\tiles\Chruschovka66.png
 tile       354  118            art\tiles\TP156.FRM
-roof       354  118            art\tiles\WROOF08.FRM
+roof       354  118            art\tiles\Chruschovka65.png
 tile       356  118            art\tiles\TP160.FRM
 roof       356  118            art\tiles\WROOF08.FRM
 tile       358  118            art\tiles\TP158.FRM
@@ -5128,9 +4867,9 @@ roof       396  118            art\tiles\WROOF08.FRM
 tile       398  118            art\tiles\CURB16.FRM
 roof       398  118            art\tiles\WROOF08.FRM
 tile       400  118            art\tiles\CURB16.FRM
-roof       400  118            art\tiles\Chruschovka66.png
+roof       400  118            art\tiles\WROOF08.FRM
 tile       402  118            art\tiles\CURB16.FRM
-roof       402  118            art\tiles\Chruschovka65.png
+roof       402  118            art\tiles\WROOF08.FRM
 tile       404  118            art\tiles\CURB16.FRM
 roof       404  118            art\tiles\Chruschovka72.png
 tile       406  118            art\tiles\CURB16.FRM
@@ -5191,11 +4930,9 @@ tile       246  120            art\tiles\DifSnow (67).FRM
 tile       248  120            art\tiles\DifSnow (79).FRM
 tile       250  120            art\tiles\DifSnow (78).FRM
 tile       252  120            art\tiles\DifSnow (77).FRM
-roof       252  120            art\tiles\WROOF05.FRM
 tile       254  120            art\tiles\DifSnow (76).FRM
-roof       254  120            art\tiles\WROOF08.FRM
 tile       256  120            art\tiles\DifSnow (85).FRM
-roof       256  120            art\tiles\WROOF08.FRM
+roof       256  120            art\tiles\WROOF05.FRM
 tile       258  120            art\tiles\DifSnow (75).FRM
 roof       258  120            art\tiles\WROOF08.FRM
 tile       260  120            art\tiles\DifSnow (74).FRM
@@ -5248,53 +4985,53 @@ tile       306  120            art\tiles\TP160.FRM
 roof       306  120            art\tiles\WROOF08.FRM
 tile       308  120            art\tiles\TP158.FRM
 roof       308  120            art\tiles\WROOF08.FRM
-roof_l     308  120          1 art\tiles\Chruschovka33.png
 tile       310  120            art\tiles\TP154.FRM
-roof       310  120            art\tiles\Chruschovka29.png
+roof       310  120            art\tiles\WROOF08.FRM
+roof_l     310  120          1 art\tiles\WROOF05.FRM
 tile       312  120            art\tiles\TP153.FRM
-roof       312  120            art\tiles\Chruschovka28.png
+roof       312  120            art\tiles\WROOF08.FRM
 tile       314  120            art\tiles\TP154.FRM
-roof       314  120            art\tiles\Chruschovka24.png
+roof       314  120            art\tiles\WROOF08.FRM
 tile       316  120            art\tiles\TP153.FRM
-roof       316  120            art\tiles\Chruschovka32.png
+roof       316  120            art\tiles\WROOF08.FRM
 tile       318  120            art\tiles\TP154.FRM
-roof       318  120            art\tiles\Chruschovka20.png
+roof       318  120            art\tiles\WROOF08.FRM
 tile       320  120            art\tiles\TP153.FRM
-roof       320  120            art\tiles\Chruschovka19.png
+roof       320  120            art\tiles\WROOF08.FRM
 tile       322  120            art\tiles\TP154.FRM
-roof       322  120            art\tiles\Chruschovka27.png
+roof       322  120            art\tiles\WROOF08.FRM
 tile       324  120            art\tiles\TP153.FRM
-roof       324  120            art\tiles\Chruschovka29.png
+roof       324  120            art\tiles\WROOF08.FRM
 tile       326  120            art\tiles\TP160.FRM
-roof       326  120            art\tiles\Chruschovka28.png
+roof       326  120            art\tiles\WROOF08.FRM
 tile       328  120            art\tiles\CMT7000.FRM
-roof       328  120            art\tiles\Chruschovka27.png
+roof       328  120            art\tiles\WROOF08.FRM
 tile       330  120            art\tiles\CMT4000.FRM
-roof       330  120            art\tiles\Chruschovka24.png
+roof       330  120            art\tiles\WROOF08.FRM
 tile       332  120            art\tiles\CMT2000.FRM
-roof       332  120            art\tiles\Chruschovka32.png
+roof       332  120            art\tiles\WROOF08.FRM
 tile       334  120            art\tiles\CMT1000.FRM
-roof       334  120            art\tiles\Chruschovka20.png
+roof       334  120            art\tiles\WROOF08.FRM
 tile       336  120            art\tiles\CMT7000.FRM
-roof       336  120            art\tiles\Chruschovka19.png
+roof       336  120            art\tiles\WROOF08.FRM
 tile       338  120            art\tiles\CMT4000.FRM
-roof       338  120            art\tiles\Chruschovka27.png
+roof       338  120            art\tiles\WROOF08.FRM
 tile       340  120            art\tiles\CMT2000.FRM
-roof       340  120            art\tiles\Chruschovka29.png
+roof       340  120            art\tiles\WROOF08.FRM
 tile       342  120            art\tiles\CMT1000.FRM
-roof       342  120            art\tiles\Chruschovka28.png
+roof       342  120            art\tiles\WROOF08.FRM
 tile       344  120            art\tiles\TP158.FRM
-roof       344  120            art\tiles\Chruschovka18.png
+roof       344  120            art\tiles\WROOF08.FRM
 tile       346  120            art\tiles\TP154.FRM
-roof       346  120            art\tiles\Chruschovka17.png
+roof       346  120            art\tiles\WROOF08.FRM
 tile       348  120            art\tiles\TP153.FRM
 roof       348  120            art\tiles\Chruschovka56.png
 tile       350  120            art\tiles\TP154.FRM
 roof       350  120            art\tiles\Chruschovka55.png
 tile       352  120            art\tiles\TP153.FRM
-roof       352  120            art\tiles\WROOF08.FRM
+roof       352  120            art\tiles\Chruschovka64.png
 tile       354  120            art\tiles\TP154.FRM
-roof       354  120            art\tiles\WROOF08.FRM
+roof       354  120            art\tiles\Chruschovka63.png
 tile       356  120            art\tiles\TP160.FRM
 roof       356  120            art\tiles\WROOF08.FRM
 tile       358  120            art\tiles\TP158.FRM
@@ -5340,9 +5077,9 @@ roof       396  120            art\tiles\WROOF08.FRM
 tile       398  120            art\tiles\CURB16.FRM
 roof       398  120            art\tiles\WROOF08.FRM
 tile       400  120            art\tiles\CURB16.FRM
-roof       400  120            art\tiles\Chruschovka64.png
+roof       400  120            art\tiles\WROOF08.FRM
 tile       402  120            art\tiles\CURB16.FRM
-roof       402  120            art\tiles\Chruschovka63.png
+roof       402  120            art\tiles\WROOF08.FRM
 tile       404  120            art\tiles\CURB16.FRM
 roof       404  120            art\tiles\Chruschovka70.png
 tile       406  120            art\tiles\CURB16.FRM
@@ -5403,11 +5140,9 @@ tile       246  122            art\tiles\DifSnow (73).FRM
 tile       248  122            art\tiles\DifSnow (43).FRM
 tile       250  122            art\tiles\DifSnow (86).FRM
 tile       252  122            art\tiles\DifSnow (79).FRM
-roof       252  122            art\tiles\WROOF05.FRM
 tile       254  122            art\tiles\DifSnow (63).FRM
-roof       254  122            art\tiles\WROOF08.FRM
 tile       256  122            art\tiles\DifSnow (55).FRM
-roof       256  122            art\tiles\WROOF08.FRM
+roof       256  122            art\tiles\WROOF05.FRM
 tile       258  122            art\tiles\DifSnow (44).FRM
 roof       258  122            art\tiles\WROOF08.FRM
 tile       260  122            art\tiles\DifSnow (43).FRM
@@ -5462,51 +5197,51 @@ tile       308  122            art\tiles\TP158.FRM
 roof       308  122            art\tiles\WROOF08.FRM
 tile       310  122            art\tiles\TP154.FRM
 roof       310  122            art\tiles\WROOF08.FRM
-roof_l     310  122          1 art\tiles\Chruschovka16.png
+roof_l     310  122          1 art\tiles\WROOF05.FRM
 tile       312  122            art\tiles\TP153.FRM
-roof       312  122            art\tiles\Chruschovka2.png
+roof       312  122            art\tiles\WROOF08.FRM
 tile       314  122            art\tiles\TP154.FRM
-roof       314  122            art\tiles\Chruschovka12.png
+roof       314  122            art\tiles\WROOF08.FRM
 tile       316  122            art\tiles\TP153.FRM
-roof       316  122            art\tiles\Chruschovka15.png
+roof       316  122            art\tiles\WROOF08.FRM
 tile       318  122            art\tiles\TP154.FRM
-roof       318  122            art\tiles\Chruschovka15.png
+roof       318  122            art\tiles\WROOF08.FRM
 tile       320  122            art\tiles\TP153.FRM
-roof       320  122            art\tiles\Chruschovka14.png
+roof       320  122            art\tiles\WROOF08.FRM
 tile       322  122            art\tiles\TP154.FRM
-roof       322  122            art\tiles\Chruschovka11.png
+roof       322  122            art\tiles\WROOF08.FRM
 tile       324  122            art\tiles\TP153.FRM
-roof       324  122            art\tiles\Chruschovka2.png
+roof       324  122            art\tiles\WROOF08.FRM
 tile       326  122            art\tiles\TP160.FRM
-roof       326  122            art\tiles\Chruschovka12.png
+roof       326  122            art\tiles\WROOF08.FRM
 tile       328  122            art\tiles\CMT4000.FRM
-roof       328  122            art\tiles\Chruschovka11.png
+roof       328  122            art\tiles\WROOF08.FRM
 tile       330  122            art\tiles\CMT3000.FRM
-roof       330  122            art\tiles\Chruschovka11.png
+roof       330  122            art\tiles\WROOF08.FRM
 tile       332  122            art\tiles\CMT5000.FRM
-roof       332  122            art\tiles\Chruschovka13.png
+roof       332  122            art\tiles\WROOF08.FRM
 tile       334  122            art\tiles\CMT6000.FRM
-roof       334  122            art\tiles\Chruschovka15.png
+roof       334  122            art\tiles\WROOF08.FRM
 tile       336  122            art\tiles\CMT4000.FRM
-roof       336  122            art\tiles\Chruschovka14.png
+roof       336  122            art\tiles\WROOF08.FRM
 tile       338  122            art\tiles\CMT3000.FRM
-roof       338  122            art\tiles\Chruschovka11.png
+roof       338  122            art\tiles\WROOF08.FRM
 tile       340  122            art\tiles\CMT5000.FRM
-roof       340  122            art\tiles\Chruschovka2.png
+roof       340  122            art\tiles\WROOF08.FRM
 tile       342  122            art\tiles\CMT6000.FRM
-roof       342  122            art\tiles\Chruschovka12.png
+roof       342  122            art\tiles\WROOF08.FRM
 tile       344  122            art\tiles\TP158.FRM
-roof       344  122            art\tiles\Chruschovka10.png
+roof       344  122            art\tiles\WROOF08.FRM
 tile       346  122            art\tiles\TP154.FRM
-roof       346  122            art\tiles\Chruschovka1.png
+roof       346  122            art\tiles\Hospital.FRM
 tile       348  122            art\tiles\TP153.FRM
 roof       348  122            art\tiles\Chruschovka53.png
 tile       350  122            art\tiles\TP154.FRM
 roof       350  122            art\tiles\Chruschovka52.png
 tile       352  122            art\tiles\TP153.FRM
-roof       352  122            art\tiles\WROOF08.FRM
+roof       352  122            art\tiles\Chruschovka70.png
 tile       354  122            art\tiles\TP154.FRM
-roof       354  122            art\tiles\WROOF08.FRM
+roof       354  122            art\tiles\Chruschovka69.png
 tile       356  122            art\tiles\TP160.FRM
 roof       356  122            art\tiles\WROOF08.FRM
 tile       358  122            art\tiles\TP158.FRM
@@ -5552,9 +5287,9 @@ roof       396  122            art\tiles\WROOF08.FRM
 tile       398  122            art\tiles\CURB16.FRM
 roof       398  122            art\tiles\WROOF08.FRM
 tile       400  122            art\tiles\CURB16.FRM
-roof       400  122            art\tiles\Chruschovka70.png
+roof       400  122            art\tiles\WROOF08.FRM
 tile       402  122            art\tiles\CURB16.FRM
-roof       402  122            art\tiles\Chruschovka69.png
+roof       402  122            art\tiles\WROOF08.FRM
 tile       404  122            art\tiles\CURB16.FRM
 roof       404  122            art\tiles\Chruschovka68.png
 tile       406  122            art\tiles\CURB16.FRM
@@ -5615,11 +5350,9 @@ tile       246  124            art\tiles\DifSnow (78).FRM
 tile       248  124            art\tiles\DifSnow (88).FRM
 tile       250  124            art\tiles\DifSnow (81).FRM
 tile       252  124            art\tiles\DifSnow (65).FRM
-roof       252  124            art\tiles\WROOF05.FRM
 tile       254  124            art\tiles\DifSnow (57).FRM
-roof       254  124            art\tiles\WROOF08.FRM
 tile       256  124            art\tiles\DifSnow (51).FRM
-roof       256  124            art\tiles\WROOF08.FRM
+roof       256  124            art\tiles\WROOF05.FRM
 tile       258  124            art\tiles\DifSnow (46).FRM
 roof       258  124            art\tiles\WROOF08.FRM
 tile       260  124            art\tiles\DifSnow (45).FRM
@@ -5676,7 +5409,7 @@ tile       310  124            art\tiles\TP156.FRM
 roof       310  124            art\tiles\WROOF08.FRM
 roof_l     310  124          1 art\tiles\Chruschovka51.png
 tile       312  124            art\tiles\TP155.FRM
-roof       312  124            art\tiles\WROOF07.FRM
+roof       312  124            art\tiles\WROOF08.FRM
 roof_l     312  124          1 art\tiles\Chruschovka50.png
 tile       314  124            art\tiles\TP156.FRM
 roof       314  124            art\tiles\Chruschovka40.png
@@ -5697,9 +5430,9 @@ roof       328  124            art\tiles\Chruschovka40.png
 tile       330  124            art\tiles\CMT6000.FRM
 roof       330  124            art\tiles\Chruschovka45.png
 tile       332  124            art\tiles\CMT4000.FRM
-roof       332  124            art\tiles\Chruschovka41.png
+roof       332  124            art\tiles\Chruschovka45.png
 tile       334  124            art\tiles\CMT3000.FRM
-roof       334  124            art\tiles\Chruschovka42.png
+roof       334  124            art\tiles\Chruschovka41.png
 tile       336  124            art\tiles\CMT8000.FRM
 roof       336  124            art\tiles\Chruschovka49.png
 tile       338  124            art\tiles\CMT6000.FRM
@@ -5717,9 +5450,9 @@ roof       348  124            art\tiles\Chruschovka35.png
 tile       350  124            art\tiles\TP156.FRM
 roof       350  124            art\tiles\Chruschovka34.png
 tile       352  124            art\tiles\TP155.FRM
-roof       352  124            art\tiles\WROOF08.FRM
+roof       352  124            art\tiles\Chruschovka58.png
 tile       354  124            art\tiles\TP156.FRM
-roof       354  124            art\tiles\WROOF08.FRM
+roof       354  124            art\tiles\Chruschovka57.png
 tile       356  124            art\tiles\TP160.FRM
 roof       356  124            art\tiles\WROOF08.FRM
 tile       358  124            art\tiles\TP158.FRM
@@ -5765,9 +5498,9 @@ roof       396  124            art\tiles\WROOF08.FRM
 tile       398  124            art\tiles\CURB16.FRM
 roof       398  124            art\tiles\WROOF08.FRM
 tile       400  124            art\tiles\CURB16.FRM
-roof       400  124            art\tiles\Chruschovka58.png
+roof       400  124            art\tiles\WROOF08.FRM
 tile       402  124            art\tiles\CURB16.FRM
-roof       402  124            art\tiles\Chruschovka57.png
+roof       402  124            art\tiles\WROOF08.FRM
 tile       404  124            art\tiles\CURB16.FRM
 roof       404  124            art\tiles\Chruschovka66.png
 tile       406  124            art\tiles\CURB16.FRM
@@ -5828,11 +5561,9 @@ tile       246  126            art\tiles\DifSnow (63).FRM
 tile       248  126            art\tiles\DifSnow (89).FRM
 tile       250  126            art\tiles\DifSnow (82).FRM
 tile       252  126            art\tiles\DifSnow (66).FRM
-roof       252  126            art\tiles\WROOF05.FRM
 tile       254  126            art\tiles\DifSnow (58).FRM
-roof       254  126            art\tiles\WROOF08.FRM
 tile       256  126            art\tiles\DifSnow (54).FRM
-roof       256  126            art\tiles\WROOF08.FRM
+roof       256  126            art\tiles\WROOF05.FRM
 tile       258  126            art\tiles\DifSnow (50).FRM
 roof       258  126            art\tiles\WROOF08.FRM
 tile       260  126            art\tiles\DifSnow (49).FRM
@@ -5888,8 +5619,8 @@ roof       308  126            art\tiles\WROOF08.FRM
 tile       310  126            art\tiles\TP159.FRM
 roof       310  126            art\tiles\WROOF08.FRM
 tile       312  126            art\tiles\TP159.FRM
-roof_l     312  126          1 art\tiles\Chruschovka33.png
 roof       312  126            art\tiles\WROOF08.FRM
+roof_l     312  126          1 art\tiles\Chruschovka33.png
 tile       314  126            art\tiles\TP159.FRM
 roof       314  126            art\tiles\Chruschovka29.png
 tile       316  126            art\tiles\TP159.FRM
@@ -5911,7 +5642,7 @@ roof       330  126            art\tiles\Chruschovka28.png
 tile       332  126            art\tiles\CMT2000.FRM
 roof       332  126            art\tiles\Chruschovka27.png
 tile       334  126            art\tiles\CMT1000.FRM
-roof       334  126            art\tiles\Chruschovka27.png
+roof       334  126            art\tiles\Chruschovka24.png
 tile       336  126            art\tiles\CMT7000.FRM
 roof       336  126            art\tiles\Chruschovka32.png
 tile       338  126            art\tiles\CMT4000.FRM
@@ -5929,9 +5660,9 @@ roof       348  126            art\tiles\Chruschovka18.png
 tile       350  126            art\tiles\TP159.FRM
 roof       350  126            art\tiles\Chruschovka17.png
 tile       352  126            art\tiles\TP159.FRM
-roof       352  126            art\tiles\WROOF08.FRM
+roof       352  126            art\tiles\Chruschovka56.png
 tile       354  126            art\tiles\TP159.FRM
-roof       354  126            art\tiles\WROOF08.FRM
+roof       354  126            art\tiles\Chruschovka55.png
 tile       356  126            art\tiles\TP163.FRM
 roof       356  126            art\tiles\WROOF08.FRM
 tile       358  126            art\tiles\TP162.FRM
@@ -5977,9 +5708,9 @@ roof       396  126            art\tiles\WROOF08.FRM
 tile       398  126            art\tiles\CURB16.FRM
 roof       398  126            art\tiles\WROOF08.FRM
 tile       400  126            art\tiles\CURB16.FRM
-roof       400  126            art\tiles\Chruschovka56.png
+roof       400  126            art\tiles\WROOF08.FRM
 tile       402  126            art\tiles\CURB16.FRM
-roof       402  126            art\tiles\Chruschovka55.png
+roof       402  126            art\tiles\WROOF08.FRM
 tile       404  126            art\tiles\CURB16.FRM
 roof       404  126            art\tiles\Chruschovka64.png
 tile       406  126            art\tiles\CURB16.FRM
@@ -6040,11 +5771,9 @@ tile       246  128            art\tiles\DifSnow (64).FRM
 tile       248  128            art\tiles\DifSnow (90).FRM
 tile       250  128            art\tiles\DifSnow (83).FRM
 tile       252  128            art\tiles\DifSnow (67).FRM
-roof       252  128            art\tiles\WROOF05.FRM
 tile       254  128            art\tiles\DifSnow (62).FRM
-roof       254  128            art\tiles\WROOF08.FRM
 tile       256  128            art\tiles\DifSnow (61).FRM
-roof       256  128            art\tiles\WROOF08.FRM
+roof       256  128            art\tiles\WROOF05.FRM
 tile       258  128            art\tiles\DifSnow (53).FRM
 roof       258  128            art\tiles\WROOF08.FRM
 tile       260  128            art\tiles\DifSnow (52).FRM
@@ -6102,14 +5831,14 @@ roof       310  128            art\tiles\WROOF08.FRM
 tile       312  128            art\tiles\DifSnow (52).FRM
 roof       312  128            art\tiles\WROOF08.FRM
 tile       314  128            art\tiles\DifSnow (89).FRM
-roof       314  128            art\tiles\WROOF07.FRM
+roof       314  128            art\tiles\WROOF08.FRM
 roof_l     314  128          1 art\tiles\Chruschovka16.png
 tile       316  128            art\tiles\DifSnow (82).FRM
 roof       316  128            art\tiles\Chruschovka2.png
 tile       318  128            art\tiles\DifSnow (66).FRM
-roof       318  128            art\tiles\Chruschovka10.png
+roof       318  128            art\tiles\Chruschovka12.png
 tile       320  128            art\tiles\DifSnow (58).FRM
-roof       320  128            art\tiles\Chruschovka10.png
+roof       320  128            art\tiles\Chruschovka15.png
 tile       322  128            art\tiles\DifSnow (79).FRM
 roof       322  128            art\tiles\Chruschovka15.png
 tile       324  128            art\tiles\DifSnow (96).FRM
@@ -6121,7 +5850,7 @@ roof       328  128            art\tiles\Chruschovka2.png
 tile       330  128            art\tiles\CMT3000.FRM
 roof       330  128            art\tiles\Chruschovka12.png
 tile       332  128            art\tiles\CMT5000.FRM
-roof       332  128            art\tiles\Chruschovka10.png
+roof       332  128            art\tiles\Chruschovka11.png
 tile       334  128            art\tiles\CMT6000.FRM
 roof       334  128            art\tiles\Chruschovka11.png
 tile       336  128            art\tiles\CMT4000.FRM
@@ -6141,9 +5870,9 @@ roof       348  128            art\tiles\Chruschovka10.png
 tile       350  128            art\tiles\DifSnow (86).FRM
 roof       350  128            art\tiles\Chruschovka1.png
 tile       352  128            art\tiles\DifSnow (79).FRM
-roof       352  128            art\tiles\WROOF08.FRM
+roof       352  128            art\tiles\Chruschovka53.png
 tile       354  128            art\tiles\DifSnow (63).FRM
-roof       354  128            art\tiles\WROOF08.FRM
+roof       354  128            art\tiles\Chruschovka52.png
 tile       356  128            art\tiles\DifSnow (55).FRM
 roof       356  128            art\tiles\WROOF08.FRM
 tile       358  128            art\tiles\DifSnow (44).FRM
@@ -6189,9 +5918,9 @@ roof       396  128            art\tiles\WROOF08.FRM
 tile       398  128            art\tiles\CURB16.FRM
 roof       398  128            art\tiles\WROOF08.FRM
 tile       400  128            art\tiles\CURB16.FRM
-roof       400  128            art\tiles\Chruschovka53.png
+roof       400  128            art\tiles\WROOF08.FRM
 tile       402  128            art\tiles\CURB16.FRM
-roof       402  128            art\tiles\Chruschovka52.png
+roof       402  128            art\tiles\WROOF08.FRM
 tile       404  128            art\tiles\CURB16.FRM
 roof       404  128            art\tiles\Chruschovka70.png
 tile       406  128            art\tiles\CURB16.FRM
@@ -6252,77 +5981,77 @@ tile       246  130            art\tiles\DifSnow (65).FRM
 tile       248  130            art\tiles\DifSnow (77).FRM
 tile       250  130            art\tiles\DifSnow (84).FRM
 tile       252  130            art\tiles\DifSnow (73).FRM
-roof       252  130            art\tiles\Chruschovka51.png
 tile       254  130            art\tiles\DifSnow (72).FRM
-roof       254  130            art\tiles\Chruschovka50.png
 tile       256  130            art\tiles\DifSnow (71).FRM
-roof       256  130            art\tiles\Chruschovka40.png
+roof       256  130            art\tiles\WROOF05.FRM
 tile       258  130            art\tiles\DifSnow (50).FRM
-roof       258  130            art\tiles\Chruschovka45.png
+roof       258  130            art\tiles\WROOF08.FRM
 tile       260  130            art\tiles\DifSnow (49).FRM
-roof       260  130            art\tiles\Chruschovka41.png
+roof       260  130            art\tiles\WROOF08.FRM
 tile       262  130            art\tiles\TP158.FRM
-roof       262  130            art\tiles\Chruschovka41.png
+roof       262  130            art\tiles\WROOF08.FRM
 tile       264  130            art\tiles\TP154.FRM
-roof       264  130            art\tiles\Chruschovka49.png
+roof       264  130            art\tiles\WROOF08.FRM
 tile       266  130            art\tiles\TP154.FRM
-roof       266  130            art\tiles\Chruschovka48.png
+roof       266  130            art\tiles\WROOF08.FRM
 tile       268  130            art\tiles\TP153.FRM
-roof       268  130            art\tiles\Chruschovka41.png
+roof       268  130            art\tiles\WROOF08.FRM
 tile       270  130            art\tiles\TP154.FRM
-roof       270  130            art\tiles\Chruschovka40.png
+roof       270  130            art\tiles\WROOF08.FRM
 tile       272  130            art\tiles\TP153.FRM
-roof       272  130            art\tiles\Chruschovka45.png
+roof       272  130            art\tiles\WROOF08.FRM
 tile       274  130            art\tiles\TP154.FRM
-roof       274  130            art\tiles\Chruschovka45.png
+roof       274  130            art\tiles\WROOF08.FRM
 tile       276  130            art\tiles\TP153.FRM
-roof       276  130            art\tiles\Chruschovka41.png
+roof       276  130            art\tiles\WROOF08.FRM
 tile       278  130            art\tiles\TP154.FRM
-roof       278  130            art\tiles\Chruschovka49.png
+roof       278  130            art\tiles\WROOF08.FRM
 tile       280  130            art\tiles\TP153.FRM
-roof       280  130            art\tiles\Chruschovka48.png
+roof       280  130            art\tiles\WROOF08.FRM
 tile       282  130            art\tiles\TP165.FRM
-roof       282  130            art\tiles\Chruschovka41.png
+roof       282  130            art\tiles\WROOF08.FRM
 tile       284  130            art\tiles\TP156.FRM
-roof       284  130            art\tiles\Chruschovka45.png
+roof       284  130            art\tiles\WROOF08.FRM
 tile       286  130            art\tiles\TP155.FRM
-roof       286  130            art\tiles\Chruschovka42.png
+roof       286  130            art\tiles\WROOF08.FRM
 tile       288  130            art\tiles\TP156.FRM
-roof       288  130            art\tiles\Chruschovka42.png
+roof       288  130            art\tiles\WROOF08.FRM
 tile       290  130            art\tiles\TP155.FRM
-roof       290  130            art\tiles\Chruschovka49.png
+roof       290  130            art\tiles\WROOF08.FRM
 tile       292  130            art\tiles\TP155.FRM
-roof       292  130            art\tiles\Chruschovka48.png
+roof       292  130            art\tiles\WROOF08.FRM
 tile       294  130            art\tiles\TP160.FRM
-roof       294  130            art\tiles\Chruschovka41.png
+roof       294  130            art\tiles\WROOF08.FRM
 tile       296  130            art\tiles\DifSnow (51).FRM
-roof       296  130            art\tiles\Chruschovka41.png
+roof       296  130            art\tiles\WROOF08.FRM
 tile       298  130            art\tiles\DifSnow (65).FRM
-roof       298  130            art\tiles\Chruschovka40.png
+roof       298  130            art\tiles\WROOF08.FRM
 tile       300  130            art\tiles\DifSnow (77).FRM
-roof       300  130            art\tiles\Chruschovka45.png
+roof       300  130            art\tiles\WROOF08.FRM
 tile       302  130            art\tiles\DifSnow (84).FRM
-roof       302  130            art\tiles\Chruschovka42.png
+roof       302  130            art\tiles\WROOF08.FRM
 tile       304  130            art\tiles\DifSnow (73).FRM
-roof       304  130            art\tiles\Chruschovka49.png
+roof       304  130            art\tiles\WROOF08.FRM
 tile       306  130            art\tiles\DifSnow (72).FRM
-roof       306  130            art\tiles\Chruschovka48.png
+roof       306  130            art\tiles\WROOF08.FRM
 tile       308  130            art\tiles\DifSnow (71).FRM
-roof       308  130            art\tiles\Chruschovka41.png
+roof       308  130            art\tiles\WROOF08.FRM
 tile       310  130            art\tiles\DifSnow (50).FRM
-roof       310  130            art\tiles\Chruschovka41.png
+roof       310  130            art\tiles\WROOF08.FRM
 tile       312  130            art\tiles\DifSnow (49).FRM
-roof       312  130            art\tiles\Chruschovka40.png
+roof       312  130            art\tiles\WROOF08.FRM
 tile       314  130            art\tiles\DifSnow (88).FRM
-roof       314  130            art\tiles\Chruschovka45.png
+roof       314  130            art\tiles\WROOF08.FRM
+roof_l     314  130          1 art\tiles\Chruschovka51.png
 tile       316  130            art\tiles\DifSnow (81).FRM
-roof       316  130            art\tiles\Chruschovka42.png
+roof       316  130            art\tiles\WROOF07.FRM
+roof_l     316  130          1 art\tiles\Chruschovka50.png
 tile       318  130            art\tiles\DifSnow (65).FRM
 roof       318  130            art\tiles\Chruschovka40.png
 tile       320  130            art\tiles\DifSnow (57).FRM
 roof       320  130            art\tiles\Chruschovka45.png
 tile       322  130            art\tiles\DifSnow (48).FRM
-roof       322  130            art\tiles\Chruschovka42.png
+roof       322  130            art\tiles\Chruschovka41.png
 tile       324  130            art\tiles\DifSnow (96).FRM
 roof       324  130            art\tiles\Chruschovka49.png
 tile       326  130            art\tiles\DifSnow (130).FRM
@@ -6346,63 +6075,63 @@ roof       342  130            art\tiles\Chruschovka48.png
 tile       344  130            art\tiles\DifSnow (128).FRM
 roof       344  130            art\tiles\Chruschovka41.png
 tile       346  130            art\tiles\DifSnow (101).FRM
-roof       346  130            art\tiles\Chruschovka41.png
+roof       346  130            art\tiles\Chruschovka42.png
 tile       348  130            art\tiles\DifSnow (54).FRM
 roof       348  130            art\tiles\Chruschovka40.png
 tile       350  130            art\tiles\DifSnow (62).FRM
 roof       350  130            art\tiles\Chruschovka45.png
 tile       352  130            art\tiles\DifSnow (60).FRM
-roof       352  130            art\tiles\Chruschovka42.png
+roof       352  130            art\tiles\Chruschovka35.png
 tile       354  130            art\tiles\DifSnow (59).FRM
-roof       354  130            art\tiles\Chruschovka40.png
+roof       354  130            art\tiles\Chruschovka34.png
 tile       356  130            art\tiles\DifSnow (90).FRM
-roof       356  130            art\tiles\Chruschovka45.png
+roof       356  130            art\tiles\WROOF08.FRM
 tile       358  130            art\tiles\DifSnow (83).FRM
-roof       358  130            art\tiles\Chruschovka42.png
+roof       358  130            art\tiles\WROOF08.FRM
 tile       360  130            art\tiles\DifSnow (67).FRM
-roof       360  130            art\tiles\Chruschovka49.png
+roof       360  130            art\tiles\WROOF08.FRM
 tile       362  130            art\tiles\DifSnow (62).FRM
-roof       362  130            art\tiles\Chruschovka48.png
+roof       362  130            art\tiles\WROOF08.FRM
 tile       364  130            art\tiles\DifSnow (61).FRM
-roof       364  130            art\tiles\Chruschovka41.png
+roof       364  130            art\tiles\WROOF08.FRM
 tile       366  130            art\tiles\DifSnow (67).FRM
-roof       366  130            art\tiles\Chruschovka42.png
+roof       366  130            art\tiles\WROOF08.FRM
 tile       368  130            art\tiles\DifSnow (79).FRM
-roof       368  130            art\tiles\Chruschovka40.png
+roof       368  130            art\tiles\WROOF08.FRM
 tile       370  130            art\tiles\DifSnow (78).FRM
-roof       370  130            art\tiles\Chruschovka45.png
+roof       370  130            art\tiles\WROOF08.FRM
 tile       372  130            art\tiles\DifSnow (77).FRM
-roof       372  130            art\tiles\Chruschovka41.png
+roof       372  130            art\tiles\WROOF08.FRM
 tile       374  130            art\tiles\TP158.FRM
-roof       374  130            art\tiles\Chruschovka42.png
+roof       374  130            art\tiles\WROOF08.FRM
 tile       376  130            art\tiles\TP153.FRM
-roof       376  130            art\tiles\Chruschovka49.png
+roof       376  130            art\tiles\WROOF08.FRM
 tile       378  130            art\tiles\TP154.FRM
-roof       378  130            art\tiles\Chruschovka48.png
+roof       378  130            art\tiles\WROOF08.FRM
 tile       380  130            art\tiles\TP153.FRM
-roof       380  130            art\tiles\Chruschovka41.png
+roof       380  130            art\tiles\WROOF08.FRM
 tile       382  130            art\tiles\TP160.FRM
-roof       382  130            art\tiles\Chruschovka40.png
+roof       382  130            art\tiles\WROOF08.FRM
 tile       384  130            art\tiles\CMT5000.FRM
-roof       384  130            art\tiles\Chruschovka45.png
+roof       384  130            art\tiles\WROOF08.FRM
 tile       386  130            art\tiles\CMT6000.FRM
-roof       386  130            art\tiles\Chruschovka42.png
+roof       386  130            art\tiles\WROOF08.FRM
 tile       388  130            art\tiles\CMT4000.FRM
-roof       388  130            art\tiles\Chruschovka49.png
+roof       388  130            art\tiles\WROOF08.FRM
 tile       390  130            art\tiles\CMT3000.FRM
-roof       390  130            art\tiles\Chruschovka48.png
+roof       390  130            art\tiles\WROOF08.FRM
 tile       392  130            art\tiles\CURB16.FRM
-roof       392  130            art\tiles\Chruschovka41.png
+roof       392  130            art\tiles\WROOF08.FRM
 tile       394  130            art\tiles\CURB16.FRM
-roof       394  130            art\tiles\Chruschovka42.png
+roof       394  130            art\tiles\WROOF08.FRM
 tile       396  130            art\tiles\CURB16.FRM
-roof       396  130            art\tiles\Chruschovka40.png
+roof       396  130            art\tiles\WROOF08.FRM
 tile       398  130            art\tiles\CURB16.FRM
-roof       398  130            art\tiles\Chruschovka45.png
+roof       398  130            art\tiles\WROOF08.FRM
 tile       400  130            art\tiles\CURB16.FRM
-roof       400  130            art\tiles\Chruschovka35.png
+roof       400  130            art\tiles\WROOF08.FRM
 tile       402  130            art\tiles\CURB19.FRM
-roof       402  130            art\tiles\Chruschovka34.png
+roof       402  130            art\tiles\WROOF08.FRM
 tile       404  130            art\tiles\CURB16.FRM
 roof       404  130            art\tiles\Chruschovka58.png
 tile       406  130            art\tiles\CURB16.FRM
@@ -6464,75 +6193,75 @@ tile       248  132            art\tiles\DifSnow (79).FRM
 tile       250  132            art\tiles\DifSnow (85).FRM
 tile       252  132            art\tiles\DifSnow (78).FRM
 tile       254  132            art\tiles\DifSnow (77).FRM
-roof       254  132            art\tiles\Chruschovka33.png
 tile       256  132            art\tiles\DifSnow (76).FRM
-roof       256  132            art\tiles\Chruschovka29.png
+roof       256  132            art\tiles\WROOF05.FRM
 tile       258  132            art\tiles\DifSnow (53).FRM
-roof       258  132            art\tiles\Chruschovka28.png
+roof       258  132            art\tiles\WROOF08.FRM
 tile       260  132            art\tiles\DifSnow (52).FRM
-roof       260  132            art\tiles\Chruschovka24.png
+roof       260  132            art\tiles\WROOF08.FRM
 tile       262  132            art\tiles\TP158.FRM
-roof       262  132            art\tiles\Chruschovka24.png
+roof       262  132            art\tiles\WROOF08.FRM
 tile       264  132            art\tiles\TP156.FRM
-roof       264  132            art\tiles\Chruschovka32.png
+roof       264  132            art\tiles\WROOF08.FRM
 tile       266  132            art\tiles\TP156.FRM
-roof       266  132            art\tiles\Chruschovka20.png
+roof       266  132            art\tiles\WROOF08.FRM
 tile       268  132            art\tiles\TP155.FRM
-roof       268  132            art\tiles\Chruschovka19.png
+roof       268  132            art\tiles\WROOF08.FRM
 tile       270  132            art\tiles\TP156.FRM
-roof       270  132            art\tiles\Chruschovka29.png
+roof       270  132            art\tiles\WROOF08.FRM
 tile       272  132            art\tiles\TP155.FRM
-roof       272  132            art\tiles\Chruschovka28.png
+roof       272  132            art\tiles\WROOF08.FRM
 tile       274  132            art\tiles\TP156.FRM
-roof       274  132            art\tiles\Chruschovka27.png
+roof       274  132            art\tiles\WROOF08.FRM
 tile       276  132            art\tiles\TP155.FRM
-roof       276  132            art\tiles\Chruschovka24.png
+roof       276  132            art\tiles\WROOF08.FRM
 tile       278  132            art\tiles\TP156.FRM
-roof       278  132            art\tiles\Chruschovka32.png
+roof       278  132            art\tiles\WROOF08.FRM
 tile       280  132            art\tiles\TP155.FRM
-roof       280  132            art\tiles\Chruschovka20.png
+roof       280  132            art\tiles\WROOF08.FRM
 tile       282  132            art\tiles\TP156.FRM
-roof       282  132            art\tiles\Chruschovka19.png
+roof       282  132            art\tiles\WROOF08.FRM
 tile       284  132            art\tiles\TP154.FRM
-roof       284  132            art\tiles\Chruschovka24.png
+roof       284  132            art\tiles\WROOF08.FRM
 tile       286  132            art\tiles\TP153.FRM
-roof       286  132            art\tiles\Chruschovka27.png
+roof       286  132            art\tiles\WROOF08.FRM
 tile       288  132            art\tiles\TP154.FRM
-roof       288  132            art\tiles\Chruschovka27.png
+roof       288  132            art\tiles\WROOF08.FRM
 tile       290  132            art\tiles\TP153.FRM
-roof       290  132            art\tiles\Chruschovka32.png
+roof       290  132            art\tiles\WROOF08.FRM
 tile       292  132            art\tiles\TP153.FRM
-roof       292  132            art\tiles\Chruschovka20.png
+roof       292  132            art\tiles\WROOF08.FRM
 tile       294  132            art\tiles\TP160.FRM
-roof       294  132            art\tiles\Chruschovka19.png
+roof       294  132            art\tiles\WROOF08.FRM
 tile       296  132            art\tiles\DifSnow (54).FRM
-roof       296  132            art\tiles\Chruschovka24.png
+roof       296  132            art\tiles\WROOF08.FRM
 tile       298  132            art\tiles\DifSnow (66).FRM
-roof       298  132            art\tiles\Chruschovka29.png
+roof       298  132            art\tiles\WROOF08.FRM
 tile       300  132            art\tiles\DifSnow (79).FRM
-roof       300  132            art\tiles\Chruschovka28.png
+roof       300  132            art\tiles\WROOF08.FRM
 tile       302  132            art\tiles\DifSnow (85).FRM
-roof       302  132            art\tiles\Chruschovka27.png
+roof       302  132            art\tiles\WROOF08.FRM
 tile       304  132            art\tiles\DifSnow (78).FRM
-roof       304  132            art\tiles\Chruschovka32.png
+roof       304  132            art\tiles\WROOF08.FRM
 tile       306  132            art\tiles\DifSnow (77).FRM
-roof       306  132            art\tiles\Chruschovka20.png
+roof       306  132            art\tiles\WROOF08.FRM
 tile       308  132            art\tiles\DifSnow (76).FRM
-roof       308  132            art\tiles\Chruschovka19.png
+roof       308  132            art\tiles\WROOF08.FRM
 tile       310  132            art\tiles\DifSnow (53).FRM
-roof       310  132            art\tiles\Chruschovka24.png
+roof       310  132            art\tiles\WROOF08.FRM
 tile       312  132            art\tiles\DifSnow (52).FRM
-roof       312  132            art\tiles\Chruschovka29.png
+roof       312  132            art\tiles\WROOF08.FRM
 tile       314  132            art\tiles\DifSnow (89).FRM
-roof       314  132            art\tiles\Chruschovka28.png
+roof       314  132            art\tiles\WROOF08.FRM
 tile       316  132            art\tiles\DifSnow (82).FRM
-roof       316  132            art\tiles\Chruschovka27.png
+roof_l     316  132          1 art\tiles\Chruschovka33.png
+roof       316  132            art\tiles\WROOF08.FRM
 tile       318  132            art\tiles\DifSnow (66).FRM
 roof       318  132            art\tiles\Chruschovka29.png
 tile       320  132            art\tiles\DifSnow (58).FRM
 roof       320  132            art\tiles\Chruschovka28.png
 tile       322  132            art\tiles\DifSnow (51).FRM
-roof       322  132            art\tiles\Chruschovka27.png
+roof       322  132            art\tiles\Chruschovka24.png
 tile       324  132            art\tiles\DifSnow (135).FRM
 roof       324  132            art\tiles\Chruschovka32.png
 tile       326  132            art\tiles\DifSnow (91).FRM
@@ -6556,63 +6285,63 @@ roof       342  132            art\tiles\Chruschovka20.png
 tile       344  132            art\tiles\DifSnow (94).FRM
 roof       344  132            art\tiles\Chruschovka19.png
 tile       346  132            art\tiles\DifSnow (1).FRM
-roof       346  132            art\tiles\Chruschovka24.png
+roof       346  132            art\tiles\Chruschovka27.png
 tile       348  132            art\tiles\DifSnow (61).FRM
 roof       348  132            art\tiles\Chruschovka29.png
 tile       350  132            art\tiles\DifSnow (77).FRM
 roof       350  132            art\tiles\Chruschovka28.png
 tile       352  132            art\tiles\DifSnow (75).FRM
-roof       352  132            art\tiles\Chruschovka27.png
+roof       352  132            art\tiles\Chruschovka18.png
 tile       354  132            art\tiles\DifSnow (74).FRM
-roof       354  132            art\tiles\Chruschovka29.png
+roof       354  132            art\tiles\Chruschovka17.png
 tile       356  132            art\tiles\DifSnow (79).FRM
-roof       356  132            art\tiles\Chruschovka28.png
+roof       356  132            art\tiles\WROOF08.FRM
 tile       358  132            art\tiles\DifSnow (85).FRM
-roof       358  132            art\tiles\Chruschovka27.png
+roof       358  132            art\tiles\WROOF08.FRM
 tile       360  132            art\tiles\DifSnow (78).FRM
-roof       360  132            art\tiles\Chruschovka32.png
+roof       360  132            art\tiles\WROOF08.FRM
 tile       362  132            art\tiles\DifSnow (77).FRM
-roof       362  132            art\tiles\Chruschovka20.png
+roof       362  132            art\tiles\WROOF08.FRM
 tile       364  132            art\tiles\DifSnow (76).FRM
-roof       364  132            art\tiles\Chruschovka19.png
+roof       364  132            art\tiles\WROOF08.FRM
 tile       366  132            art\tiles\DifSnow (78).FRM
-roof       366  132            art\tiles\Chruschovka27.png
+roof       366  132            art\tiles\WROOF08.FRM
 tile       368  132            art\tiles\DifSnow (79).FRM
-roof       368  132            art\tiles\Chruschovka29.png
+roof       368  132            art\tiles\WROOF08.FRM
 tile       370  132            art\tiles\DifSnow (78).FRM
-roof       370  132            art\tiles\Chruschovka28.png
+roof       370  132            art\tiles\WROOF08.FRM
 tile       372  132            art\tiles\DifSnow (77).FRM
-roof       372  132            art\tiles\Chruschovka27.png
+roof       372  132            art\tiles\WROOF08.FRM
 tile       374  132            art\tiles\TP158.FRM
-roof       374  132            art\tiles\Chruschovka27.png
+roof       374  132            art\tiles\WROOF08.FRM
 tile       376  132            art\tiles\TP155.FRM
-roof       376  132            art\tiles\Chruschovka32.png
+roof       376  132            art\tiles\WROOF08.FRM
 tile       378  132            art\tiles\TP156.FRM
-roof       378  132            art\tiles\Chruschovka20.png
+roof       378  132            art\tiles\WROOF08.FRM
 tile       380  132            art\tiles\TP155.FRM
-roof       380  132            art\tiles\Chruschovka19.png
+roof       380  132            art\tiles\WROOF08.FRM
 tile       382  132            art\tiles\TP160.FRM
-roof       382  132            art\tiles\Chruschovka29.png
+roof       382  132            art\tiles\WROOF08.FRM
 tile       384  132            art\tiles\CMT5000.FRM
-roof       384  132            art\tiles\Chruschovka28.png
+roof       384  132            art\tiles\WROOF08.FRM
 tile       386  132            art\tiles\CMT6000.FRM
-roof       386  132            art\tiles\Chruschovka27.png
+roof       386  132            art\tiles\WROOF08.FRM
 tile       388  132            art\tiles\CMT4000.FRM
-roof       388  132            art\tiles\Chruschovka32.png
+roof       388  132            art\tiles\WROOF08.FRM
 tile       390  132            art\tiles\CMT3000.FRM
-roof       390  132            art\tiles\Chruschovka20.png
+roof       390  132            art\tiles\WROOF08.FRM
 tile       392  132            art\tiles\CURB16.FRM
-roof       392  132            art\tiles\Chruschovka19.png
+roof       392  132            art\tiles\WROOF08.FRM
 tile       394  132            art\tiles\CURB16.FRM
-roof       394  132            art\tiles\Chruschovka27.png
+roof       394  132            art\tiles\WROOF08.FRM
 tile       396  132            art\tiles\CURB16.FRM
-roof       396  132            art\tiles\Chruschovka29.png
+roof       396  132            art\tiles\WROOF08.FRM
 tile       398  132            art\tiles\CURB16.FRM
-roof       398  132            art\tiles\Chruschovka28.png
+roof       398  132            art\tiles\WROOF08.FRM
 tile       400  132            art\tiles\CURB16.FRM
-roof       400  132            art\tiles\Chruschovka18.png
+roof       400  132            art\tiles\WROOF08.FRM
 tile       402  132            art\tiles\CURB16.FRM
-roof       402  132            art\tiles\Chruschovka17.png
+roof       402  132            art\tiles\WROOF08.FRM
 tile       404  132            art\tiles\CURB16.FRM
 roof       404  132            art\tiles\Chruschovka56.png
 tile       406  132            art\tiles\CURB16.FRM
@@ -6675,75 +6404,76 @@ tile       250  134            art\tiles\DifSnow (79).FRM
 tile       252  134            art\tiles\DifSnow (63).FRM
 tile       254  134            art\tiles\DifSnow (55).FRM
 tile       256  134            art\tiles\DifSnow (47).FRM
-roof       256  134            art\tiles\Chruschovka16.png
+roof       256  134            art\tiles\WROOF05.FRM
 tile       258  134            art\tiles\DifSnow (60).FRM
-roof       258  134            art\tiles\Chruschovka2.png
+roof       258  134            art\tiles\WROOF08.FRM
 tile       260  134            art\tiles\DifSnow (59).FRM
-roof       260  134            art\tiles\Chruschovka12.png
+roof       260  134            art\tiles\WROOF08.FRM
 tile       262  134            art\tiles\TP158.FRM
-roof       262  134            art\tiles\Chruschovka10.png
+roof       262  134            art\tiles\WROOF08.FRM
 tile       264  134            art\tiles\TP154.FRM
-roof       264  134            art\tiles\Chruschovka10.png
+roof       264  134            art\tiles\WROOF08.FRM
 tile       266  134            art\tiles\TP154.FRM
-roof       266  134            art\tiles\Chruschovka15.png
+roof       266  134            art\tiles\WROOF08.FRM
 tile       268  134            art\tiles\TP153.FRM
-roof       268  134            art\tiles\Chruschovka14.png
+roof       268  134            art\tiles\WROOF08.FRM
 tile       270  134            art\tiles\TP154.FRM
-roof       270  134            art\tiles\Chruschovka2.png
+roof       270  134            art\tiles\WROOF08.FRM
 tile       272  134            art\tiles\TP153.FRM
-roof       272  134            art\tiles\Chruschovka12.png
+roof       272  134            art\tiles\WROOF08.FRM
 tile       274  134            art\tiles\TP154.FRM
-roof       274  134            art\tiles\Chruschovka11.png
+roof       274  134            art\tiles\WROOF08.FRM
 tile       276  134            art\tiles\TP153.FRM
-roof       276  134            art\tiles\Chruschovka11.png
+roof       276  134            art\tiles\WROOF08.FRM
 tile       278  134            art\tiles\TP154.FRM
-roof       278  134            art\tiles\Chruschovka13.png
+roof       278  134            art\tiles\WROOF08.FRM
 tile       280  134            art\tiles\TP153.FRM
-roof       280  134            art\tiles\Chruschovka15.png
+roof       280  134            art\tiles\WROOF08.FRM
 tile       282  134            art\tiles\TP154.FRM
-roof       282  134            art\tiles\Chruschovka14.png
+roof       282  134            art\tiles\WROOF08.FRM
 tile       284  134            art\tiles\TP154.FRM
-roof       284  134            art\tiles\Chruschovka13.png
+roof       284  134            art\tiles\WROOF08.FRM
 tile       286  134            art\tiles\TP153.FRM
-roof       286  134            art\tiles\Chruschovka11.png
+roof       286  134            art\tiles\WROOF08.FRM
 tile       288  134            art\tiles\TP154.FRM
-roof       288  134            art\tiles\Chruschovka11.png
+roof       288  134            art\tiles\WROOF08.FRM
 tile       290  134            art\tiles\TP153.FRM
-roof       290  134            art\tiles\Chruschovka13.png
+roof       290  134            art\tiles\WROOF08.FRM
 tile       292  134            art\tiles\TP153.FRM
-roof       292  134            art\tiles\Chruschovka15.png
+roof       292  134            art\tiles\WROOF08.FRM
 tile       294  134            art\tiles\TP160.FRM
-roof       294  134            art\tiles\Chruschovka14.png
+roof       294  134            art\tiles\WROOF08.FRM
 tile       296  134            art\tiles\DifSnow (61).FRM
-roof       296  134            art\tiles\Chruschovka13.png
+roof       296  134            art\tiles\WROOF08.FRM
 tile       298  134            art\tiles\DifSnow (67).FRM
-roof       298  134            art\tiles\Chruschovka2.png
+roof       298  134            art\tiles\WROOF08.FRM
 tile       300  134            art\tiles\DifSnow (86).FRM
-roof       300  134            art\tiles\Chruschovka12.png
+roof       300  134            art\tiles\WROOF08.FRM
 tile       302  134            art\tiles\DifSnow (79).FRM
-roof       302  134            art\tiles\Chruschovka11.png
+roof       302  134            art\tiles\WROOF08.FRM
 tile       304  134            art\tiles\DifSnow (63).FRM
-roof       304  134            art\tiles\Chruschovka13.png
+roof       304  134            art\tiles\WROOF08.FRM
 tile       306  134            art\tiles\DifSnow (55).FRM
-roof       306  134            art\tiles\Chruschovka15.png
+roof       306  134            art\tiles\WROOF08.FRM
 tile       308  134            art\tiles\DifSnow (47).FRM
-roof       308  134            art\tiles\Chruschovka14.png
+roof       308  134            art\tiles\WROOF08.FRM
 tile       310  134            art\tiles\DifSnow (60).FRM
-roof       310  134            art\tiles\Chruschovka13.png
+roof       310  134            art\tiles\WROOF08.FRM
 tile       312  134            art\tiles\DifSnow (59).FRM
-roof       312  134            art\tiles\Chruschovka2.png
+roof       312  134            art\tiles\WROOF08.FRM
 tile       314  134            art\tiles\DifSnow (90).FRM
-roof       314  134            art\tiles\Chruschovka12.png
+roof       314  134            art\tiles\WROOF08.FRM
 tile       316  134            art\tiles\DifSnow (83).FRM
-roof       316  134            art\tiles\Chruschovka11.png
+roof       316  134            art\tiles\WROOF08.FRM
 tile       318  134            art\tiles\DifSnow (67).FRM
-roof       318  134            art\tiles\Chruschovka2.png
+roof       318  134            art\tiles\WROOF07.FRM
+roof_l     318  134          1 art\tiles\Chruschovka16.png
 tile       320  134            art\tiles\DifSnow (62).FRM
-roof       320  134            art\tiles\Chruschovka12.png
+roof       320  134            art\tiles\Chruschovka2.png
 tile       322  134            art\tiles\DifSnow (54).FRM
-roof       322  134            art\tiles\Chruschovka11.png
+roof       322  134            art\tiles\Chruschovka10.png
 tile       324  134            art\tiles\DifSnow (82).FRM
-roof       324  134            art\tiles\Chruschovka13.png
+roof       324  134            art\tiles\Chruschovka10.png
 tile       326  134            art\tiles\DifSnow (96).FRM
 roof       326  134            art\tiles\Chruschovka15.png
 tile       328  134            art\tiles\DifSnow (97).FRM
@@ -6751,11 +6481,11 @@ roof       328  134            art\tiles\Chruschovka14.png
 tile       330  134            art\tiles\DifSnow (135).FRM
 roof       330  134            art\tiles\Chruschovka11.png
 tile       332  134            art\tiles\DifSnow (142).FRM
-roof       332  134            art\tiles\Chruschovka13.png
+roof       332  134            art\tiles\Chruschovka2.png
 tile       334  134            art\tiles\DifSnow (142).FRM
 roof       334  134            art\tiles\Chruschovka12.png
 tile       336  134            art\tiles\DifSnow (142).FRM
-roof       336  134            art\tiles\Chruschovka11.png
+roof       336  134            art\tiles\Chruschovka10.png
 tile       338  134            art\tiles\DifSnow (141).FRM
 roof       338  134            art\tiles\Chruschovka11.png
 tile       340  134            art\tiles\DifSnow (1).FRM
@@ -6765,63 +6495,63 @@ roof       342  134            art\tiles\Chruschovka15.png
 tile       344  134            art\tiles\DifSnow (101).FRM
 roof       344  134            art\tiles\Chruschovka14.png
 tile       346  134            art\tiles\DifSnow (72).FRM
-roof       346  134            art\tiles\Chruschovka13.png
+roof       346  134            art\tiles\Chruschovka11.png
 tile       348  134            art\tiles\DifSnow (71).FRM
 roof       348  134            art\tiles\Chruschovka2.png
 tile       350  134            art\tiles\DifSnow (55).FRM
 roof       350  134            art\tiles\Chruschovka12.png
 tile       352  134            art\tiles\DifSnow (44).FRM
-roof       352  134            art\tiles\Chruschovka11.png
+roof       352  134            art\tiles\Chruschovka10.png
 tile       354  134            art\tiles\DifSnow (43).FRM
-roof       354  134            art\tiles\Chruschovka2.png
+roof       354  134            art\tiles\Chruschovka1.png
 tile       356  134            art\tiles\DifSnow (86).FRM
-roof       356  134            art\tiles\Chruschovka12.png
+roof       356  134            art\tiles\WROOF08.FRM
 tile       358  134            art\tiles\DifSnow (79).FRM
-roof       358  134            art\tiles\Chruschovka11.png
+roof       358  134            art\tiles\WROOF08.FRM
 tile       360  134            art\tiles\DifSnow (63).FRM
-roof       360  134            art\tiles\Chruschovka13.png
+roof       360  134            art\tiles\WROOF08.FRM
 tile       362  134            art\tiles\DifSnow (55).FRM
-roof       362  134            art\tiles\Chruschovka15.png
+roof       362  134            art\tiles\WROOF08.FRM
 tile       364  134            art\tiles\DifSnow (47).FRM
-roof       364  134            art\tiles\Chruschovka14.png
+roof       364  134            art\tiles\WROOF08.FRM
 tile       366  134            art\tiles\DifSnow (63).FRM
-roof       366  134            art\tiles\Chruschovka11.png
+roof       366  134            art\tiles\WROOF08.FRM
 tile       368  134            art\tiles\DifSnow (86).FRM
-roof       368  134            art\tiles\Chruschovka13.png
+roof       368  134            art\tiles\WROOF08.FRM
 tile       370  134            art\tiles\DifSnow (63).FRM
-roof       370  134            art\tiles\Chruschovka12.png
+roof       370  134            art\tiles\WROOF08.FRM
 tile       372  134            art\tiles\DifSnow (55).FRM
-roof       372  134            art\tiles\Chruschovka11.png
+roof       372  134            art\tiles\WROOF08.FRM
 tile       374  134            art\tiles\TP158.FRM
-roof       374  134            art\tiles\Chruschovka11.png
+roof       374  134            art\tiles\WROOF08.FRM
 tile       376  134            art\tiles\TP153.FRM
-roof       376  134            art\tiles\Chruschovka13.png
+roof       376  134            art\tiles\WROOF08.FRM
 tile       378  134            art\tiles\TP154.FRM
-roof       378  134            art\tiles\Chruschovka15.png
+roof       378  134            art\tiles\WROOF08.FRM
 tile       380  134            art\tiles\TP153.FRM
-roof       380  134            art\tiles\Chruschovka14.png
+roof       380  134            art\tiles\WROOF08.FRM
 tile       382  134            art\tiles\TP160.FRM
-roof       382  134            art\tiles\Chruschovka2.png
+roof       382  134            art\tiles\WROOF08.FRM
 tile       384  134            art\tiles\CMT4000.FRM
-roof       384  134            art\tiles\Chruschovka12.png
+roof       384  134            art\tiles\WROOF08.FRM
 tile       386  134            art\tiles\CMT3000.FRM
-roof       386  134            art\tiles\Chruschovka11.png
+roof       386  134            art\tiles\WROOF08.FRM
 tile       388  134            art\tiles\CMT8000.FRM
-roof       388  134            art\tiles\Chruschovka13.png
+roof       388  134            art\tiles\WROOF08.FRM
 tile       390  134            art\tiles\CMT6000.FRM
-roof       390  134            art\tiles\Chruschovka15.png
+roof       390  134            art\tiles\WROOF08.FRM
 tile       392  134            art\tiles\CURB16.FRM
-roof       392  134            art\tiles\Chruschovka14.png
+roof       392  134            art\tiles\WROOF08.FRM
 tile       394  134            art\tiles\CURB16.FRM
-roof       394  134            art\tiles\Chruschovka11.png
+roof       394  134            art\tiles\WROOF08.FRM
 tile       396  134            art\tiles\CURB16.FRM
-roof       396  134            art\tiles\Chruschovka2.png
+roof       396  134            art\tiles\WROOF08.FRM
 tile       398  134            art\tiles\CURB17.FRM
-roof       398  134            art\tiles\Chruschovka12.png
+roof       398  134            art\tiles\WROOF08.FRM
 tile       400  134            art\tiles\CURB16.FRM
-roof       400  134            art\tiles\Chruschovka10.png
+roof       400  134            art\tiles\WROOF08.FRM
 tile       402  134            art\tiles\CURB16.FRM
-roof       402  134            art\tiles\Chruschovka1.png
+roof       402  134            art\tiles\WROOF08.FRM
 tile       404  134            art\tiles\CURB16.FRM
 roof       404  134            art\tiles\Chruschovka53.png
 tile       406  134            art\tiles\CURB16.FRM
@@ -31048,27 +30778,12 @@ MapY                 139
 MapObjType           2
 ProtoId              5574
 MapX                 262
-MapY                 129
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 132
-
-MapObjType           2
-ProtoId              5574
-MapX                 262
 MapY                 133
 
 MapObjType           2
 ProtoId              5575
 MapX                 262
 MapY                 134
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 136
 
 MapObjType           2
 ProtoId              5578
@@ -31089,11 +30804,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 262
 MapY                 139
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 140
 
 MapObjType           2
 ProtoId              5574
@@ -31126,59 +30836,14 @@ MapX                 262
 MapY                 122
 
 MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 124
-
-MapObjType           2
 ProtoId              5578
 MapX                 262
 MapY                 123
 
 MapObjType           2
-ProtoId              5574
-MapX                 262
-MapY                 125
-
-MapObjType           2
-ProtoId              5575
-MapX                 262
-MapY                 126
-
-MapObjType           2
-ProtoId              5578
-MapX                 262
-MapY                 127
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 128
-
-MapObjType           2
-ProtoId              5574
-MapX                 262
-MapY                 105
-
-MapObjType           2
-ProtoId              5575
-MapX                 262
-MapY                 106
-
-MapObjType           2
 ProtoId              5578
 MapX                 262
 MapY                 107
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 108
-
-MapObjType           2
-ProtoId              5574
-MapX                 262
-MapY                 109
 
 MapObjType           2
 ProtoId              5575
@@ -31206,16 +30871,6 @@ MapX                 262
 MapY                 114
 
 MapObjType           2
-ProtoId              5578
-MapX                 262
-MapY                 115
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 116
-
-MapObjType           2
 ProtoId              5574
 MapX                 262
 MapY                 97
@@ -31224,11 +30879,6 @@ MapObjType           2
 ProtoId              5575
 MapX                 262
 MapY                 98
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 100
 
 MapObjType           2
 ProtoId              5578
@@ -31244,16 +30894,6 @@ MapObjType           2
 ProtoId              5575
 MapX                 262
 MapY                 102
-
-MapObjType           2
-ProtoId              5578
-MapX                 262
-MapY                 103
-
-MapObjType           2
-ProtoId              5576
-MapX                 262
-MapY                 104
 
 MapObjType           2
 ProtoId              5593
@@ -31433,16 +31073,6 @@ MapY                 95
 MapObjType           2
 ProtoId              5590
 MapX                 313
-MapY                 95
-
-MapObjType           2
-ProtoId              5591
-MapX                 311
-MapY                 95
-
-MapObjType           2
-ProtoId              5592
-MapX                 312
 MapY                 95
 
 MapObjType           2
@@ -31806,11 +31436,6 @@ MapX                 309
 MapY                 95
 
 MapObjType           2
-ProtoId              5586
-MapX                 310
-MapY                 95
-
-MapObjType           2
 ProtoId              5588
 MapX                 407
 MapY                 95
@@ -31831,11 +31456,6 @@ MapX                 344
 MapY                 115
 
 MapObjType           2
-ProtoId              5576
-MapX                 344
-MapY                 116
-
-MapObjType           2
 ProtoId              5574
 MapX                 344
 MapY                 117
@@ -31851,11 +31471,6 @@ MapX                 344
 MapY                 119
 
 MapObjType           2
-ProtoId              5576
-MapX                 344
-MapY                 120
-
-MapObjType           2
 ProtoId              5574
 MapX                 344
 MapY                 121
@@ -31869,11 +31484,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 344
 MapY                 123
-
-MapObjType           2
-ProtoId              5576
-MapX                 344
-MapY                 124
 
 MapObjType           2
 ProtoId              5574
@@ -32086,11 +31696,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 308
 MapY                 118
-
-MapObjType           2
-ProtoId              5576
-MapX                 308
-MapY                 119
 
 MapObjType           2
 ProtoId              5574
@@ -32308,11 +31913,6 @@ MapX                 358
 MapY                 119
 
 MapObjType           2
-ProtoId              5576
-MapX                 358
-MapY                 120
-
-MapObjType           2
 ProtoId              5574
 MapX                 358
 MapY                 121
@@ -32443,11 +32043,6 @@ MapX                 368
 MapY                 113
 
 MapObjType           2
-ProtoId              5576
-MapX                 374
-MapY                 120
-
-MapObjType           2
 ProtoId              5574
 MapX                 374
 MapY                 121
@@ -32461,11 +32056,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 374
 MapY                 123
-
-MapObjType           2
-ProtoId              5576
-MapX                 374
-MapY                 124
 
 MapObjType           2
 ProtoId              5575
@@ -33129,11 +32719,6 @@ MapX                 374
 MapY                 117
 
 MapObjType           2
-ProtoId              5576
-MapX                 374
-MapY                 116
-
-MapObjType           2
 ProtoId              5578
 MapX                 374
 MapY                 115
@@ -33169,16 +32754,6 @@ MapX                 274
 MapY                 115
 
 MapObjType           2
-ProtoId              5576
-MapX                 274
-MapY                 116
-
-MapObjType           2
-ProtoId              5574
-MapX                 274
-MapY                 117
-
-MapObjType           2
 ProtoId              5575
 MapX                 274
 MapY                 118
@@ -33186,32 +32761,7 @@ MapY                 118
 MapObjType           2
 ProtoId              5578
 MapX                 274
-MapY                 119
-
-MapObjType           2
-ProtoId              5576
-MapX                 274
-MapY                 120
-
-MapObjType           2
-ProtoId              5574
-MapX                 274
-MapY                 121
-
-MapObjType           2
-ProtoId              5575
-MapX                 274
-MapY                 122
-
-MapObjType           2
-ProtoId              5578
-MapX                 274
 MapY                 123
-
-MapObjType           2
-ProtoId              5576
-MapX                 274
-MapY                 124
 
 MapObjType           2
 ProtoId              5574
@@ -33227,11 +32777,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 274
 MapY                 127
-
-MapObjType           2
-ProtoId              5576
-MapX                 274
-MapY                 128
 
 MapObjType           2
 ProtoId              5574
@@ -33252,11 +32797,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 274
 MapY                 107
-
-MapObjType           2
-ProtoId              5576
-MapX                 274
-MapY                 108
 
 MapObjType           2
 ProtoId              5574
@@ -33419,11 +32959,6 @@ MapX                 322
 MapY                 120
 
 MapObjType           2
-ProtoId              5576
-MapX                 316
-MapY                 115
-
-MapObjType           2
 ProtoId              5574
 MapX                 316
 MapY                 116
@@ -33439,11 +32974,6 @@ MapX                 316
 MapY                 118
 
 MapObjType           2
-ProtoId              5576
-MapX                 316
-MapY                 119
-
-MapObjType           2
 ProtoId              5574
 MapX                 316
 MapY                 120
@@ -33452,11 +32982,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 316
 MapY                 121
-
-MapObjType           2
-ProtoId              5576
-MapX                 316
-MapY                 122
 
 MapObjType           2
 ProtoId              5574
@@ -33504,11 +33029,6 @@ MapX                 344
 MapY                 98
 
 MapObjType           2
-ProtoId              5576
-MapX                 344
-MapY                 99
-
-MapObjType           2
 ProtoId              5574
 MapX                 344
 MapY                 100
@@ -33527,11 +33047,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 358
 MapY                 98
-
-MapObjType           2
-ProtoId              5576
-MapX                 358
-MapY                 99
 
 MapObjType           2
 ProtoId              5574
@@ -33809,11 +33324,6 @@ MapX                 384
 MapY                 98
 
 MapObjType           2
-ProtoId              5576
-MapX                 384
-MapY                 99
-
-MapObjType           2
 ProtoId              5574
 MapX                 384
 MapY                 100
@@ -34041,11 +33551,6 @@ MapX                 316
 MapY                 102
 
 MapObjType           2
-ProtoId              5576
-MapX                 316
-MapY                 101
-
-MapObjType           2
 ProtoId              5615
 MapX                 328
 MapY                 103
@@ -34098,11 +33603,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 392
 MapY                 117
-
-MapObjType           2
-ProtoId              5576
-MapX                 392
-MapY                 118
 
 MapObjType           2
 ProtoId              5588
@@ -34315,19 +33815,9 @@ MapX                 392
 MapY                 121
 
 MapObjType           2
-ProtoId              5576
-MapX                 392
-MapY                 122
-
-MapObjType           2
 ProtoId              5574
 MapX                 392
 MapY                 123
-
-MapObjType           2
-ProtoId              5576
-MapX                 392
-MapY                 130
 
 MapObjType           2
 ProtoId              5574
@@ -34345,11 +33835,6 @@ MapX                 392
 MapY                 133
 
 MapObjType           2
-ProtoId              5576
-MapX                 392
-MapY                 134
-
-MapObjType           2
 ProtoId              5574
 MapX                 392
 MapY                 135
@@ -34363,11 +33848,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 392
 MapY                 137
-
-MapObjType           2
-ProtoId              5576
-MapX                 392
-MapY                 138
 
 MapObjType           2
 ProtoId              5658
@@ -34545,11 +34025,6 @@ MapX                 374
 MapY                 138
 
 MapObjType           2
-ProtoId              5576
-MapX                 384
-MapY                 137
-
-MapObjType           2
 ProtoId              5574
 MapX                 384
 MapY                 138
@@ -34590,11 +34065,6 @@ MapX                 384
 MapY                 136
 
 MapObjType           2
-ProtoId              5576
-MapX                 384
-MapY                 129
-
-MapObjType           2
 ProtoId              5574
 MapX                 384
 MapY                 130
@@ -34608,11 +34078,6 @@ MapObjType           2
 ProtoId              5578
 MapX                 384
 MapY                 132
-
-MapObjType           2
-ProtoId              5576
-MapX                 384
-MapY                 115
 
 MapObjType           2
 ProtoId              5574
@@ -36465,11 +35930,6 @@ MapObjType           2
 ProtoId              5612
 MapX                 392
 MapY                 103
-
-MapObjType           2
-ProtoId              5576
-MapX                 392
-MapY                 105
 
 MapObjType           2
 ProtoId              5574
@@ -58918,5 +58378,275 @@ MapObjType           2
 ProtoId              5621
 MapX                 418
 MapY                 150
+
+MapObjType           2
+ProtoId              5645
+MapX                 310
+MapY                 95
+
+MapObjType           2
+ProtoId              5588
+MapX                 311
+MapY                 95
+
+MapObjType           2
+ProtoId              5644
+MapX                 312
+MapY                 95
+
+MapObjType           2
+ProtoId              5594
+MapX                 262
+MapY                 104
+
+MapObjType           2
+ProtoId              5595
+MapX                 262
+MapY                 105
+
+MapObjType           2
+ProtoId              5601
+MapX                 262
+MapY                 106
+
+MapObjType           2
+ProtoId              5594
+MapX                 262
+MapY                 127
+
+MapObjType           2
+ProtoId              5595
+MapX                 262
+MapY                 128
+
+MapObjType           2
+ProtoId              5601
+MapX                 262
+MapY                 129
+
+MapObjType           2
+ProtoId              5594
+MapX                 262
+MapY                 124
+
+MapObjType           2
+ProtoId              5595
+MapX                 262
+MapY                 125
+
+MapObjType           2
+ProtoId              5601
+MapX                 262
+MapY                 126
+
+MapObjType           2
+ProtoId              5594
+MapX                 262
+MapY                 115
+
+MapObjType           2
+ProtoId              5595
+MapX                 262
+MapY                 116
+
+MapObjType           2
+ProtoId              5601
+MapX                 262
+MapY                 103
+
+MapObjType           2
+ProtoId              5594
+MapX                 262
+MapY                 108
+
+MapObjType           2
+ProtoId              5595
+MapX                 262
+MapY                 109
+
+MapObjType           2
+ProtoId              5594
+MapX                 274
+MapY                 116
+
+MapObjType           2
+ProtoId              5595
+MapX                 274
+MapY                 117
+
+MapObjType           2
+ProtoId              5594
+MapX                 274
+MapY                 121
+
+MapObjType           2
+ProtoId              5595
+MapX                 274
+MapY                 122
+
+MapObjType           2
+ProtoId              5574
+MapX                 274
+MapY                 119
+
+MapObjType           2
+ProtoId              5595
+MapX                 274
+MapY                 120
+
+MapObjType           2
+ProtoId              5575
+MapX                 274
+MapY                 128
+
+MapObjType           2
+ProtoId              5575
+MapX                 262
+MapY                 136
+
+MapObjType           2
+ProtoId              5578
+MapX                 274
+MapY                 124
+
+MapObjType           2
+ProtoId              5578
+MapX                 262
+MapY                 132
+
+MapObjType           2
+ProtoId              5578
+MapX                 274
+MapY                 108
+
+MapObjType           2
+ProtoId              5578
+MapX                 262
+MapY                 100
+
+MapObjType           2
+ProtoId              5578
+MapX                 262
+MapY                 140
+
+MapObjType           2
+ProtoId              5578
+MapX                 316
+MapY                 122
+
+MapObjType           2
+ProtoId              5578
+MapX                 316
+MapY                 119
+
+MapObjType           2
+ProtoId              5578
+MapX                 316
+MapY                 115
+
+MapObjType           2
+ProtoId              5581
+MapX                 308
+MapY                 119
+
+MapObjType           2
+ProtoId              5581
+MapX                 344
+MapY                 124
+
+MapObjType           2
+ProtoId              5581
+MapX                 344
+MapY                 120
+
+MapObjType           2
+ProtoId              5581
+MapX                 344
+MapY                 116
+
+MapObjType           2
+ProtoId              5581
+MapX                 358
+MapY                 120
+
+MapObjType           2
+ProtoId              5581
+MapX                 374
+MapY                 124
+
+MapObjType           2
+ProtoId              5581
+MapX                 374
+MapY                 120
+
+MapObjType           2
+ProtoId              5581
+MapX                 374
+MapY                 116
+
+MapObjType           2
+ProtoId              5581
+MapX                 384
+MapY                 115
+
+MapObjType           2
+ProtoId              5581
+MapX                 384
+MapY                 129
+
+MapObjType           2
+ProtoId              5581
+MapX                 384
+MapY                 137
+
+MapObjType           2
+ProtoId              5581
+MapX                 392
+MapY                 138
+
+MapObjType           2
+ProtoId              5581
+MapX                 392
+MapY                 134
+
+MapObjType           2
+ProtoId              5581
+MapX                 392
+MapY                 130
+
+MapObjType           2
+ProtoId              5581
+MapX                 392
+MapY                 122
+
+MapObjType           2
+ProtoId              5581
+MapX                 392
+MapY                 118
+
+MapObjType           2
+ProtoId              5581
+MapX                 392
+MapY                 105
+
+MapObjType           2
+ProtoId              5581
+MapX                 384
+MapY                 99
+
+MapObjType           2
+ProtoId              5581
+MapX                 358
+MapY                 99
+
+MapObjType           2
+ProtoId              5581
+MapX                 344
+MapY                 99
+
+MapObjType           2
+ProtoId              5581
+MapX                 316
+MapY                 101
 
 
