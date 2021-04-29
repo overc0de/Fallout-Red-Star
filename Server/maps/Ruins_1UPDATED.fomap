@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             300
-WorkHexY             103
+WorkHexX             344
+WorkHexY             108
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -6603,8 +6603,8 @@ tile       336  108            art\tiles\DifSnow (66).FRM
 tile       338  108            art\tiles\DifSnow (58).FRM
 tile       340  108            art\tiles\DifSnow (135).FRM
 tile       342  108            art\tiles\DifSnow (108).FRM
-tile       344  108            art\tiles\Snow_Tile (116).FRM
-tile       346  108            art\tiles\Snow_Tile (124).FRM
+tile       344  108            art\tiles\DifSnow (43).FRM
+tile       346  108            art\tiles\DifSnow (86).FRM
 tile       348  108            art\tiles\DifSnow (110).FRM
 tile       350  108            art\tiles\DifSnow (2).FRM
 tile       352  108            art\tiles\DifSnow (2).FRM
@@ -6917,7 +6917,7 @@ tile       336  112            art\tiles\DifSnow (22).FRM
 tile       338  112            art\tiles\DifSnow (72).FRM
 tile       340  112            art\tiles\DifSnow (71).FRM
 tile       342  112            art\tiles\DifSnow (70).FRM
-tile       344  112            art\tiles\Snow_Tile (121).FRM
+tile       344  112            art\tiles\DifSnow (43).FRM
 tile       346  112            art\tiles\DifSnow (19).FRM
 tile       348  112            art\tiles\DifSnow (27).FRM
 tile       350  112            art\tiles\DifSnow (26).FRM
@@ -7123,7 +7123,7 @@ tile       336  114            art\tiles\DifSnow (13).FRM
 tile       338  114            art\tiles\DifSnow (44).FRM
 tile       340  114            art\tiles\DifSnow (43).FRM
 tile       342  114            art\tiles\DifSnow (86).FRM
-tile       344  114            art\tiles\Snow_Tile (138).FRM
+tile       344  114            art\tiles\DifSnow (43).FRM
 tile       346  114            art\tiles\DifSnow (24).FRM
 tile       348  114            art\tiles\DifSnow (35).FRM
 tile       350  114            art\tiles\DifSnow (35).FRM
@@ -94948,5 +94948,67 @@ MapObjType           2
 ProtoId              5621
 MapX                 298
 MapY                 102
+
+MapObjType           2
+ProtoId              7399
+MapX                 346
+MapY                 107
+LightDistance        3
+LightIntensity       5
+
+MapObjType           2
+ProtoId              5621
+MapX                 347
+MapY                 108
+
+MapObjType           2
+ProtoId              5621
+MapX                 347
+MapY                 107
+
+MapObjType           2
+ProtoId              5621
+MapX                 345
+MapY                 108
+
+MapObjType           2
+ProtoId              5621
+MapX                 345
+MapY                 107
+
+MapObjType           2
+ProtoId              5621
+MapX                 346
+MapY                 106
+
+MapObjType           2
+ProtoId              2067
+MapX                 346
+MapY                 108
+
+MapObjType           2
+ProtoId              6868
+MapX                 346
+MapY                 108
+
+MapObjType           2
+ProtoId              6869
+MapX                 347
+MapY                 108
+
+MapObjType           2
+ProtoId              6865
+MapX                 347
+MapY                 106
+
+MapObjType           2
+ProtoId              6862
+MapX                 347
+MapY                 107
+
+MapObjType           2
+ProtoId              6864
+MapX                 345
+MapY                 108
 
 

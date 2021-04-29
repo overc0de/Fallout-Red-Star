@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             392
-WorkHexY             186
+WorkHexX             349
+WorkHexY             46
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -44249,5 +44249,59 @@ MapX                 397
 MapY                 189
 Scenery_ToMapPid     22
 Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              5621
+MapX                 352
+MapY                 47
+
+MapObjType           2
+ProtoId              5621
+MapX                 352
+MapY                 48
+
+MapObjType           2
+ProtoId              5621
+MapX                 353
+MapY                 47
+
+MapObjType           2
+ProtoId              7399
+MapX                 353
+MapY                 48
+LightDistance        3
+LightIntensity       5
+
+MapObjType           2
+ProtoId              2067
+MapX                 353
+MapY                 49
+
+MapObjType           2
+ProtoId              6865
+MapX                 354
+MapY                 46
+
+MapObjType           2
+ProtoId              5621
+MapX                 354
+MapY                 47
+
+MapObjType           2
+ProtoId              5621
+MapX                 354
+MapY                 48
+
+MapObjType           2
+ProtoId              6860
+MapX                 355
+MapY                 49
+OffsetX              -1
+OffsetY              -24
+
+MapObjType           2
+ProtoId              6856
+MapX                 353
+MapY                 49
 
 

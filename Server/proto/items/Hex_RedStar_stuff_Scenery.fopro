@@ -4273,3 +4273,157 @@ LightDistance=3
 LightIntensity=5
 LightColor=335553280
 
+[Proto]
+ProtoId=7386
+Type=11
+PicMap=art/New Art/Scenery/Gastronom.frm
+PicInv=art/New Art/Scenery/Gastronom.frm
+Flags=167809544
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7387
+Type=11
+PicMap=art/New Art/Scenery/komin1.fofrm
+PicInv=art/New Art/Scenery/komin1.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7388
+Type=11
+PicMap=art/New Art/Scenery/komin2.fofrm
+PicInv=art/New Art/Scenery/komin2.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7389
+Type=11
+PicMap=art/New Art/Scenery/komin3.fofrm
+PicInv=art/New Art/Scenery/komin3.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7390
+Type=11
+PicMap=art/New Art/Scenery/komin4.fofrm
+PicInv=art/New Art/Scenery/komin4.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7391
+Type=11
+PicMap=art/New Art/Scenery/komin5.fofrm
+PicInv=art/New Art/Scenery/komin5.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7392
+Type=11
+PicMap=art/New Art/Scenery/komin6.fofrm
+PicInv=art/New Art/Scenery/komin6.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7393
+Type=11
+PicMap=art/New Art/Scenery/komin7.fofrm
+PicInv=art/New Art/Scenery/komin7.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7394
+Type=11
+PicMap=art/New Art/Scenery/komin8.fofrm
+PicInv=art/New Art/Scenery/komin8.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7395
+Type=11
+PicMap=art/New Art/Scenery/komin9.fofrm
+PicInv=art/New Art/Scenery/komin9.fofrm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7396
+Type=11
+PicMap=art/New Art/Scenery/kominC1.fofrm
+PicInv=art/New Art/Scenery/kominC1.fofrm
+Flags=167809564
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7397
+Type=11
+PicMap=art/New Art/Scenery/kominC2.fofrm
+PicInv=art/New Art/Scenery/kominC2.fofrm
+Flags=167809564
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7398
+Type=11
+PicMap=art/New Art/Scenery/kiosk.frm
+PicInv=art/New Art/Scenery/kiosk.frm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+
+[Proto]
+ProtoId=7399
+Type=11
+PicMap=art/New Art/Scenery/kiosk2.frm
+PicInv=art/New Art/Scenery/kiosk2.frm
+Flags=167809536
+Material=1
+LightDistance=3
+LightIntensity=5
+LightColor=335553280
+

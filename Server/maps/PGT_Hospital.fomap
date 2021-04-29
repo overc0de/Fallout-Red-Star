@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             226
-WorkHexY             111
+WorkHexX             304
+WorkHexY             203
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -58648,5 +58648,96 @@ MapObjType           2
 ProtoId              5581
 MapX                 316
 MapY                 101
+
+MapObjType           2
+ProtoId              7398
+MapX                 305
+MapY                 205
+LightDistance        3
+LightIntensity       5
+
+MapObjType           2
+ProtoId              7399
+MapX                 359
+MapY                 215
+LightDistance        3
+LightIntensity       5
+
+MapObjType           2
+ProtoId              6858
+MapX                 359
+MapY                 216
+
+MapObjType           2
+ProtoId              6865
+MapX                 360
+MapY                 213
+
+MapObjType           2
+ProtoId              6860
+MapX                 361
+MapY                 216
+OffsetX              -1
+OffsetY              -24
+
+MapObjType           2
+ProtoId              5621
+MapX                 360
+MapY                 215
+
+MapObjType           2
+ProtoId              5621
+MapX                 360
+MapY                 214
+
+MapObjType           2
+ProtoId              5621
+MapX                 359
+MapY                 214
+
+MapObjType           2
+ProtoId              5621
+MapX                 358
+MapY                 214
+
+MapObjType           2
+ProtoId              5621
+MapX                 358
+MapY                 215
+
+MapObjType           2
+ProtoId              2067
+MapX                 359
+MapY                 216
+
+MapObjType           2
+ProtoId              5621
+MapX                 305
+MapY                 206
+
+MapObjType           2
+ProtoId              5621
+MapX                 304
+MapY                 205
+
+MapObjType           2
+ProtoId              5621
+MapX                 304
+MapY                 204
+
+MapObjType           2
+ProtoId              5621
+MapX                 305
+MapY                 204
+
+MapObjType           2
+ProtoId              5621
+MapX                 306
+MapY                 204
+
+MapObjType           2
+ProtoId              5621
+MapX                 306
+MapY                 205
 
 
