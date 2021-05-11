@@ -2,8 +2,8 @@
 Version              5
 MaxHexX              500
 MaxHexY              500
-WorkHexX             349
-WorkHexY             46
+WorkHexX             339
+WorkHexY             44
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -18125,6 +18125,8 @@ MapObjType           2
 ProtoId              7233
 MapX                 341
 MapY                 47
+OffsetX              3
+OffsetY              10
 
 MapObjType           2
 ProtoId              7226
@@ -24263,121 +24265,169 @@ MapObjType           2
 ProtoId              4022
 MapX                 332
 MapY                 36
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4022
 MapX                 332
 MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4017
 MapX                 332
 MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4017
 MapX                 329
 MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4017
 MapX                 326
 MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4020
 MapX                 321
 MapY                 48
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4020
 MapX                 317
 MapY                 48
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4018
 MapX                 313
 MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4018
 MapX                 314
 MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4018
 MapX                 315
 MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 321
 MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 321
 MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 325
 MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 325
 MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 325
 MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 321
 MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 329
 MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 329
 MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 325
 MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4021
 MapX                 329
 MapY                 38
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4022
 MapX                 331
 MapY                 37
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4022
 MapX                 331
 MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4022
 MapX                 329
 MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4022
 MapX                 327
 MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
 
 MapObjType           2
 ProtoId              4022
@@ -44303,5 +44353,848 @@ MapObjType           2
 ProtoId              6856
 MapX                 353
 MapY                 49
+
+MapObjType           2
+ProtoId              2049
+MapX                 332
+MapY                 37
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 331
+MapY                 38
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 330
+MapY                 38
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 331
+MapY                 39
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 332
+MapY                 38
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 327
+MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 328
+MapY                 39
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 328
+MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 329
+MapY                 39
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 329
+MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 324
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 325
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 325
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 326
+MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 326
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 321
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 322
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 322
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 323
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 323
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 318
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 319
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 319
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 320
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 320
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 315
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 316
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 316
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 317
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 317
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 330
+MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 331
+MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 331
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 332
+MapY                 39
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 332
+MapY                 40
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 330
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 331
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 331
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 332
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 332
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 327
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 328
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 328
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 329
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 329
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 324
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 325
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 325
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 326
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 326
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 321
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 322
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 322
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 323
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 323
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 318
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 319
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 319
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 320
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 320
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 318
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 316
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 318
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 317
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 317
+MapY                 48
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 327
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 328
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 328
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 329
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 329
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 324
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 325
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 325
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 326
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 326
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 321
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 322
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 322
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 323
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 323
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 319
+MapY                 48
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 320
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 330
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 331
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 330
+MapY                 39
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 332
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 330
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 327
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 328
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 327
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 329
+MapY                 45
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 330
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 324
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 325
+MapY                 47
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 324
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 326
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 324
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 321
+MapY                 48
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 323
+MapY                 48
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 321
+MapY                 46
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 327
+MapY                 41
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 324
+MapY                 42
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 321
+MapY                 44
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              2049
+MapX                 327
+MapY                 43
+Scenery_ToMapPid     25
+Scenery_ToEntire     1
+
+MapObjType           2
+ProtoId              5621
+MapX                 340
+MapY                 47
+
+MapObjType           2
+ProtoId              5621
+MapX                 339
+MapY                 48
+
+MapObjType           2
+ProtoId              5621
+MapX                 338
+MapY                 47
+
+MapObjType           2
+ProtoId              5621
+MapX                 341
+MapY                 46
+
+MapObjType           2
+ProtoId              5621
+MapX                 341
+MapY                 45
+
+MapObjType           2
+ProtoId              5621
+MapX                 341
+MapY                 44
+
+MapObjType           2
+ProtoId              5621
+MapX                 340
+MapY                 43
+
+MapObjType           2
+ProtoId              5621
+MapX                 340
+MapY                 42
+
+MapObjType           2
+ProtoId              5621
+MapX                 340
+MapY                 41
+
+MapObjType           2
+ProtoId              5621
+MapX                 340
+MapY                 40
+
+MapObjType           2
+ProtoId              5621
+MapX                 339
+MapY                 40
+
+MapObjType           2
+ProtoId              5621
+MapX                 339
+MapY                 39
+
+MapObjType           2
+ProtoId              5621
+MapX                 338
+MapY                 38
+
+MapObjType           2
+ProtoId              5621
+MapX                 337
+MapY                 39
+
+MapObjType           2
+ProtoId              5621
+MapX                 336
+MapY                 39
+
+MapObjType           2
+ProtoId              5621
+MapX                 336
+MapY                 40
+
+MapObjType           2
+ProtoId              5621
+MapX                 337
+MapY                 41
+
+MapObjType           2
+ProtoId              5621
+MapX                 337
+MapY                 42
+
+MapObjType           2
+ProtoId              5621
+MapX                 337
+MapY                 43
+
+MapObjType           2
+ProtoId              5621
+MapX                 337
+MapY                 44
+
+MapObjType           2
+ProtoId              5621
+MapX                 337
+MapY                 45
+
+MapObjType           2
+ProtoId              5621
+MapX                 337
+MapY                 46
+
+MapObjType           2
+ProtoId              5621
+MapX                 338
+MapY                 46
 
 
