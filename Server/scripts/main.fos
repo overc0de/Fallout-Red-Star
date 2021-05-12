@@ -880,16 +880,9 @@ void critter_init( Critter& cr, bool firstTime )
             if( cr.StatBase[ ST_AGE ] < 14 || cr.StatBase[ ST_AGE ] > 80 )
                 cr.StatBase[ ST_AGE ] = 25;
             for( uint i = ST_STRENGTH; i <= ST_LUCK; i++ )
-                cr.StatBase[ i ] = CLAMP( cr.StatBase[ i ], 1, 10 );
+                cr.StatBase[ i ] = CLAMP( cr.StatBase[ i ], 0, 5 );
 
-            if( ( cr.StatBase[ ST_STRENGTH ] + cr.StatBase[ ST_PERCEPTION ] + cr.StatBase[ ST_ENDURANCE ] +
-                  cr.StatBase[ ST_CHARISMA ] + cr.StatBase[ ST_INTELLECT ] + cr.StatBase[ ST_AGILITY ] + cr.StatBase[ ST_LUCK ] ) != __StartSpecialPoints )
-            {
-                for( uint i = ST_STRENGTH; i <= ST_LUCK; i++ )
-                    cr.StatBase[ i ] = 5;
-            }
-
-            cr.StatBase[ ST_EMP_RESIST ] = 500;
+			cr.StatBase[ ST_EMP_RESIST ] = 500;
             cr.AddHolodiskInfo( 42 );           // Journalist's research
 
             // Default skin
@@ -944,7 +937,7 @@ void critter_init( Critter& cr, bool firstTime )
         if( cr.IsPlayer() )
         {
             for( uint i = ST_STRENGTH; i <= ST_LUCK; i++ )
-                cr.StatBase[ i ] = CLAMP( cr.StatBase[ i ], 1, 10 );
+                cr.StatBase[ i ] = CLAMP( cr.StatBase[ i ], 0, 5 );
 
             cr.StatBase[ ST_REPLICATION_COST ] = 100;
             cr.StatBase[ ST_REPLICATION_MONEY ] = 0;
@@ -956,7 +949,9 @@ void critter_init( Critter& cr, bool firstTime )
         }
         else
         {
-            cr.ChangeCrType( cr.StatBase[ ST_BASE_CRTYPE ] );
+            if( cr.StatBase[ ST_BASE_CRTYPE ] != 0 )
+				cr.ChangeCrType( cr.StatBase[ ST_BASE_CRTYPE ] );
+			
             if( cr.Stat[ ST_LEVEL ] != 0 )
                 NpcProcessLevel( cr );
         }
