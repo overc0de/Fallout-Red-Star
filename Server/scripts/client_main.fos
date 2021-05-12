@@ -859,9 +859,9 @@ string generic_description( int descType, int& offsX, int& offsY )
         result += GetMsgStr( TEXTMSG_GAME, STR_INV_SHORT_SPECIAL( ST_PERCEPTION ) ) + "\n";
         result += GetMsgStr( TEXTMSG_GAME, STR_INV_SHORT_SPECIAL( ST_ENDURANCE ) )  + "\n";
         result += GetMsgStr( TEXTMSG_GAME, STR_INV_SHORT_SPECIAL( ST_CHARISMA ) )   + "\n";
-        result += GetMsgStr( TEXTMSG_GAME, STR_INV_SHORT_SPECIAL( ST_INTELLECT ) )  + "\n";
-        result += GetMsgStr( TEXTMSG_GAME, STR_INV_SHORT_SPECIAL( ST_AGILITY ) )    + "\n";
-        result += GetMsgStr( TEXTMSG_GAME, STR_INV_SHORT_SPECIAL( ST_LUCK ) )       + "\n";
+        result += "------\n";
+        result += "------\n";
+        result += "------\n";
         result += "---------------------\n";
 
         ItemCl@ weaponMain = chosen.GetItem( 0, SLOT_HAND1 );
@@ -984,9 +984,6 @@ string generic_description( int descType, int& offsX, int& offsY )
         result += chosen.Stat[ ST_PERCEPTION ] + "\n";
         result += chosen.Stat[ ST_ENDURANCE ]  + "\n";
         result += chosen.Stat[ ST_CHARISMA ]   + "\n";
-        result += chosen.Stat[ ST_INTELLECT ]  + "\n";
-        result += chosen.Stat[ ST_AGILITY ]    + "\n";
-        result += chosen.Stat[ ST_LUCK ];
     }
     else if( descType == DESC_INVENTORY_STATS )
     {

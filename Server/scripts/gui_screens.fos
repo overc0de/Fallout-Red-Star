@@ -342,7 +342,7 @@ namespace Registration
     {
         void OnConstruct() override
         {
-            SetPosition( 15, 35 );
+            SetPosition( 15, 86 );
             SetCellPrototype( "BaseStat" );
             SetGridSize( ShowBaseStats.length() );
         }
