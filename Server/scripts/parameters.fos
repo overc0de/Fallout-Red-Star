@@ -291,9 +291,9 @@ bool CritterGenerateCheck( const int[]& params ) // Export to client_main@player
 {
     // Check special
     int special = 0;
-    for( uint i = ST_STRENGTH; i <= ST_LUCK; i++ )
+    for( uint i = ST_K; i <= ST_F; i++ )
     {
-        if( params[ i ] < 1 || params[ i ] > 10 )
+        if( params[ i ] < 1 || params[ i ] > 5 )
         {
             Message( GetMsgStr( TEXTMSG_GAME, STR_NET_WRONG_SPECIAL ) );
             return false;
@@ -415,19 +415,19 @@ int getParam_Intellegence( Critter& cr, uint )
     int val = cr.ParamBase[ ST_INTELLECT ] + cr.ParamBase[ ST_INTELLECT_EXT ];
     if( cr.ParamBase[ TRAIT_NIGHT_PERSON ] != 0 )
         val += GetNightPersonBonus();
-    return CLAMP( val, 1, 10 );
+    return CLAMP( val, 0, 10 );
 }
 
 int getParam_Agility( Critter& cr, uint )
 {
     int val = cr.ParamBase[ ST_AGILITY ] + cr.ParamBase[ ST_AGILITY_EXT ];
-    return CLAMP( val, 1, 10 );
+    return CLAMP( val, 0, 10 );
 }
 
 int getParam_Luck( Critter& cr, uint )
 {
     int val = cr.ParamBase[ ST_LUCK ] + cr.ParamBase[ ST_LUCK_EXT ];
-    return CLAMP( val, 1, 10 );
+    return CLAMP( val, 0, 10 );
 }
 
 int getParam_Hp( Critter& cr, uint )
