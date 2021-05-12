@@ -289,13 +289,20 @@
 #define STAT_COUNT                               ( STAT_END - STAT_BEGIN + 1 )
 #define STAT_EXT_BEGIN                           ( 32 )
 #define STAT_EXT_END                             ( 63 )
-#define ST_STRENGTH                              ( 0 )  // Hardcoded
-#define ST_PERCEPTION                            ( 1 )  // Hardcoded
-#define ST_ENDURANCE                             ( 2 )  // Hardcoded
-#define ST_CHARISMA                              ( 3 )  // Hardcoded
-#define ST_INTELLECT                             ( 4 )  // Hardcoded
-#define ST_AGILITY                               ( 5 )  // Hardcoded
-#define ST_LUCK                                  ( 6 )  // Hardcoded
+// DEPRECATED SPECIAL:
+	#define ST_STRENGTH                              ( 0 )  // Hardcoded
+	#define ST_PERCEPTION                            ( 1 )  // Hardcoded
+	#define ST_ENDURANCE                             ( 2 )  // Hardcoded
+	#define ST_CHARISMA                              ( 3 )  // Hardcoded
+	#define ST_INTELLECT                             ( 4 )  // Hardcoded
+	#define ST_AGILITY                               ( 5 )  // Hardcoded
+	#define ST_LUCK                                  ( 6 )  // Hardcoded
+// NEW KPRF:
+	#define ST_K		                             ( 0 )
+	#define ST_P                            		 ( 1 )
+	#define ST_R                             		 ( 2 )
+	#define ST_F                              		 ( 3 )
+//
 #define ST_MAX_LIFE                              ( 7 )  // Hardcoded
 #define ST_ACTION_POINTS                         ( 8 )  // Hardcoded
 #define ST_ARMOR_CLASS                           ( 9 )  // Hardcoded
