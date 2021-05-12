@@ -150,12 +150,12 @@ void InitializeGame()                    // Export
     __StartTagSkillPoints = 3;
 
     // Skill modifiers
-    __SkillMaxValue = 300;
-    __SkillModAdd2  = 100;
-    __SkillModAdd3  = 125;
-    __SkillModAdd4  = 150;
-    __SkillModAdd5  = 175;
-    __SkillModAdd6  = 200;
+    __SkillMaxValue = 150;
+    __SkillModAdd2  = 20;
+    __SkillModAdd3  = 40;
+    __SkillModAdd4  = 60;
+    __SkillModAdd5  = 80;
+    __SkillModAdd6  = 100;
 
     // / Client specific definitions
     #  ifdef __CLIENT
