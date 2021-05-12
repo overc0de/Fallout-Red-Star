@@ -16,6 +16,8 @@ void InitializeScreens()
     Game::Init( CLIENT_MAIN_SCREEN_GAME );
     Inventory::Init( CLIENT_SCREEN_INVENTORY );
     Cursor::Init( CLIENT_SCREEN_CURSOR );
+	
+	Character_TLJ::Init( CLIENT_SCREEN_CHARACTER );
 }
 
 namespace Login
@@ -296,7 +298,7 @@ namespace Registration
     int[] ShowExtendedStats = { ST_ARMOR_CLASS, ST_ACTION_POINTS, ST_CARRY_WEIGHT, ST_MELEE_DAMAGE, ST_NORMAL_RESIST, ST_POISON_RESISTANCE, ST_RADIATION_RESISTANCE, ST_SEQUENCE, ST_HEALING_RATE, ST_CRITICAL_CHANCE };
     int[] ShowTraitsLeft = { TRAIT_FAST_METABOLISM, TRAIT_BRUISER, TRAIT_SMALL_FRAME, TRAIT_ONE_HANDER, TRAIT_FINESSE, TRAIT_KAMIKAZE, TRAIT_HEAVY_HANDED, TRAIT_FAST_SHOT };
     int[] ShowTraitsRight = { TRAIT_BLOODY_MESS, TRAIT_JINXED, TRAIT_GOOD_NATURED, TRAIT_CHEM_RELIANT, TRAIT_CHEM_RESISTANT, TRAIT_SEX_APPEAL, TRAIT_SKILLED, TRAIT_NIGHT_PERSON };
-    int[] ShowSkills = { SK_SMALL_GUNS, SK_BIG_GUNS, SK_ENERGY_WEAPONS, SK_UNARMED, SK_MELEE_WEAPONS, SK_THROWING, SK_FIRST_AID, SK_DOCTOR, SK_SNEAK, SK_OUTDOORSMAN }; //SK_LOCKPICK, SK_STEAL, SK_TRAPS, SK_SCIENCE, SK_REPAIR, SK_SPEECH, SK_BARTER, SK_GAMBLING,
+    int[] ShowSkills = { SK_SMALL_GUNS, SK_BIG_GUNS, SK_ENERGY_WEAPONS, SK_UNARMED, SK_MELEE_WEAPONS, SK_THROWING, SK_FIRST_AID, SK_DOCTOR, SK_SNEAK, SK_LOCKPICK };//, SK_STEAL, SK_TRAPS, SK_SCIENCE, SK_REPAIR, SK_SPEECH, SK_BARTER, SK_GAMBLING, SK_OUTDOORSMAN };
     
     int[] Params( PARAMS_COUNT );
     
@@ -3721,6 +3723,1437 @@ namespace Game
         DeteriorationLine _DeteriorationLine();
         _DeteriorationLine.Init( _Indicators );
         GUI_RegisterScreen( screenIndex, _Screen );
+    }
+}
+
+namespace Character_TLJ
+{
+
+    int[] ShowBaseStats = { ST_STRENGTH, ST_PERCEPTION, ST_ENDURANCE, ST_CHARISMA };//, ST_INTELLECT, ST_AGILITY, ST_LUCK };
+    int[] ShowHealthStats = { 
+        ST_MAX_LIFE, 
+        DAMAGE_POISONED, 
+        DAMAGE_RADIATED, 
+        DAMAGE_EYE, 
+        DAMAGE_RIGHT_ARM, 
+        DAMAGE_LEFT_ARM,    
+        DAMAGE_RIGHT_LEG, 
+        DAMAGE_LEFT_LEG 
+    };
+    int[] ShowExtendedStats = { 
+        ST_ARMOR_CLASS, 
+        ST_ACTION_POINTS,
+        ST_CARRY_WEIGHT, 
+        ST_MELEE_DAMAGE, 
+        ST_POISON_RESISTANCE, 
+        ST_RADIATION_RESISTANCE, 
+        ST_HEALING_RATE,
+        ST_SEQUENCE
+    };
+    int[] ShowSkills = { SK_SMALL_GUNS, SK_BIG_GUNS, SK_ENERGY_WEAPONS, SK_UNARMED, SK_MELEE_WEAPONS, SK_THROWING, SK_FIRST_AID, SK_DOCTOR, SK_SNEAK, SK_LOCKPICK };//, SK_STEAL, SK_TRAPS, SK_SCIENCE, SK_REPAIR, SK_SPEECH, SK_BARTER, SK_GAMBLING, SK_OUTDOORSMAN };
+    
+    int[] ShowInfo(int page = 0){
+        int[] result;
+        result.resize(0);
+        uint count = 0;
+        switch(page){
+            case 0:
+                count = 0;
+                result.insertLast(-STR_TRAITS_NAME);
+                for(uint i = TRAIT_BEGIN; i <= TRAIT_END; i++) if( GetParam( i ) != 0 ){
+                    result.insertLast(i);
+                    count++;
+                }
+                if( 0 == count ) result.insertLast(0);
+                count = 0;
+                result.insertLast(-STR_PERKS_NAME);
+                for(uint i = PERK_BEGIN; i <= PERK_END; i++) if( GetParam( i ) != 0 ){
+                    result.insertLast(i);
+                    count++;
+                }
+                if( 0 == count ) result.insertLast(0);
+            break;
+            case 1:
+                count = 0;
+                result.insertLast(-STR_KARMA_GEN_GEN_NAME);
+                for( uint i = KARMA_BEGIN; i <= KARMA_END; i++ ) if( GetParam( i ) != 0 ){
+                    result.insertLast(i);
+                    count++;
+                }
+                if( 0 == count ) result.insertLast(0);
+                count = 0;
+                result.insertLast(-STR_TOWNREP_TITLE_NAME);
+                for( uint i = REPUTATION_BEGIN; i <= REPUTATION_END; i++ ) if( uint(GetParam( i )) != 0x80000000 && GetParam( i ) != 0 ){
+                    result.insertLast(i);
+                    count++;
+                }
+                if( 0 == count ) result.insertLast(0);
+                count = 0;
+                result.insertLast(-STR_ADDICT_TITLE_NAME);
+                for( uint i = ADDICTION_BEGIN; i <= ADDICTION_END; i++ ) if( GetParam( i ) != 0 ){
+                    result.insertLast(i);
+                    count++;
+                }
+                if( 0 == count ) result.insertLast(0);
+            break;
+            case 2:
+                count = 0;
+                result.insertLast(-STR_KILLS_NAME);  
+                for( uint i = KILL_BEGIN; i <= KILL_END; i++ ) if( GetParam( i ) != 0 ) {
+                    result.insertLast(i);
+                    count++;
+                }
+                if( 0 == count ) result.insertLast(0);
+            break;
+        }
+        return result;
+    }
+    
+    
+    int CurTip             = -1;
+    int UnspentSkillPoints = 0;
+    int[] SkillUp;
+    
+    int GetParam( int param )
+    {
+        CritterCl@ chosen = GetChosen();
+        return chosen !is null ? chosen.Param[ param ] : 0;
+    }
+    
+    bool IsTagSkill( int param )
+    {
+        return GetParam( TAG_SKILL1 ) == param ||
+            GetParam( TAG_SKILL2 ) == param ||
+            GetParam( TAG_SKILL3 ) == param ||
+            GetParam( TAG_SKILL4 ) == param;
+    }
+    
+    string@ FormatXX( int value )
+    {
+        value = CLAMP( value, 0, 99 );
+        return value < 10 ? "0" + value : "" + value;
+    }
+
+    class Character : GUIScreen
+    {
+        void OnConstruct() override
+        {
+            SetModal( true );
+            SetCanMove( true, false );
+            SetPosition( 3, 57 );
+            SetSize( 640, 480 );
+        }
+
+        void OnShow( dictionary@ params ) override
+        {
+            UnspentSkillPoints = GetParam( ST_UNSPENT_SKILL_POINTS );
+            SkillUp.resize( 0 );
+            SkillUp.resize( PARAMS_COUNT );
+            if( GetParam( ST_UNSPENT_PERKS ) > 0 )
+                ShowScreen( CLIENT_SCREEN_PERK );
+        }
+    }
+
+    class Main : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 2, 2 );
+            SetSize( 643, 480 );
+            SetBackgroundImage( "art/intrface/char_tlj.png" );
+        }
+    }
+
+    class BaseStats : GUIGrid
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 3, 66 );
+            SetCellPrototype( "BaseStat" );
+            SetGridSize( ShowBaseStats.length() );
+        }
+    }
+
+    class BaseStat : GUIPanel
+    {
+        int Param;
+
+        void OnConstruct() override
+        {
+            SetSize( 155, 33 );
+        }
+
+        void OnResizeGrid( GUIObject@ cell, uint cellIndex ) override
+        {
+            Param = ShowBaseStats[ cellIndex ];
+        }
+    }
+
+    class StatName : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 3, 5 );
+            SetSize( 40, 20 );
+            SetText( "TXT" );
+            SetTextFont( FONT_BIG );
+            SetTextFlags( FT_CENTERX );
+            SetTextColor( COLOR_SAND );
+        }
+
+        void OnInit() override
+        {
+            Text = MSG_GAME( STR_INV_SHORT_SPECIAL( cast< BaseStat >( Parent ).Param ) );
+        }
+    }
+
+    class StatValue : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 55, 4 );
+            SetSize( 30, 24 );
+            SetTextFont( FONT_BIG_NUM );
+            SetTextFlags( FT_CENTERR );
+            SetTextColor( COLOR_IFACE );
+        }
+
+        string@ get_Text() override
+        {
+            return FormatXX( GetParam( cast< BaseStat >( Parent ).Param ) );
+        }
+    }
+
+    class StatValueDesc : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 99, 6 );
+            SetSize( 55, 20 );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+        }
+
+        string@ get_Text() override
+        {
+            return MSG_GAME( STR_STAT_LEVEL( GetParam( cast< BaseStat >( Parent ).Param ) ) );
+        }
+    }
+
+    class HealthStats : GUIGrid
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 189, 41 );
+            SetCellPrototype( "HealthStat" );
+            SetGridSize( ShowHealthStats.length() );
+        }
+    }
+
+    class HealthStat : GUIPanel
+    {
+        int Param;
+
+        void OnConstruct() override
+        {
+            SetPosition( 0, 2 );
+            SetSize( 122, 14 );
+        }
+
+        void OnResizeGrid( GUIObject@ cell, uint cellIndex ) override
+        {
+            Param = ShowHealthStats[ cellIndex ];
+        }
+    }
+
+    class StatDesc : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 0, 1 );
+            SetSize( 122, 13 );
+            SetTextFlags( FT_CENTERY );
+        }
+
+        void OnDraw() override
+        {
+            int param = cast< HealthStat >( Parent ).Param;
+            uint color;
+            if( param == DAMAGE_RADIATED )
+                color = ( GetParam( ST_RADIATION_LEVEL ) != 0 ? 0 : COLOR_DARK );
+            else if( param == DAMAGE_POISONED )
+                color = ( GetParam( ST_POISONING_LEVEL ) != 0 ? 0 : COLOR_DARK );
+            else
+                color = ( GetParam( param ) != 0 ? 0: COLOR_DARK );
+            SetTextColor( color );
+        }
+
+        string@ get_Text() override
+        {
+            int param = cast< HealthStat >( Parent ).Param;
+            if( param == ST_MAX_LIFE )
+                return MSG_GAME( STR_INV_HP ) + "  " + GetParam( ST_CURRENT_HP ) + " / " + GetParam( ST_MAX_LIFE );
+            return MSG_GAME( STR_PARAM_NAME( param ) );
+        }
+    }
+
+    class ExtendedStats : GUIGrid
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 192, 177 );
+            SetCellPrototype( "ExtStatsPanel" );
+            SetGridSize( ShowExtendedStats.length() );
+        }
+    }
+
+    class ExtStatsPanel : GUIPanel
+    {
+        int Param;
+
+        void OnConstruct() override
+        {
+            SetPosition( -3, 0 );
+            SetSize( 122, 13 );
+        }
+
+        void OnResizeGrid( GUIObject@ cell, uint cellIndex ) override
+        {
+            Param = ShowExtendedStats[ cellIndex ];
+        }
+    }
+
+    class ExtStatName : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetSize( 100, 13 );
+            SetText( "TXT" );
+            SetTextFlags( FT_CENTERY );
+        }
+
+        void OnInit() override
+        {
+            int param = cast< ExtStatsPanel >( Parent ).Param;
+            Text = MSG_GAME( STR_PARAM_NAME_SHORT( param ) );
+        }
+    }
+
+    class ExtStatValue : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 102, 1 );
+            SetSize( 25, 13 );
+        }
+
+        string@ get_Text() override
+        {
+            int param = cast< ExtStatsPanel >( Parent ).Param;
+            string text;
+            if( param == ST_CARRY_WEIGHT )
+                text = "" + ( GetParam( param ) / 1000 );
+            else if( param == ST_NORMAL_RESIST || param == ST_NORMAL_RESIST )
+                text = "" + GetParam( param ) + "%";
+            else
+                text = "" + GetParam( param );
+            return text;
+        }
+    }
+
+    //int Voobwe global -= huj;
+
+    class Skills : GUIGrid
+    {
+        int CurSkill  = 0;
+        uint CurIndex = 0;
+
+        void OnConstruct() override
+        {
+            SetPosition( 346, 29 );
+            SetCellPrototype( "Skill" );
+            SetGridSize( ShowSkills.length() );
+        }
+
+        void OnInit() override
+        {
+            CurSkill = SKILL_BEGIN;
+        }
+    }
+
+    class Skill : GUIPanel
+    {
+        int Param;
+        uint Index = 0;
+        
+
+        void OnConstruct() override
+        {
+            SetPosition( 16, -3 );
+            SetSize( 280, 13 );
+        }
+
+        void OnResizeGrid( GUIObject@ cell, uint cellIndex ) override
+        {
+            Param = ShowSkills[ cellIndex ];
+            Index = cellIndex;
+        }
+    }
+
+    class SkillName : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 8, 0 );
+            SetSize( 200, 13 );
+            SetText( "TXT" );
+            SetTextFlags( FT_CENTERY );
+        }
+
+        void OnInit() override
+        {
+            Text = MSG_GAME( STR_PARAM_NAME( cast< Skill >( Parent ).Param ) );
+        }
+
+        void OnDraw() override
+        {
+            SetTextColor( IsTagSkill( cast< Skill >( Parent ).Param ) ? 0xFFAAAAAA : COLOR_TEXT );
+        }
+
+        void OnMouseDown( int button ) override
+        {
+            if( button == MOUSE_BUTTON_LEFT ){
+                cast< Skills >( Parent.Parent ).CurSkill = cast< Skill >( Parent ).Param;
+                cast< Skills >( Parent.Parent ).CurIndex = cast< Skill >( Parent ).Index;
+            }
+        }
+    }
+
+    class SkillValue : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 215, 0 );
+            SetSize( 40, 13 );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+        }
+
+        void OnDraw() override
+        {
+            SetTextColor( IsTagSkill( cast< Skill >( Parent ).Param ) ? 0xFFAAAAAA : COLOR_TEXT );
+        }
+
+        void OnMouseDown( int button ) override
+        {
+            if( button == MOUSE_BUTTON_LEFT ){
+                cast< Skills >( Parent.Parent ).CurSkill = cast< Skill >( Parent ).Param;
+                cast< Skills >( Parent.Parent ).CurIndex = cast< Skill >( Parent ).Index;
+            }
+        }
+
+        string@ get_Text() override
+        {
+            int param = cast< Skill >( Parent ).Param;
+            return ( GetParam( param ) + SkillUp[ param ] ) + "%";
+        }
+    }
+
+    class SkillHeader : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 22, -32 );
+            SetSize( 80, 25 );
+            SetText( MSG_GAME( STR_CHA_SKILLS ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class SkillSlider : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 239, -11 );
+            SetSize( 43, 29 );
+            SetBackgroundImage( "art/intrface/slider.png" );
+        }
+
+        void OnShow( dictionary@ params ) override
+        {
+            SetActive(UnspentSkillPoints > 0);
+        }
+
+        void OnDraw() override
+        {
+            SetPosition( 247, -12 + int( cast< Skills >( Parent ).CurIndex  ) * 13 );
+        }
+    }
+
+    class SkillIncButton : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 23, 2 );
+            SetSize( 16, 12 );
+            SetPressedImage( "art/intrface/plus_button_dn.png" );
+        }
+
+        void OnLMousePressed() override
+        {
+            if( UnspentSkillPoints <= 0 ){
+                PlaySound ("click10.ogg");
+                return;
+            }
+            PlaySound ("click22.ogg");
+            
+            int curSkill = cast< Skills >( Parent.Parent ).CurSkill;
+            int skillVal = GetParam( curSkill ) + SkillUp[ curSkill ];
+            if( skillVal >= MAX_SKILL_VAL )
+                return;
+            
+            int needSP = 1;
+            if( skillVal > __SkillModAdd6 )
+                needSP = 6;
+            else if( skillVal > __SkillModAdd5 )
+                needSP = 5;
+            else if( skillVal > __SkillModAdd4 )
+                needSP = 4;
+            else if( skillVal > __SkillModAdd3 )
+                needSP = 3;
+            else if( skillVal > __SkillModAdd2 )
+                needSP = 2;
+            
+            if( UnspentSkillPoints < needSP )
+                return;
+            
+            UnspentSkillPoints -= needSP;
+            SkillUp[ curSkill ]++;
+            if( IsTagSkill( curSkill ) )
+                SkillUp[ curSkill ]++;
+        }
+    }
+
+    string@ FormatXXX( int value )
+    {
+        string@ result = "";
+        result = "" + ABS(value);
+        if(result.length() < 2) result = "0" + result;
+        if(result.length() < 3) result = "0" + result;
+        if( value < 0 ) result = "-" + result;
+        return result;
+    }
+
+    class SkillDecButton : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 23, 14 );
+            SetSize( 17, 12 );
+            SetPressedImage( "art/intrface/minus_button_dn.png" );
+        }
+
+        void OnLMousePressed() override
+        {
+            int curSkill = cast< Skills >( Parent.Parent ).CurSkill;
+            if( SkillUp[ curSkill ] <= 0 ){
+                PlaySound ("click10.ogg");
+                return;
+            }
+            
+            PlaySound ("click22.ogg");
+            
+            SkillUp[ curSkill ]--;
+            if( IsTagSkill( curSkill ) )
+                SkillUp[ curSkill ]--;
+            
+            int skillVal = GetParam( curSkill ) + SkillUp[ curSkill ];
+            if( skillVal > __SkillModAdd6 )
+                UnspentSkillPoints += 6;
+            else if( skillVal > __SkillModAdd5 )
+                UnspentSkillPoints += 5;
+            else if( skillVal > __SkillModAdd4 )
+                UnspentSkillPoints += 4;
+            else if( skillVal > __SkillModAdd3 )
+                UnspentSkillPoints += 3;
+            else if( skillVal > __SkillModAdd2 )
+                UnspentSkillPoints += 2;
+            else
+                UnspentSkillPoints += 1;
+        }
+    }
+
+    class SkillPoints : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 435, 23 );
+        }
+    }
+
+    class SkillPointsTitle : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( -57, 143 );
+            SetSize( 120, 26 );
+            SetText( MSG_GAME( STR_CHA_UNSPENT_SP ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class UnspentSkillpoints : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 88, 142 );
+            SetSize( 48, 25 );
+            SetTextFont( FONT_BIG_NUM );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_IFACE );
+        }
+
+        string@ get_Text() override
+        {
+            return FormatXXX( UnspentSkillPoints );
+        }
+    }
+
+    class Tip : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 340, 262 );
+        }
+
+        void OnDraw() override
+        {
+            GUIObject@ obj = GUI_GetFocusedObject();
+            if( obj is null )
+                return;
+            
+            int param = -1;
+            
+            #define CHECK_PARAM_PARENT #( className ) if( param == -1 && cast< className >( obj.Parent ) !is null ) param = cast< className >( obj.Parent ).Param
+            //#define CHECK_PARENT #( className, p ) if( param == -1 && cast< className >( obj.Parent ) !is null ) param = p
+            
+            CHECK_PARAM_PARENT( BaseStat );
+            CHECK_PARAM_PARENT( HealthStat );
+            CHECK_PARAM_PARENT( ExtStatsPanel );
+            CHECK_PARAM_PARENT( Skill );
+            
+            if(CurTip < -1) param = ABS(CurTip);
+            
+            if( param != -1 && CurTip != param )
+            {
+                CurTip = param;
+                FindText( "Name" ).Text = MSG_GAME( STR_PARAM_NAME( param ) );
+                FindText( "Desc" ).Text = MSG_GAME( STR_PARAM_DESC( param ) );
+                FindText( "Math" ).Text = MSG_GAME( STR_PARAM_MATH( param ) );
+                string@ image =  MSG_GAME( STR_PARAM_PIC( param ) );
+                GUIPanel@ uiImage = FindPanel( "Image" );
+                if(image != "error"){
+                    uint width = uiImage.get_Width();
+                    uiImage.SetBackgroundImage(image);
+                    uiImage.SetActive(true);
+                    if(width<1) uiImage.SetSize(0,0);
+                }else{
+                    uiImage.SetActive(false);
+                }
+            }
+        }
+    }
+
+    class Image : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 169, 42 );
+            SetSize( 120, 135 );
+        }
+    }
+
+    class Name : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 12, 8 );
+            SetSize( 230, 25 );
+            SetTextFont( FONT_THIN );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class Desc : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 12, 39 );
+            SetSize( 158, 138 );
+        }
+    }
+
+    class Math : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetActive( false );
+            SetPosition( 12, 37 );
+            SetSize( 158, 140 );
+        }
+    }
+
+    class Switch : GUICheckBox
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 250, 14 );
+            SetSize( 16, 12 );
+            SetPressedImage( "art/intrface/greenDot.png" );
+        }
+
+        void OnCheckedChanged() override
+        {
+            PlaySound ("click22.ogg");
+            if( IsChecked ){
+                Parent.Find("Desc").SetActive(false);
+                Parent.Find("Math").SetActive(true);
+            }else{
+                Parent.Find("Desc").SetActive(true);
+                Parent.Find("Math").SetActive(false);
+            }
+        }
+    }
+
+    class ImgSwitch : GUICheckBox
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 274, 14 );
+            SetSize( 16, 12 );
+            SetPressedImage( "art/intrface/yellowDot.png" );
+        }
+
+        void OnCheckedChanged() override
+        {
+            PlaySound ("click22.ogg");
+            if( IsChecked ){
+                Parent.Find("Desc").SetSize(275, 134);
+                Parent.Find("Math").SetSize(275, 134);
+                Parent.Find("Image").SetSize(0,0);
+            }else{
+                Parent.Find("Desc").SetSize(160, 134);
+                Parent.Find("Math").SetSize(160, 134);
+                Parent.Find("Image").SetSize(120, 135);
+            }
+        }
+    }
+
+    class Buttons : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 526, 148 );
+        }
+    }
+
+    class Print : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( -180, 302 );
+        }
+    }
+
+    class Button1 : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 1, 4 );
+            SetSize( 15, 16 );
+            SetPressedImage( "art/intrface/smallbutton_on.png" );
+        }
+
+        void OnLMouseClick() override
+        {
+            PlaySound ("click4.ogg");
+        }
+    }
+
+    class Text1 : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 19, 3 );
+            SetSize( 80, 20 );
+            SetText( MSG_GAME( STR_CHA_PRINT ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class Done : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( -69, 302 );
+        }
+    }
+
+    class Button2 : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 0, 5 );
+            SetSize( 15, 16 );
+            SetPressedImage( "art/intrface/smallbutton_on.png" );
+        }
+
+        void OnLMouseClick() override
+        {
+            if( UnspentSkillPoints < GetParam( ST_UNSPENT_SKILL_POINTS ) )
+            {
+                int[] skills = {};
+                skills.resize(__SkillEnd - __SkillBegin + 1);
+                for(uint x = 0; x < skills.length; x++){
+                    skills[x] = SkillUp[__SkillBegin + x];
+                }
+                RunServerScriptUnsafe("parameters@unsafe_changeSkills",0,0,0,"",skills);
+                PlaySound ("click10.ogg");
+            } else {
+                PlaySound ("click4.ogg");
+            }
+            HideScreen();
+        }
+    }
+
+    class Text2 : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 17, 4 );
+            SetSize( 60, 20 );
+            SetText( MSG_GAME( STR_CHA_OK ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class Back : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 40, 307 );
+        }
+    }
+
+    class Button3 : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( -12, 0 );
+            SetSize( 15, 16 );
+            SetPressedImage( "art/intrface/smallbutton_on.png" );
+        }
+
+        void OnLMouseClick() override
+        {
+            HideScreen();
+            PlaySound ("click4.ogg");
+        }
+    }
+
+    class Text3 : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 8, -1 );
+            SetSize( 60, 20 );
+            SetText( MSG_GAME( STR_CHA_CANCEL ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class CharacterText : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 3, 1 );
+        }
+    }
+
+    class CharNameText : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 6, 2 );
+            SetSize( 250, 22 );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+
+        string@ get_Text() override
+        {
+            return __Name;
+        }
+    }
+
+    class CharAgeText : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 270, 2 );
+            SetSize( 32, 22 );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+
+        string@ get_Text() override
+        {
+            return "" + GetParam( ST_AGE );
+        }
+    }
+
+    class CharGenderText : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 106, 35 );
+            SetSize( 55, 22 );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+
+        string@ get_Text() override
+        {
+            return GetParam( ST_GENDER ) == GENDER_MALE ? MSG_GAME( STR_MALE_NAME ) : MSG_GAME( STR_FEMALE_NAME );
+        }
+    }
+
+    class LevelStats : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 24, 281 );
+        }
+    }
+
+    class TextLevel : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 2, -2 );
+        }
+
+        string@ get_Text() override
+        {
+            return ReplaceText( MSG_GAME( STR_CHA_LEVEL ), "%d", GetParam( ST_LEVEL ) );
+        }
+    }
+
+    class TextExp : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 2, 10 );
+        }
+
+        string@ get_Text() override
+        {
+            return ReplaceText( MSG_GAME( STR_CHA_EXPERIENCE ), "%d", GetParam( ST_EXPERIENCE ) );
+        }
+    }
+
+    class TextNextLevel : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 2, 22 );
+        }
+
+        string@ get_Text() override
+        {
+            return ReplaceText( MSG_GAME( STR_CHA_NEXT_LEVEL ), "%d", NUMERICAL_NUMBER( GetParam( ST_LEVEL ) * 1000 ) );
+        }
+    }
+
+    int CurSwitch = 0;  // 0 - perks, 1 - karma, 2 - kills
+
+    class Switcher : GUIPanel
+    {
+        int CurSwitch = 0; // 0 - perks, 1 - karma, 2 - kills
+        int[] SwitchScroll = { 0, 0, 0 };
+
+        void OnConstruct() override
+        {
+            SetPosition( 28, 279 );
+        }
+
+        void OnShow( dictionary@ params ) override
+        {
+            SwitchScroll[ 0 ] = SwitchScroll[ 1 ] = SwitchScroll[ 2 ] = 0;
+        }
+
+        void OnDraw() override
+        {
+            //FindPanel( reflection::typeof< PerksTitle >().nameWithoutNamespace ).SetActive( CurSwitch == 0 );
+            //FindPanel( reflection::typeof< KarmaTitle >().nameWithoutNamespace ).SetActive( CurSwitch == 1 );
+            //FindPanel( reflection::typeof< KillsTitle >().nameWithoutNamespace ).SetActive( CurSwitch == 2 );
+        }
+    }
+
+    class Triggers : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( -2, 1 );
+        }
+    }
+
+    class Backgrounds : GUIPanel
+    {
+        void OnConstruct() override
+        {
+        }
+    }
+
+    class PerksTitle : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetPosition( -15, 48 );
+            SetSize( 318, 33 );
+            SetBackgroundImage( "art/intrface/cha_switcher_perks.png" );
+        }
+    }
+
+    class KarmaTitle : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetActive( false );
+            SetPosition( -15, 48 );
+            SetSize( 318, 33 );
+            SetBackgroundImage( "art/intrface/cha_switcher_karma.png" );
+        }
+    }
+
+    class KillsTitle : GUIPanel
+    {
+        void OnConstruct() override
+        {
+            SetActive( false );
+            SetPosition( -15, 48 );
+            SetSize( 318, 33 );
+            SetBackgroundImage( "art/intrface/cha_switcher_kills.png" );
+        }
+    }
+
+    class PerksTitleText : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 45, 62 );
+            SetText( MSG_GAME( STR_SWITCH_PERKS_NAME ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class KarmaTitleText : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 146, 61 );
+            SetText( MSG_GAME( STR_SWITCH_KARMA_NAME ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class KillsTitleText : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 244, 62 );
+            SetText( MSG_GAME( STR_SWITCH_KILLS_NAME ) );
+            SetTextFont( FONT_FAT );
+            SetTextFlags( FT_CENTERX | FT_CENTERY );
+            SetTextColor( COLOR_SAND );
+        }
+    }
+
+    class PerksTitleTrigger : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( -13, 47 );
+            SetSize( 109, 33 );
+        }
+
+        void OnLMousePressed() override
+        {
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("PerksTitle").SetActive (true);
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("KarmaTitle").SetActive (false);
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("KillsTitle").SetActive (false);
+            //Parent.FindPanel( "PerksTitle" ).SetActive (false);
+            //Parent.FindPanel( "KillsTitle" ).SetSwitch( false );
+            //Parent.Parent.FindText ("NormalText").SetText ("Perks supertext.");
+            if(CurSwitch != 0 ) PlaySound ("click4.ogg");
+            CurSwitch = 0;
+            
+        }
+    }
+
+    class KarmaTitleTrigger : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 96, 47 );
+            SetSize( 103, 33 );
+        }
+
+        void OnLMousePressed() override
+        {
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("PerksTitle").SetActive (false);
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("KillsTitle").SetActive (false);
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("KarmaTitle").SetActive (true);
+            //Parent.FindPanel( "KillsTitle" ).SetSwitch( false );
+            //Parent.Parent.FindText ("NormalText").SetText ("Karma supertext.");
+            if(CurSwitch != 1) PlaySound ("click4.ogg");
+            CurSwitch = 1;
+            
+        }
+    }
+
+    class KillsTriggerButton : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 199, 47 );
+            SetSize( 104, 33 );
+        }
+
+        void OnLMousePressed() override
+        {
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("PerksTitle").SetActive (false);
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("KarmaTitle").SetActive (false);
+            Parent.FindPanel( "Backgrounds" ).FindPanel ("KillsTitle").SetActive (true);
+            if(CurSwitch != 2) PlaySound ("click4.ogg");
+            CurSwitch = 2;
+        }
+    }
+
+    class ScrollUp : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 291, 86 );
+            SetSize( 11, 14 );
+            SetBackgroundImage( "art/intrface/arrow_up_off.png" );
+            SetPressedImage( "art/intrface/arrow_up_on.png" );
+        }
+
+        void OnLMousePressed() override
+        {
+            DataList@ list = cast<DataList>(Parent.Find("DataList"));
+            if(list.Scroll > 0){ 
+                PlaySound ("click22.ogg");
+                list.Scroll--;
+            }
+            //if(list.Scroll < list.Info.length-7) list.Scroll++;
+        }
+    }
+
+    class ScrollDown : GUIButton
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 291, 99 );
+            SetSize( 11, 14 );
+            SetBackgroundImage( "art/intrface/arrow_down_off.png" );
+            SetPressedImage( "art/intrface/arrow_down_on.png" );
+        }
+
+        void OnLMousePressed() override
+        {
+            DataList@ list = cast<DataList>(Parent.Find("DataList"));
+            //if(list.Scroll > 0) list.Scroll--;
+            if( list.Scroll < CLAMP( list.Info.length - 7, 0, list.Info.length ) ) {
+                list.Scroll++;
+                PlaySound ("click22.ogg");
+            }
+        }
+    }
+
+    class DataList : GUIGrid
+    {
+        int CurInfo = 0;
+        int[] Info;
+        uint Scroll = 0;
+
+        void OnConstruct() override
+        {
+            SetPosition( -1, 86 );
+            SetSize( 287, 100 );
+            SetCellPrototype( "DataItem" );
+            SetGridSize( 7 );
+        }
+
+        void OnShow( dictionary@ params ) override
+        {
+            Info    = ShowInfo(CurSwitch);
+            CurInfo = CurSwitch;
+            Scroll  = 0;
+        }
+
+        void OnDraw() override
+        {
+            if( CurInfo != CurSwitch ){
+                CurInfo = CurSwitch;
+                Info    = ShowInfo(CurSwitch);
+                Scroll  = 0;
+            }
+        }
+    }
+
+    class DataItem : GUIPanel
+    {
+        
+        int Index = 0;
+
+        void OnConstruct() override
+        {
+            SetSize( 287, 15 );
+        }
+
+        void OnResizeGrid( GUIObject@ cell, uint cellIndex ) override
+        {
+            Index = cellIndex;
+        }
+    }
+
+    class DataLabel : GUIText
+    {
+        int Param;
+
+        void OnConstruct() override
+        {
+            SetSize( 287, 15 );
+            SetText( "Безымянный" );
+            SetTextFlags( FT_CENTERY );
+        }
+
+        void OnDraw() override
+        {
+            DataList@ list = cast<DataList>(Parent.Parent);
+            DataItem@ cell = cast<DataItem>(Parent);
+            DataValue@ dvalue = cast<DataValue>(Find("DataValue"));
+            uint id = cell.Index + list.Scroll;
+            //
+            if( list.Info.length > id && id >= 0 ){
+                Param = list.Info[id] > 0 ? list.Info[id] : -1;
+                if(list.Info[id] > 0){
+                    SetText(MSG_GAME( STR_PARAM_NAME( list.Info[id] ) ) );
+                    if( list.Info[id] >= REPUTATION_BEGIN && list.Info[id] <= REPUTATION_END ){
+                        dvalue.SetText( MSG_GAME( STR_TOWNREP_RATIO_NAME( GetParam( list.Info[id] ) ) )+ " ("+GetParam( list.Info[id] )+")" );
+                    }else{
+                        int val = GetParam( list.Info[id] );
+                        dvalue.SetText( val < 2 ? "" : "("+val+")" );
+                    }
+                    SetTextFlags( FT_CENTERY /*| FT_BORDERED*/ );
+                }else if(list.Info[id] == 0){
+                    SetText( "  " ); // MSG_GAME(STR_ITEM_LOOK_NOTHING)
+                    dvalue.SetText("");
+                    SetTextFlags( FT_CENTERY /*| FT_BORDERED*/ );
+                }else{
+                    SetText( MSG_GAME( ABS(list.Info[id]) ) );
+                    dvalue.SetText( "" );
+                    SetTextFlags( FT_CENTERY | FT_CENTERX /*| FT_BORDERED*/ );
+                }
+                // For debug purposes: shows #param_id@message_id for missing text entries
+                if( Text.length() < 2 || Text == "error" ) SetText( "#"+(list.Info[id] > 0 ? list.Info[id] + "@" + STR_PARAM_NAME( list.Info[id] ) : "@"+ABS(list.Info[id])) );
+            }else{
+                Param = -1;
+                SetText("");
+                dvalue.SetText("");
+            }
+        }
+
+        void OnMouseDown( int button ) override
+        {
+            DataList@ list = cast<DataList>(Parent.Parent);
+            if( MOUSE_BUTTON_WHEEL_UP == button ){
+                if(list.Scroll > 0) list.Scroll--;
+            }else if( MOUSE_BUTTON_WHEEL_DOWN == button ){
+                if(list.Scroll < list.Info.length-7) list.Scroll++;
+            }else if( MOUSE_BUTTON_LEFT == button ){
+                CurTip = -Param;
+            }
+        }
+    }
+
+    class DataValue : GUIText
+    {
+        void OnConstruct() override
+        {
+            SetPosition( 87, 0 );
+            SetSize( 200, 15 );
+            SetNotHittable( true );
+            SetTextFlags( FT_CENTERY | FT_CENTERR );
+        }
+    }
+
+    void Init( int screenIndex )
+    {
+        Character _Character();
+        _Character.Init( null );
+        Main _Main();
+        _Main.Init( _Character );
+        BaseStats _BaseStats();
+        _BaseStats.Init( _Main );
+        BaseStat _BaseStat();
+        _BaseStat.Init( _BaseStats );
+        StatName _StatName();
+        _StatName.Init( _BaseStat );
+        StatValue _StatValue();
+        _StatValue.Init( _BaseStat );
+        StatValueDesc _StatValueDesc();
+        _StatValueDesc.Init( _BaseStat );
+        HealthStats _HealthStats();
+        _HealthStats.Init( _Main );
+        HealthStat _HealthStat();
+        _HealthStat.Init( _HealthStats );
+        StatDesc _StatDesc();
+        _StatDesc.Init( _HealthStat );
+        ExtendedStats _ExtendedStats();
+        _ExtendedStats.Init( _Main );
+        ExtStatsPanel _ExtStatsPanel();
+        _ExtStatsPanel.Init( _ExtendedStats );
+        ExtStatName _ExtStatName();
+        _ExtStatName.Init( _ExtStatsPanel );
+        ExtStatValue _ExtStatValue();
+        _ExtStatValue.Init( _ExtStatsPanel );
+        Skills _Skills();
+        _Skills.Init( _Main );
+        Skill _Skill();
+        _Skill.Init( _Skills );
+        SkillName _SkillName();
+        _SkillName.Init( _Skill );
+        SkillValue _SkillValue();
+        _SkillValue.Init( _Skill );
+        SkillHeader _SkillHeader();
+        _SkillHeader.Init( _Skills );
+        SkillSlider _SkillSlider();
+        _SkillSlider.Init( _Skills );
+        SkillIncButton _SkillIncButton();
+        _SkillIncButton.Init( _SkillSlider );
+        SkillDecButton _SkillDecButton();
+        _SkillDecButton.Init( _SkillSlider );
+        SkillPoints _SkillPoints();
+        _SkillPoints.Init( _Main );
+        SkillPointsTitle _SkillPointsTitle();
+        _SkillPointsTitle.Init( _SkillPoints );
+        UnspentSkillpoints _UnspentSkillpoints();
+        _UnspentSkillpoints.Init( _SkillPoints );
+        Tip _Tip();
+        _Tip.Init( _Main );
+        Image _Image();
+        _Image.Init( _Tip );
+        Name _Name();
+        _Name.Init( _Tip );
+        Desc _Desc();
+        _Desc.Init( _Tip );
+        Math _Math();
+        _Math.Init( _Tip );
+        Switch _Switch();
+        _Switch.Init( _Tip );
+        ImgSwitch _ImgSwitch();
+        _ImgSwitch.Init( _Tip );
+        Buttons _Buttons();
+        _Buttons.Init( _Main );
+        Print _Print();
+        _Print.Init( _Buttons );
+        Button1 _Button1();
+        _Button1.Init( _Print );
+        Text1 _Text1();
+        _Text1.Init( _Print );
+        Done _Done();
+        _Done.Init( _Buttons );
+        Button2 _Button2();
+        _Button2.Init( _Done );
+        Text2 _Text2();
+        _Text2.Init( _Done );
+        Back _Back();
+        _Back.Init( _Buttons );
+        Button3 _Button3();
+        _Button3.Init( _Back );
+        Text3 _Text3();
+        _Text3.Init( _Back );
+        CharacterText _CharacterText();
+        _CharacterText.Init( _Main );
+        CharNameText _CharNameText();
+        _CharNameText.Init( _CharacterText );
+        CharAgeText _CharAgeText();
+        _CharAgeText.Init( _CharacterText );
+        CharGenderText _CharGenderText();
+        _CharGenderText.Init( _CharacterText );
+        LevelStats _LevelStats();
+        _LevelStats.Init( _Main );
+        TextLevel _TextLevel();
+        _TextLevel.Init( _LevelStats );
+        TextExp _TextExp();
+        _TextExp.Init( _LevelStats );
+        TextNextLevel _TextNextLevel();
+        _TextNextLevel.Init( _LevelStats );
+        Switcher _Switcher();
+        _Switcher.Init( _Main );
+        Triggers _Triggers();
+        _Triggers.Init( _Switcher );
+        Backgrounds _Backgrounds();
+        _Backgrounds.Init( _Triggers );
+        PerksTitle _PerksTitle();
+        _PerksTitle.Init( _Backgrounds );
+        KarmaTitle _KarmaTitle();
+        _KarmaTitle.Init( _Backgrounds );
+        KillsTitle _KillsTitle();
+        _KillsTitle.Init( _Backgrounds );
+        PerksTitleText _PerksTitleText();
+        _PerksTitleText.Init( _Backgrounds );
+        KarmaTitleText _KarmaTitleText();
+        _KarmaTitleText.Init( _Backgrounds );
+        KillsTitleText _KillsTitleText();
+        _KillsTitleText.Init( _Backgrounds );
+        PerksTitleTrigger _PerksTitleTrigger();
+        _PerksTitleTrigger.Init( _Triggers );
+        KarmaTitleTrigger _KarmaTitleTrigger();
+        _KarmaTitleTrigger.Init( _Triggers );
+        KillsTriggerButton _KillsTriggerButton();
+        _KillsTriggerButton.Init( _Triggers );
+        ScrollUp _ScrollUp();
+        _ScrollUp.Init( _Switcher );
+        ScrollDown _ScrollDown();
+        _ScrollDown.Init( _Switcher );
+        DataList _DataList();
+        _DataList.Init( _Switcher );
+        DataItem _DataItem();
+        _DataItem.Init( _DataList );
+        DataLabel _DataLabel();
+        _DataLabel.Init( _DataItem );
+        DataValue _DataValue();
+        _DataValue.Init( _DataLabel );
+        GUI_RegisterScreen( screenIndex, _Character );
     }
 }
 

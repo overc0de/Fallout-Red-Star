@@ -225,7 +225,7 @@ void GUI_EngineCallback_Start()
     CreateHardcodedScreen( CLIENT_SCREEN_INVENTORY, true );
     CreateHardcodedScreen( CLIENT_SCREEN_PICKUP, true );
     CreateHardcodedScreen( CLIENT_SCREEN_MINIMAP, true );
-    CreateHardcodedScreen( CLIENT_SCREEN_CHARACTER, true );
+    //CreateHardcodedScreen( CLIENT_SCREEN_CHARACTER, true );
     CreateHardcodedScreen( CLIENT_SCREEN_DIALOG, true );
     CreateHardcodedScreen( CLIENT_SCREEN_BARTER, true );
     CreateHardcodedScreen( CLIENT_SCREEN_PIP_BOY, true );

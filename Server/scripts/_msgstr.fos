@@ -398,6 +398,13 @@
 #define STR_SWITCH_KARMA_NAME                ( 4110 )
 #define STR_SWITCH_KILLS_NAME                ( 4111 )
 
+// Parameters
+#define STR_PARAM_NAME                       # (index)         ( 100000 + ( index ) * 10 + 1 )
+#define STR_PARAM_DESC                       # (index)         ( 100000 + ( index ) * 10 + 2 )
+#define STR_PARAM_NAME_SHORT                 # (index) 		   ( 100000 + ( index ) * 10 + 3 )
+#define STR_PARAM_MATH						 # (index) 		   ( 100000 + ( index ) * 10 + 4 )
+#define STR_PARAM_PIC						 # (index) 		   ( 100000 + ( index ) * 10 + 5 )
+
 // Skills
 #define STR_SKILL_NORESSURECT                ( 3400 )
 #define STR_SKILL_WEARINESS                  ( 3401 )
@@ -439,8 +446,8 @@
 
 #define STR_TOWNREP_TITLE_NAME               ( 6405 )
 #define STR_TOWNREP_TITLE_DESC               ( 6406 )
-#define STR_TOWNREP_RATIO_NAME               # (val)   ( 6500 + ( ( val ) >= GameOpt.ReputationLoved ? 0 : ( ( val ) >= GameOpt.ReputationLiked ? 1 : ( ( val ) >= GameOpt.ReputationAccepted ? 2 : ( ( val ) >= GameOpt.ReputationNeutral ? 3 : ( ( val ) >= GameOpt.ReputationAntipathy ? 4 : ( ( val ) >= GameOpt.ReputationHated ? 5 : 6 ) ) ) ) ) ) )
-#define STR_TOWNREP_RATIO_DESC               # (val)   ( 6550 + ( ( val ) >= GameOpt.ReputationLoved ? 0 : ( ( val ) >= GameOpt.ReputationLiked ? 1 : ( ( val ) >= GameOpt.ReputationAccepted ? 2 : ( ( val ) >= GameOpt.ReputationNeutral ? 3 : ( ( val ) >= GameOpt.ReputationAntipathy ? 4 : ( ( val ) >= GameOpt.ReputationHated ? 5 : 6 ) ) ) ) ) ) )
+#define STR_TOWNREP_RATIO_NAME               # (val)   ( 6500 + ( ( val ) >= __ReputationLoved ? 0 : ( ( val ) >= __ReputationLiked ? 1 : ( ( val ) >= __ReputationAccepted ? 2 : ( ( val ) >= __ReputationNeutral ? 3 : ( ( val ) >= __ReputationAntipathy ? 4 : ( ( val ) >= __ReputationHated ? 5 : 6 ) ) ) ) ) ) )
+#define STR_TOWNREP_RATIO_DESC               # (val)   ( 6550 + ( ( val ) >= __ReputationLoved ? 0 : ( ( val ) >= __ReputationLiked ? 1 : ( ( val ) >= __ReputationAccepted ? 2 : ( ( val ) >= __ReputationNeutral ? 3 : ( ( val ) >= __ReputationAntipathy ? 4 : ( ( val ) >= __ReputationHated ? 5 : 6 ) ) ) ) ) ) )
 
 #define STR_ADDICT_TITLE_NAME                ( 6900 )
 #define STR_ADDICT_TITLE_DESC                ( 6901 )
