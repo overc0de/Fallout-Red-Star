@@ -146,7 +146,7 @@ void InitializeGame()                    // Export
     // Other is Vilified
 
     // Registation values
-    __StartSpecialPoints  = 40;
+    __StartSpecialPoints  = 11;
     __StartTagSkillPoints = 3;
 
     // Skill modifiers
