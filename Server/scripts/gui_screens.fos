@@ -278,7 +278,7 @@ namespace Registration
     import void player_data_generate( int[]& params ) from "client_main";
     import bool player_data_check( int[]& params ) from "client_main";
     
-    int[] ShowBaseStats = { ST_STRENGTH, ST_PERCEPTION, ST_ENDURANCE, ST_CHARISMA, ST_INTELLECT, ST_AGILITY, ST_LUCK };
+    int[] ShowBaseStats = { ST_STRENGTH, ST_PERCEPTION, ST_ENDURANCE, ST_CHARISMA };//, ST_INTELLECT, ST_AGILITY, ST_LUCK
     int[] ShowHealthStats = { ST_MAX_LIFE, DAMAGE_POISONED, DAMAGE_RADIATED, DAMAGE_EYE, DAMAGE_RIGHT_ARM, DAMAGE_LEFT_ARM, DAMAGE_RIGHT_LEG, DAMAGE_LEFT_LEG };
     int[] ShowExtendedStats = { ST_ARMOR_CLASS, ST_ACTION_POINTS, ST_CARRY_WEIGHT, ST_MELEE_DAMAGE, ST_NORMAL_RESIST, ST_POISON_RESISTANCE, ST_RADIATION_RESISTANCE, ST_SEQUENCE, ST_HEALING_RATE, ST_CRITICAL_CHANCE };
     int[] ShowTraitsLeft = { TRAIT_FAST_METABOLISM, TRAIT_BRUISER, TRAIT_SMALL_FRAME, TRAIT_ONE_HANDER, TRAIT_FINESSE, TRAIT_KAMIKAZE, TRAIT_HEAVY_HANDED, TRAIT_FAST_SHOT };
@@ -423,7 +423,7 @@ namespace Registration
         void OnLMouseClick() override
         {
             int param = cast< BaseStat >( Parent ).Param;
-            if( Params[ param ] < 10 && GetUnspentStatPoints() > 0 )
+            if( Params[ param ] < 5 && GetUnspentStatPoints() > 0 )
             {
                 __RegParams[ param ]++;
                 GenParams();
