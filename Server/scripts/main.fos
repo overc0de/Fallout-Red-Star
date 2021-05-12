@@ -138,7 +138,7 @@ bool start()
     WorldmapInit();
 
     // Caravans initialization
-    CaravansInit();
+    //CaravansInit();
 
     // NoPvP initialization
     SetNoPvp();
