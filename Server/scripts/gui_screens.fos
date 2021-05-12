@@ -24,8 +24,8 @@ namespace Login
     {
         void OnConstruct() override
         {
-            SetPosition( 50, 50 );
-            SetSize( 800, 600 );
+            SetPosition( 0, 0 );
+            SetSize( __ScreenWidth, __ScreenHeight );
             SetDock( DOCK_FILL );
         }
 
@@ -40,9 +40,22 @@ namespace Login
     {
         void OnConstruct() override
         {
-            SetPosition( 80, 60 );
-            SetSize( 640, 480 );
-            SetBackgroundImage( "art/intrface/login.png" );
+            SetPosition( 0, 0 );
+            SetSize( __ScreenWidth, __ScreenHeight );
+			
+			//TODO: Вынуть в отдельную ф-ю, добавляющую к имени файла текущие параметры расширения: string intrface( string name )
+			string img = "art/intrface/login.png";
+			
+			switch( __ScreenWidth * __ScreenHeight ) {
+				case( 800 * 600 ): 	 img = "art/intrface/login_800-600.png"; 	break;
+				case( 1024 * 768 ):  img = "art/intrface/login_1024-768.png"; 	break;//ADD!!!
+				case( 1280 * 800 ):  img = "art/intrface/login_1280-800.png"; 	break;
+				case( 1280 * 1024 ): img = "art/intrface/login_1280-1024.png";	break;
+				case( 1366 * 768 ):  img = "art/intrface/login_1366-768.png"; 	break;
+				case( 1920 * 1080 ): img = "art/intrface/login_1920-1080.png"; 	break;
+			}
+			
+            SetBackgroundImage( img );
         }
     }
 

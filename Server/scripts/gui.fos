@@ -604,7 +604,7 @@ bool GUI_EngineCallback_CheckInterfaceHit( int x, int y )
 void GUI_Callback_OnResolutionChanged()
 {
     for( uint i = 0; i < Screens.length(); i++ )
-        Screens[ i ]._Reload( false, true );
+        Screens[ i ]._Reload( true, true );
 }
 
 void GUI_Callback_OnLanguageChanged()
