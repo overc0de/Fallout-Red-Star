@@ -4,6 +4,16 @@
 #include "_macros.fos"
 #include "_colors.fos"
 
+//~run test respawn id 0 0
+import bool SetStartLocation( Critter& cr ) from "new_gameplay";
+void respawn( Critter& cr, int id, int, int )
+{
+	Critter@ target = ( id == 0 ? @cr : GetCritter( id ) );
+	if( !valid( target ) ) return;
+	
+	SetStartLocation( target );
+}
+
 //~run test arachnophobic start end chance
 void arachnophobic( Critter& cr, int start, int end, int chance )
 {
