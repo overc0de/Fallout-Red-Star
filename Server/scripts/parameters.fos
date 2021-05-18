@@ -266,20 +266,18 @@ void CritterGenerate( int[]& params ) // Export to client_main@player_data_gener
 
     #ifdef __CLIENT
     // Runtime calculations, only for client registration
-    _param_[ ST_ARMOR_CLASS ] += _param_[ ST_AGILITY ];
-    _param_[ ST_MAX_LIFE ] += _param_[ ST_STRENGTH ] + _param_[ ST_ENDURANCE ] * 2;
-    _param_[ ST_ACTION_POINTS ] += _param_[ ST_AGILITY ] / 2;
-    _param_[ ST_CARRY_WEIGHT ] += LBS_TO_GRAMM( 25 + _param_[ ST_STRENGTH ] * ( 25 - _param_[ TRAIT_SMALL_FRAME ] * 10 ) );
-    _param_[ ST_MELEE_DAMAGE ] += ( _param_[ ST_STRENGTH ] > 6 ? _param_[ ST_STRENGTH ] - 5 : 1 );
-    _param_[ ST_POISON_RESISTANCE ] += _param_[ ST_ENDURANCE ] * 5;
-    _param_[ ST_RADIATION_RESISTANCE ] += _param_[ ST_ENDURANCE ] * 2;
+    _param_[ ST_ARMOR_CLASS ] += _param_[ ST_ENDURANCE ] * 2;
+    _param_[ ST_MAX_LIFE ] += 40 + _param_[ ST_STRENGTH ] * 20;
+    _param_[ ST_ACTION_POINTS ] += _param_[ ST_ENDURANCE ] + 5;
+    _param_[ ST_CARRY_WEIGHT ] += LBS_TO_GRAMM( 75 + _param_[ ST_STRENGTH ] *  20 );
+    _param_[ ST_MELEE_DAMAGE ] += _param_[ ST_STRENGTH] + 10;
+    _param_[ ST_POISON_RESISTANCE ] += _param_[ ST_STRENGTH ] * 5;
+    _param_[ ST_RADIATION_RESISTANCE ] += _param_[ ST_STRENGTH ] * 2;
     _param_[ ST_SEQUENCE ] += _param_[ ST_PERCEPTION ] * 2;
-    _param_[ ST_HEALING_RATE ] += MAX( 1, _param_[ ST_ENDURANCE ] / 3 );
-    _param_[ ST_CRITICAL_CHANCE ] += _param_[ ST_LUCK ];
+    _param_[ ST_HEALING_RATE ] += _param_[ ST_STRENGTH ] * 2 + 5;
+    _param_[ ST_CRITICAL_CHANCE ] += _param_[ ST_CHARISMA ] * 4;
     #endif
 
-    _param_[ ST_MAX_LIFE ] += 15;
-    _param_[ ST_ACTION_POINTS ] += 5;
     _param_[ ST_CURRENT_HP ] = _param_[ ST_MAX_LIFE ];
     _param_[ ST_CURRENT_AP ] = _param_[ ST_ACTION_POINTS ] * 100;
 }
@@ -387,7 +385,7 @@ int getParam_Strength( Critter& cr, uint )
     if( cr.ParamBase[ PE_ADRENALINE_RUSH ] != 0 && getParam_Timeout( cr, TO_BATTLE ) != 0 && // Adrenaline rush perk
         cr.ParamBase[ ST_CURRENT_HP ] <= ( cr.ParamBase[ ST_MAX_LIFE ] + cr.ParamBase[ ST_STRENGTH ] + cr.ParamBase[ ST_ENDURANCE ] * 2 ) / 2 )
         val++;
-    return CLAMP( val, 1, 10 );
+    return CLAMP( val, 1, 5 );
 }
 
 int getParam_Perception( Critter& cr, uint )
@@ -395,19 +393,19 @@ int getParam_Perception( Critter& cr, uint )
     int val = ( cr.ParamBase[ DAMAGE_EYE ] != 0 ? 1 : cr.ParamBase[ ST_PERCEPTION ] + cr.ParamBase[ ST_PERCEPTION_EXT ] );
     if( cr.ParamBase[ TRAIT_NIGHT_PERSON ] != 0 )
         val += GetNightPersonBonus();
-    return CLAMP( val, 1, 10 );
+    return CLAMP( val, 1, 5 );
 }
 
 int getParam_Endurance( Critter& cr, uint )
 {
     int val = cr.ParamBase[ ST_ENDURANCE ] + cr.ParamBase[ ST_ENDURANCE_EXT ];
-    return CLAMP( val, 1, 10 );
+    return CLAMP( val, 1, 5 );
 }
 
 int getParam_Charisma( Critter& cr, uint )
 {
     int val = cr.ParamBase[ ST_CHARISMA ] + cr.ParamBase[ ST_CHARISMA_EXT ];
-    return CLAMP( val, 1, 10 );
+    return CLAMP( val, 1, 5 );
 }
 
 int getParam_Intellegence( Critter& cr, uint )
@@ -415,19 +413,19 @@ int getParam_Intellegence( Critter& cr, uint )
     int val = cr.ParamBase[ ST_INTELLECT ] + cr.ParamBase[ ST_INTELLECT_EXT ];
     if( cr.ParamBase[ TRAIT_NIGHT_PERSON ] != 0 )
         val += GetNightPersonBonus();
-    return CLAMP( val, 0, 10 );
+    return CLAMP( val, 0, 5 );
 }
 
 int getParam_Agility( Critter& cr, uint )
 {
     int val = cr.ParamBase[ ST_AGILITY ] + cr.ParamBase[ ST_AGILITY_EXT ];
-    return CLAMP( val, 0, 10 );
+    return CLAMP( val, 0, 5 );
 }
 
 int getParam_Luck( Critter& cr, uint )
 {
     int val = cr.ParamBase[ ST_LUCK ] + cr.ParamBase[ ST_LUCK_EXT ];
-    return CLAMP( val, 0, 10 );
+    return CLAMP( val, 0, 5 );
 }
 
 int getParam_Hp( Critter& cr, uint )
