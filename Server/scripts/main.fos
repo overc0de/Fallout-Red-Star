@@ -1377,7 +1377,7 @@ void player_levelup( Critter& player, uint skillIndex, uint skillUp, uint perkIn
 {
     if( skillIndex >= SKILL_BEGIN && skillIndex <= SKILL_END )
     {
-        for( ; skillUp != 0; skillUp-- )
+        while( skillUp > 0 )
         {
             int skillVal = player.SkillBase[ skillIndex ];
             if( skillVal >= MAX_SKILL_VAL )
@@ -1399,10 +1399,14 @@ void player_levelup( Critter& player, uint skillIndex, uint skillUp, uint perkIn
                 break;
 
             skillVal++;
-            // if( _CritIsTagSkill( player, skillIndex ) && skillVal < MAX_SKILL_VAL )
-                // skillVal++;
+            if( _CritIsTagSkill( player, skillIndex ) && skillVal < MAX_SKILL_VAL )
+			{
+                skillVal++;
+				skillUp--;
+			}
             player.SkillBase[ skillIndex ] = skillVal;
             player.StatBase[ ST_UNSPENT_SKILL_POINTS ] -= needPoints;
+			skillUp--;
         }
     }
     else if( perkIndex >= PERK_BEGIN && perkIndex <= PERK_END )
