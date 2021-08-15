@@ -30,6 +30,7 @@
 
 #define LBS_TO_GRAMM        # (lbs)       ( ( lbs ) * 453 )
 
-#define NUMERICAL_NUMBER    # (num)   ( ( ( num ) % 2 ) != 0 ? ( num ) * ( ( num ) / 2 + 1 ) : ( num ) * ( num ) / 2 + ( num ) / 2 )
+#define NUMERICAL_NUMBER	#(num)		num
+// #define NUMERICAL_NUMBER    # (num)   ( ( ( num ) % 2 ) != 0 ? ( num ) * ( ( num ) / 2 + 1 ) : ( num ) * ( num ) / 2 + ( num ) / 2 )
 
 #endif // __MATH__
