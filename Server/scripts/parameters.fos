@@ -15,6 +15,17 @@ import void PerkDown( Critter& cr, uint perk ) from "perks";
 #endif
 
 #ifndef __CLIENT
+import void player_levelup( Critter& player, uint skillIndex, uint skillUp, uint perkIndex ) from "main";
+void unsafe_changeSkills( Critter& cr, int, int, int, string@, int[]@ skills )
+{
+	if( cr.StatBase[ ST_UNSPENT_SKILL_POINTS ] == 0 || !valid(skills) )
+		return;
+	
+	for( uint i = 0, l = skills.length(); i < l; i++ )
+		if( skills[i] > 0 )
+			player_levelup( cr, __SkillBegin + i, skills[i], 0 );
+}
+
 void changedParam_Hp( Critter& cr, uint, int oldValue )
 {
     int curHp = cr.StatBase[ ST_CURRENT_HP ];

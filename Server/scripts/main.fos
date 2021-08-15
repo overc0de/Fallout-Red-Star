@@ -1372,7 +1372,7 @@ void items_crafted( Item@[]& items, uint[]& itemsCount, Item@[]& resources, Crit
 }
 
 // //////////////////////////////////////////////////////////////////////////////////////////////////
-// Levelup callback.
+//import void player_levelup( Critter& player, uint skillIndex, uint skillUp, uint perkIndex ) from "main";
 void player_levelup( Critter& player, uint skillIndex, uint skillUp, uint perkIndex )
 {
     if( skillIndex >= SKILL_BEGIN && skillIndex <= SKILL_END )
@@ -1399,8 +1399,8 @@ void player_levelup( Critter& player, uint skillIndex, uint skillUp, uint perkIn
                 break;
 
             skillVal++;
-            if( _CritIsTagSkill( player, skillIndex ) && skillVal < MAX_SKILL_VAL )
-                skillVal++;
+            // if( _CritIsTagSkill( player, skillIndex ) && skillVal < MAX_SKILL_VAL )
+                // skillVal++;
             player.SkillBase[ skillIndex ] = skillVal;
             player.StatBase[ ST_UNSPENT_SKILL_POINTS ] -= needPoints;
         }
